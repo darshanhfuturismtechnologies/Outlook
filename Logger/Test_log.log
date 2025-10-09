@@ -1,0 +1,426 @@
+2025-10-06 20:33:06,334 - INFO - Found controls: []
+2025-10-07 13:43:59,744 - INFO - control Unread clicked
+2025-10-07 13:44:45,718 - INFO - control Unread clicked
+2025-10-07 13:45:56,964 - INFO - control Unread clicked
+2025-10-07 13:53:14,142 - INFO - control Unread clicked
+2025-10-07 13:58:10,016 - INFO - control Unread clicked
+2025-10-07 13:58:46,373 - INFO - control Unread clicked
+2025-10-07 13:59:59,809 - INFO - control Unread clicked
+2025-10-07 14:02:37,454 - INFO - control Unread clicked
+2025-10-07 14:03:23,531 - INFO - control Unread clicked
+2025-10-07 14:07:42,878 - INFO - control Unread clicked
+2025-10-07 14:21:28,944 - INFO - control Unread clicked
+2025-10-07 14:36:41,928 - INFO - control Unread clicked
+2025-10-07 14:37:10,126 - INFO - control Unread clicked
+2025-10-07 14:40:45,755 - INFO - control Unread clicked
+2025-10-07 14:41:20,629 - INFO - control Unread clicked
+2025-10-07 14:51:32,290 - INFO - control Unread clicked
+2025-10-07 14:52:34,960 - INFO - control Unread clicked
+2025-10-07 15:09:01,849 - INFO - control Unread clicked
+2025-10-07 15:10:27,798 - INFO - control New Email clicked
+2025-10-07 15:18:03,134 - INFO - control New Email clicked
+2025-10-07 15:18:29,670 - INFO - control New Email clicked
+2025-10-07 15:21:45,171 - INFO - control New Email clicked
+2025-10-07 15:23:30,590 - INFO - control New Email clicked
+2025-10-07 15:24:09,584 - INFO - control New Email clicked
+2025-10-07 15:24:40,564 - INFO - control New Email clicked
+2025-10-07 15:25:15,502 - INFO - control New Email clicked
+2025-10-07 15:26:45,899 - INFO - control New Email clicked
+2025-10-07 15:27:49,268 - INFO - control New Email clicked
+2025-10-07 15:29:56,627 - INFO - control New Email clicked
+2025-10-07 15:38:53,055 - INFO - control New Email clicked
+2025-10-07 15:40:01,428 - INFO - control New Email clicked
+2025-10-07 15:41:10,616 - INFO - control New Email clicked
+2025-10-07 15:44:58,423 - INFO - control New Email clicked
+2025-10-07 15:46:54,492 - INFO - control New Email clicked
+2025-10-07 15:49:41,504 - INFO - control New Email clicked
+2025-10-07 15:50:22,598 - INFO - control New Email clicked
+2025-10-07 15:52:10,321 - INFO - control New Email clicked
+2025-10-07 15:52:52,500 - INFO - control New Email clicked
+2025-10-07 15:56:09,000 - INFO - control New Email clicked
+2025-10-07 15:56:44,106 - INFO - control New Email clicked
+2025-10-07 15:58:53,453 - INFO - control New Email clicked
+2025-10-07 16:00:45,829 - INFO - control New Email clicked
+2025-10-07 16:02:35,725 - INFO - control New Email clicked
+2025-10-07 16:09:14,862 - INFO - control New Email clicked
+2025-10-07 16:11:16,716 - INFO - control New Email clicked
+2025-10-07 16:12:00,602 - INFO - control New Email clicked
+2025-10-07 16:14:06,188 - INFO - control New Email clicked
+2025-10-07 16:14:49,270 - INFO - control New Email clicked
+2025-10-07 16:15:59,866 - INFO - control New Email clicked
+2025-10-07 16:19:34,573 - INFO - control New Email clicked
+2025-10-07 16:20:15,386 - INFO - control New Email clicked
+2025-10-07 16:25:58,967 - INFO - control New Email clicked
+2025-10-07 16:27:27,140 - INFO - control New Email clicked
+2025-10-07 16:28:38,154 - INFO - control New Email clicked
+2025-10-07 16:30:50,247 - INFO - control New Email clicked
+2025-10-07 16:32:43,973 - INFO - control New Email clicked
+2025-10-07 16:33:49,252 - INFO - control New Email clicked
+2025-10-07 16:34:34,925 - INFO - control New Email clicked
+2025-10-07 16:36:16,811 - INFO - control New Email clicked
+2025-10-07 16:36:52,754 - INFO - control New Email clicked
+2025-10-07 16:40:29,523 - INFO - control New Email clicked
+2025-10-07 16:54:01,249 - INFO - control New Email clicked
+2025-10-07 16:56:44,632 - INFO - control New Email clicked
+2025-10-07 17:10:20,580 - INFO - control New Email clicked
+2025-10-07 17:11:21,341 - INFO - control New Email clicked
+2025-10-07 17:15:45,458 - INFO - control New Email clicked
+2025-10-07 17:22:17,275 - INFO - control New Email clicked
+2025-10-07 18:19:19,119 - INFO - control New Email clicked
+2025-10-07 18:22:06,167 - INFO - control New Email clicked
+2025-10-07 18:24:31,907 - INFO - control New Email clicked
+2025-10-07 18:25:49,541 - INFO - control New Email clicked
+2025-10-07 18:31:39,161 - INFO - control New Email clicked
+2025-10-07 18:51:20,877 - INFO - control New Email clicked
+2025-10-07 18:52:15,887 - INFO - control New Email clicked
+2025-10-07 18:53:34,240 - INFO - control New Email clicked
+2025-10-07 18:54:12,190 - INFO - control New Email clicked
+2025-10-07 18:59:44,978 - INFO - control New Email clicked
+2025-10-07 19:00:49,402 - INFO - control New Email clicked
+2025-10-07 19:03:34,625 - INFO - control New Email clicked
+2025-10-07 19:05:25,241 - INFO - control New Email clicked
+2025-10-07 19:06:20,667 - INFO - control New Email clicked
+2025-10-07 19:08:36,873 - INFO - control New Email clicked
+2025-10-07 19:10:14,964 - INFO - control New Email clicked
+2025-10-07 19:11:16,929 - INFO - control New Email clicked
+2025-10-07 19:13:12,513 - INFO - control New Email clicked
+2025-10-07 19:14:08,206 - INFO - control New Email clicked
+2025-10-07 19:19:36,682 - INFO - control New Email clicked
+2025-10-07 19:20:42,916 - INFO - control New Email clicked
+2025-10-07 19:26:15,756 - INFO - control New Email clicked
+2025-10-07 19:27:59,043 - INFO - control New Email clicked
+2025-10-07 19:32:39,525 - INFO - control New Email clicked
+2025-10-07 19:39:50,198 - INFO - control New Email clicked
+2025-10-07 19:45:32,201 - INFO - control New Email clicked
+2025-10-07 19:46:00,565 - INFO - Clicked on Attach File...
+2025-10-07 19:53:11,478 - INFO - control New Email clicked
+2025-10-07 19:53:40,092 - INFO - Clicked on Attach File...
+2025-10-07 19:57:01,475 - INFO - control New Email clicked
+2025-10-07 19:57:29,990 - INFO - Clicked on Attach File...
+2025-10-07 20:01:30,443 - INFO - control New Email clicked
+2025-10-07 20:01:59,867 - INFO - Clicked on Attach File...
+2025-10-07 20:05:15,425 - INFO - control New Email clicked
+2025-10-07 20:05:43,821 - INFO - Clicked on Attach File...
+2025-10-07 20:06:17,121 - INFO - control New Email clicked
+2025-10-07 20:06:45,936 - INFO - Clicked on Attach File...
+2025-10-07 20:08:30,852 - INFO - control New Email clicked
+2025-10-07 20:08:59,299 - INFO - Clicked on Attach File...
+2025-10-07 20:21:25,621 - INFO - control New Email clicked
+2025-10-07 20:21:54,048 - INFO - Clicked on Attach File...
+2025-10-07 20:25:52,935 - INFO - control New Email clicked
+2025-10-07 20:26:21,583 - INFO - Clicked on Attach File...
+2025-10-07 20:30:19,286 - INFO - control New Email clicked
+2025-10-07 20:30:47,851 - INFO - Clicked on Attach File...
+2025-10-07 20:34:04,830 - INFO - control New Email clicked
+2025-10-07 20:34:34,417 - INFO - Clicked on Attach File...
+2025-10-07 20:35:35,947 - INFO - control New Email clicked
+2025-10-07 20:36:04,475 - INFO - Clicked on Attach File...
+2025-10-07 20:39:37,764 - INFO - control New Email clicked
+2025-10-07 20:40:06,899 - INFO - Clicked on Attach File...
+2025-10-07 20:40:37,385 - INFO - control New Email clicked
+2025-10-07 20:41:05,800 - INFO - Clicked on Attach File...
+2025-10-07 20:43:13,174 - INFO - control New Email clicked
+2025-10-07 20:43:42,461 - INFO - Clicked on Attach File...
+2025-10-07 20:44:22,984 - INFO - control New Email clicked
+2025-10-07 20:44:51,499 - INFO - Clicked on Attach File...
+2025-10-07 20:46:58,532 - INFO - control New Email clicked
+2025-10-07 20:47:27,087 - INFO - Clicked on Attach File...
+2025-10-07 20:49:00,628 - INFO - control New Email clicked
+2025-10-07 20:49:29,025 - INFO - Clicked on Attach File...
+2025-10-07 20:54:20,568 - INFO - control New Email clicked
+2025-10-07 20:54:49,151 - INFO - Clicked on Attach File...
+2025-10-07 20:54:50,857 - INFO - Clicked on matching recent item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-07 20:57:05,810 - INFO - control New Email clicked
+2025-10-07 20:57:34,977 - INFO - Clicked on Attach File...
+2025-10-07 20:57:36,733 - INFO - Clicked on matching recent item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-07 21:09:38,385 - INFO - control New Email clicked
+2025-10-07 21:10:07,456 - INFO - Clicked on Attach File...
+2025-10-07 21:10:08,755 - INFO - Clicked on matching item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-07 21:14:10,864 - INFO - control New Email clicked
+2025-10-07 21:14:44,763 - ERROR - Failed to click on Attach File...: {'title': 'Attach File...', 'control_type': 'MenuItem', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - '1 Reminder(s)', #32770, 5770390>, 'backend': 'uia'}
+2025-10-07 21:40:43,115 - INFO - control New Email clicked
+2025-10-07 21:41:11,560 - INFO - Clicked on Attach File...
+2025-10-07 21:41:13,269 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-07 21:41:13,269 - INFO - Successfully attached file: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 13:00:31,625 - INFO - control Unread clicked
+2025-10-08 13:01:12,214 - INFO - control New Email clicked
+2025-10-08 13:01:41,032 - INFO - Clicked on Attach File...
+2025-10-08 13:01:42,703 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 13:01:42,703 - INFO - Successfully attached file: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 13:04:13,612 - INFO - control New Email clicked
+2025-10-08 13:04:41,843 - INFO - Clicked on Attach File...
+2025-10-08 13:04:43,476 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 13:05:35,396 - INFO - control New Email clicked
+2025-10-08 13:06:05,433 - INFO - Clicked on Attach File...
+2025-10-08 13:06:07,104 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 13:07:58,174 - INFO - control New Email clicked
+2025-10-08 13:08:26,287 - INFO - Clicked on Attach File...
+2025-10-08 13:08:27,893 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 13:37:09,545 - INFO - control New Email clicked
+2025-10-08 13:37:37,558 - INFO - Clicked on Attach File...
+2025-10-08 13:37:39,163 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 13:41:04,622 - INFO - control New Email clicked
+2025-10-08 13:41:33,982 - INFO - Clicked on Attach File...
+2025-10-08 13:41:35,646 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 13:44:17,857 - INFO - control New Email clicked
+2025-10-08 13:44:46,218 - INFO - Clicked on Attach File...
+2025-10-08 13:44:47,878 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 13:46:35,033 - INFO - control New Email clicked
+2025-10-08 13:47:03,011 - INFO - Clicked on Attach File...
+2025-10-08 13:47:04,600 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 13:48:11,464 - INFO - control New Email clicked
+2025-10-08 13:48:39,862 - INFO - Clicked on Attach File...
+2025-10-08 13:48:41,501 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 13:50:23,890 - INFO - control New Email clicked
+2025-10-08 13:50:51,968 - INFO - Clicked on Attach File...
+2025-10-08 13:50:53,608 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 13:54:19,972 - INFO - control New Email clicked
+2025-10-08 13:54:48,654 - INFO - Clicked on Attach File...
+2025-10-08 13:54:50,561 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 13:57:00,293 - INFO - control New Email clicked
+2025-10-08 13:57:29,442 - INFO - Clicked on Attach File...
+2025-10-08 13:57:31,098 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 13:57:39,694 - ERROR - Failed to click on Attach as copy: No Windows of that application are active
+2025-10-08 13:58:29,937 - INFO - control New Email clicked
+2025-10-08 13:58:58,316 - INFO - Clicked on Attach File...
+2025-10-08 13:58:59,938 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 14:01:38,287 - INFO - control New Email clicked
+2025-10-08 14:02:06,718 - INFO - Clicked on Attach File...
+2025-10-08 14:02:08,339 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 14:03:51,581 - INFO - control New Email clicked
+2025-10-08 14:04:19,927 - INFO - Clicked on Attach File...
+2025-10-08 14:04:21,533 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 14:04:30,173 - ERROR - Failed to click on Attach as copy: No Windows of that application are active
+2025-10-08 14:10:41,046 - INFO - control New Email clicked
+2025-10-08 14:11:09,493 - INFO - Clicked on Attach File...
+2025-10-08 14:11:11,098 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 14:11:19,884 - ERROR - Failed to click on Attach as copy: No Windows of that application are active
+2025-10-08 14:12:16,609 - INFO - control New Email clicked
+2025-10-08 14:12:44,938 - INFO - Clicked on Attach File...
+2025-10-08 14:12:46,545 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 14:12:55,081 - ERROR - Failed to click on How do you want to attach this file?: No Windows of that application are active
+2025-10-08 14:13:46,454 - INFO - control New Email clicked
+2025-10-08 14:14:14,750 - INFO - Clicked on Attach File...
+2025-10-08 14:14:16,339 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 14:19:16,862 - INFO - control New Email clicked
+2025-10-08 14:19:45,125 - INFO - Clicked on Attach File...
+2025-10-08 14:19:46,746 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 14:20:15,699 - INFO - control New Email clicked
+2025-10-08 14:20:44,112 - INFO - Clicked on Attach File...
+2025-10-08 14:20:45,683 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 14:23:05,941 - INFO - control New Email clicked
+2025-10-08 14:23:34,268 - INFO - Clicked on Attach File...
+2025-10-08 14:23:35,874 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 14:25:24,487 - INFO - control New Email clicked
+2025-10-08 14:25:53,196 - INFO - Clicked on Attach File...
+2025-10-08 14:25:54,819 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 14:26:35,019 - INFO - control New Email clicked
+2025-10-08 14:27:03,468 - INFO - Clicked on Attach File...
+2025-10-08 14:27:05,073 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 14:29:19,924 - INFO - control New Email clicked
+2025-10-08 14:29:48,322 - INFO - Clicked on Attach File...
+2025-10-08 14:29:49,962 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 14:31:36,917 - INFO - control New Email clicked
+2025-10-08 14:32:05,433 - INFO - Clicked on Attach File...
+2025-10-08 14:32:07,038 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 14:34:27,442 - INFO - control New Email clicked
+2025-10-08 14:34:55,991 - INFO - Clicked on Attach File...
+2025-10-08 14:34:57,613 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 14:38:20,334 - INFO - control New Email clicked
+2025-10-08 14:38:48,798 - INFO - Clicked on Attach File...
+2025-10-08 14:38:50,404 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 14:39:28,236 - INFO - control New Email clicked
+2025-10-08 14:39:56,750 - INFO - Clicked on Attach File...
+2025-10-08 14:39:58,374 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 14:41:00,522 - INFO - control New Email clicked
+2025-10-08 14:41:28,970 - INFO - Clicked on Attach File...
+2025-10-08 14:41:30,610 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 14:42:35,201 - INFO - control New Email clicked
+2025-10-08 14:43:03,699 - INFO - Clicked on Attach File...
+2025-10-08 14:43:05,322 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 14:44:28,594 - INFO - control New Email clicked
+2025-10-08 14:44:57,193 - INFO - Clicked on Attach File...
+2025-10-08 14:44:58,832 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 14:46:25,016 - INFO - control New Email clicked
+2025-10-08 14:46:53,580 - INFO - Clicked on Attach File...
+2025-10-08 14:46:55,220 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 14:48:27,541 - INFO - control New Email clicked
+2025-10-08 14:48:56,600 - INFO - Clicked on Attach File...
+2025-10-08 14:48:58,298 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 14:52:24,579 - INFO - control New Email clicked
+2025-10-08 14:52:53,045 - INFO - Clicked on Attach File...
+2025-10-08 14:52:54,851 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 14:54:20,835 - INFO - control New Email clicked
+2025-10-08 14:54:49,115 - INFO - Clicked on Attach File...
+2025-10-08 14:54:50,721 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 14:56:26,069 - INFO - control New Email clicked
+2025-10-08 14:56:54,516 - INFO - Clicked on Attach File...
+2025-10-08 14:56:56,122 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 14:58:44,868 - INFO - control New Email clicked
+2025-10-08 14:59:13,399 - INFO - Clicked on Attach File...
+2025-10-08 14:59:15,004 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 15:00:17,087 - INFO - control New Email clicked
+2025-10-08 15:00:45,602 - INFO - Clicked on Attach File...
+2025-10-08 15:00:47,241 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 15:01:47,199 - INFO - control New Email clicked
+2025-10-08 15:02:15,547 - INFO - Clicked on Attach File...
+2025-10-08 15:02:17,170 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 15:03:15,488 - INFO - control New Email clicked
+2025-10-08 15:03:44,154 - INFO - Clicked on Attach File...
+2025-10-08 15:03:45,828 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 15:05:27,078 - INFO - control New Email clicked
+2025-10-08 15:05:56,081 - INFO - Clicked on Attach File...
+2025-10-08 15:05:57,751 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 15:07:08,566 - INFO - control New Email clicked
+2025-10-08 15:07:36,996 - INFO - Clicked on Attach File...
+2025-10-08 15:07:38,618 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 15:17:36,127 - INFO - control New Email clicked
+2025-10-08 15:18:04,743 - INFO - Clicked on Attach File...
+2025-10-08 15:18:06,364 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 15:19:25,431 - INFO - control New Email clicked
+2025-10-08 15:19:54,257 - INFO - Clicked on Attach File...
+2025-10-08 15:19:55,945 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 15:25:53,142 - INFO - control New Email clicked
+2025-10-08 15:26:21,963 - INFO - Clicked on Attach File...
+2025-10-08 15:26:23,584 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 15:27:47,020 - INFO - control New Email clicked
+2025-10-08 15:28:15,451 - INFO - Clicked on Attach File...
+2025-10-08 15:28:17,090 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 15:30:20,970 - INFO - control New Email clicked
+2025-10-08 15:30:49,301 - INFO - Clicked on Attach File...
+2025-10-08 15:30:50,873 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 15:32:56,944 - INFO - control New Email clicked
+2025-10-08 15:33:25,425 - INFO - Clicked on Attach File...
+2025-10-08 15:33:26,629 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 15:33:32,594 - ERROR - {'title_re': '.*How do you want to attach this file?.*', 'control_type': 'Window', 'found_index': 0, 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - 'Demo subject - Message (HTML) ', rctrl_renwnd32, 5767868>, 'backend': 'uia'}
+2025-10-08 15:37:54,797 - INFO - control New Email clicked
+2025-10-08 15:38:23,328 - INFO - Clicked on Attach File...
+2025-10-08 15:38:24,547 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 15:43:52,234 - INFO - control New Email clicked
+2025-10-08 15:44:20,650 - INFO - Clicked on Attach File...
+2025-10-08 15:44:21,854 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 15:48:37,692 - INFO - control New Email clicked
+2025-10-08 15:49:06,225 - INFO - Clicked on Attach File...
+2025-10-08 15:49:07,427 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 15:50:47,778 - INFO - control New Email clicked
+2025-10-08 15:51:16,225 - INFO - Clicked on Attach File...
+2025-10-08 15:51:17,446 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 15:51:25,540 - INFO - Clicked on Send
+2025-10-08 16:05:28,594 - INFO - control New Email clicked
+2025-10-08 16:05:56,975 - INFO - Clicked on Attach File...
+2025-10-08 16:05:58,163 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 16:06:06,324 - INFO - Clicked on Send
+2025-10-08 16:06:08,960 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x0000028543D7F390>' closed successfully.
+2025-10-08 16:06:43,822 - INFO - control New Email clicked
+2025-10-08 16:07:12,324 - INFO - Clicked on Attach File...
+2025-10-08 16:07:13,559 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 16:07:21,753 - INFO - Clicked on Send
+2025-10-08 16:07:23,953 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x000001D8CE11F390>' closed successfully.
+2025-10-08 16:08:18,552 - INFO - control New Email clicked
+2025-10-08 16:08:47,132 - INFO - Clicked on Attach File...
+2025-10-08 16:08:48,388 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 16:08:56,532 - INFO - Clicked on Send
+2025-10-08 16:08:58,725 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x000001C4D52CF390>' closed successfully.
+2025-10-08 16:17:54,148 - INFO - control New Email clicked
+2025-10-08 16:18:22,664 - INFO - Clicked on Attach File...
+2025-10-08 16:18:23,884 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 16:18:31,996 - INFO - Clicked on Send
+2025-10-08 16:18:34,596 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x000002148E45F390>' closed successfully.
+2025-10-08 16:25:05,492 - INFO - control Unread clicked
+2025-10-08 16:25:16,127 - INFO - control New Email clicked
+2025-10-08 16:25:41,714 - INFO - Clicked on Attach File...
+2025-10-08 16:25:43,165 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 16:25:43,937 - ERROR - name 'time' is not defined
+
+2025-10-08 20:19:15,950 - INFO - control Unread clicked
+2025-10-08 20:19:27,021 - INFO - control New Email clicked
+2025-10-08 20:19:52,159 - INFO - Clicked on Attach File...
+2025-10-08 20:19:53,413 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 20:20:01,624 - INFO - Clicked on Send
+2025-10-08 20:20:03,322 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x000001308416F450>' closed successfully.
+2025-10-08 21:19:14,409 - INFO - control Unread clicked
+2025-10-08 21:19:22,304 - INFO - control New Email clicked
+2025-10-08 21:19:47,307 - INFO - Clicked on Attach File...
+2025-10-08 21:19:48,613 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 21:19:56,807 - INFO - Clicked on Send
+2025-10-08 21:19:58,436 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x000001F5C012ED50>' closed successfully.
+2025-10-08 21:22:26,489 - INFO - control Unread clicked
+2025-10-08 21:22:35,268 - INFO - control New Email clicked
+2025-10-08 21:23:00,269 - INFO - Clicked on Attach File...
+2025-10-08 21:23:01,457 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-08 21:23:09,600 - INFO - Clicked on Send
+2025-10-08 21:23:11,282 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x000001F41950ED50>' closed successfully.
+2025-10-09 12:57:53,036 - INFO - control Unread clicked
+2025-10-09 12:58:01,783 - INFO - control New Email clicked
+2025-10-09 12:58:26,819 - INFO - Clicked on Attach File...
+2025-10-09 12:58:28,040 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-09 12:58:36,218 - INFO - Clicked on Send
+2025-10-09 12:58:38,073 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x000001A1DD85F450>' closed successfully.
+2025-10-09 13:01:08,414 - INFO - control New Email clicked
+2025-10-09 13:01:33,551 - INFO - Clicked on Attach File...
+2025-10-09 13:01:34,738 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-09 13:01:42,866 - INFO - Clicked on Send
+2025-10-09 13:01:45,469 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x0000022627C6F890>' closed successfully.
+2025-10-09 13:03:49,875 - INFO - control Unread clicked
+2025-10-09 13:03:58,588 - INFO - control New Email clicked
+2025-10-09 13:04:23,607 - INFO - Clicked on Attach File...
+2025-10-09 13:04:24,828 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-09 13:04:32,989 - INFO - Clicked on Send
+2025-10-09 13:05:04,521 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x000001EA0DB5EF50>' closed successfully.
+2025-10-09 15:09:54,600 - INFO - control Pop Out clicked
+2025-10-09 15:10:50,511 - INFO - control Pop Out clicked
+2025-10-09 15:12:11,424 - INFO - control New Email clicked
+2025-10-09 15:12:36,561 - INFO - Clicked on Attach File...
+2025-10-09 15:12:37,784 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-09 15:12:45,928 - INFO - Clicked on Send
+2025-10-09 15:13:18,545 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x0000016C5E8FF890>' closed successfully.
+2025-10-09 15:14:27,715 - INFO - control Pop Out clicked
+2025-10-09 15:28:14,187 - INFO - Clicked on Send
+2025-10-09 15:31:13,158 - INFO - Clicked on Send
+2025-10-09 15:33:31,729 - INFO - Clicked on Send
+2025-10-09 15:34:31,801 - WARNING - Timeout waiting for window to close. Mail might not be sent yet. Error: timed out
+2025-10-09 15:57:28,031 - INFO - Clicked on Send
+2025-10-09 16:13:31,073 - INFO - control Unread clicked
+2025-10-09 16:53:39,855 - INFO - Right-clicked on the selected email
+2025-10-09 16:54:36,395 - INFO - Right-clicked on the selected email
+2025-10-09 16:59:15,901 - INFO - Right-clicked on the selected email
+2025-10-09 16:59:39,988 - INFO - Right-clicked on the selected email
+2025-10-09 17:03:22,021 - INFO - Right-clicked on the selected email
+2025-10-09 17:05:30,477 - INFO - Right-clicked on the selected email
+2025-10-09 17:08:18,759 - INFO - Right-clicked on the selected email
+2025-10-09 17:10:58,388 - INFO - Right-clicked on the selected email
+2025-10-09 17:11:28,509 - INFO - Right-clicked on the selected email
+2025-10-09 18:19:02,146 - INFO - Right-clicked on the selected email
+2025-10-09 18:20:41,389 - INFO - Right-clicked on the selected email
+2025-10-09 18:23:29,088 - INFO - Right-clicked on the selected email
+2025-10-09 18:25:14,865 - INFO - Right-clicked on the selected email
+2025-10-09 18:30:47,046 - INFO - Right-clicked on the selected email
+2025-10-09 18:31:30,337 - INFO - Right-clicked on the selected email
+2025-10-09 18:37:13,803 - INFO - Right-clicked on the selected email
+2025-10-09 18:42:10,321 - INFO - Right-clicked on the selected email
+2025-10-09 18:46:16,840 - INFO - Right-clicked on the selected email
+2025-10-09 18:47:02,632 - INFO - Right-clicked on the selected email
+2025-10-09 18:49:04,904 - INFO - Right-clicked on the selected email
+2025-10-09 18:49:42,051 - INFO - Right-clicked on the selected email
+2025-10-09 18:52:10,833 - INFO - Right-clicked on the selected email
+2025-10-09 18:55:55,156 - INFO - Right-clicked on the selected email
+2025-10-09 18:58:27,674 - INFO - Right-clicked on the selected email
+2025-10-09 19:01:20,975 - INFO - Right-clicked on the selected email
+2025-10-09 19:08:38,692 - INFO - control Unread clicked
+2025-10-09 19:08:46,521 - INFO - control New Email clicked
+2025-10-09 19:09:11,589 - INFO - Clicked on Attach File...
+2025-10-09 19:09:12,810 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-09 19:09:20,972 - INFO - Clicked on Send
+2025-10-09 19:09:52,671 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x000002669D2EEF50>' closed successfully.
+2025-10-09 19:10:18,204 - INFO - Clicked on Send
+2025-10-09 19:10:58,027 - INFO - Right-clicked on the selected email
+2025-10-09 19:11:15,219 - INFO - Clicked on Delete
+2025-10-09 19:22:26,082 - INFO - control New Email clicked
+2025-10-09 19:22:50,984 - INFO - Clicked on Attach File...
+2025-10-09 19:25:00,015 - INFO - control New Email clicked
+2025-10-09 19:25:24,700 - INFO - Clicked on Attach File...
+2025-10-09 19:25:25,954 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-09 19:27:19,241 - INFO - control New Email clicked
+2025-10-09 19:27:44,238 - INFO - Clicked on Attach File...
+2025-10-09 19:27:45,727 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-09 19:27:53,566 - ERROR - Failed to click on Send: No Windows of that application are active
