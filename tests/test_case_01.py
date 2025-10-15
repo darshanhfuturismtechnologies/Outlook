@@ -9,5 +9,7 @@ def test_read_mail(setup_outlook):
     reader = ReadMail(setup_outlook)
     reader.click_on_inbox()
     reader.select_most_recent_email()
+    reader.right_click_on_mail()
+    reader.mark_as_read_or_unread()
 
 

@@ -63,7 +63,8 @@ class SendMail(Helper):
     def click_on_send(self):
         self.click_child_window(control_title="Send", control_type="Button")
         #Email takes 30-40 seconds to sent and then it close window
-        self.wait_for_window_to_close(self.send_mail_window,timeout=60)
+        self.wait_for_window_to_close(self.send_mail_window,timeout=50)
+
 
 
 

@@ -17,10 +17,15 @@ class ReplyMail(Helper):
         inbox.click_input()
 
     def click_on_first_mail_of_demo_sub(self):
-        #Parent controller of the mail
-        group_box = self.outlook.child_window(title="Group By: Expanded: Date: Today", control_type="Group")
-        #Children controllers which defines individual mails.
-        mail_items = group_box.children(control_type="DataItem")
+        # Get the container that holds all groups of emails
+        table_view = self.outlook.child_window(title="Table View", control_type="Table")
+        # Find all DataItem controls under that table — each representing an email
+        mail_items = table_view.descendants(control_type="DataItem")
+
+        # #Parent controller of the mail
+        # group_box = self.outlook.child_window(title="Group By: Expanded: Date: Today", control_type="Group")
+        # #Children controllers which defines individual mails.
+        # mail_items = group_box.children(control_type="DataItem")
 
         #Target Subject to find
         target_sub = "Demo subject"
@@ -55,7 +60,7 @@ class ReplyMail(Helper):
 
     def click_on_send(self):
         self.click_child_window(control_title="Send", control_type="Button")
-        time.sleep(30)
+        time.sleep(20)
 
 
 

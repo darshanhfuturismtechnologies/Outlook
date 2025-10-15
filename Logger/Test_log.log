@@ -424,3 +424,648 @@
 2025-10-09 19:27:44,238 - INFO - Clicked on Attach File...
 2025-10-09 19:27:45,727 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
 2025-10-09 19:27:53,566 - ERROR - Failed to click on Send: No Windows of that application are active
+2025-10-10 12:56:50,621 - INFO - control New Email clicked
+2025-10-10 12:57:15,775 - INFO - Clicked on Attach File...
+2025-10-10 12:57:16,980 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-10 12:57:25,191 - INFO - Clicked on Send
+2025-10-10 12:57:58,232 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x000002E0F148F890>' closed successfully.
+2025-10-10 12:58:28,931 - INFO - control Unread clicked
+2025-10-10 12:58:36,759 - INFO - control New Email clicked
+2025-10-10 12:59:01,760 - INFO - Clicked on Attach File...
+2025-10-10 12:59:03,081 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-10 12:59:11,260 - INFO - Clicked on Send
+2025-10-10 12:59:42,919 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x000001BAD2DAEF50>' closed successfully.
+2025-10-10 13:00:08,677 - INFO - Clicked on Send
+2025-10-10 13:00:49,351 - INFO - Right-clicked on the selected email
+2025-10-10 13:00:50,471 - INFO - Clicked on Delete
+2025-10-10 14:01:12,281 - INFO - Clicked on New Contact button
+2025-10-10 14:08:39,980 - INFO - Clicked on New Contact button
+2025-10-10 14:09:39,093 - INFO - Clicked on New Contact button
+2025-10-10 14:11:02,249 - INFO - Clicked on New Contact button
+2025-10-10 14:11:55,226 - INFO - Clicked on New Contact button
+2025-10-10 14:12:23,557 - INFO - Clicked on New Contact button
+2025-10-10 14:13:11,658 - INFO - Clicked on New Contact button
+2025-10-10 14:16:27,183 - INFO - Clicked on New Contact button
+2025-10-10 14:23:26,710 - INFO - Clicked on New Contact button
+2025-10-10 14:24:24,324 - INFO - Clicked on New Contact button
+2025-10-10 14:25:06,287 - INFO - Clicked on New Contact button
+2025-10-10 14:26:08,115 - INFO - Clicked on New Contact button
+2025-10-10 15:16:39,637 - INFO - Clicked on New Contact button
+2025-10-10 15:17:13,736 - INFO - Clicked on New Contact button
+2025-10-10 15:17:54,898 - INFO - Clicked on New Contact button
+2025-10-10 15:19:44,462 - INFO - Clicked on New Contact button
+2025-10-10 15:21:29,191 - INFO - Clicked on New Contact button
+2025-10-13 20:06:58,316 - INFO - control Unread clicked
+2025-10-13 20:07:07,647 - INFO - control New Email clicked
+2025-10-13 20:07:40,607 - ERROR - Failed to click on Attach File...: {'title': 'Attach File...', 'control_type': 'MenuItem', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - '2 Reminder(s)', #32770, 725244>, 'backend': 'uia'}
+2025-10-13 20:08:22,033 - INFO - Clicked on New Contact button
+2025-10-13 20:09:45,147 - INFO - control New Email clicked
+2025-10-13 20:10:13,326 - INFO - Clicked on Attach File...
+2025-10-13 20:10:14,950 - ERROR - Item 'Copy of QA_intern_training_desktop_automation (002).xlsx' not found.
+2025-10-13 20:10:35,160 - ERROR - timed out
+2025-10-13 20:10:40,475 - ERROR - Failed to click on Send: No Windows of that application are active
+2025-10-13 20:11:29,933 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x000001DD1890F890>' closed successfully.
+2025-10-14 12:52:37,326 - INFO - control New Email clicked
+2025-10-14 12:53:05,020 - INFO - Clicked on Attach File...
+2025-10-14 12:53:07,128 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-14 12:53:15,908 - INFO - Clicked on Send
+2025-10-14 12:53:48,545 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x00000152423EF890>' closed successfully.
+2025-10-14 12:57:03,214 - INFO - control Unread clicked
+2025-10-14 12:57:11,861 - INFO - control New Email clicked
+2025-10-14 12:57:39,957 - INFO - Clicked on Attach File...
+2025-10-14 12:57:42,014 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-14 12:57:50,795 - INFO - Clicked on Send
+2025-10-14 12:58:22,748 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x000002672D18EF50>' closed successfully.
+2025-10-14 12:58:49,030 - INFO - Clicked on Send
+2025-10-14 12:59:29,171 - INFO - Right-clicked on the selected email
+2025-10-14 12:59:30,725 - INFO - Clicked on Delete
+2025-10-14 12:59:41,297 - INFO - Clicked on New Contact button
+2025-10-14 13:11:47,090 - INFO - Clicked on New Contact button
+2025-10-14 13:20:32,202 - INFO - Clicked on New Contact button
+2025-10-14 13:24:58,102 - INFO - Clicked on New Contact button
+2025-10-14 13:27:12,884 - INFO - Clicked on New Contact button
+2025-10-14 13:28:12,843 - INFO - Clicked on New Contact button
+2025-10-14 13:29:24,574 - INFO - Clicked on New Contact button
+2025-10-14 13:33:31,427 - INFO - Clicked on New Contact button
+2025-10-14 13:33:32,574 - INFO - New contact dialog opened
+2025-10-14 13:34:05,309 - INFO - Clicked on New Contact button
+2025-10-14 13:34:06,480 - INFO - New contact dialog opened
+2025-10-14 13:35:35,689 - INFO - Clicked on New Contact button
+2025-10-14 13:35:36,863 - INFO - New contact dialog opened
+2025-10-14 13:41:04,389 - INFO - Clicked on New Contact button
+2025-10-14 13:41:05,554 - INFO - New contact dialog opened
+2025-10-14 13:43:14,187 - INFO - Clicked on New Contact button
+2025-10-14 13:43:15,456 - INFO - New contact dialog opened
+2025-10-14 13:43:22,134 - INFO - Clicked on Full name
+2025-10-14 13:49:38,794 - INFO - Clicked on New Contact button
+2025-10-14 13:49:39,971 - INFO - New contact dialog opened
+2025-10-14 13:53:20,116 - INFO - Clicked on New Contact button
+2025-10-14 13:53:21,347 - INFO - New contact dialog opened
+2025-10-14 13:56:55,808 - INFO - Clicked on New Contact button
+2025-10-14 13:56:56,983 - INFO - New contact dialog opened
+2025-10-14 13:57:44,244 - INFO - Clicked on New Contact button
+2025-10-14 13:57:45,380 - INFO - New contact dialog opened
+2025-10-14 13:58:45,706 - INFO - Clicked on New Contact button
+2025-10-14 13:58:46,850 - INFO - New contact dialog opened
+2025-10-14 14:01:23,618 - INFO - Clicked on New Contact button
+2025-10-14 14:01:24,829 - INFO - New contact dialog opened
+2025-10-14 14:02:08,807 - INFO - Clicked on New Contact button
+2025-10-14 14:02:09,934 - INFO - New contact dialog opened
+2025-10-14 14:04:57,757 - INFO - Clicked on New Contact button
+2025-10-14 14:04:58,892 - INFO - New contact dialog opened
+2025-10-14 14:05:30,337 - INFO - Clicked on New Contact button
+2025-10-14 14:05:31,483 - INFO - New contact dialog opened
+2025-10-14 14:06:05,058 - INFO - Clicked on New Contact button
+2025-10-14 14:06:06,332 - INFO - New contact dialog opened
+2025-10-14 14:14:48,242 - INFO - Clicked on New Contact button
+2025-10-14 14:14:49,412 - INFO - New contact dialog opened
+2025-10-14 14:15:30,898 - INFO - Clicked on New Contact button
+2025-10-14 14:15:32,044 - INFO - New contact dialog opened
+2025-10-14 14:16:20,165 - INFO - Clicked on New Contact button
+2025-10-14 14:16:21,312 - INFO - New contact dialog opened
+2025-10-14 14:17:18,482 - INFO - Clicked on New Contact button
+2025-10-14 14:17:19,626 - INFO - New contact dialog opened
+2025-10-14 14:18:32,070 - INFO - Clicked on New Contact button
+2025-10-14 14:18:33,254 - INFO - New contact dialog opened
+2025-10-14 14:19:09,382 - INFO - Clicked on New Contact button
+2025-10-14 14:19:10,558 - INFO - New contact dialog opened
+2025-10-14 14:19:42,832 - INFO - Clicked on New Contact button
+2025-10-14 14:19:44,002 - INFO - New contact dialog opened
+2025-10-14 14:21:00,183 - INFO - Clicked on New Contact button
+2025-10-14 14:21:01,386 - INFO - New contact dialog opened
+2025-10-14 14:22:48,961 - INFO - Clicked on New Contact button
+2025-10-14 14:22:50,132 - INFO - New contact dialog opened
+2025-10-14 14:23:32,231 - INFO - Clicked on New Contact button
+2025-10-14 14:23:33,497 - INFO - New contact dialog opened
+2025-10-14 14:23:58,972 - INFO - Clicked on New Contact button
+2025-10-14 14:24:00,161 - INFO - New contact dialog opened
+2025-10-14 14:24:27,102 - INFO - Clicked on New Contact button
+2025-10-14 14:24:28,218 - INFO - New contact dialog opened
+2025-10-14 14:25:18,363 - INFO - Clicked on New Contact button
+2025-10-14 14:25:19,520 - INFO - New contact dialog opened
+2025-10-14 14:26:57,305 - INFO - Clicked on New Contact button
+2025-10-14 14:26:58,487 - INFO - New contact dialog opened
+2025-10-14 14:27:54,204 - INFO - Clicked on New Contact button
+2025-10-14 14:27:55,419 - INFO - New contact dialog opened
+2025-10-14 14:29:44,987 - INFO - Clicked on New Contact button
+2025-10-14 14:29:46,170 - INFO - New contact dialog opened
+2025-10-14 14:32:51,551 - INFO - Clicked on New Contact button
+2025-10-14 14:32:52,682 - INFO - New contact dialog opened
+2025-10-14 14:37:40,119 - INFO - Clicked on New Contact button
+2025-10-14 14:37:41,296 - INFO - New contact dialog opened
+2025-10-14 14:42:50,236 - INFO - Clicked on New Contact button
+2025-10-14 14:42:51,455 - INFO - New contact dialog opened
+2025-10-14 14:44:06,243 - INFO - Clicked on New Contact button
+2025-10-14 14:44:07,459 - INFO - New contact dialog opened
+2025-10-14 14:48:38,606 - INFO - Clicked on New Contact button
+2025-10-14 14:48:39,874 - INFO - New contact dialog opened
+2025-10-14 14:48:46,839 - INFO - All details are entered
+2025-10-14 14:48:47,447 - INFO - Clicked on Save and Close button
+2025-10-14 14:54:27,466 - INFO - Clicked on New Contact button
+2025-10-14 14:54:28,601 - INFO - New contact dialog opened
+2025-10-14 14:54:31,581 - INFO - All details are entered
+2025-10-14 14:54:32,258 - INFO - Clicked on Save and Close button
+2025-10-14 14:55:41,622 - INFO - Clicked on New Contact button
+2025-10-14 14:55:42,763 - INFO - New contact dialog opened
+2025-10-14 14:55:49,743 - INFO - All details are entered
+2025-10-14 14:55:50,353 - INFO - Clicked on Save and Close button
+2025-10-14 15:05:19,027 - INFO - Clicked on New Contact button
+2025-10-14 15:06:09,653 - INFO - Clicked on New Contact button
+2025-10-14 15:09:12,336 - INFO - Clicked on New Contact button
+2025-10-14 15:09:13,547 - INFO - New contact dialog opened
+2025-10-14 15:09:20,482 - INFO - All details are entered
+2025-10-14 15:09:21,135 - INFO - Clicked on Save and Close button
+2025-10-14 15:09:50,803 - INFO - Clicked on New Contact button
+2025-10-14 15:09:52,012 - INFO - New contact dialog opened
+2025-10-14 15:09:59,009 - INFO - All details are entered
+2025-10-14 15:09:59,671 - INFO - Clicked on Save and Close button
+2025-10-14 15:20:40,130 - INFO - Clicked on New Contact button
+2025-10-14 15:20:41,272 - INFO - New contact dialog opened
+2025-10-14 15:20:48,231 - INFO - All details are entered
+2025-10-14 15:20:48,844 - INFO - Clicked on Save and Close button
+2025-10-14 15:28:42,429 - INFO - Clicked on New Contact button
+2025-10-14 15:28:43,323 - INFO - New contact dialog opened
+2025-10-14 15:32:24,807 - INFO - Clicked on New Contact button
+2025-10-14 15:32:25,948 - INFO - New contact dialog opened
+2025-10-14 15:32:29,051 - INFO - All details are entered
+2025-10-14 15:32:29,718 - INFO - Clicked on Save and Close button
+2025-10-14 15:32:40,345 - INFO - Re-attached to the Contacts window after Save & Close
+2025-10-14 15:34:32,417 - INFO - Clicked on New Contact button
+2025-10-14 15:34:33,621 - INFO - New contact dialog opened
+2025-10-14 15:34:36,558 - INFO - All details are entered
+2025-10-14 15:34:37,236 - INFO - Clicked on Save and Close button
+2025-10-14 15:37:53,365 - INFO - Clicked on New Contact button
+2025-10-14 15:37:54,491 - INFO - New contact dialog opened
+2025-10-14 15:37:57,491 - INFO - All details are entered
+2025-10-14 15:37:58,114 - INFO - Clicked on Save and Close button
+2025-10-14 15:38:01,976 - INFO - Re-attached and focused on the Contacts window after Save & Close
+2025-10-14 15:38:02,744 - INFO - Contact window controls are ready
+2025-10-14 15:38:03,303 - ERROR - Error while re-attaching to the Contacts window: (-2146233079, None, (None, None, None, 0, None))
+2025-10-14 15:39:27,675 - INFO - Clicked on New Contact button
+2025-10-14 15:39:28,844 - INFO - New contact dialog opened
+2025-10-14 15:39:31,796 - INFO - All details are entered
+2025-10-14 15:39:32,461 - INFO - Clicked on Save and Close button
+2025-10-14 15:39:36,287 - INFO - Re-attached and focused on the Contacts window after Save & Close
+2025-10-14 15:39:39,116 - INFO - Contact window controls are ready
+2025-10-14 15:41:39,633 - INFO - Clicked on New Contact button
+2025-10-14 15:41:40,813 - INFO - New contact dialog opened
+2025-10-14 15:41:43,779 - INFO - All details are entered
+2025-10-14 15:41:44,436 - INFO - Clicked on Save and Close button
+2025-10-14 15:41:48,395 - INFO - Re-attached and focused on the Contacts window after Save & Close
+2025-10-14 15:41:51,229 - INFO - Contact window controls are ready
+2025-10-14 15:41:51,822 - ERROR - Unexpected error while interacting with the Contacts window: (-2146233079, None, (None, None, None, 0, None))
+2025-10-14 15:42:40,011 - INFO - Clicked on New Contact button
+2025-10-14 15:42:41,226 - INFO - New contact dialog opened
+2025-10-14 15:42:44,134 - INFO - All details are entered
+2025-10-14 15:42:44,810 - INFO - Clicked on Save and Close button
+2025-10-14 15:42:48,560 - INFO - Re-attached and focused on the Contacts window after Save & Close
+2025-10-14 15:42:51,400 - INFO - Contact window controls are ready
+2025-10-14 15:42:51,969 - ERROR - Unexpected error while interacting with the Contacts window: (-2146233079, None, (None, None, None, 0, None))
+2025-10-14 15:45:55,253 - INFO - Clicked on New Contact button
+2025-10-14 15:45:56,428 - INFO - New contact dialog opened
+2025-10-14 15:45:59,426 - INFO - All details are entered
+2025-10-14 15:46:00,089 - INFO - Clicked on Save and Close button
+2025-10-14 15:46:04,040 - INFO - Re-attached and focused on the Contacts window after Save & Close
+2025-10-14 15:46:46,464 - INFO - Clicked on New Contact button
+2025-10-14 15:46:47,676 - INFO - New contact dialog opened
+2025-10-14 15:46:50,600 - INFO - All details are entered
+2025-10-14 15:46:51,287 - INFO - Clicked on Save and Close button
+2025-10-14 15:46:55,243 - INFO - Re-attached and focused on the Contacts window after Save & Close
+2025-10-14 15:47:23,428 - INFO - Clicked on New Contact button
+2025-10-14 15:47:24,625 - INFO - New contact dialog opened
+2025-10-14 15:47:27,649 - INFO - All details are entered
+2025-10-14 15:47:28,309 - INFO - Clicked on Save and Close button
+2025-10-14 15:56:59,175 - INFO - Clicked on New Contact button
+2025-10-14 15:57:00,317 - INFO - New contact dialog opened
+2025-10-14 15:57:03,336 - INFO - All details are entered
+2025-10-14 15:57:03,923 - INFO - Clicked on Save and Close button
+2025-10-14 15:59:31,320 - INFO - Clicked on New Contact button
+2025-10-14 15:59:32,509 - INFO - New contact dialog opened
+2025-10-14 15:59:35,539 - INFO - All details are entered
+2025-10-14 15:59:36,205 - INFO - Clicked on Save and Close button
+2025-10-14 16:00:45,276 - INFO - Clicked on New Contact button
+2025-10-14 16:00:46,415 - INFO - New contact dialog opened
+2025-10-14 16:00:49,413 - INFO - All details are entered
+2025-10-14 16:00:50,081 - INFO - Clicked on Save and Close button
+2025-10-14 16:01:54,784 - INFO - Clicked on New Contact button
+2025-10-14 16:01:55,912 - INFO - New contact dialog opened
+2025-10-14 16:01:58,941 - INFO - All details are entered
+2025-10-14 16:01:59,587 - INFO - Clicked on Save and Close button
+2025-10-14 16:42:17,437 - INFO - Clicked on New Contact button
+2025-10-14 16:42:18,666 - INFO - New contact dialog opened
+2025-10-14 16:42:21,761 - INFO - All details are entered
+2025-10-14 16:42:22,444 - INFO - Clicked on Save and Close button
+2025-10-14 16:44:26,854 - INFO - Clicked on New Contact button
+2025-10-14 16:44:28,026 - INFO - New contact dialog opened
+2025-10-14 16:44:31,456 - INFO - All details are entered
+2025-10-14 16:44:32,154 - INFO - Clicked on Save and Close button
+2025-10-14 16:47:57,367 - INFO - Clicked on New Contact button
+2025-10-14 16:47:58,583 - INFO - New contact dialog opened
+2025-10-14 16:48:01,657 - INFO - All details are entered
+2025-10-14 16:48:02,317 - INFO - Clicked on Save and Close button
+2025-10-14 16:49:37,280 - INFO - Clicked on New Contact button
+2025-10-14 16:49:38,460 - INFO - New contact dialog opened
+2025-10-14 16:49:41,515 - INFO - All details are entered
+2025-10-14 16:49:42,181 - INFO - Clicked on Save and Close button
+2025-10-14 16:52:22,888 - INFO - Clicked on New Contact button
+2025-10-14 16:52:24,167 - INFO - New contact dialog opened
+2025-10-14 16:52:27,226 - INFO - All details are entered
+2025-10-14 16:52:27,871 - INFO - Clicked on Save and Close button
+2025-10-14 16:53:20,220 - INFO - Clicked on New Contact button
+2025-10-14 16:53:21,402 - INFO - New contact dialog opened
+2025-10-14 16:53:24,417 - INFO - All details are entered
+2025-10-14 16:53:25,035 - INFO - Clicked on Save and Close button
+2025-10-14 16:56:37,673 - INFO - Clicked on New Contact button
+2025-10-14 16:56:40,098 - INFO - New contact dialog opened
+2025-10-14 16:56:43,053 - INFO - All details are entered
+2025-10-14 16:56:43,660 - INFO - Clicked on Save and Close button
+2025-10-14 16:56:48,652 - INFO - Searched for contact: FullName
+2025-10-14 16:58:40,834 - INFO - Clicked on New Contact button
+2025-10-14 16:58:42,005 - INFO - New contact dialog opened
+2025-10-14 16:58:45,059 - INFO - All details are entered
+2025-10-14 16:58:45,722 - INFO - Clicked on Save and Close button
+2025-10-14 17:01:30,671 - INFO - Clicked on New Contact button
+2025-10-14 17:01:31,886 - INFO - New contact dialog opened
+2025-10-14 17:01:34,881 - INFO - All details are entered
+2025-10-14 17:01:35,623 - INFO - Clicked on Save and Close button
+2025-10-14 17:05:10,970 - INFO - Clicked on New Contact button
+2025-10-14 17:05:12,392 - INFO - New contact dialog opened
+2025-10-14 17:05:15,348 - INFO - All details are entered
+2025-10-14 17:05:15,970 - INFO - Clicked on Save and Close button
+2025-10-14 17:08:25,629 - INFO - Clicked on New Contact button
+2025-10-14 17:08:26,829 - INFO - New contact dialog opened
+2025-10-14 17:08:29,899 - INFO - All details are entered
+2025-10-14 17:08:30,496 - INFO - Clicked on Save and Close button
+2025-10-14 17:15:22,216 - INFO - Clicked on New Contact button
+2025-10-14 17:15:23,423 - INFO - New contact dialog opened
+2025-10-14 17:15:26,350 - INFO - All details are entered
+2025-10-14 17:15:27,106 - INFO - Clicked on Save and Close button
+2025-10-14 17:16:44,905 - INFO - Clicked on New Contact button
+2025-10-14 17:16:46,085 - INFO - New contact dialog opened
+2025-10-14 17:16:49,122 - INFO - All details are entered
+2025-10-14 17:16:49,830 - INFO - Clicked on Save and Close button
+2025-10-14 18:10:47,399 - INFO - Clicked on New Contact button
+2025-10-14 18:10:48,592 - INFO - New contact dialog opened
+2025-10-14 18:10:55,763 - INFO - All details are entered
+2025-10-14 18:10:56,539 - INFO - Clicked on Save and Close button
+2025-10-14 18:15:17,197 - INFO - Clicked on New Contact button
+2025-10-14 18:15:18,385 - INFO - New contact dialog opened
+2025-10-14 18:15:25,441 - INFO - All details are entered
+2025-10-14 18:15:26,114 - INFO - Clicked on Save and Close button
+2025-10-14 18:20:08,842 - INFO - Clicked on New Contact button
+2025-10-14 18:20:10,011 - INFO - New contact dialog opened
+2025-10-14 18:20:17,324 - INFO - All details are entered
+2025-10-14 18:20:18,224 - INFO - Clicked on Save and Close button
+2025-10-14 18:26:00,898 - INFO - Clicked on New Contact button
+2025-10-14 18:26:02,075 - INFO - New contact dialog opened
+2025-10-14 18:26:09,265 - INFO - All details are entered
+2025-10-14 18:26:09,934 - INFO - Clicked on Save and Close button
+2025-10-14 18:27:20,473 - INFO - Clicked on New Contact button
+2025-10-14 18:27:21,632 - INFO - New contact dialog opened
+2025-10-14 18:27:28,751 - INFO - All details are entered
+2025-10-14 18:27:29,445 - INFO - Clicked on Save and Close button
+2025-10-14 18:38:01,157 - INFO - Clicked on New Contact button
+2025-10-14 18:38:02,395 - INFO - New contact dialog opened
+2025-10-14 18:38:05,509 - INFO - All details are entered
+2025-10-14 18:38:06,108 - INFO - Clicked on Save and Close button
+2025-10-14 18:38:13,816 - INFO - Searched for contact: Name14
+2025-10-14 18:40:28,016 - INFO - Clicked on New Contact button
+2025-10-14 18:40:29,252 - INFO - New contact dialog opened
+2025-10-14 18:40:32,343 - INFO - All details are entered
+2025-10-14 18:40:32,951 - INFO - Clicked on Save and Close button
+2025-10-14 18:40:37,521 - INFO - Printing control identifiers for the contact window before opening a contact:
+2025-10-14 18:43:07,603 - INFO - Clicked on New Contact button
+2025-10-14 18:43:08,823 - INFO - New contact dialog opened
+2025-10-14 18:43:15,898 - INFO - All details are entered
+2025-10-14 18:43:16,552 - INFO - Clicked on Save and Close button
+2025-10-14 18:43:21,227 - INFO - Printing control identifiers for the contact window before opening a contact:
+2025-10-14 18:47:29,109 - INFO - Clicked on New Contact button
+2025-10-14 18:47:30,348 - INFO - New contact dialog opened
+2025-10-14 18:47:37,470 - INFO - All details are entered
+2025-10-14 18:47:38,106 - INFO - Clicked on Save and Close button
+2025-10-14 18:47:42,769 - INFO - Contact window is visible
+2025-10-14 18:47:42,769 - INFO - Printing control identifiers for the contact window:
+2025-10-14 18:50:53,051 - INFO - Clicked on New Contact button
+2025-10-14 18:50:54,267 - INFO - New contact dialog opened
+2025-10-14 18:51:01,368 - INFO - All details are entered
+2025-10-14 18:51:01,965 - INFO - Clicked on Save and Close button
+2025-10-14 18:51:32,906 - INFO - Clicked on New Contact button
+2025-10-14 18:51:34,170 - INFO - New contact dialog opened
+2025-10-14 18:51:41,359 - INFO - All details are entered
+2025-10-14 18:51:42,044 - INFO - Clicked on Save and Close button
+2025-10-14 18:57:39,677 - INFO - Clicked on New Contact button
+2025-10-14 18:57:40,898 - INFO - New contact dialog opened
+2025-10-14 18:59:30,147 - INFO - Clicked on New Contact button
+2025-10-14 18:59:31,389 - INFO - New contact dialog opened
+2025-10-14 18:59:38,621 - INFO - All details are entered
+2025-10-14 18:59:39,361 - INFO - Clicked on Save and Close button
+2025-10-14 19:03:51,552 - INFO - Clicked on New Contact button
+2025-10-14 19:03:52,798 - INFO - New contact dialog opened
+2025-10-14 19:04:00,029 - INFO - All details are entered
+2025-10-14 19:04:00,894 - INFO - Clicked on Save and Close button
+2025-10-14 19:04:06,535 - INFO - Contacts window opened and visible
+2025-10-14 19:05:26,832 - INFO - Clicked on New Contact button
+2025-10-14 19:05:28,197 - INFO - New contact dialog opened
+2025-10-14 19:05:35,315 - INFO - All details are entered
+2025-10-14 19:05:35,932 - INFO - Clicked on Save and Close button
+2025-10-14 19:06:01,755 - INFO - Clicked on New Contact button
+2025-10-14 19:06:02,966 - INFO - New contact dialog opened
+2025-10-14 19:06:10,067 - INFO - All details are entered
+2025-10-14 19:06:10,669 - INFO - Clicked on Save and Close button
+2025-10-14 19:06:16,242 - INFO - Contacts window opened and visible
+2025-10-14 19:10:18,635 - INFO - Contacts window opened and visible
+2025-10-14 19:12:04,810 - INFO - Contacts window opened and visible
+2025-10-14 19:15:00,809 - INFO - Contacts window opened and visible
+2025-10-14 19:15:58,377 - INFO - Contacts window opened and visible
+2025-10-14 19:20:19,750 - INFO - New Contact dialog opened.
+2025-10-14 19:20:22,805 - INFO - Contact details entered.
+2025-10-14 19:20:23,466 - INFO - New contact saved.
+2025-10-14 19:21:58,474 - INFO - New Contact dialog opened.
+2025-10-14 19:22:01,515 - INFO - Contact details entered.
+2025-10-14 19:22:02,195 - INFO - New contact saved.
+2025-10-14 19:22:38,045 - INFO - New Contact dialog opened.
+2025-10-14 19:22:41,091 - INFO - Contact details entered.
+2025-10-14 19:22:41,765 - INFO - New contact saved.
+2025-10-14 19:24:46,751 - INFO - New Contact dialog opened.
+2025-10-14 19:24:49,714 - INFO - Contact details entered.
+2025-10-14 19:24:50,384 - INFO - New contact saved.
+2025-10-14 19:27:49,612 - INFO - New Contact dialog opened.
+2025-10-14 19:27:52,781 - INFO - Contact details entered.
+2025-10-14 19:27:53,461 - INFO - New contact saved.
+2025-10-14 19:29:07,832 - INFO - New Contact dialog opened.
+2025-10-14 19:29:10,908 - INFO - Contact details entered.
+2025-10-14 19:29:11,587 - INFO - New contact saved.
+2025-10-14 19:31:04,099 - INFO - Clicked on New Contact button
+2025-10-14 19:31:05,254 - INFO - New contact dialog opened
+2025-10-14 19:31:12,469 - INFO - All details are entered
+2025-10-14 19:31:13,134 - INFO - Clicked on Save and Close button
+2025-10-14 19:38:13,878 - INFO - Clicked on New Contact button
+2025-10-14 19:38:15,079 - INFO - New contact dialog opened
+2025-10-14 19:38:22,167 - INFO - All details are entered
+2025-10-14 19:38:22,841 - INFO - Clicked on Save and Close button
+2025-10-14 19:38:34,140 - ERROR - Could not find contact 'John Doe' to delete.
+2025-10-14 19:42:25,107 - INFO - Clicked on New Contact button
+2025-10-14 19:42:26,317 - INFO - New contact dialog opened
+2025-10-14 19:42:33,586 - INFO - Entered details for Name1
+2025-10-14 19:42:34,261 - INFO - Clicked on Save and Close button
+2025-10-14 19:43:06,481 - INFO - Clicked on New Contact button
+2025-10-14 19:43:07,727 - INFO - New contact dialog opened
+2025-10-14 19:43:15,251 - INFO - Entered details for Name1
+2025-10-14 19:43:15,863 - INFO - Clicked on Save and Close button
+2025-10-14 19:44:36,277 - INFO - Clicked on New Contact button
+2025-10-14 19:44:37,461 - INFO - New contact dialog opened
+2025-10-14 19:44:44,436 - INFO - All details are entered
+2025-10-14 19:44:45,058 - INFO - Clicked on Save and Close button
+2025-10-14 19:47:40,633 - INFO - Clicked on New Contact button
+2025-10-14 19:47:41,811 - INFO - New contact dialog opened
+2025-10-14 19:47:48,918 - INFO - All details are entered
+2025-10-14 19:47:49,596 - INFO - Clicked on Save and Close button
+2025-10-14 19:53:44,659 - INFO - Clicked on New Contact button
+2025-10-14 19:53:45,843 - INFO - New contact dialog opened
+2025-10-14 19:53:52,923 - INFO - All details are entered
+2025-10-14 19:54:47,226 - INFO - Clicked on New Contact button
+2025-10-14 19:54:48,461 - INFO - New contact dialog opened
+2025-10-14 19:54:55,544 - INFO - All details are entered
+2025-10-14 19:55:53,506 - INFO - Clicked on New Contact button
+2025-10-14 19:55:54,715 - INFO - New contact dialog opened
+2025-10-14 19:56:01,814 - INFO - All details are entered
+2025-10-14 19:57:20,760 - INFO - Clicked on New Contact button
+2025-10-14 19:57:21,930 - INFO - New contact dialog opened
+2025-10-14 19:57:28,991 - INFO - All details are entered
+2025-10-14 19:57:29,678 - INFO - Clicked on Save and Close button
+2025-10-14 20:03:33,469 - INFO - Clicked on New Contact button
+2025-10-14 20:03:34,650 - INFO - New contact dialog opened
+2025-10-14 20:03:41,708 - INFO - All details are entered
+2025-10-14 20:03:42,300 - INFO - Clicked on Save and Close button
+2025-10-14 20:04:43,093 - INFO - Clicked on New Contact button
+2025-10-14 20:04:44,278 - INFO - New contact dialog opened
+2025-10-14 20:04:51,376 - INFO - All details are entered
+2025-10-14 20:04:52,046 - INFO - Clicked on Save and Close button
+2025-10-14 20:06:30,582 - INFO - Clicked on New Contact button
+2025-10-14 20:06:31,855 - INFO - New contact dialog opened
+2025-10-14 20:06:39,208 - INFO - All details are entered
+2025-10-14 20:06:39,882 - INFO - Clicked on Save and Close button
+2025-10-14 20:07:10,372 - INFO - Clicked on New Contact button
+2025-10-14 20:07:11,545 - INFO - New contact dialog opened
+2025-10-14 20:07:18,611 - INFO - All details are entered
+2025-10-14 20:07:19,235 - INFO - Clicked on Save and Close button
+2025-10-14 20:17:38,285 - INFO - Right-clicked on the selected email
+2025-10-14 20:17:39,889 - INFO - Clicked on Read
+2025-10-14 20:20:12,008 - INFO - Right-clicked on the selected email
+2025-10-14 20:22:30,934 - INFO - Right-clicked on the selected email
+2025-10-14 20:22:32,538 - INFO - Marked as Read
+2025-10-14 20:22:48,560 - INFO - Right-clicked on the selected email
+2025-10-14 20:25:33,056 - INFO - control New Email clicked
+2025-10-14 20:26:00,948 - INFO - Clicked on Attach File...
+2025-10-14 20:26:03,076 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-14 20:26:11,972 - INFO - Clicked on Send
+2025-10-14 20:26:44,601 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x000001DC9EC2F890>' closed successfully.
+2025-10-14 20:27:09,706 - INFO - Right-clicked on the selected email
+2025-10-14 20:27:25,108 - INFO - control Unread clicked
+2025-10-14 20:27:34,625 - INFO - control New Email clicked
+2025-10-14 20:28:02,875 - ERROR - Failed to click on Attach File...: No Windows of that application are active
+2025-10-14 20:28:55,185 - INFO - Right-clicked on the selected email
+2025-10-14 20:28:56,821 - INFO - Marked as Read
+2025-10-14 20:29:05,319 - INFO - control Unread clicked
+2025-10-14 20:29:14,784 - INFO - control New Email clicked
+2025-10-14 20:29:42,997 - INFO - Clicked on Attach File...
+2025-10-14 20:29:44,603 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-14 20:29:53,349 - INFO - Clicked on Send
+2025-10-14 20:30:25,265 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x000001CAEA5B8C80>' closed successfully.
+2025-10-14 20:30:51,633 - INFO - Clicked on Send
+2025-10-14 20:31:31,135 - INFO - Right-clicked on the selected email
+2025-10-14 20:31:32,875 - INFO - Clicked on Delete
+2025-10-14 20:31:44,065 - INFO - Clicked on New Contact button
+2025-10-14 20:31:45,324 - INFO - New contact dialog opened
+2025-10-14 20:31:52,395 - INFO - All details are entered
+2025-10-14 20:31:52,997 - INFO - Clicked on Save and Close button
+2025-10-14 21:08:52,132 - INFO - Length of mail items is:7
+2025-10-14 21:08:52,884 - INFO - Selected email with subject:
+2025-10-14 21:09:20,948 - INFO - Length of mail items is:7
+2025-10-14 21:09:21,714 - INFO - Selected email with subject:
+2025-10-14 21:10:55,929 - INFO - Found 7 mail items
+2025-10-14 21:10:55,930 - ERROR - Error while searching for email: 'ListItemWrapper' object has no attribute 'wait'
+2025-10-14 21:12:13,561 - INFO - Found 7 mail items
+2025-10-14 21:12:13,562 - ERROR - Error while searching for email: 'ListItemWrapper' object has no attribute 'exists'
+2025-10-14 21:16:48,153 - INFO - Found 7 mail items
+2025-10-14 21:16:48,799 - INFO - Selected email with subject:With Attachments, From Swapnali K, Subject Demo subject, Received 8:26 PM, Size 41 KB, Flag Status Unflagged, Preview Hello, Swapnali K.         This is the body of the page….!         Best Regards,    Swapnali K.    Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confidential and privileged info, 
+2025-10-15 13:52:24,537 - ERROR - Error occurred: {'title': 'Group By: Expanded: Date: Today', 'control_type': 'Group', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - 'Inbox - swapnalik@futurismtechnologies.com - Outlook', rctrl_renwnd32, 4723086>, 'backend': 'uia'}
+2025-10-15 13:57:19,599 - ERROR - Error occurred: {'title': 'Group By: Expanded: Date: Today', 'control_type': 'Group', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - 'Inbox - swapnalik@futurismtechnologies.com - Outlook', rctrl_renwnd32, 4853306>, 'backend': 'uia'}
+2025-10-15 13:58:30,650 - ERROR - Error occurred: {'title': 'Group By: Expanded: Date: Today', 'control_type': 'Group', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - 'Inbox - swapnalik@futurismtechnologies.com - Outlook', rctrl_renwnd32, 21827604>, 'backend': 'uia'}
+2025-10-15 14:00:54,058 - INFO - control New Email clicked
+2025-10-15 14:01:21,547 - INFO - Clicked on Attach File...
+2025-10-15 14:01:23,183 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-15 14:01:31,895 - INFO - Clicked on Send
+2025-10-15 14:02:04,649 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x000001CA6251F890>' closed successfully.
+2025-10-15 14:02:22,096 - INFO - Found 1 mail items
+2025-10-15 14:02:22,761 - INFO - Right-clicked on the selected email
+2025-10-15 14:02:24,316 - INFO - Marked as Read
+2025-10-15 14:02:33,781 - INFO - control Unread clicked
+2025-10-15 14:02:45,144 - INFO - control New Email clicked
+2025-10-15 14:03:12,708 - INFO - Clicked on Attach File...
+2025-10-15 14:03:14,362 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-15 14:03:23,074 - INFO - Clicked on Send
+2025-10-15 14:03:55,173 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x00000260AB5A8B90>' closed successfully.
+2025-10-15 14:04:22,652 - INFO - Clicked on Send
+2025-10-15 14:04:54,886 - INFO - Right-clicked on the selected email
+2025-10-15 14:04:56,395 - INFO - Clicked on Delete
+2025-10-15 14:05:08,284 - INFO - Clicked on New Contact button
+2025-10-15 14:05:09,471 - INFO - New contact dialog opened
+2025-10-15 14:05:16,509 - INFO - All details are entered
+2025-10-15 14:05:17,165 - INFO - Clicked on Save and Close button
+2025-10-15 14:05:40,562 - INFO - Found 3 mail items
+2025-10-15 14:05:41,270 - INFO - Selected email with subject:
+2025-10-15 14:10:17,480 - INFO - Found 3 mail items
+2025-10-15 14:10:18,221 - INFO - Selected email with subject:
+2025-10-15 14:10:51,782 - INFO - Found 3 mail items
+2025-10-15 14:10:52,513 - INFO - Selected email with subject:
+2025-10-15 14:12:26,584 - INFO - Found 3 mail items
+2025-10-15 14:12:26,907 - INFO - Selected email with subject: With Attachments, From Swapnali K, Subject Demo subject, Received 2:03 PM, Size 42 KB, Flag Status Unflagged, Preview Hello, Swapnali K.         This is the body of the page….!         Best Regards,    Sapnali K.    Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confidential and privileged infor, 
+2025-10-15 14:14:57,030 - INFO - Found 3 mail items
+2025-10-15 14:14:57,331 - INFO - Selected email with subject: With Attachments, From Swapnali K, Subject Demo subject, Received 2:03 PM, Size 42 KB, Flag Status Unflagged, Preview Hello, Swapnali K.         This is the body of the page….!         Best Regards,    Sapnali K.    Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confidential and privileged infor, 
+2025-10-15 14:17:33,402 - INFO - Found 3 mail items
+2025-10-15 14:17:33,609 - INFO - Selected email with subject: With Attachments, From Swapnali K, Subject Demo subject, Received 2:03 PM, Size 42 KB, Flag Status Unflagged, Preview Hello, Swapnali K.         This is the body of the page….!         Best Regards,    Sapnali K.    Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confidential and privileged infor, 
+2025-10-15 14:18:54,517 - INFO - Found 3 mail items
+2025-10-15 14:18:54,737 - INFO - Selected email with subject: With Attachments, From Swapnali K, Subject Demo subject, Received 2:03 PM, Size 42 KB, Flag Status Unflagged, Preview Hello, Swapnali K.         This is the body of the page….!         Best Regards,    Sapnali K.    Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confidential and privileged infor, 
+2025-10-15 14:19:52,559 - INFO - Found 3 mail items
+2025-10-15 14:19:52,863 - INFO - Selected email with subject: With Attachments, From Swapnali K, Subject Demo subject, Received 2:03 PM, Size 42 KB, Flag Status Unflagged, Preview Hello, Swapnali K.         This is the body of the page….!         Best Regards,    Sapnali K.    Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confidential and privileged infor, 
+2025-10-15 14:20:26,671 - INFO - Found 3 mail items
+2025-10-15 14:20:26,887 - INFO - Selected email with subject: With Attachments, From Swapnali K, Subject Demo subject, Received 2:03 PM, Size 42 KB, Flag Status Unflagged, Preview Hello, Swapnali K.         This is the body of the page….!         Best Regards,    Sapnali K.    Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confidential and privileged infor, 
+2025-10-15 14:21:13,433 - INFO - Found 3 mail items
+2025-10-15 14:21:13,737 - INFO - Selected email with subject: With Attachments, From Swapnali K, Subject Demo subject, Received 2:03 PM, Size 42 KB, Flag Status Unflagged, Preview Hello, Swapnali K.         This is the body of the page….!         Best Regards,    Sapnali K.    Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confidential and privileged infor, 
+2025-10-15 14:24:14,735 - ERROR - Error occurred: 'EditWrapper' object has no attribute 'wait'
+2025-10-15 14:25:11,980 - INFO - Found 5 mail items
+2025-10-15 14:25:12,101 - INFO - Selected email with subject: With Attachments, From Swapnali K, Subject Demo subject, Received 2:03 PM, Size 36 KB, Flag Status Unflagged, Preview Hello, Swapnali K.    This is the body of the page….!    Best Regards,  Sapnali K.  Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confidential and privileged information. If you, 
+2025-10-15 14:29:10,132 - INFO - Found 5 mail items
+2025-10-15 14:29:10,256 - INFO - Selected email with subject: With Attachments, From Swapnali K, Subject Demo subject, Received 2:03 PM, Size 36 KB, Flag Status Unflagged, Preview Hello, Swapnali K.    This is the body of the page….!    Best Regards,  Sapnali K.  Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confidential and privileged information. If you, 
+2025-10-15 14:32:35,219 - INFO - Found 5 mail items
+2025-10-15 14:32:35,330 - INFO - Selected email with subject: With Attachments, From Swapnali K, Subject Demo subject, Received 2:03 PM, Size 36 KB, Flag Status Unflagged, Preview Hello, Swapnali K.    This is the body of the page….!    Best Regards,  Sapnali K.  Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confidential and privileged information. If you, 
+2025-10-15 14:32:36,385 - INFO - Right-clicked on the selected email
+2025-10-15 14:33:32,273 - INFO - Found 5 mail items
+2025-10-15 14:33:32,416 - INFO - Selected email with subject: With Attachments, From Swapnali K, Subject Demo subject, Received 2:03 PM, Size 36 KB, Flag Status Unflagged, Preview Hello, Swapnali K.    This is the body of the page….!    Best Regards,  Sapnali K.  Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confidential and privileged information. If you, 
+2025-10-15 14:33:33,511 - INFO - Right-clicked on the selected email
+2025-10-15 14:35:13,411 - INFO - Found 5 mail items
+2025-10-15 14:35:13,535 - INFO - Selected email with subject: With Attachments, From Swapnali K, Subject Demo subject, Received 2:03 PM, Size 36 KB, Flag Status Unflagged, Preview Hello, Swapnali K.    This is the body of the page….!    Best Regards,  Sapnali K.  Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confidential and privileged information. If you, 
+2025-10-15 14:35:14,102 - INFO - Right-clicked on the selected email
+2025-10-15 14:36:44,280 - ERROR - Error occurred: 'EditWrapper' object has no attribute 'wait'
+2025-10-15 14:37:37,623 - ERROR - Error occurred: 'EditWrapper' object has no attribute 'wait'
+2025-10-15 14:39:25,779 - INFO - Found 5 mail items
+2025-10-15 14:39:25,895 - INFO - Selected email with subject: With Attachments, From Swapnali K, Subject Demo subject, Received 2:03 PM, Size 36 KB, Flag Status Unflagged, Preview Hello, Swapnali K.    This is the body of the page….!    Best Regards,  Sapnali K.  Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confidential and privileged information. If you, 
+2025-10-15 14:39:26,481 - INFO - Right-clicked on the selected email
+2025-10-15 14:40:12,313 - INFO - Found 5 mail items
+2025-10-15 14:40:12,436 - INFO - Selected email with subject: With Attachments, From Swapnali K, Subject Demo subject, Received 2:03 PM, Size 36 KB, Flag Status Unflagged, Preview Hello, Swapnali K.    This is the body of the page….!    Best Regards,  Sapnali K.  Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confidential and privileged information. If you, 
+2025-10-15 14:40:12,955 - INFO - Right-clicked on the selected email
+2025-10-15 14:45:21,271 - INFO - Found 5 mail items
+2025-10-15 14:45:21,378 - INFO - Selected email with subject: With Attachments, From Swapnali K, Subject Demo subject, Received 2:03 PM, Size 36 KB, Flag Status Unflagged, Preview Hello, Swapnali K.    This is the body of the page….!    Best Regards,  Sapnali K.  Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confidential and privileged information. If you, 
+2025-10-15 14:45:21,964 - INFO - Right-clicked on the selected email
+2025-10-15 14:45:33,570 - INFO - Clicked on Move
+2025-10-15 14:46:29,844 - INFO - Found 5 mail items
+2025-10-15 14:46:29,964 - INFO - Selected email with subject: With Attachments, From Swapnali K, Subject Demo subject, Received 2:03 PM, Size 36 KB, Flag Status Unflagged, Preview Hello, Swapnali K.    This is the body of the page….!    Best Regards,  Sapnali K.  Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confidential and privileged information. If you, 
+2025-10-15 14:46:30,602 - INFO - Right-clicked on the selected email
+2025-10-15 14:46:42,207 - INFO - Clicked on Move
+2025-10-15 14:50:24,643 - INFO - Found 5 mail items
+2025-10-15 14:50:24,755 - INFO - Selected email with subject: With Attachments, From Swapnali K, Subject Demo subject, Received 2:03 PM, Size 36 KB, Flag Status Unflagged, Preview Hello, Swapnali K.    This is the body of the page….!    Best Regards,  Sapnali K.  Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confidential and privileged information. If you, 
+2025-10-15 14:50:25,261 - INFO - Right-clicked on the selected email
+2025-10-15 14:50:36,846 - INFO - Clicked on Move
+2025-10-15 14:54:06,163 - INFO - Found 5 mail items
+2025-10-15 14:54:06,287 - INFO - Selected email with subject: With Attachments, From Swapnali K, Subject Demo subject, Received 2:03 PM, Size 36 KB, Flag Status Unflagged, Preview Hello, Swapnali K.    This is the body of the page….!    Best Regards,  Sapnali K.  Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confidential and privileged information. If you, 
+2025-10-15 14:54:06,889 - INFO - Right-clicked on the selected email
+2025-10-15 14:54:18,512 - INFO - Clicked on Move
+2025-10-15 14:55:41,702 - INFO - Found 5 mail items
+2025-10-15 14:55:41,818 - INFO - Selected email with subject: With Attachments, From Swapnali K, Subject Demo subject, Received 2:03 PM, Size 36 KB, Flag Status Unflagged, Preview Hello, Swapnali K.    This is the body of the page….!    Best Regards,  Sapnali K.  Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confidential and privileged information. If you, 
+2025-10-15 14:55:42,420 - INFO - Right-clicked on the selected email
+2025-10-15 14:55:54,007 - INFO - Clicked on Move
+2025-10-15 14:56:05,631 - INFO - Clicked on Archive
+2025-10-15 15:02:18,839 - INFO - Found 5 mail items
+2025-10-15 15:02:18,955 - INFO - Selected email with subject: With Attachments, From Swapnali K, Subject Demo subject, Received 2:03 PM, Size 36 KB, Flag Status Unflagged, Preview Hello, Swapnali K.    This is the body of the page….!    Best Regards,  Sapnali K.  Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confidential and privileged information. If you, 
+2025-10-15 15:02:19,546 - INFO - Right-clicked on the selected email
+2025-10-15 15:02:31,114 - INFO - Clicked on Move
+2025-10-15 15:02:42,687 - INFO - Clicked on Archive
+2025-10-15 15:05:50,531 - INFO - Found 0 mail items
+2025-10-15 15:06:40,152 - INFO - Found 0 mail items
+2025-10-15 15:12:59,086 - INFO - Found 7 mail items
+2025-10-15 15:12:59,207 - INFO - Selected email with subject: With Attachments, From Swapnali K, Subject Demo subject, Received 2:03 PM, Size 36 KB, Flag Status Unflagged, Preview Hello, Swapnali K.    This is the body of the page….!    Best Regards,  Sapnali K.  Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confidential and privileged information. If you, 
+2025-10-15 15:12:59,775 - INFO - Right-clicked on the selected email
+2025-10-15 15:13:11,346 - INFO - Clicked on Move
+2025-10-15 15:13:21,984 - INFO - Clicked on Archive
+2025-10-15 15:19:27,236 - INFO - Found 6 mail items
+2025-10-15 15:19:27,937 - INFO - Right-clicked on the selected email
+2025-10-15 15:19:45,079 - INFO - control Unread clicked
+2025-10-15 15:19:55,949 - INFO - control New Email clicked
+2025-10-15 15:20:23,344 - INFO - Clicked on Attach File...
+2025-10-15 15:20:25,670 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-10-15 15:20:34,482 - INFO - Clicked on Send
+2025-10-15 15:21:06,376 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x000001E70A42C500>' closed successfully.
+2025-10-15 15:21:32,668 - INFO - Clicked on Send
+2025-10-15 15:22:02,773 - INFO - Right-clicked on the selected email
+2025-10-15 15:22:04,295 - INFO - Clicked on Delete
+2025-10-15 15:22:15,583 - INFO - Clicked on New Contact button
+2025-10-15 15:22:16,794 - INFO - New contact dialog opened
+2025-10-15 15:22:24,363 - INFO - All details are entered
+2025-10-15 15:22:25,018 - INFO - Clicked on Save and Close button
+2025-10-15 15:22:49,527 - INFO - Found 7 mail items
+2025-10-15 15:22:49,635 - INFO - Selected email with subject: With Attachments, From Swapnali K, Subject Demo subject, Received 3:21 PM, Size 30 KB, Flag Status Unflagged, Preview Hello, Swapnali K.    This is the body of the page….!    Best Regards,  Swapnali K., 
+2025-10-15 15:22:50,156 - INFO - Right-clicked on the selected email
+2025-10-15 15:23:01,709 - INFO - Clicked on Move
+2025-10-15 15:23:12,347 - INFO - Clicked on Archive
+2025-10-15 15:25:14,542 - INFO - Found 6 mail items
+2025-10-15 15:25:15,225 - INFO - Right-clicked on the selected email
+2025-10-15 15:25:16,761 - INFO - Marked as Read
+2025-10-15 15:25:38,985 - INFO - Found 6 mail items
+2025-10-15 15:25:39,609 - INFO - Right-clicked on the selected email
+2025-10-15 15:27:21,541 - INFO - Found 6 mail items
+2025-10-15 15:27:22,245 - INFO - Right-clicked on the selected email
+2025-10-15 15:29:45,963 - INFO - Found 6 mail items
+2025-10-15 15:29:46,666 - INFO - Right-clicked on the selected email
+2025-10-15 15:29:53,524 - ERROR - Failed to mark email as read:{'title': 'Mark as Read', 'control_type': 'MenuItem', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - 'Context Menu', NetUIToolWindow, 23201636>, 'backend': 'uia'}
+2025-10-15 15:30:11,499 - INFO - Found 6 mail items
+2025-10-15 15:30:12,185 - INFO - Right-clicked on the selected email
+2025-10-15 15:30:18,465 - ERROR - Failed to mark email as read:{'title': 'Mark as Read', 'control_type': 'MenuItem', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - 'Context Menu', NetUIToolWindow, 16910172>, 'backend': 'uia'}
+2025-10-15 15:32:45,779 - INFO - Found 6 mail items
+2025-10-15 15:32:46,576 - INFO - Right-clicked on the selected email
+2025-10-15 15:32:50,990 - INFO - Email marked as unread.
+2025-10-15 15:33:10,253 - INFO - Found 6 mail items
+2025-10-15 15:33:10,893 - INFO - Right-clicked on the selected email
+2025-10-15 15:33:13,266 - INFO - Email marked as read.
+2025-10-15 15:39:32,881 - INFO - Found 6 mail items
+2025-10-15 15:39:33,531 - INFO - Right-clicked on the selected email
+2025-10-15 15:39:37,577 - INFO - Email marked as unread.
+2025-10-15 15:40:30,338 - INFO - Found 6 mail items
+2025-10-15 15:40:31,011 - INFO - Right-clicked on the selected email
+2025-10-15 15:40:31,011 - ERROR - Failed to interact with context menu: name 'context_menu' is not defined
+2025-10-15 15:44:25,189 - INFO - Found 7 mail items
+2025-10-15 15:44:25,298 - INFO - Selected email with subject: With Attachments, From Swapnali K, Subject Demo subject, Received 3:21 PM, Size 36 KB, Flag Status Unflagged, Preview Hello, Swapnali K.    This is the body of the page….!    Best Regards,  Swapnali K.  Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confidential and privileged information. If yo, 
+2025-10-15 15:44:25,888 - INFO - Right-clicked on the selected email
+2025-10-15 15:44:27,455 - INFO - Clicked on Move
+2025-10-15 15:44:28,058 - INFO - Clicked on Archive
+2025-10-15 15:50:18,064 - INFO - Found 7 mail items
+2025-10-15 15:50:18,181 - INFO - Selected email with subject: With Attachments, From Swapnali K, Subject Demo subject, Received 3:21 PM, Size 36 KB, Flag Status Unflagged, Preview Hello, Swapnali K.    This is the body of the page….!    Best Regards,  Swapnali K.  Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confidential and privileged information. If yo, 
+2025-10-15 15:50:18,718 - INFO - Right-clicked on the selected email
+2025-10-15 15:50:20,388 - INFO - Clicked on Move
+2025-10-15 15:50:21,007 - INFO - Clicked on Archive
+2025-10-15 15:54:35,916 - INFO - Found 7 mail items
+2025-10-15 15:54:35,922 - WARNING - No matching unarchived mail found.
+2025-10-15 15:55:46,547 - INFO - Found 7 mail items
+2025-10-15 15:55:46,553 - WARNING - No matching unarchived mail found.
+2025-10-15 15:56:53,394 - INFO - Found 7 mail items
+2025-10-15 15:56:53,513 - INFO - Selected email with subject: With Attachments, From Swapnali K, Subject Demo subject, Received 3:21 PM, Size 36 KB, Flag Status Unflagged, Preview Hello, Swapnali K.    This is the body of the page….!    Best Regards,  Swapnali K.  Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confidential and privileged information. If yo, 
+2025-10-15 15:56:54,098 - INFO - Right-clicked on the selected email
+2025-10-15 15:56:55,702 - INFO - Clicked on Move
+2025-10-15 15:56:56,322 - INFO - Clicked on Archive
+2025-10-15 15:58:29,119 - INFO - Found 7 mail items
+2025-10-15 15:58:29,125 - WARNING - No matching unarchived mail found.
+2025-10-15 15:59:13,311 - INFO - Found 7 mail items
+2025-10-15 15:59:13,431 - INFO - Selected email with subject: With Attachments, From Swapnali K, Subject Demo subject, Received 3:21 PM, Size 36 KB, Flag Status Unflagged, Preview Hello, Swapnali K.    This is the body of the page….!    Best Regards,  Swapnali K.  Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confidential and privileged information. If yo, 
+2025-10-15 15:59:14,022 - INFO - Right-clicked on the selected email
+2025-10-15 15:59:15,604 - INFO - Clicked on Move
+2025-10-15 15:59:16,239 - INFO - Clicked on Archive
+2025-10-15 16:00:08,597 - INFO - Found 7 mail items
+2025-10-15 16:00:08,720 - INFO - Selected email with subject: With Attachments, From Swapnali K, Subject Demo subject, Received 3:21 PM, Size 36 KB, Flag Status Unflagged, Preview Hello, Swapnali K.    This is the body of the page….!    Best Regards,  Swapnali K.  Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confidential and privileged information. If yo, 
+2025-10-15 16:00:09,306 - INFO - Right-clicked on the selected email
+2025-10-15 16:00:10,844 - INFO - Clicked on Move
+2025-10-15 16:00:11,463 - INFO - Clicked on Archive
+2025-10-15 16:00:44,544 - INFO - Found 7 mail items
+2025-10-15 16:00:44,662 - INFO - Selected email with subject: With Attachments, From Swapnali K, Subject Demo subject, Received 3:21 PM, Size 36 KB, Flag Status Unflagged, Preview Hello, Swapnali K.    This is the body of the page….!    Best Regards,  Swapnali K.  Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confidential and privileged information. If yo, 
+2025-10-15 16:00:45,264 - INFO - Right-clicked on the selected email
+2025-10-15 16:00:46,802 - INFO - Clicked on Move
+2025-10-15 16:00:47,404 - INFO - Clicked on Archive
