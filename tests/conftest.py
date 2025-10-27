@@ -19,3 +19,8 @@ def setup_outlook():
 
     #Close the Outlook application after each test
     app.kill()
+
+
+
+
+

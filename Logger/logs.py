@@ -8,7 +8,7 @@ logger.setLevel(logging.DEBUG)
 
 #Create handlers that writes log messages to the specified file,mode=a means new log are added at the end of file
 # file_handler = logging.FileHandler('Test_log.log',mode='a')
-file_handler = logging.FileHandler(r"C:\Users\swapnalik\PycharmProjects\Outlook\Logger\Test_log.log",mode='a')
+file_handler = logging.FileHandler(r"C:\Users\swapnalik\PycharmProjects\Outlook\Logger\Test_log.log",mode='a',encoding='UTF-8')
 #Console handler that writes the log msgs on console/terminal
 console_handler = logging.StreamHandler()
 

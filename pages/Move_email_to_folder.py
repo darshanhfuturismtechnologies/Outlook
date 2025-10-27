@@ -1,6 +1,13 @@
 import time
 from Helper.helper import Helper
 
+"""Tc_07
+1.Click on inbox.
+2.Click on search bar and search the email of Demo subject and click on that
+3.Make right click on selcted mail
+4.Click on move
+5.Click on archive"""
+
 class MoveToArchiveFolder(Helper):
     def __init__(self,app):
         super().__init__(app, ".*Outlook.*")         #Super constructor overrides properties of helper class constructor
@@ -27,7 +34,7 @@ class MoveToArchiveFolder(Helper):
                 mail_to_select = mail_items[1]                         #Index 1 for the second mail item
                 subject = mail_to_select.window_text()                 #Capture subject before double-click
                 mail_to_select.click_input()
-                self.selected_mail=mail_to_select                       #Assign selected mail for further use
+                self.selected_mail=mail_to_select                     #Assign selected mail for further use
                 self.logger.info(f"Selected email with subject: {subject}")
         except Exception as e:
                 self.logger.error(f"Error occurred: {e}")

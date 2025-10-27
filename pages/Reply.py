@@ -21,12 +21,6 @@ class ReplyMail(Helper):
         table_view = self.outlook.child_window(title="Table View", control_type="Table")
         # Find all DataItem controls under that table — each representing an email
         mail_items = table_view.descendants(control_type="DataItem")
-
-        # #Parent controller of the mail
-        # group_box = self.outlook.child_window(title="Group By: Expanded: Date: Today", control_type="Group")
-        # #Children controllers which defines individual mails.
-        # mail_items = group_box.children(control_type="DataItem")
-
         #Target Subject to find
         target_sub = "Demo subject"
 

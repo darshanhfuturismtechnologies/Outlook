@@ -9,8 +9,9 @@ class Helper:
         self.app = app                                                          #Store the passed application object
         self.logger = logs.logging
         self.outlook = self.app.window(title_re=title_re)                       #store the window title
+        self.outlook.set_focus()
         self.outlook.maximize()
-        self.outlook.wait('exists',timeout=30)                                  #Wait until window become visible
+        self.outlook.wait('exists ready visible enabled',timeout=30)                                  #Wait until window become visible
 
     """Method for click element"""
     def click(self, control_title: str, control_type: str):

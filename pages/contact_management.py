@@ -13,6 +13,7 @@ class ContactManagement(Helper):
         super().__init__(app, ".*Outlook.*")
         self.New_contact_dlg = None
 
+    #Open contact view from search bar
     def open_contact_view_from_search_bar(self):
         tell_me_box = self.outlook.child_window(auto_id="TellMeTextBoxAutomationId", control_type="Edit").wait('visible', timeout=5)
         tell_me_box.type_keys("Contacts")
@@ -30,7 +31,7 @@ class ContactManagement(Helper):
         self.logger.info("New contact dialog opened")
         self.New_contact_dlg = New_contact_dlg  #Save it as an attribute
         #Now you can use the print_control_identifiers method correctly
-        self.New_contact_dlg.print_control_identifiers()
+        # self.New_contact_dlg.print_control_identifiers()
 
     def enter_contact_details(self):
         Full_name = self.New_contact_dlg.child_window(auto_id="4096", control_type="Edit")

@@ -17,11 +17,6 @@ class ReadMail(Helper):
         table_view = self.outlook.child_window(title="Table View", control_type="Table")
         # Find all DataItem controls under that table — each representing an email
         mail_items = table_view.descendants(control_type="DataItem")
-
-        # #Find the parent container that holds the list of emails.
-        # group_box = self.outlook.child_window(title="Group By: Expanded: Date: Today", control_type="Group")
-        # #Find all the children DataItem controls which represent individual emails
-        # mail_items = group_box.children(control_type="DataItem")
         self.logger.info(f"Found {len(mail_items)} mail items")
 
         if mail_items:
@@ -30,7 +25,7 @@ class ReadMail(Helper):
             # print(f"Most recent email: {recent_mail}")
             recent_mail.click_input()
             self.selected_mail = recent_mail
-            print(f"Most recent email: {recent_mail}")
+            self.logger.info(f"Most recent email: {recent_mail}")
         else:
             raise Exception("No emails found in the inbox")
 
