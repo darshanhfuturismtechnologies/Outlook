@@ -8,12 +8,10 @@ class ReadMail(Helper):
         self.selected_mail = None
 
     def click_on_inbox(self):
-        inbox_menu = self.outlook.child_window(title_re=".*Inbox.*", control_type="TreeItem",found_index=0).wait('visible',timeout=5)
-        inbox_menu.click_input()
-        # self.outlook.print_control_identifiers()
+        self.click_menu_item("Inbox")
 
     def select_most_recent_email(self):
-        # Get the container that holds all groups of emails
+        #Get the container that holds all groups of emails
         table_view = self.outlook.child_window(title="Table View", control_type="Table")
         # Find all DataItem controls under that table — each representing an email
         mail_items = table_view.descendants(control_type="DataItem")
@@ -30,26 +28,21 @@ class ReadMail(Helper):
             raise Exception("No emails found in the inbox")
 
     def right_click_on_mail(self):
-        try:
-            self.selected_mail.right_click_input()
-            self.logger.info("Right-clicked on the selected email")
-        except:
-            raise Exception("No email has been selected to right-click")
-
+        self.right_click_on_selected_option()
 
     def mark_as_read_or_unread(self):
         try:
             #Wait for the context menu or dropdown to become visible
             context_menu = self.outlook.child_window(title="Context Menu", control_type="Menu")
-            context_menu.wait('visible', timeout=5)
+            context_menu.wait('visible',timeout=5)
 
-            #First try Mark as read
+            #First try to Mark as read
             try:
                 mark_as_read = context_menu.child_window(title="Mark as Read", control_type="MenuItem")
                 if mark_as_read.exists(timeout=2):
                     mark_as_read.click_input()
                     self.logger.info("Email marked as read.")
-                    return                                         #Exit after successful action
+                    return                                         #Exit after successfully action
             except Exception as e:
                 self.logger.debug(f"Mark as Read not found:{e}")
 

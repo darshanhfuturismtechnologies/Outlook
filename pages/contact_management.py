@@ -15,43 +15,61 @@ class ContactManagement(Helper):
 
     #Open contact view from search bar
     def open_contact_view_from_search_bar(self):
-        tell_me_box = self.outlook.child_window(auto_id="TellMeTextBoxAutomationId", control_type="Edit").wait('visible', timeout=5)
-        tell_me_box.type_keys("Contacts")
-        self.outlook.child_window(title="Contacts", control_type="MenuItem").click_input()
+        try:
+            tell_me_box = self.outlook.child_window(auto_id="TellMeTextBoxAutomationId",control_type="Edit").wait('visible', timeout=5)
+            tell_me_box.type_keys("Contacts")
+            self.outlook.child_window(title="Contacts",control_type="MenuItem").click_input()
+            self.logger.info("Click on Contact View from Search Bar")
+        except Exception as e:
+            self.logger.error(f"Failed to click on 'Contacts' menu item: {e}")
+            raise
 
     def add_new_contact(self):
-        contact_window = self.app.window(title_re=".*Contacts.*")
-        contact_window.wait('exists visible', timeout=10)
+        try:
+            contact_window = self.app.window(title_re=".*Contacts.*")
+            contact_window.wait('exists visible', timeout=10)
 
-        contact_window.child_window(title="New Contact", control_type="Button").click_input()
-        self.logger.info("Clicked on New Contact button")
+            contact_window.child_window(title="New Contact", control_type="Button").click_input()
+            self.logger.info("Clicked on New Contact button")
 
-        New_contact_dlg = self.app.window(title_re=".*- Contact.*")
-        New_contact_dlg.wait('visible', timeout=10)
-        self.logger.info("New contact dialog opened")
-        self.New_contact_dlg = New_contact_dlg  #Save it as an attribute
-        #Now you can use the print_control_identifiers method correctly
-        # self.New_contact_dlg.print_control_identifiers()
+            New_contact_dlg = self.app.window(title_re=".*- Contact.*")
+            New_contact_dlg.wait('visible', timeout=10)
+            self.logger.info("New contact dialog opened")
+            self.New_contact_dlg = New_contact_dlg  # Save it as an attribute
+            # Now you can use the print_control_identifiers method correctly
+            # self.New_contact_dlg.print_control_identifiers()
+        except Exception as e:
+            self.logger.error(f"Failed to click on 'New Contact':{e}")
+            raise
+
 
     def enter_contact_details(self):
-        Full_name = self.New_contact_dlg.child_window(auto_id="4096", control_type="Edit")
-        Full_name.type_keys("Name1{ENTER}")
-        Company_name = self.New_contact_dlg.child_window(auto_id="4481", control_type="Edit")
-        Company_name.type_keys("Company1{ENTER}")
-        Job_title = self.New_contact_dlg.child_window(auto_id="4480", control_type="Edit")
-        Job_title.type_keys("Job1{ENTER}")
+        try:
+            Full_name = self.New_contact_dlg.child_window(auto_id="4096", control_type="Edit")
+            Full_name.type_keys("Name1{ENTER}")
+            Company_name = self.New_contact_dlg.child_window(auto_id="4481", control_type="Edit")
+            Company_name.type_keys("Company1{ENTER}")
+            Job_title = self.New_contact_dlg.child_window(auto_id="4480", control_type="Edit")
+            Job_title.type_keys("Job1{ENTER}")
 
-        Internet_email = self.New_contact_dlg.child_window(auto_id="4120", control_type="Edit")
-        Internet_email.type_keys("InternetEmail11@gmail.com{ENTER}")
+            Internet_email = self.New_contact_dlg.child_window(auto_id="4120", control_type="Edit")
+            Internet_email.type_keys("InternetEmail11@gmail.com{ENTER}")
 
-        Im_address = self.New_contact_dlg.child_window(auto_id="4118", control_type="Edit")
-        Im_address.type_keys("ImAddress1{ENTER}")
-        self.logger.info("All details are entered")
+            Im_address = self.New_contact_dlg.child_window(auto_id="4118", control_type="Edit")
+            Im_address.type_keys("ImAddress1{ENTER}")
+            self.logger.info("All details are entered")
+        except Exception as e:
+            self.logger.error(f"Failed to enter details:{e}")
+            raise
 
     def click_on_save_and_close(self):
-        self.New_contact_dlg.child_window(title="Save & Close", control_type="Button").click_input()
-        self.logger.info("Clicked on Save and Close button")
-        time.sleep(3)
+        try:
+            self.New_contact_dlg.child_window(title="Save & Close", control_type="Button").click_input()
+            self.logger.info("Clicked on Save and Close button")
+            time.sleep(3)
+        except Exception as e:
+            self.logger.error(f"Failed to click on 'Save & Close':{e}")
+            raise
 
 
 

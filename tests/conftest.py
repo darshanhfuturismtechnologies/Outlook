@@ -1,7 +1,8 @@
 import pytest
 from pywinauto import Application
 
-#The fixture will be created before each test function and destroyed after the test function finishes.
+#Fixtures are used to set up and tear down resources needed for tests.
+#Scope=The fixture will be created before each test function and destroyed after the test function finishes.
 @pytest.fixture(scope="function")
 def setup_outlook():
     #This fixture sets up the Outlook application before each test and tears it down after the test is complete.
@@ -11,7 +12,7 @@ def setup_outlook():
     #Launch application
     app = Application(backend="uia").start(outlook_path)
 
-    #Wait for outlook to be ready
+    #Wait for outlook to be ready by checking the CPU usage drops below a specified threshold 5.0
     app.wait_cpu_usage_lower(threshold=5.0, timeout=30, usage_interval=1.0)
 
     #Return the app object to the test function for interaction
@@ -19,6 +20,11 @@ def setup_outlook():
 
     #Close the Outlook application after each test
     app.kill()
+
+
+#r means raw string backslashes treated as literal.
+#Fixture Setup: Launches Outlook and waits until it is ready.
+#Fixture Teardown: Closes the Outlook application to ensure each test is isolated and there’s no leftover state.
 
 
 

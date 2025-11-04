@@ -9,12 +9,12 @@ class UnreadMail(Helper):
         self.selected_mail = None
 
     def click_on_unread_mail(self):
-        # Click on the 'Unread' text control to filter unread emails
-        self.click(control_title="Unread", control_type="Text")
-        # self.outlook.print_control_identifiers()
+        #Click on the 'Unread' text control to filter unread emails
+        self.click(control_title="Unread",control_type="Text")
+        #self.outlook.print_control_identifiers()
 
     def click_on_recent_unread_mail(self):
-        # Find the group container with unread mails
+        #Find the group container with unread mails and its children
         group = self.outlook.child_window(title="Group By: Expanded: Date: Older", control_type="Group")
         mail_items = group.children(control_type="DataItem")
 
@@ -27,20 +27,15 @@ class UnreadMail(Helper):
             raise Exception("No emails found in the inbox")
 
     def right_click_on_mail(self):
-        try:
-            self.selected_mail.right_click_input()
-            self.logger.info("Right-clicked on the selected email")
-        except:
-            raise Exception("No email has been selected to right-click")
-
+        self.right_click_on_selected_option()
 
     def mark_as_read_or_unread(self):
         try:
             #Wait for the context menu or dropdown to become visible
-            context_menu = self.outlook.child_window(title="Context Menu", control_type="Menu")
+            context_menu = self.outlook.child_window(title="Context Menu",control_type="Menu")
             context_menu.wait('visible', timeout=5)
 
-            #First try Mark as read
+            #First try to Mark as read
             try:
                 mark_as_read = context_menu.child_window(title="Mark as Read", control_type="MenuItem")
                 if mark_as_read.exists(timeout=2):
@@ -61,7 +56,7 @@ class UnreadMail(Helper):
                 self.logger.debug(f"Mark as Unread not found:{e}")
 
         except Exception as e:
-            self.logger.error(f"Failed to interact with context menu: {e}")
+            self.logger.error(f"Failed to interact with context menu:{e}")
 
 
 

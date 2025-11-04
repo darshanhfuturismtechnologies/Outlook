@@ -1,6 +1,4 @@
 import time
-from asyncio import timeout
-
 from pywinauto.keyboard import send_keys
 from Helper.helper import Helper
 
@@ -22,13 +20,8 @@ class TaskConverter(Helper):
         self.selected_mail = None
         # self.outlook.print_control_identifiers()
 
-    def click_on_inbox(self):
-        try:
-            self.outlook.child_window(title_re=".*Deleted Items:.*", control_type="TreeItem",found_index=0).click_input()
-            self.logger.info("Clicked on Deleted Items")
-        except Exception as e:
-            self.logger.error(f"Failed to click on Deleted Items:{e}")
-            raise
+    def click_on_deleted_items(self):
+        self.click_menu_item(".*Sent Items:.*")
 
     def click_on_demo_sub_mail(self):
         try:
@@ -45,7 +38,7 @@ class TaskConverter(Helper):
                 if target_sub in email.window_text():
                     email.click_input()
                     time.sleep(1)  # Wait for email visibility
-                    print(f"Clicked email with subject: {target_sub}")
+                    self.logger.info(f"Clicked email with subject: {target_sub}")
                     # Email is stored as selected_mail for further use
                     self.selected_mail = email
                     # Exit the loop after clicking
@@ -58,13 +51,7 @@ class TaskConverter(Helper):
 
     #Right click on mail
     def right_click_on_mail(self):
-        try:
-            self.selected_mail.right_click_input()
-            #Wait for context menu to appear
-            time.sleep(0.5)
-            self.logger.info("Right-clicked on the selected email")
-        except Exception as e:
-            raise Exception(f"No email has been selected to right-click:{e}")
+        self.right_click_on_selected_option()
 
     #Click on move
     def click_on_move(self):
@@ -153,13 +140,13 @@ class TaskConverter(Helper):
                     close_icon.click_input()
                     self.logger.info("Clicked on Close")
                 except Exception as e:
-                    self.logger.exception(f"Failed to click 'Close' button: {e}")
+                    self.logger.exception(f"Failed to click 'Close' button:{e}")
 
     #Set due date
-    def set_due_date(self,due_date="11/11/2025"):
+    def set_due_date(self,due_date="12/12/2025"):
         try:
-            self.task_window = self.app.window(title_re=".* - Task.*")
-            self.task_window.wait('exists visible', timeout=10)
+            self.task_window = self.app.window(title_re=".* - Task.*",found_index=0)
+            self.task_window.wait('visible', timeout=10)
             self.logger.info("New Task window is opened")
 
             edit_due_date = self.task_window.child_window(auto_id="4101", control_type="Edit")
@@ -186,19 +173,19 @@ class TaskConverter(Helper):
         try:
             reminder=self.task_window.child_window(title="Reminder", auto_id="4226", control_type="CheckBox")
             reminder.toggle()
-            self.logger.info("Reminder clicked")
+            self.logger.info("Reminder checkbox is checked")
         except Exception as e:
-            self.logger.error(f"Failed to click 'Reminder' button: {e}")
+            self.logger.error(f"Failed to click 'Reminder' button:{e}")
             raise
 
     #Set reminder date
-    def set_reminder_date(self,reminder_date="30/11/2025"):
+    def set_reminder_date(self,reminder_date="30/12/2025"):
         try:
             reminder_due_date=self.task_window.child_window(auto_id="4102", control_type="Edit")
             reminder_due_date.set_text(reminder_date)
             self.logger.info(f"Reminder date set to {reminder_date}")
         except Exception as e:
-            self.logger.error(f"Failed to set reminder date: {e}")
+            self.logger.error(f"Failed to set reminder date:{e}")
             raise
 
     #Set reminder time
@@ -225,13 +212,17 @@ class TaskConverter(Helper):
     #Click on Task menu on main window
     def click_on_task_menu_to_do_list(self):
         try:
+
             self.click(control_title="Tasks", control_type="TreeItem")
             task_to_do_dlg = self.app.window(title_re=".*Tasks.*")
             task_to_do_dlg.wait('exists visible ready', timeout=10)
             self.logger.info("task_to_do_dlg is opened")
+            task_to_do_dlg.print_control_identifiers()
 
             # Main container for the task for a month
-            group_box = task_to_do_dlg.child_window(title="Group By: Expanded: Flag: Due Date: Next Month",control_type="Group")
+            group_box = task_to_do_dlg.child_window(title="Group By: Expanded:Flag: Due Date: Next Month",control_type="Group")
+
+
             # All children of that main container
             task_items = group_box.children(control_type="DataItem")
             self.logger.info(f"{len(task_items)}Task items found")
@@ -239,7 +230,7 @@ class TaskConverter(Helper):
             if task_items:
                 recent_task = task_items[0]
                 recent_task.click_input()
-                print(f"Most recent unread email clicked: {recent_task}")
+                self.logger.info(f"Most recent unread email clicked: {recent_task}")
             else:
                 raise Exception("No emails found in the inbox")
         except Exception as e:
@@ -249,6 +240,7 @@ class TaskConverter(Helper):
     #Click on delete icon.
     def click_on_delete(self):
         self.click_child_window(control_title="Delete", control_type="Button")
+
 
 
 

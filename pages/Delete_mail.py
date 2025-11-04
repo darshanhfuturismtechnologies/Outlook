@@ -13,8 +13,9 @@ class DeleteMail(Helper):
         self.selected_mail = None
 
     def click_on_sent_item(self):
-        sent_items=self.outlook.child_window(title="Sent Items", control_type="TreeItem",found_index=0).wait('visible',timeout=5)
-        sent_items.click_input()
+        self.click_menu_item(".*Sent Items.*")
+        self.logger.info(f"Successfully clicked on sent item.")
+
 
     def click_on_demo_sub_mail(self):
         # Get the container that holds all groups of emails
@@ -30,7 +31,7 @@ class DeleteMail(Helper):
             if target_sub in email.window_text():
                 email.click_input()
                 time.sleep(1)                                                    #Wait for email visibility
-                print(f"Clicked email with subject: {target_sub}")
+                self.logger.info(f"Clicked email with subject: {target_sub}")
                 #Email is stored as selected_mail for further use
                 self.selected_mail=email
                 #Exit the loop after clicking
@@ -40,19 +41,26 @@ class DeleteMail(Helper):
             raise Exception(f"No email found with subject: {target_sub}")
 
     def right_click_on_mail(self):
-        try:
-            self.selected_mail.right_click_input()
-            self.logger.info("Right-clicked on the selected email")
-        except:
-            raise Exception("No email has been selected to right-click")
+        self.right_click_on_selected_option()
 
     def click_on_delete_mail(self):
-        # Wait for the right click menu/context menu options to visible
-        context_menu = self.outlook.child_window(title="Context Menu", control_type="Menu")
-        context_menu.wait('visible', timeout=5)
-        dlt_btn = context_menu.child_window(title="Delete", control_type="MenuItem")
-        dlt_btn.click_input()
-        self.logger.info("Clicked on Delete")
+        try:
+            # Wait for the right click menu/context menu options to visible
+            context_menu = self.outlook.child_window(title="Context Menu", control_type="Menu")
+            context_menu.wait('visible', timeout=5)
+
+            dlt_btn = context_menu.child_window(title="Delete", control_type="MenuItem")
+            dlt_btn.click_input()
+            self.logger.info("Clicked on Delete")
+
+        except Exception as e:
+            self.logger.error(f"Failed to click on Delete mail: {e}")
+            raise
+
+
+
+
+
 
 
 

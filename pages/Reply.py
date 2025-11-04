@@ -13,8 +13,7 @@ class ReplyMail(Helper):
         super().__init__(app, ".*Outlook.*")
 
     def navigate_towards_inbox(self):
-        inbox= self.outlook.child_window(title_re=".*Inbox.*", control_type="TreeItem", found_index=0).wait('visible',timeout=5)
-        inbox.click_input()
+        self.click_menu_item("Inbox")
 
     def click_on_first_mail_of_demo_sub(self):
         # Get the container that holds all groups of emails
@@ -29,7 +28,7 @@ class ReplyMail(Helper):
             if target_sub in email.window_text():
                 email.click_input()
                 time.sleep(1)                                              #Wait for email visibility
-                print(f"Clicked email with subject: {target_sub}")
+                self.logger.info(f"Clicked email with subject: {target_sub}")
                 #Exit the loop after clicking
                 break
         else:
@@ -37,20 +36,26 @@ class ReplyMail(Helper):
             raise Exception(f"No email found with subject: {target_sub}")
 
     def click_on_reply(self):
-        reply_btn=self.outlook.child_window(title="Reply", control_type="Button",found_index=0).wait('visible',timeout=5)
+        reply_btn=self.outlook.child_window(title_re=".*Reply.*", control_type="Button",found_index=0).wait('visible',timeout=5)
         reply_btn.click_input()
 
     def edit_mail_for_reply(self):
-        msg_body = self.outlook.child_window(title="Page 1 content", auto_id="Body", control_type="Edit")
-        #List of content for mail
-        lines = [
-            "Hello, Swapnali K.",
-            "This is Reply Testcase..!",
-            "Best Regards, Swapnali K",
-        ]
-        for line in lines:
-            #For loop iterate for each one and press enter twice,and add pause with spaces.
-            msg_body.type_keys(line + "{ENTER 2}", pause=0.1, with_spaces=True)
+        try:
+            msg_body = self.outlook.child_window(title="Page 1 content",auto_id="Body",control_type="Edit")
+            # List of content for mail
+            lines = [
+                "Hello, Swapnali K.",
+                "This is Reply Testcase..!",
+                "Best Regards, Swapnali K",
+            ]
+            for line in lines:
+                # For loop iterate for each one and press enter twice,and add pause with spaces.
+                msg_body.type_keys(line + "{ENTER 2}", pause=0.1, with_spaces=True)
+            self.logger.info("Edited message in reply")
+
+        except Exception as e:
+            self.logger.error(f"Failed to edit message: {e}")
+            raise
 
     def click_on_send(self):
         self.click_child_window(control_title="Send", control_type="Button")

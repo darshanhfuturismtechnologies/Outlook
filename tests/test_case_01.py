@@ -1,15 +1,12 @@
+from pages.Send_mail import SendMail
 
-from pages.ReadMail import ReadMail
-
-#Use the fixture directly in the test function
-#We initialize the ReadMail class using the setup_outlook fixture,which is automatically passed to the test function as setup_outlook.
-
-def test_read_mail(setup_outlook):
-    # Initialize the ReadMail class with the setup_outlook fixture
-    reader = ReadMail(setup_outlook)
-    reader.click_on_inbox()
-    reader.select_most_recent_email()
-    reader.right_click_on_mail()
-    reader.mark_as_read_or_unread()
-
-
+def test_send_mail(setup_outlook):
+    send_mail=SendMail(setup_outlook)
+    send_mail.click_on_send_mail()
+    send_mail.enter_to_mail_id()
+    send_mail.enter_cc_mail_id()
+    send_mail.enter_subject()
+    send_mail.enter_text_in_body()
+    send_mail.attach_file_to_mail()
+    send_mail.attach_file_as_copy()
+    send_mail.click_on_send()

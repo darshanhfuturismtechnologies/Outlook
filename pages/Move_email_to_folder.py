@@ -4,7 +4,7 @@ from Helper.helper import Helper
 """Tc_07
 1.Click on inbox.
 2.Click on search bar and search the email of Demo subject and click on that
-3.Make right click on selcted mail
+3.Make right click on selected mail
 4.Click on move
 5.Click on archive"""
 
@@ -14,14 +14,13 @@ class MoveToArchiveFolder(Helper):
         self.selected_mail = None
 
     def click_on_inbox(self):
-        inbox_menu = self.outlook.child_window(title_re=".*Inbox.*", control_type="TreeItem",found_index=0).wait('visible',timeout=5)
-        inbox_menu.click_input()
-        # self.outlook.print_control_identifiers()
+        self.click_menu_item(".*Inbox.*")
+        self.logger.info(f"Successfully clicked on inbox.")
 
     def search_mail(self):
         try:
-            search_box = self.outlook.child_window(auto_id="SearchBoxTextBoxAutomationId", control_type="Edit")
-            search_box.type_keys("Demo Subject", with_spaces=True)
+            search_box = self.outlook.child_window(auto_id="SearchBoxTextBoxAutomationId",control_type="Edit")
+            search_box.type_keys("Demo Subject",with_spaces=True)
             time.sleep(2)                                               #To load elements
 
             #Get the container that holds all groups of emails
@@ -40,24 +39,28 @@ class MoveToArchiveFolder(Helper):
                 self.logger.error(f"Error occurred: {e}")
 
     def right_click_on_mail(self):
-        try:
-            self.selected_mail.right_click_input()
-            self.logger.info("Right-clicked on the selected email")
-        except:
-            raise Exception("No email has been selected to right-click")
+        self.right_click_on_selected_option()
 
     def click_on_move(self):
-        # Wait for the right click menu/context menu options to visible
-        context_menu = self.outlook.child_window(title="Context Menu", control_type="Menu")
-        context_menu.wait('visible', timeout=5)
-        dlt_btn = context_menu.child_window(title="Move", control_type="MenuItem")
-        dlt_btn.click_input()
-        self.logger.info("Clicked on Move")
+        try:
+            # Wait for the right click menu/context menu options to visible
+            context_menu = self.outlook.child_window(title="Context Menu", control_type="Menu")
+            context_menu.wait('visible', timeout=5)
+            move_btn = context_menu.child_window(title="Move", control_type="MenuItem")
+            move_btn.click_input()
+            self.logger.info("Clicked on Move")
+        except Exception as e:
+            self.logger.error(f"Failed to click on 'Move' menu item: {e}")
+            raise
 
     def click_on_archive(self):
-        archive=self.outlook.child_window(title="Archive", control_type="ListItem")
-        archive.click_input()
-        self.logger.info("Clicked on Archive")
+        try:
+            archive = self.outlook.child_window(title="Archive", control_type="ListItem")
+            archive.click_input()
+            self.logger.info("Clicked on Archive")
+        except Exception as e:
+            self.logger.error(f"Failed to click on 'Archive' menu item: {e}")
+            raise
 
 
 

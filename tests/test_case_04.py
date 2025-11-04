@@ -1,6 +1,5 @@
 from pages.Reply import ReplyMail
 
-
 def test_reply_to_mail(setup_outlook):
     replay_mail=ReplyMail(setup_outlook)
     replay_mail.navigate_towards_inbox()

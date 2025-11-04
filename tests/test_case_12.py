@@ -1,10 +1,10 @@
-import datetime
+
 
 from pages.Convert_mail_to_task import TaskConverter
 
 def test_convert_mail_into_task(setup_outlook):
     task=TaskConverter(setup_outlook)
-    task.click_on_inbox()
+    task.click_on_deleted_items()
     task.click_on_demo_sub_mail()
     task.right_click_on_mail()
     task.click_on_move()
