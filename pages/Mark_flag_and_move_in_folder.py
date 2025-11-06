@@ -138,8 +138,6 @@ class FlaggedMails(Helper):
             dlt_folder = context_menu.child_window(title="Delete Folder", control_type="MenuItem")
             dlt_folder.wait('ready',timeout=5)
             dlt_folder.click_input()
-            self.outlook.print_control_identifiers()
-            # time.sleep(1)
             self.logger.info("Deleted folder successfully")
         except Exception as e:
             self.logger.error(f"Failed to delete folder:{e}")

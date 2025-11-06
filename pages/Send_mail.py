@@ -1,6 +1,6 @@
 import time
 from Helper.helper import Helper
-
+from Logger import logs
 
 """TC_03:-
 1.Click on inbox,
@@ -12,7 +12,7 @@ from Helper.helper import Helper
 
 class SendMail(Helper):
     def __init__(self,app):
-        super().__init__(app,".*Outlook.*")
+        super().__init__(app, ".*Outlook.*")
         self.send_mail_window = None
 
 

@@ -23,7 +23,7 @@ class Download_attachments(Helper):
     def search_mail_of_demo_sub(self):
         try:
             search_box = self.outlook.child_window(auto_id="SearchBoxTextBoxAutomationId", control_type="Edit")
-            search_box.type_keys("This is the body of  the page", with_spaces=True)
+            search_box.type_keys("Copy of QA intern", with_spaces=True)
             time.sleep(1)
 
             table_view = self.outlook.child_window(title="Table View", control_type="Table")

@@ -7049,3 +7049,1182 @@ AttributeError: 'NoneType' object has no attribute 'toggle'
 2025-11-04 13:47:25,842 - INFO - Clicked OK button
 2025-11-04 13:47:26,427 - INFO - Clicked Apply button
 2025-11-04 13:47:29,536 - INFO - Clicked OK button
+2025-11-04 19:44:46,523 - INFO - Found 7 mail items
+2025-11-04 19:44:47,345 - INFO - Most recent email: uia_controls.ListItemWrapper - 'To Swapnali K, Subject Your request has been logged with request id ##RE-114119##, Sent 7:07 PM, Size 27 KB, Flag Status Unflagged, Preview Dear Swapnali K,  	     	  This is an acknowledgement mail for your request. Your request has been created with below details.  	     	  Ticket No  	114119  	  Created Date  	Nov 4, 2025 07:06 PM  	  Subject  	Headset Required.  	  Status  	Open  	  Engin, ', DataItem
+2025-11-04 19:44:50,479 - INFO - Right-clicked on the selected option.
+2025-11-04 19:44:54,617 - INFO - Email marked as unread.
+2025-11-04 19:46:17,590 - INFO - Found 7 mail items
+2025-11-04 19:46:18,237 - INFO - Most recent email: uia_controls.ListItemWrapper - 'To Swapnali K, Subject Your request has been logged with request id ##RE-114119##, Sent 7:07 PM, Size 27 KB, Flag Status Unflagged, Preview Dear Swapnali K,  	     	  This is an acknowledgement mail for your request. Your request has been created with below details.  	     	  Ticket No  	114119  	  Created Date  	Nov 4, 2025 07:06 PM  	  Subject  	Headset Required.  	  Status  	Open  	  Engin, ', DataItem
+2025-11-04 19:46:21,358 - INFO - Right-clicked on the selected option.
+2025-11-04 19:46:23,056 - INFO - Email marked as read.
+2025-11-05 14:03:01,002 - INFO - New Email clicked
+2025-11-05 14:03:02,096 - INFO - Clicked on New mail and Send mail window opened
+2025-11-05 14:03:06,113 - INFO - To email id is set correctly
+2025-11-05 14:03:10,216 - INFO - Cc email id is set correctly
+2025-11-05 14:03:12,106 - INFO - Subject is set correctly
+2025-11-05 14:03:22,147 - INFO - Text in body is set correctly
+2025-11-05 14:03:27,575 - INFO - Clicked on Attach File...
+2025-11-05 14:03:28,621 - INFO - Recent items window is open
+2025-11-05 14:03:29,014 - ERROR - Item 'Copy of QA_intern_training_desktop_automation (002).xlsx' not found.
+2025-11-05 14:03:49,061 - ERROR - Failed to attach file: timed out
+2025-11-05 14:03:54,179 - ERROR - Failed to click on Send: No Windows of that application are active
+2025-11-05 14:04:19,100 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x00000289A12C9450>' closed successfully.
+2025-11-05 14:04:29,213 - INFO - Unread clicked
+2025-11-05 14:04:33,519 - INFO - Right-clicked on the selected option.
+2025-11-05 14:04:35,150 - INFO - Email marked as read.
+2025-11-05 14:04:42,898 - INFO - Found 8 mail items
+2025-11-05 14:04:43,598 - INFO - Most recent email: uia_controls.ListItemWrapper - 'To Swapnali K, Subject Request : ##RE-114119## raised by you was closed, Sent Tue 7:55 PM, Size 29 KB, Flag Status Unflagged, Preview Dear Swapnali K,  	     	  Thank you for contacting the Managed Service Support team.  	  This message is to confirm that we have resolved your ticket : 114119  	     	  Ticket No  	114119  	  Subject  	Headset Required.  	  Engineer Name  	Vaibhav M  	  , ', DataItem
+2025-11-05 14:04:46,714 - INFO - Right-clicked on the selected option.
+2025-11-05 14:04:50,835 - INFO - Email marked as unread.
+2025-11-05 14:05:00,034 - INFO - Successfully clicked on 'Inbox' menu item.
+2025-11-05 14:08:46,976 - INFO - New Email clicked
+2025-11-05 14:08:48,071 - INFO - Clicked on New mail and Send mail window opened
+2025-11-05 14:08:52,066 - INFO - To email id is set correctly
+2025-11-05 14:08:56,041 - INFO - Cc email id is set correctly
+2025-11-05 14:08:57,773 - INFO - Subject is set correctly
+2025-11-05 14:09:07,176 - INFO - Text in body is set correctly
+2025-11-05 14:09:12,779 - INFO - Clicked on Attach File...
+2025-11-05 14:09:13,920 - INFO - Recent items window is open
+2025-11-05 14:09:14,402 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-11-05 14:09:15,247 - INFO - Attach Popup is occurred..
+2025-11-05 14:09:20,640 - INFO - Attach as Copy option is selected
+2025-11-05 14:09:26,073 - INFO - Clicked on Send
+2025-11-05 14:09:28,719 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x000001D40B519450>' closed successfully.
+2025-11-05 14:09:36,175 - INFO - Unread clicked
+2025-11-05 14:09:40,396 - INFO - Right-clicked on the selected option.
+2025-11-05 14:09:44,385 - INFO - Email marked as unread.
+2025-11-05 14:09:51,349 - INFO - Found 7 mail items
+2025-11-05 14:09:51,883 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Demo subject, Sent 2:10 PM, Size 42 KB, Flag Status Unflagged, Preview Hello, Swapnali K.         This is the body of the page….!         Best Regards,    Swapnali K.    Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confidential and privileged info, ', DataItem
+2025-11-05 14:09:54,995 - INFO - Right-clicked on the selected option.
+2025-11-05 14:09:56,659 - INFO - Email marked as read.
+2025-11-05 14:10:04,001 - INFO - Successfully clicked on 'Inbox' menu item.
+2025-11-05 14:10:05,570 - INFO - Clicked email with subject: Demo subject
+2025-11-05 14:10:16,441 - INFO - Edited message in reply
+2025-11-05 14:10:22,044 - INFO - Clicked on Send
+2025-11-05 14:10:49,471 - INFO - Successfully clicked on '.*Sent Items.*' menu item.
+2025-11-05 14:10:49,472 - INFO - Successfully clicked on sent item.
+2025-11-05 14:10:51,172 - INFO - Clicked email with subject: Demo subject
+2025-11-05 14:10:54,561 - INFO - Right-clicked on the selected option.
+2025-11-05 14:10:55,825 - INFO - Clicked on Delete
+2025-11-05 14:11:03,953 - INFO - Click on Contact View from Search Bar
+2025-11-05 14:11:05,877 - INFO - Clicked on New Contact button
+2025-11-05 14:11:06,995 - INFO - New contact dialog opened
+2025-11-05 14:11:09,615 - INFO - All details are entered
+2025-11-05 14:11:10,298 - INFO - Clicked on Save and Close button
+2025-11-05 14:11:20,842 - INFO - Successfully clicked on '.*Inbox.*' menu item.
+2025-11-05 14:11:20,843 - INFO - Successfully clicked on inbox.
+2025-11-05 14:11:23,711 - INFO - Found 8 mail items
+2025-11-05 14:11:23,818 - INFO - Selected email with subject: To Swapnali K, Subject RE: Demo subject, Sent 2:10 PM, Size 7 KB, Flag Status Unflagged, Preview Hello, Swapnali K.    This is Reply Testcase..!    Best Regards, Swapnali K        From: Swapnali K <swapnalik@futurismtechnologies.com>  Sent: Wednesday, November 5, 2025 2:10 PM  To: Swapnali K <swapnalik@futurismtechnologies.com>  Cc: Swapnali K <swapn, 
+2025-11-05 14:11:27,421 - INFO - Right-clicked on the selected option.
+2025-11-05 14:11:28,651 - INFO - Clicked on Move
+2025-11-05 14:11:29,286 - INFO - Clicked on Archive
+2025-11-05 14:11:36,712 - INFO - Successfully clicked on '.*Inbox.*' menu item.
+2025-11-05 14:11:36,712 - INFO - Clicked on Inbox
+2025-11-05 14:11:37,899 - INFO - Categorized menu clicked
+2025-11-05 14:11:40,304 - INFO - Clicked on 'Blue Category'
+2025-11-05 14:11:40,667 - INFO - Total mails:7
+2025-11-05 14:11:41,208 - INFO - Most recent email: uia_controls.ListItemWrapper - 'To Swapnali K, Subject FW: Demo subject, Sent 10/16/2025, Size 13 KB, Categories Blue Category, Flag Status Unflagged, Preview Hello, Swapnali K.         This is Forward Testcase..!         Best Regards, Swapnali K                   From: Swapnali K <swapnalik@futurismtechnologies.com>   Sent: Wednesday, October 15, 2025 3:22 PM  To: Swapnali K <swapnalik@futurismtechnologies.com, ', DataItem
+2025-11-05 14:11:42,566 - INFO - Forward clicked
+2025-11-05 14:11:44,437 - INFO - Pop Out clicked
+2025-11-05 14:11:44,437 - INFO - Clicked on Pop Out
+2025-11-05 14:11:45,598 - INFO - Forward window is visible
+2025-11-05 14:11:46,756 - INFO - to_field typed successfully
+2025-11-05 14:11:47,869 - INFO - Cc typed successfully
+2025-11-05 14:11:56,880 - INFO - Clicked on Send
+2025-11-05 14:11:58,454 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x000001D40B2D3E70>' closed successfully.
+2025-11-05 14:12:00,752 - INFO - Search bar cleared.
+2025-11-05 14:12:10,628 - INFO - Successfully clicked on '.*Deleted Items:.*' menu item.
+2025-11-05 14:12:10,629 - INFO - Clicked on Deleted Items
+2025-11-05 14:12:12,035 - INFO - Recover items recently removed from this folder clicked
+2025-11-05 14:12:30,592 - INFO - Searched contact: aarti t
+2025-11-05 14:12:32,592 - INFO - Search contact: aarti t
+2025-11-05 14:12:40,475 - INFO - Clicked on contact
+2025-11-05 14:12:42,735 - INFO - New Contact Group clicked
+2025-11-05 14:12:43,350 - INFO - New contact grp dialog opened
+2025-11-05 14:12:43,724 - INFO - Entered contact group name
+2025-11-05 14:12:44,005 - INFO - Clicked on Add Members button
+2025-11-05 14:12:44,589 - INFO - Clicked on From Address Book button
+2025-11-05 14:12:44,589 - INFO - Select member dialog is opened
+2025-11-05 14:12:47,188 - INFO - Entered 'Aarti T' and pressed Enter
+2025-11-05 14:12:49,563 - INFO - Search bar is cleared
+2025-11-05 14:12:52,165 - INFO - Clicked on OK button
+2025-11-05 14:12:53,270 - INFO - Clicked on Save & Close button
+2025-11-05 14:12:55,143 - INFO - Clicked on New Item button
+2025-11-05 14:12:55,794 - INFO - Clicked on E-mail Message menu item
+2025-11-05 14:12:58,971 - INFO - Send mail window is opened
+2025-11-05 14:12:59,895 - INFO - Group name is entered
+2025-11-05 14:12:59,895 - INFO - To field is entered
+2025-11-05 14:13:01,387 - INFO - Subject is entered
+2025-11-05 14:13:11,472 - INFO - Page 1 content has been entered
+2025-11-05 14:13:16,830 - INFO - Clicked on Send
+2025-11-05 14:13:18,290 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x000001D40B6817F0>' closed successfully.
+2025-11-05 14:13:29,840 - ERROR - Failed to click on '.*Sent Items:.*' menu item: timed out
+2025-11-05 14:13:31,278 - INFO - Clicked email with subject: Demo subject
+2025-11-05 14:13:34,396 - INFO - Right-clicked on the selected option.
+2025-11-05 14:13:36,144 - INFO - Move clicked
+2025-11-05 14:13:37,417 - INFO - Other Folder clicked
+2025-11-05 14:13:38,821 - INFO - Task clicked
+2025-11-05 14:13:39,423 - INFO - Clicked on OK
+2025-11-05 14:13:41,307 - INFO - New Task window is opened
+2025-11-05 14:13:41,615 - INFO - Due date set to 12/12/2025
+2025-11-05 14:13:42,218 - INFO - Priority set to High
+2025-11-05 14:13:42,544 - INFO - Reminder checkbox is checked
+2025-11-05 14:13:42,922 - INFO - Reminder date set to 30/12/2025
+2025-11-05 14:13:43,802 - INFO - Time set to 02:30 PM
+2025-11-05 14:13:44,475 - INFO - Clicked on Save and Close
+2025-11-05 14:13:45,996 - INFO - Tasks clicked
+2025-11-05 14:13:46,661 - INFO - task_to_do_dlg is opened
+2025-11-05 14:14:11,578 - ERROR - Failed to click 'Tasks' button: {'title': 'Group By: Expanded:Flag: Due Date: Next Month', 'control_type': 'Group', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - 'Tasks - swapnalik@futurismtechnologies.com - Outlook', rctrl_renwnd32, 1972252>, 'backend': 'uia'}
+2025-11-05 14:14:18,975 - INFO - Successfully clicked on '.*Inbox.*' menu item.
+2025-11-05 14:14:21,619 - INFO - Found 8 mail items
+2025-11-05 14:14:21,733 - INFO - Selected email with subject:To Swapnali K, Subject FW: Demo subject, Sent 2:12 PM, Size 16 KB, Flag Status Unflagged, Preview Hello, Swapnali K.    This is Forward Testcase..!    Best Regards, Swapnali K        From: Swapnali K  Sent: Thursday, October 16, 2025 1:32 PM  To: Swapnali K <swapnalik@futurismtechnologies.com>  Cc: Swapnali K <swapnalik@futurismtechnologies.com>  Subj, 
+2025-11-05 14:14:25,303 - INFO - Right-clicked on the selected option.
+2025-11-05 14:14:26,264 - INFO - Clicked on Follow Up
+2025-11-05 14:14:26,699 - INFO - Found 11 sub menu items
+2025-11-05 14:14:26,818 - INFO - Clicked on No Date flag:
+2025-11-05 14:14:27,669 - INFO - Clicked on inbox menu
+2025-11-05 14:14:28,037 - INFO - Right-clicked on inbox menu
+2025-11-05 14:14:38,298 - ERROR - Context menu not found: timed out
+2025-11-05 14:14:38,298 - ERROR - Failed to click on 'Create New Folder' menu item:timed out
+2025-11-05 14:14:48,641 - ERROR - Failed to create folder:timed out
+2025-11-05 14:14:49,757 - INFO - Right clicked on selected mail
+2025-11-05 14:14:54,760 - ERROR - Failed to move email to Demo folder via Move menu: {'title': 'Move', 'control_type': 'MenuItem', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - 'Inbox - swapnalik@futurismtechnologies.com - Outlook', rctrl_renwnd32, 6492942>, 'backend': 'uia'}
+2025-11-05 14:15:05,220 - ERROR - Error occurred:SendInput() inserted only 0 out of 2 keyboard events
+2025-11-05 14:15:06,072 - ERROR - Failed to click on Attachment options button:control Attachment options not found: Attachment options not found
+2025-11-05 14:15:16,248 - ERROR - Context menu not found: timed out
+2025-11-05 14:15:16,248 - ERROR - Error occurred while trying to click 'Save As': timed out
+2025-11-05 14:15:30,029 - INFO - File tab clicked
+2025-11-05 14:15:35,358 - ERROR -  Failed to click 'Manage Rules & Alerts': timed out
+2025-11-05 15:06:04,049 - INFO - New Email clicked
+2025-11-05 15:06:05,711 - INFO - Clicked on New mail and Send mail window opened
+2025-11-05 15:06:09,801 - INFO - To email id is set correctly
+2025-11-05 15:06:13,820 - INFO - Cc email id is set correctly
+2025-11-05 15:06:15,667 - INFO - Subject is set correctly
+2025-11-05 15:06:25,368 - INFO - Text in body is set correctly
+2025-11-05 15:06:30,487 - ERROR - Failed to click on Attach File...: No Windows of that application are active
+2025-11-05 15:06:50,845 - INFO - Unread clicked
+2025-11-05 15:06:55,934 - INFO - Right-clicked on the selected option.
+2025-11-05 15:06:57,653 - INFO - Email marked as read.
+2025-11-05 15:07:05,330 - INFO - Found 7 mail items
+2025-11-05 15:07:05,982 - INFO - Most recent email: uia_controls.ListItemWrapper - 'Subject 🚨 Security Alert: Beware of Fake “PM Kisan.apk” File on WhatsApp – Mobile Hacking Incident Reported, Sent 2:17 PM, Size 795 KB, Flag Status Unflagged, Preview Dear Team,  We would like to bring to your attention a recent mobile security incident involving a malicious Android application file named “PM Kisan.apk” that was received via WhatsApp. Upon installation, the user’s mobile device was compromised, leading, ', DataItem
+2025-11-05 15:07:09,095 - INFO - Right-clicked on the selected option.
+2025-11-05 15:07:10,792 - INFO - Email marked as read.
+2025-11-05 15:07:20,008 - INFO - Successfully clicked on 'Inbox' menu item.
+2025-11-05 15:07:21,978 - INFO - Clicked email with subject: Demo subject
+2025-11-05 15:07:32,574 - INFO - Edited message in reply
+2025-11-05 15:07:38,186 - INFO - Clicked on Send
+2025-11-05 15:08:07,627 - INFO - Successfully clicked on '.*Sent Items.*' menu item.
+2025-11-05 15:08:07,627 - INFO - Successfully clicked on sent item.
+2025-11-05 15:08:10,997 - INFO - Clicked email with subject: Demo subject
+2025-11-05 15:08:14,216 - INFO - Right-clicked on the selected option.
+2025-11-05 15:08:19,604 - ERROR - Failed to click on Delete mail: timed out
+2025-11-05 15:08:30,046 - INFO - Click on Contact View from Search Bar
+2025-11-05 15:08:31,269 - INFO - Clicked on New Contact button
+2025-11-05 15:08:32,395 - INFO - New contact dialog opened
+2025-11-05 15:08:35,085 - INFO - All details are entered
+2025-11-05 15:08:35,738 - INFO - Clicked on Save and Close button
+2025-11-05 15:08:46,386 - INFO - Successfully clicked on '.*Inbox.*' menu item.
+2025-11-05 15:08:46,387 - INFO - Successfully clicked on inbox.
+2025-11-05 15:08:49,248 - INFO - Found 8 mail items
+2025-11-05 15:08:49,379 - INFO - Selected email with subject: To Swapnali K, Subject FW: Demo subject, Sent 2:12 PM, Size 10 KB, Flag Status Unflagged, Preview Hello, Swapnali K.    This is Forward Testcase..!    Best Regards, Swapnali K        From: Swapnali K  Sent: Thursday, October 16, 2025 1:32 PM  To: Swapnali K <swapnalik@futurismtechnologies.com>  Cc: Swapnali K <swapnalik@futurismtechnologies.com>  Subj, 
+2025-11-05 15:08:53,183 - INFO - Right-clicked on the selected option.
+2025-11-05 15:08:54,413 - INFO - Clicked on Move
+2025-11-05 15:08:55,099 - INFO - Clicked on Archive
+2025-11-05 15:09:05,384 - INFO - Successfully clicked on '.*Inbox.*' menu item.
+2025-11-05 15:09:05,384 - INFO - Clicked on Inbox
+2025-11-05 15:09:10,985 - ERROR - Failed to select blue category item:{'title': 'Categorized', 'control_type': 'MenuItem', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - 'Inbox - swapnalik@futurismtechnologies.com - Outlook', rctrl_renwnd32, 2497926>, 'backend': 'uia'}
+2025-11-05 15:09:21,021 - INFO - Successfully clicked on '.*Deleted Items:.*' menu item.
+2025-11-05 15:09:21,022 - INFO - Clicked on Deleted Items
+2025-11-05 15:09:32,847 - INFO - Searched contact: aarti t
+2025-11-05 15:09:34,848 - INFO - Search contact: aarti t
+2025-11-05 15:09:45,387 - INFO - Clicked on contact
+2025-11-05 15:09:47,112 - INFO - New Contact Group clicked
+2025-11-05 15:09:47,764 - INFO - New contact grp dialog opened
+2025-11-05 15:09:48,158 - INFO - Entered contact group name
+2025-11-05 15:09:48,447 - INFO - Clicked on Add Members button
+2025-11-05 15:09:49,035 - INFO - Clicked on From Address Book button
+2025-11-05 15:09:49,035 - INFO - Select member dialog is opened
+2025-11-05 15:09:51,703 - INFO - Entered 'Aarti T' and pressed Enter
+2025-11-05 15:09:54,073 - INFO - Search bar is cleared
+2025-11-05 15:09:56,725 - INFO - Clicked on OK button
+2025-11-05 15:09:57,797 - INFO - Clicked on Save & Close button
+2025-11-05 15:09:59,755 - INFO - Clicked on New Item button
+2025-11-05 15:10:00,355 - INFO - Clicked on E-mail Message menu item
+2025-11-05 15:10:03,607 - INFO - Send mail window is opened
+2025-11-05 15:10:04,546 - INFO - Group name is entered
+2025-11-05 15:10:04,546 - INFO - To field is entered
+2025-11-05 15:10:06,124 - INFO - Subject is entered
+2025-11-05 15:10:16,373 - INFO - Page 1 content has been entered
+2025-11-05 15:10:21,794 - INFO - Clicked on Send
+2025-11-05 15:10:23,401 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x0000025236E6DFD0>' closed successfully.
+2025-11-05 15:10:36,017 - ERROR - Failed to click on '.*Sent Items:.*' menu item: timed out
+2025-11-05 15:10:37,462 - INFO - Clicked email with subject: Demo subject
+2025-11-05 15:10:40,583 - INFO - Right-clicked on the selected option.
+2025-11-05 15:10:42,362 - INFO - Move clicked
+2025-11-05 15:10:43,702 - INFO - Other Folder clicked
+2025-11-05 15:10:45,123 - INFO - Task clicked
+2025-11-05 15:10:45,725 - INFO - Clicked on OK
+2025-11-05 15:10:47,648 - INFO - New Task window is opened
+2025-11-05 15:10:47,970 - INFO - Due date set to 12/12/2025
+2025-11-05 15:10:48,621 - INFO - Priority set to High
+2025-11-05 15:10:48,957 - INFO - Reminder checkbox is checked
+2025-11-05 15:10:49,322 - INFO - Reminder date set to 30/12/2025
+2025-11-05 15:10:50,213 - INFO - Time set to 02:30 PM
+2025-11-05 15:10:50,849 - INFO - Clicked on Save and Close
+2025-11-05 15:10:52,148 - INFO - Tasks clicked
+2025-11-05 15:10:53,006 - INFO - task_to_do_dlg is opened
+2025-11-05 15:11:19,646 - ERROR - Failed to click 'Tasks' button: {'title': 'Group By: Expanded:Flag: Due Date: Next Month', 'control_type': 'Group', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - 'Tasks - swapnalik@futurismtechnologies.com - Outlook', rctrl_renwnd32, 3347848>, 'backend': 'uia'}
+2025-11-05 15:11:28,171 - INFO - Successfully clicked on '.*Inbox.*' menu item.
+2025-11-05 15:11:30,308 - INFO - Found 8 mail items
+2025-11-05 15:11:30,429 - INFO - Selected email with subject:Importance High, With Attachments, Subject RE: Demo subject, Sent 3:11 PM, Size 22 KB, Start Date None, Due Date None, Flag Status Unflagged, 
+2025-11-05 15:11:33,948 - INFO - Right-clicked on the selected option.
+2025-11-05 15:11:35,195 - INFO - Clicked on Follow Up
+2025-11-05 15:11:35,743 - INFO - Found 11 sub menu items
+2025-11-05 15:11:35,945 - INFO - Clicked on No Date flag:
+2025-11-05 15:11:37,122 - INFO - Clicked on inbox menu
+2025-11-05 15:11:37,570 - INFO - Right-clicked on inbox menu
+2025-11-05 15:11:38,890 - INFO - Clicked on Create New Folder menu item
+2025-11-05 15:11:39,987 - INFO - Create New Folder window is visible
+2025-11-05 15:11:43,326 - INFO - Demo folder is created
+2025-11-05 15:11:44,926 - INFO - Right clicked on selected mail
+2025-11-05 15:11:45,413 - INFO - Opened Move menu
+2025-11-05 15:11:47,708 - INFO - Located Move submenu
+2025-11-05 15:11:48,478 - INFO - Found GroupBox inside Move submenu
+2025-11-05 15:11:50,196 - INFO - Successfully moved email to Demo folder
+2025-11-05 15:12:03,805 - INFO - Deleted folder successfully
+2025-11-05 15:12:04,461 - INFO - Delete pop-up appeared.
+2025-11-05 15:12:05,264 - INFO - Clicked Yes to delete the folder.
+2025-11-05 15:12:15,459 - INFO - Found 8 mail items
+2025-11-05 15:12:15,565 - INFO - Selected email is open
+2025-11-05 15:12:16,605 - ERROR - Failed to click on Attachment options button:control Attachment options not found: Attachment options not found
+2025-11-05 15:12:26,936 - ERROR - Context menu not found: timed out
+2025-11-05 15:12:26,936 - ERROR - Error occurred while trying to click 'Save As': timed out
+2025-11-05 15:12:40,301 - INFO - File tab clicked
+2025-11-05 15:12:45,686 - INFO - Clicked on 'Manage Rules & Alerts successfully.
+2025-11-05 15:12:46,767 - INFO - Rule and Alert window is visible
+2025-11-05 15:12:47,407 - INFO - New Rule... clicked
+2025-11-05 15:12:48,467 - INFO - Rules Wizard window is visible
+2025-11-05 15:12:50,852 - INFO - Next > in Wizard window clicked
+2025-11-05 15:12:52,484 - INFO - Condition1:Unchecked from people or public group
+2025-11-05 15:12:54,007 - INFO - Condition2:Checked with specific words in the subject)
+2025-11-05 15:12:55,511 - INFO - Condition3:Checked through the specified account
+2025-11-05 15:12:57,046 - INFO - Condition4: Checked sent only to me
+2025-11-05 15:12:57,837 - INFO - Clicked via keystrokes
+2025-11-05 15:12:59,332 - INFO - Dialog for through the specified account appeared.
+2025-11-05 15:13:00,201 - INFO - Clicked OK button in Account dialog
+2025-11-05 15:13:01,561 - INFO - Clicked 'with specific words in the subject' via keystrokes
+2025-11-05 15:13:03,199 - INFO - Search Text dlg is visible
+2025-11-05 15:13:05,188 - INFO - Text is entered in search box
+2025-11-05 15:13:06,122 - INFO - Clicked on Add button
+2025-11-05 15:13:07,041 - INFO - Clicked on OK button
+2025-11-05 15:13:08,345 - INFO - Clicked 'with specific words in the subject' via keystrokes
+2025-11-05 15:13:10,028 - INFO - Rules and Alerts dlg is visible
+2025-11-05 15:13:10,972 - INFO - Clicked on Inbox folder
+2025-11-05 15:13:11,958 - INFO - Clicked OK button
+2025-11-05 15:13:15,202 - INFO - Clicked Next button 2
+2025-11-05 15:13:16,743 - INFO - process_rule:Unchecked from people or public group
+2025-11-05 15:13:19,366 - INFO - Clicked Next button 3
+2025-11-05 15:13:22,443 - INFO - Clicked Next button 4
+2025-11-05 15:13:23,046 - INFO - Clicked Finish button
+2025-11-05 15:13:24,618 - INFO - Clicked OK button
+2025-11-05 15:13:25,145 - INFO - Clicked Apply button
+2025-11-05 15:13:27,862 - INFO - Clicked OK button
+2025-11-05 15:17:47,015 - INFO - New Email clicked
+2025-11-05 15:17:48,107 - INFO - Clicked on New mail and Send mail window opened
+2025-11-05 15:17:52,143 - INFO - To email id is set correctly
+2025-11-05 15:17:56,287 - INFO - Cc email id is set correctly
+2025-11-05 15:17:58,174 - INFO - Subject is set correctly
+2025-11-05 15:18:08,213 - INFO - Text in body is set correctly
+2025-11-05 15:18:13,642 - INFO - Clicked on Attach File...
+2025-11-05 15:18:14,709 - INFO - Recent items window is open
+2025-11-05 15:18:15,529 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-11-05 15:18:16,450 - INFO - Attach Popup is occurred..
+2025-11-05 15:18:21,968 - INFO - Attach as Copy option is selected
+2025-11-05 15:18:27,117 - ERROR - Failed to click on Send: No Windows of that application are active
+2025-11-05 15:19:17,263 - WARNING - Timeout waiting for window to close. Mail might not be sent yet.Error:timed out
+2025-11-05 15:19:25,835 - INFO - Unread clicked
+2025-11-05 15:19:31,498 - INFO - Right-clicked on the selected option.
+2025-11-05 15:19:37,292 - ERROR - Failed to interact with context menu:{'title': 'Context Menu', 'control_type': 'Menu', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - 'Inbox - swapnalik@futurismtechnologies.com - Outlook', rctrl_renwnd32, 80020986>, 'backend': 'uia'}
+2025-11-05 15:19:44,209 - INFO - Found 7 mail items
+2025-11-05 15:19:44,729 - INFO - Most recent email: uia_controls.ListItemWrapper - 'To Aarti T; Swapnali K, Subject Demo group, Sent 3:11 PM, Size 16 KB, Flag Status Unflagged, Preview Hello, demo group.         This is dummy group for demo purpose…!         Best Regards,    Swapnali K.    Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confidential and privileg, ', DataItem
+2025-11-05 15:19:47,852 - INFO - Right-clicked on the selected option.
+2025-11-05 15:19:51,941 - INFO - Email marked as unread.
+2025-11-05 15:19:59,518 - INFO - Successfully clicked on 'Inbox' menu item.
+2025-11-05 15:20:01,019 - INFO - Clicked email with subject: Demo subject
+2025-11-05 15:20:13,545 - INFO - Edited message in reply
+2025-11-05 15:20:18,657 - ERROR - Failed to click on Send: No Windows of that application are active
+2025-11-05 15:40:10,401 - INFO - New Email clicked
+2025-11-05 15:40:11,541 - INFO - Clicked on New mail and Send mail window opened
+2025-11-05 15:40:15,939 - INFO - To email id is set correctly
+2025-11-05 15:40:19,996 - INFO - Cc email id is set correctly
+2025-11-05 15:40:21,787 - INFO - Subject is set correctly
+2025-11-05 15:40:31,331 - INFO - Text in body is set correctly
+2025-11-05 15:40:36,742 - INFO - Clicked on Attach File...
+2025-11-05 15:40:37,962 - INFO - Recent items window is open
+2025-11-05 15:40:38,465 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-11-05 15:40:39,374 - INFO - Attach Popup is occurred..
+2025-11-05 15:40:44,768 - INFO - Attach as Copy option is selected
+2025-11-05 15:40:50,237 - INFO - Clicked on Send
+2025-11-05 15:40:52,941 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x000002C327059450>' closed successfully.
+2025-11-05 15:41:01,141 - INFO - Unread clicked
+2025-11-05 15:41:05,364 - INFO - Right-clicked on the selected option.
+2025-11-05 15:41:07,078 - INFO - Email marked as read.
+2025-11-05 15:41:14,124 - INFO - Found 7 mail items
+2025-11-05 15:41:14,626 - INFO - Most recent email: uia_controls.ListItemWrapper - 'To Aarti T; Swapnali K, Subject Demo group, Sent 3:11 PM, Size 16 KB, Flag Status Unflagged, Preview Hello, demo group.         This is dummy group for demo purpose…!         Best Regards,    Swapnali K.    Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confidential and privileg, ', DataItem
+2025-11-05 15:41:17,840 - INFO - Right-clicked on the selected option.
+2025-11-05 15:41:21,912 - INFO - Email marked as unread.
+2025-11-05 15:41:30,426 - INFO - Successfully clicked on 'Inbox' menu item.
+2025-11-05 15:41:31,995 - INFO - Clicked email with subject: Demo subject
+2025-11-05 15:41:44,907 - INFO - Successfully clicked on '.*Sent Items.*' menu item.
+2025-11-05 15:41:44,907 - INFO - Successfully clicked on sent item.
+2025-11-05 15:41:46,611 - INFO - Clicked email with subject: Demo subject
+2025-11-05 15:41:49,882 - INFO - Right-clicked on the selected option.
+2025-11-05 15:41:51,128 - INFO - Clicked on Delete
+2025-11-05 15:42:00,193 - INFO - Click on Contact View from Search Bar
+2025-11-05 15:42:02,015 - INFO - Clicked on New Contact button
+2025-11-05 15:42:03,140 - INFO - New contact dialog opened
+2025-11-05 15:42:05,864 - INFO - All details are entered
+2025-11-05 15:42:06,482 - INFO - Clicked on Save and Close button
+2025-11-05 15:42:19,477 - INFO - Successfully clicked on '.*Inbox.*' menu item.
+2025-11-05 15:42:19,478 - INFO - Successfully clicked on inbox.
+2025-11-05 15:42:22,317 - INFO - Found 8 mail items
+2025-11-05 15:42:22,437 - INFO - Selected email with subject: Importance High, With Attachments, Subject RE: Demo subject, Sent 3:11 PM, Size 22 KB, Start Date None, Due Date None, Flag Status Unflagged, 
+2025-11-05 15:42:26,591 - INFO - Right-clicked on the selected option.
+2025-11-05 15:42:28,074 - INFO - Clicked on Move
+2025-11-05 15:42:28,842 - INFO - Clicked on Archive
+2025-11-05 15:42:38,473 - INFO - Successfully clicked on '.*Inbox.*' menu item.
+2025-11-05 15:42:38,473 - INFO - Clicked on Inbox
+2025-11-05 15:42:39,610 - INFO - Categorized menu clicked
+2025-11-05 15:42:41,514 - INFO - Clicked on 'Blue Category'
+2025-11-05 15:42:41,852 - INFO - Total mails:0
+2025-11-05 15:42:41,852 - ERROR - Failed to click on recent mail:No emails found in the inbox
+2025-11-05 15:42:50,180 - INFO - Successfully clicked on '.*Deleted Items:.*' menu item.
+2025-11-05 15:42:50,180 - INFO - Clicked on Deleted Items
+2025-11-05 15:42:51,301 - INFO - Recover items recently removed from this folder clicked
+2025-11-05 15:42:54,557 - INFO - Recover deleted items window is visible
+2025-11-05 15:42:56,970 - INFO - Clicked on first item
+2025-11-05 15:42:59,127 - INFO - Ok clicked
+2025-11-05 15:43:07,451 - INFO - Searched contact: aarti t
+2025-11-05 15:43:09,452 - INFO - Search contact: aarti t
+2025-11-05 15:43:17,825 - INFO - Clicked on contact
+2025-11-05 15:43:20,132 - INFO - New Contact Group clicked
+2025-11-05 15:43:20,815 - INFO - New contact grp dialog opened
+2025-11-05 15:43:21,182 - INFO - Entered contact group name
+2025-11-05 15:43:21,487 - INFO - Clicked on Add Members button
+2025-11-05 15:43:21,989 - INFO - Clicked on From Address Book button
+2025-11-05 15:43:21,989 - INFO - Select member dialog is opened
+2025-11-05 15:43:24,591 - INFO - Entered 'Aarti T' and pressed Enter
+2025-11-05 15:43:26,961 - INFO - Search bar is cleared
+2025-11-05 15:43:29,565 - INFO - Clicked on OK button
+2025-11-05 15:43:30,669 - INFO - Clicked on Save & Close button
+2025-11-05 15:43:32,694 - INFO - Clicked on New Item button
+2025-11-05 15:43:33,430 - INFO - Clicked on E-mail Message menu item
+2025-11-05 15:43:36,887 - INFO - Send mail window is opened
+2025-11-05 15:43:37,928 - INFO - Group name is entered
+2025-11-05 15:43:37,929 - INFO - To field is entered
+2025-11-05 15:43:39,592 - INFO - Subject is entered
+2025-11-05 15:43:49,952 - INFO - Page 1 content has been entered
+2025-11-05 15:43:55,419 - INFO - Clicked on Send
+2025-11-05 15:43:57,066 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x000002C3271E27B0>' closed successfully.
+2025-11-05 15:44:10,763 - ERROR - Failed to click on '.*Sent Items:.*' menu item: timed out
+2025-11-05 15:44:12,210 - INFO - Clicked email with subject: Demo subject
+2025-11-05 15:44:15,526 - INFO - Right-clicked on the selected option.
+2025-11-05 15:44:17,276 - INFO - Move clicked
+2025-11-05 15:44:18,615 - INFO - Other Folder clicked
+2025-11-05 15:44:19,986 - INFO - Task clicked
+2025-11-05 15:44:20,605 - INFO - Clicked on OK
+2025-11-05 15:44:22,848 - INFO - New Task window is opened
+2025-11-05 15:44:23,183 - INFO - Due date set to 12/12/2025
+2025-11-05 15:44:23,886 - INFO - Priority set to High
+2025-11-05 15:44:24,251 - INFO - Reminder checkbox is checked
+2025-11-05 15:44:24,794 - INFO - Reminder date set to 30/12/2025
+2025-11-05 15:44:25,747 - INFO - Time set to 02:30 PM
+2025-11-05 15:44:26,377 - INFO - Clicked on Save and Close
+2025-11-05 15:44:27,898 - INFO - Tasks clicked
+2025-11-05 15:44:28,709 - INFO - task_to_do_dlg is opened
+2025-11-05 15:44:55,023 - ERROR - Failed to click 'Tasks' button: {'title': 'Group By: Expanded:Flag: Due Date: Next Month', 'control_type': 'Group', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - 'Tasks - swapnalik@futurismtechnologies.com - Outlook', rctrl_renwnd32, 1841796>, 'backend': 'uia'}
+2025-11-05 15:45:04,474 - INFO - Successfully clicked on '.*Inbox.*' menu item.
+2025-11-05 15:45:06,951 - INFO - Found 8 mail items
+2025-11-05 15:45:07,065 - INFO - Selected email with subject:To Swapnali K, Subject RE: Demo subject, Sent 3:40 PM, Size 49 KB, Flag Status Unflagged, Preview Hello, Swapnali K.    This    From: Swapnali K <swapnalik@futurismtechnologies.com>  Sent: Wednesday, November 5, 2025 2:10 PM  To: Swapnali K <swapnalik@futurismtechnologies.com>  Subject: RE: Demo subject    Hello, Swapnali K.    This is Reply Testcase., 
+2025-11-05 15:45:10,586 - INFO - Right-clicked on the selected option.
+2025-11-05 15:45:11,860 - INFO - Clicked on Follow Up
+2025-11-05 15:45:12,385 - INFO - Found 11 sub menu items
+2025-11-05 15:45:12,575 - INFO - Clicked on No Date flag:
+2025-11-05 15:45:13,891 - INFO - Clicked on inbox menu
+2025-11-05 15:45:14,356 - INFO - Right-clicked on inbox menu
+2025-11-05 15:45:15,710 - INFO - Clicked on Create New Folder menu item
+2025-11-05 15:45:16,900 - INFO - Create New Folder window is visible
+2025-11-05 15:45:20,413 - INFO - Demo folder is created
+2025-11-05 15:45:22,010 - INFO - Right clicked on selected mail
+2025-11-05 15:45:22,551 - INFO - Opened Move menu
+2025-11-05 15:45:24,865 - INFO - Located Move submenu
+2025-11-05 15:45:25,657 - INFO - Found GroupBox inside Move submenu
+2025-11-05 15:45:27,385 - INFO - Successfully moved email to Demo folder
+2025-11-05 15:45:45,342 - INFO - Deleted folder successfully
+2025-11-05 15:45:46,033 - INFO - Delete pop-up appeared.
+2025-11-05 15:45:46,867 - INFO - Clicked Yes to delete the folder.
+2025-11-05 15:45:57,217 - INFO - Found 8 mail items
+2025-11-05 15:45:57,337 - INFO - Selected email is open
+2025-11-05 15:45:58,369 - ERROR - Failed to click on Attachment options button:control Attachment options not found: Attachment options not found
+2025-11-05 15:46:08,481 - ERROR - Context menu not found: timed out
+2025-11-05 15:46:08,482 - ERROR - Error occurred while trying to click 'Save As': timed out
+2025-11-05 15:46:20,984 - INFO - File tab clicked
+2025-11-05 15:46:23,793 - INFO - Clicked on 'Manage Rules & Alerts successfully.
+2025-11-05 15:46:24,940 - INFO - Rule and Alert window is visible
+2025-11-05 15:46:25,582 - INFO - New Rule... clicked
+2025-11-05 15:46:26,611 - INFO - Rules Wizard window is visible
+2025-11-05 15:46:28,994 - INFO - Next > in Wizard window clicked
+2025-11-05 15:46:30,620 - INFO - Condition1:Unchecked from people or public group
+2025-11-05 15:46:32,079 - INFO - Condition2:Checked with specific words in the subject)
+2025-11-05 15:46:33,566 - INFO - Condition3:Checked through the specified account
+2025-11-05 15:46:35,101 - INFO - Condition4: Checked sent only to me
+2025-11-05 15:46:35,876 - INFO - Clicked via keystrokes
+2025-11-05 15:46:37,448 - INFO - Dialog for through the specified account appeared.
+2025-11-05 15:46:38,309 - INFO - Clicked OK button in Account dialog
+2025-11-05 15:46:39,684 - INFO - Clicked 'with specific words in the subject' via keystrokes
+2025-11-05 15:46:41,250 - INFO - Search Text dlg is visible
+2025-11-05 15:46:43,229 - INFO - Text is entered in search box
+2025-11-05 15:46:45,386 - INFO - Clicked on Add button
+2025-11-05 15:46:46,807 - INFO - Clicked on OK button
+2025-11-05 15:46:48,165 - INFO - Clicked 'with specific words in the subject' via keystrokes
+2025-11-05 15:46:49,914 - INFO - Rules and Alerts dlg is visible
+2025-11-05 15:46:50,902 - INFO - Clicked on Inbox folder
+2025-11-05 15:46:51,923 - INFO - Clicked OK button
+2025-11-05 15:46:55,100 - INFO - Clicked Next button 2
+2025-11-05 15:46:58,747 - INFO - process_rule:Unchecked from people or public group
+2025-11-05 15:47:01,422 - INFO - Clicked Next button 3
+2025-11-05 15:47:04,432 - INFO - Clicked Next button 4
+2025-11-05 15:47:05,052 - INFO - Clicked Finish button
+2025-11-05 15:47:06,673 - INFO - Clicked OK button
+2025-11-05 15:47:07,393 - INFO - Clicked Apply button
+2025-11-05 15:47:10,503 - INFO - Clicked OK button
+2025-11-05 20:03:50,992 - INFO - New Email clicked
+2025-11-05 20:03:52,290 - INFO - Clicked on New mail and Send mail window opened
+2025-11-05 20:03:56,378 - INFO - To email id is set correctly
+2025-11-05 20:04:00,439 - INFO - Cc email id is set correctly
+2025-11-05 20:04:02,249 - INFO - Subject is set correctly
+2025-11-05 20:04:12,136 - INFO - Text in body is set correctly
+2025-11-05 20:04:17,567 - INFO - Clicked on Attach File...
+2025-11-05 20:04:18,949 - INFO - Recent items window is open
+2025-11-05 20:04:19,489 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-11-05 20:04:29,250 - INFO - Attach Popup is occurred..
+2025-11-05 20:04:34,677 - INFO - Attach as Copy option is selected
+2025-11-05 20:04:40,178 - INFO - Clicked on Send
+2025-11-05 20:04:42,679 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x000001C2BF736850>' closed successfully.
+2025-11-05 20:09:53,771 - INFO - New Email clicked
+2025-11-05 20:09:55,353 - INFO - Clicked on New mail and Send mail window opened
+2025-11-05 20:09:59,402 - INFO - To email id is set correctly
+2025-11-05 20:10:03,454 - INFO - Cc email id is set correctly
+2025-11-05 20:10:05,288 - INFO - Subject is set correctly
+2025-11-05 20:10:15,320 - INFO - Text in body is set correctly
+2025-11-05 20:10:20,752 - INFO - Clicked on Attach File...
+2025-11-05 20:10:21,975 - INFO - Recent items window is open
+2025-11-05 20:10:22,508 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-11-05 20:10:23,467 - INFO - Attach Popup is occurred..
+2025-11-05 20:10:28,880 - INFO - Attach as Copy option is selected
+2025-11-05 20:10:49,704 - INFO - Unread clicked
+2025-11-05 20:10:53,924 - INFO - Right-clicked on the selected option.
+2025-11-05 20:10:58,180 - INFO - Email marked as unread.
+2025-11-05 20:11:14,976 - INFO - Found 7 mail items
+2025-11-05 20:11:15,525 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Demo subject, Sent 8:06 PM, Size 42 KB, Flag Status Unflagged, Preview Hello, Swapnali K.         This is the body of the page….!         Best Regards,    Swapnali K.    Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confidential and privileged info, ', DataItem
+2025-11-05 20:11:18,993 - INFO - Right-clicked on the selected option.
+2025-11-05 20:11:20,860 - INFO - Email marked as read.
+2025-11-05 20:12:09,931 - INFO - Unread clicked
+2025-11-05 20:12:14,152 - INFO - Right-clicked on the selected option.
+2025-11-05 20:12:16,050 - INFO - Email marked as read.
+2025-11-05 20:12:32,823 - INFO - Successfully clicked on 'Inbox' menu item.
+2025-11-05 20:12:34,343 - INFO - Clicked email with subject: Demo subject
+2025-11-05 20:12:45,064 - INFO - Edited message in reply
+2025-11-05 20:12:50,702 - INFO - Clicked on Send
+2025-11-05 20:13:31,042 - INFO - Successfully clicked on '.*Sent Items.*' menu item.
+2025-11-05 20:13:31,043 - INFO - Successfully clicked on sent item.
+2025-11-05 20:13:32,761 - INFO - Clicked email with subject: Demo subject
+2025-11-05 20:13:35,881 - INFO - Right-clicked on the selected option.
+2025-11-05 20:13:37,246 - INFO - Clicked on Delete
+2025-11-05 20:13:54,288 - INFO - Click on Contact View from Search Bar
+2025-11-05 20:13:56,246 - INFO - Clicked on New Contact button
+2025-11-05 20:13:57,500 - INFO - New contact dialog opened
+2025-11-05 20:14:00,381 - INFO - All details are entered
+2025-11-05 20:14:01,048 - INFO - Clicked on Save and Close button
+2025-11-05 20:14:20,311 - INFO - Successfully clicked on '.*Inbox.*' menu item.
+2025-11-05 20:14:20,312 - INFO - Successfully clicked on inbox.
+2025-11-05 20:14:23,234 - INFO - Found 8 mail items
+2025-11-05 20:14:23,357 - INFO - Selected email with subject: To Swapnali K, Subject RE: Demo subject, Sent 8:13 PM, Size 7 KB, Flag Status Unflagged, Preview Hello, Swapnali K.    This is Reply Testcase..!    Best Regards, Swapnali K        From: Swapnali K <swapnalik@futurismtechnologies.com>  Sent: Wednesday, November 5, 2025 8:06 PM  To: Swapnali K <swapnalik@futurismtechnologies.com>  Cc: Swapnali K <swapn, 
+2025-11-05 20:14:26,892 - INFO - Right-clicked on the selected option.
+2025-11-05 20:14:28,222 - INFO - Clicked on Move
+2025-11-05 20:14:28,875 - INFO - Clicked on Archive
+2025-11-05 20:14:47,722 - INFO - Successfully clicked on '.*Inbox.*' menu item.
+2025-11-05 20:14:47,723 - INFO - Clicked on Inbox
+2025-11-05 20:14:48,845 - INFO - Categorized menu clicked
+2025-11-05 20:14:50,763 - INFO - Clicked on 'Blue Category'
+2025-11-05 20:14:51,147 - INFO - Total mails:7
+2025-11-05 20:14:51,727 - INFO - Most recent email: uia_controls.ListItemWrapper - 'To Swapnali K, Subject FW: Demo subject, Sent 10/16/2025, Size 13 KB, Categories Blue Category, Flag Status Unflagged, Preview Hello, Swapnali K.    This is Forward Testcase..!    Best Regards, Swapnali K        From: Swapnali K <swapnalik@futurismtechnologies.com>  Sent: Wednesday, October 15, 2025 3:22 PM  To: Swapnali K <swapnalik@futurismtechnologies.com>  Subject: RE: Demo s, ', DataItem
+2025-11-05 20:14:53,176 - INFO - Forward clicked
+2025-11-05 20:14:55,199 - INFO - Pop Out clicked
+2025-11-05 20:14:55,199 - INFO - Clicked on Pop Out
+2025-11-05 20:14:56,533 - INFO - Forward window is visible
+2025-11-05 20:14:57,897 - INFO - to_field typed successfully
+2025-11-05 20:14:59,153 - INFO - Cc typed successfully
+2025-11-05 20:15:08,244 - INFO - Clicked on Send
+2025-11-05 20:15:38,386 - WARNING - Timeout waiting for window to close. Mail might not be sent yet.Error:timed out
+2025-11-05 20:15:40,797 - INFO - Search bar cleared.
+2025-11-05 20:16:09,992 - INFO - Successfully clicked on '.*Deleted Items:.*' menu item.
+2025-11-05 20:16:09,993 - INFO - Clicked on Deleted Items
+2025-11-05 20:16:11,646 - INFO - Recover items recently removed from this folder clicked
+2025-11-05 20:16:14,391 - INFO - Recover deleted items window is visible
+2025-11-05 20:16:16,830 - INFO - Clicked on first item
+2025-11-05 20:16:19,054 - INFO - Ok clicked
+2025-11-05 20:16:40,450 - INFO - Searched contact: aarti t
+2025-11-05 20:16:42,451 - INFO - Search contact: aarti t
+2025-11-05 20:17:01,534 - INFO - Clicked on contact
+2025-11-05 20:17:03,343 - INFO - New Contact Group clicked
+2025-11-05 20:17:04,121 - INFO - New contact grp dialog opened
+2025-11-05 20:17:04,547 - INFO - Entered contact group name
+2025-11-05 20:17:04,863 - INFO - Clicked on Add Members button
+2025-11-05 20:17:05,482 - INFO - Clicked on From Address Book button
+2025-11-05 20:17:05,483 - INFO - Select member dialog is opened
+2025-11-05 20:17:08,272 - INFO - Entered 'Aarti T' and pressed Enter
+2025-11-05 20:17:10,654 - INFO - Search bar is cleared
+2025-11-05 20:17:13,325 - INFO - Clicked on OK button
+2025-11-05 20:17:14,564 - INFO - Clicked on Save & Close button
+2025-11-05 20:17:16,888 - INFO - Clicked on New Item button
+2025-11-05 20:17:17,472 - INFO - Clicked on E-mail Message menu item
+2025-11-05 20:17:20,796 - INFO - Send mail window is opened
+2025-11-05 20:17:21,783 - INFO - Group name is entered
+2025-11-05 20:17:21,783 - INFO - To field is entered
+2025-11-05 20:17:23,410 - INFO - Subject is entered
+2025-11-05 20:17:33,870 - INFO - Page 1 content has been entered
+2025-11-05 20:17:39,281 - INFO - Clicked on Send
+2025-11-05 20:17:41,614 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x0000017DA1EF9B20>' closed successfully.
+2025-11-05 20:18:02,746 - ERROR - Failed to click on '.*Sent Items:.*' menu item: timed out
+2025-11-05 20:18:04,248 - INFO - Clicked email with subject: Demo subject
+2025-11-05 20:18:07,380 - INFO - Right-clicked on the selected option.
+2025-11-05 20:18:09,284 - INFO - Move clicked
+2025-11-05 20:18:10,758 - INFO - Other Folder clicked
+2025-11-05 20:18:12,296 - INFO - Task clicked
+2025-11-05 20:18:12,931 - INFO - Clicked on OK
+2025-11-05 20:18:15,765 - INFO - New Task window is opened
+2025-11-05 20:18:16,121 - INFO - Due date set to 12/12/2025
+2025-11-05 20:18:16,896 - INFO - Priority set to High
+2025-11-05 20:18:17,256 - INFO - Reminder checkbox is checked
+2025-11-05 20:18:17,649 - INFO - Reminder date set to 30/12/2025
+2025-11-05 20:18:18,574 - INFO - Time set to 02:30 PM
+2025-11-05 20:18:19,236 - INFO - Clicked on Save and Close
+2025-11-05 20:18:20,574 - INFO - Tasks clicked
+2025-11-05 20:18:30,603 - ERROR - Failed to click 'Tasks' button: timed out
+2025-11-05 20:18:58,204 - INFO - Successfully clicked on '.*Inbox.*' menu item.
+2025-11-05 20:19:00,316 - INFO - Found 8 mail items
+2025-11-05 20:19:00,429 - INFO - Selected email with subject:To Swapnali K, Subject RE: Demo subject, Sent 8:13 PM, Size 12 KB, Flag Status Unflagged, Preview Hello, Swapnali K.    This is Reply Testcase..!    Best Regards, Swapnali K        From: Swapnali K <swapnalik@futurismtechnologies.com>  Sent: Wednesday, November 5, 2025 8:06 PM  To: Swapnali K <swapnalik@futurismtechnologies.com>  Cc: Swapnali K <swapn, 
+2025-11-05 20:19:04,015 - INFO - Right-clicked on the selected option.
+2025-11-05 20:19:05,378 - INFO - Clicked on Follow Up
+2025-11-05 20:19:05,921 - INFO - Found 11 sub menu items
+2025-11-05 20:19:06,221 - INFO - Clicked on No Date flag:
+2025-11-05 20:19:07,981 - INFO - Clicked on inbox menu
+2025-11-05 20:19:08,489 - INFO - Right-clicked on inbox menu
+2025-11-05 20:19:09,910 - INFO - Clicked on Create New Folder menu item
+2025-11-05 20:19:11,139 - INFO - Create New Folder window is visible
+2025-11-05 20:19:14,728 - INFO - Demo folder is created
+2025-11-05 20:19:16,298 - INFO - Right clicked on selected mail
+2025-11-05 20:19:21,485 - ERROR - Failed to move email to Demo folder via Move menu: {'title': 'Move', 'control_type': 'MenuItem', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - 'Inbox - swapnalik@futurismtechnologies.com - Outlook', rctrl_renwnd32, 8460388>, 'backend': 'uia'}
+2025-11-05 20:20:03,278 - INFO - Successfully clicked on '.*Inbox.*' menu item.
+2025-11-05 20:20:05,757 - INFO - Found 8 mail items
+2025-11-05 20:20:05,871 - INFO - Selected email with subject:To Swapnali K, Subject RE: Demo subject, Sent 8:13 PM, Size 7 KB, Flag Status Unflagged, Preview Hello, Swapnali K.    This is Reply Testcase..!    Best Regards, Swapnali K        From: Swapnali K <swapnalik@futurismtechnologies.com>  Sent: Wednesday, November 5, 2025 8:06 PM  To: Swapnali K <swapnalik@futurismtechnologies.com>  Cc: Swapnali K <swapn, 
+2025-11-05 20:20:09,391 - INFO - Right-clicked on the selected option.
+2025-11-05 20:20:10,754 - INFO - Clicked on Follow Up
+2025-11-05 20:20:11,305 - INFO - Found 11 sub menu items
+2025-11-05 20:20:11,589 - INFO - Clicked on No Date flag:
+2025-11-05 20:20:13,387 - INFO - Clicked on inbox menu
+2025-11-05 20:20:13,882 - INFO - Right-clicked on inbox menu
+2025-11-05 20:20:15,303 - INFO - Clicked on Create New Folder menu item
+2025-11-05 20:20:16,542 - INFO - Create New Folder window is visible
+2025-11-05 20:20:20,108 - INFO - Demo folder is created
+2025-11-05 20:20:21,691 - INFO - Right clicked on selected mail
+2025-11-05 20:20:22,244 - INFO - Opened Move menu
+2025-11-05 20:20:24,613 - INFO - Located Move submenu
+2025-11-05 20:20:25,465 - INFO - Found GroupBox inside Move submenu
+2025-11-05 20:20:27,362 - INFO - Successfully moved email to Demo folder
+2025-11-05 20:20:42,981 - INFO - Deleted folder successfully
+2025-11-05 20:20:43,726 - INFO - Delete pop-up appeared.
+2025-11-05 20:20:44,620 - INFO - Clicked Yes to delete the folder.
+2025-11-05 20:22:13,345 - INFO - Found 8 mail items
+2025-11-05 20:22:13,462 - INFO - Selected email is open
+2025-11-05 20:22:14,552 - ERROR - Failed to click on Attachment options button:control Attachment options not found: Attachment options not found
+2025-11-05 20:22:24,868 - ERROR - Context menu not found: timed out
+2025-11-05 20:22:24,868 - ERROR - Error occurred while trying to click 'Save As': timed out
+2025-11-05 20:22:50,045 - INFO - Found 8 mail items
+2025-11-05 20:22:50,155 - INFO - Selected email is open
+2025-11-05 20:22:51,767 - ERROR - Failed to click on Attachment options button:control Attachment options not found: Attachment options not found
+2025-11-05 20:23:01,813 - ERROR - Context menu not found: timed out
+2025-11-05 20:23:01,813 - ERROR - Error occurred while trying to click 'Save As': timed out
+2025-11-05 20:23:37,451 - INFO - File tab clicked
+2025-11-05 20:23:39,943 - INFO - Clicked on 'Manage Rules & Alerts successfully.
+2025-11-05 20:23:40,116 - ERROR - Failed to open Rules and Alert window: There are 2 elements that match the criteria {'title_re': '.*Outlook.*', 'backend': 'uia', 'enabled_only': False, 'visible_only': False, 'process': 2804}
+2025-11-05 20:24:00,633 - INFO - File tab clicked
+2025-11-05 20:24:04,996 - INFO - Clicked on 'Manage Rules & Alerts successfully.
+2025-11-05 20:24:05,162 - ERROR - Failed to open Rules and Alert window: There are 2 elements that match the criteria {'title_re': '.*Outlook.*', 'backend': 'uia', 'enabled_only': False, 'visible_only': False, 'process': 24148}
+2025-11-05 20:25:28,920 - INFO - File tab clicked
+2025-11-05 20:25:31,412 - INFO - Clicked on 'Manage Rules & Alerts successfully.
+2025-11-05 20:25:31,570 - ERROR - Failed to open Rules and Alert window: There are 2 elements that match the criteria {'title_re': '.*Outlook.*', 'backend': 'uia', 'enabled_only': False, 'visible_only': False, 'process': 17276}
+2025-11-05 20:25:57,452 - INFO - File tab clicked
+2025-11-05 20:26:00,529 - INFO - Clicked on 'Manage Rules & Alerts successfully.
+2025-11-05 20:26:00,696 - ERROR - Failed to open Rules and Alert window: There are 2 elements that match the criteria {'title_re': '.*Outlook.*', 'backend': 'uia', 'enabled_only': False, 'visible_only': False, 'process': 22960}
+2025-11-05 20:28:33,674 - INFO - File tab clicked
+2025-11-05 20:28:36,332 - INFO - Clicked on 'Manage Rules & Alerts successfully.
+2025-11-05 20:28:37,692 - INFO - Rule and Alert window is visible
+2025-11-05 20:28:38,338 - INFO - New Rule... clicked
+2025-11-05 20:28:39,397 - INFO - Rules Wizard window is visible
+2025-11-05 20:28:41,817 - INFO - Next > in Wizard window clicked
+2025-11-05 20:28:43,452 - INFO - Condition1:Unchecked from people or public group
+2025-11-05 20:28:44,973 - INFO - Condition2:Checked with specific words in the subject)
+2025-11-05 20:28:46,504 - INFO - Condition3:Checked through the specified account
+2025-11-05 20:28:48,052 - INFO - Condition4: Checked sent only to me
+2025-11-05 20:28:48,863 - INFO - Clicked via keystrokes
+2025-11-05 20:28:50,470 - INFO - Dialog for through the specified account appeared.
+2025-11-05 20:28:51,349 - INFO - Clicked OK button in Account dialog
+2025-11-05 20:28:52,743 - INFO - Clicked 'with specific words in the subject' via keystrokes
+2025-11-05 20:28:54,351 - INFO - Search Text dlg is visible
+2025-11-05 20:28:56,362 - INFO - Text is entered in search box
+2025-11-05 20:28:57,320 - INFO - Clicked on Add button
+2025-11-05 20:28:58,273 - INFO - Clicked on OK button
+2025-11-05 20:28:59,619 - INFO - Clicked 'with specific words in the subject' via keystrokes
+2025-11-05 20:29:01,309 - INFO - Rules and Alerts dlg is visible
+2025-11-05 20:29:02,271 - INFO - Clicked on Inbox folder
+2025-11-05 20:29:03,325 - INFO - Clicked OK button
+2025-11-05 20:29:06,586 - INFO - Clicked Next button 2
+2025-11-05 20:29:08,137 - INFO - process_rule:Unchecked from people or public group
+2025-11-05 20:29:10,783 - INFO - Clicked Next button 3
+2025-11-05 20:29:13,860 - INFO - Clicked Next button 4
+2025-11-05 20:29:14,463 - INFO - Clicked Finish button
+2025-11-05 20:29:16,102 - INFO - Clicked OK button
+2025-11-05 20:29:16,737 - INFO - Clicked Apply button
+2025-11-05 20:29:19,480 - INFO - Clicked OK button
+2025-11-05 20:33:01,477 - ERROR - Failed to click on '.*Sent Items:.*' menu item: timed out
+2025-11-05 20:33:02,944 - INFO - Clicked email with subject: Demo subject
+2025-11-05 20:33:06,065 - INFO - Right-clicked on the selected option.
+2025-11-05 20:33:08,031 - INFO - Move clicked
+2025-11-05 20:33:09,553 - INFO - Other Folder clicked
+2025-11-05 20:33:11,125 - INFO - Task clicked
+2025-11-05 20:33:11,776 - INFO - Clicked on OK
+2025-11-05 20:33:13,611 - INFO - New Task window is opened
+2025-11-05 20:33:13,961 - INFO - Due date set to 12/12/2025
+2025-11-05 20:33:14,739 - INFO - Priority set to High
+2025-11-05 20:33:15,143 - INFO - Reminder checkbox is checked
+2025-11-05 20:33:15,536 - INFO - Reminder date set to 30/12/2025
+2025-11-05 20:33:16,533 - INFO - Time set to 02:30 PM
+2025-11-05 20:33:17,183 - INFO - Clicked on Save and Close
+2025-11-05 20:33:18,686 - INFO - Tasks clicked
+2025-11-05 20:33:19,440 - INFO - task_to_do_dlg is opened
+2025-11-05 20:33:45,405 - ERROR - Failed to click 'Tasks' button: {'title': 'Group By: Expanded:Flag: Due Date: Next Month', 'control_type': 'Group', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - 'Tasks - swapnalik@futurismtechnologies.com - Outlook', rctrl_renwnd32, 12914820>, 'backend': 'uia'}
+2025-11-05 20:36:14,124 - ERROR - Failed to click on '.*Sent Items:.*' menu item: timed out
+2025-11-05 20:36:14,491 - ERROR - Error while selecting Demo Sub Mail:No email found with subject: Demo subject
+2025-11-05 20:36:14,491 - ERROR - No option selected after right-click.
+2025-11-05 20:36:24,808 - ERROR - Failed to click 'Move->Other Folder':timed out
+2025-11-05 20:37:48,063 - ERROR - Failed to click on '.*Sent Items:.*' menu item: timed out
+2025-11-05 20:37:48,431 - ERROR - Error while selecting Demo Sub Mail:No email found with subject: Demo subject
+2025-11-05 20:37:48,431 - ERROR - No option selected after right-click.
+2025-11-05 20:37:58,523 - ERROR - Failed to click 'Move->Other Folder':timed out
+2025-11-05 20:45:43,094 - ERROR - Failed to click on '.*Sent Items:.*' menu item: timed out
+2025-11-05 20:45:43,456 - ERROR - Error while selecting Demo Sub Mail:No email found with subject: Demo subject
+2025-11-05 20:45:43,456 - ERROR - No option selected after right-click.
+2025-11-05 20:45:53,830 - ERROR - Failed to click 'Move->Other Folder':timed out
+2025-11-05 20:47:26,769 - ERROR - Failed to click on '.*Sent Items:.*' menu item: timed out
+2025-11-05 20:47:27,132 - ERROR - Error while selecting Demo Sub Mail:No email found with subject: Demo subject
+2025-11-05 20:47:27,133 - ERROR - No option selected after right-click.
+2025-11-05 20:47:37,501 - ERROR - Failed to click 'Move->Other Folder':timed out
+2025-11-05 20:48:58,535 - INFO - Successfully clicked on '.*Inbox:.*' menu item.
+2025-11-05 20:48:58,944 - ERROR - Error while selecting Demo Sub Mail:No email found with subject: Demo subject
+2025-11-05 20:48:58,944 - ERROR - No option selected after right-click.
+2025-11-05 20:49:09,309 - ERROR - Failed to click 'Move->Other Folder':timed out
+2025-11-05 20:50:54,834 - INFO - Successfully clicked on '.*Inbox:.*' menu item.
+2025-11-05 20:50:56,356 - INFO - Clicked email with subject: Demo subject
+2025-11-05 20:50:59,528 - INFO - Right-clicked on the selected option.
+2025-11-05 20:51:01,389 - INFO - Move clicked
+2025-11-05 20:51:02,845 - INFO - Other Folder clicked
+2025-11-05 20:51:04,350 - INFO - Task clicked
+2025-11-05 20:51:04,970 - INFO - Clicked on OK
+2025-11-05 20:51:06,662 - INFO - New Task window is opened
+2025-11-05 20:51:07,013 - INFO - Due date set to 12/12/2025
+2025-11-05 20:51:07,767 - INFO - Priority set to High
+2025-11-05 20:51:08,126 - INFO - Reminder checkbox is checked
+2025-11-05 20:51:08,532 - INFO - Reminder date set to 30/12/2025
+2025-11-05 20:51:09,473 - INFO - Time set to 02:30 PM
+2025-11-05 20:51:10,106 - INFO - Clicked on Save and Close
+2025-11-05 20:51:11,595 - INFO - Tasks clicked
+2025-11-05 20:51:12,287 - INFO - task_to_do_dlg is opened
+2025-11-05 20:51:25,069 - ERROR - Failed to click 'Tasks' button: {'title': 'Group By: Expanded:Flag: Due Date: Next Month', 'control_type': 'Group', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - 'Tasks - swapnalik@futurismtechnologies.com - Outlook', rctrl_renwnd32, 22351262>, 'backend': 'uia'}
+2025-11-05 20:54:18,704 - INFO - Successfully clicked on '.*Inbox:.*' menu item.
+2025-11-05 20:54:20,239 - INFO - Clicked email with subject: Demo subject
+2025-11-05 20:54:23,370 - INFO - Right-clicked on the selected option.
+2025-11-05 20:54:25,308 - INFO - Move clicked
+2025-11-05 20:54:27,651 - INFO - Other Folder clicked
+2025-11-05 20:54:29,239 - INFO - Task clicked
+2025-11-05 20:54:29,924 - INFO - Clicked on OK
+2025-11-05 20:54:31,694 - INFO - New Task window is opened
+2025-11-05 20:54:32,045 - INFO - Due date set to 12/12/2025
+2025-11-05 20:54:32,839 - INFO - Priority set to High
+2025-11-05 20:54:33,230 - INFO - Reminder checkbox is checked
+2025-11-05 20:54:33,650 - INFO - Reminder date set to 30/12/2025
+2025-11-05 20:54:34,650 - INFO - Time set to 02:30 PM
+2025-11-05 20:54:35,295 - INFO - Clicked on Save and Close
+2025-11-05 20:54:36,815 - INFO - Tasks clicked
+2025-11-05 20:54:37,526 - INFO - task_to_do_dlg is opened
+2025-11-05 20:54:50,115 - ERROR - Failed to click 'Tasks' button: {'title': 'Group By: Expanded:Flag: Due Date: Next Month', 'control_type': 'Group', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - 'Tasks - swapnalik@futurismtechnologies.com - Outlook', rctrl_renwnd32, 51973032>, 'backend': 'uia'}
+2025-11-05 21:01:38,919 - INFO - Successfully clicked on '.*Inbox:.*' menu item.
+2025-11-05 21:01:39,311 - ERROR - Error while selecting Demo Sub Mail:No email found with subject: Demo subject
+2025-11-05 21:01:39,312 - ERROR - No option selected after right-click.
+2025-11-05 21:01:49,491 - ERROR - Failed to click 'Move->Other Folder':timed out
+2025-11-05 21:02:32,052 - INFO - Successfully clicked on '.*Inbox:.*' menu item.
+2025-11-05 21:02:33,639 - INFO - Clicked email with subject: Demo subject
+2025-11-05 21:02:36,758 - INFO - Right-clicked on the selected option.
+2025-11-05 21:02:38,740 - INFO - Move clicked
+2025-11-05 21:02:40,213 - INFO - Other Folder clicked
+2025-11-05 21:02:41,786 - INFO - Task clicked
+2025-11-05 21:02:42,437 - INFO - Clicked on OK
+2025-11-05 21:02:44,241 - INFO - New Task window is opened
+2025-11-05 21:02:44,586 - INFO - Due date set to 12/12/2025
+2025-11-05 21:02:45,383 - INFO - Priority set to High
+2025-11-05 21:02:45,787 - INFO - Reminder checkbox is checked
+2025-11-05 21:02:46,200 - INFO - Reminder date set to 30/12/2025
+2025-11-05 21:02:47,183 - INFO - Time set to 02:30 PM
+2025-11-05 21:02:47,825 - INFO - Clicked on Save and Close
+2025-11-05 21:02:49,429 - INFO - Tasks clicked
+2025-11-05 21:02:50,128 - INFO - task_to_do_dlg is opened
+2025-11-05 21:02:58,597 - INFO - 3Task items found
+2025-11-05 21:02:58,813 - INFO - Most recent unread email clicked: uia_controls.ListItemWrapper - 'Task Subject Demo subject, Start Date None, Reminder Time Tue 12/30/2025 2:30 PM, Due Date Fri 12/12/2025, In Folder Tasks, Reminder Has Reminder, Flag Status Unflagged, ', DataItem
+2025-11-05 21:03:04,366 - INFO - Clicked on Delete
+2025-11-05 21:06:15,925 - INFO - Successfully clicked on '.*Inbox:.*' menu item.
+2025-11-05 21:06:16,377 - ERROR - Error while selecting Demo Sub Mail:No email found with subject: Demo subject
+2025-11-05 21:06:16,378 - ERROR - No option selected after right-click.
+2025-11-05 21:06:26,710 - ERROR - Failed to click 'Move->Other Folder':timed out
+2025-11-05 21:06:53,028 - INFO - Found 8 mail items
+2025-11-05 21:06:53,135 - INFO - Selected email is open
+2025-11-05 21:06:54,124 - ERROR - Failed to click on Attachment options button:control Attachment options not found: Attachment options not found
+2025-11-05 21:07:04,233 - ERROR - Context menu not found: timed out
+2025-11-05 21:07:04,233 - ERROR - Error occurred while trying to click 'Save As': timed out
+2025-11-05 21:08:39,194 - INFO - Found 8 mail items
+2025-11-05 21:08:39,302 - INFO - Selected email is open
+2025-11-05 21:08:40,904 - ERROR - Failed to click on Attachment options button:control Attachment options not found: Attachment options not found
+2025-11-05 21:08:51,281 - ERROR - Context menu not found: timed out
+2025-11-05 21:08:51,282 - ERROR - Error occurred while trying to click 'Save As': timed out
+2025-11-05 21:09:59,833 - INFO - Found 8 mail items
+2025-11-05 21:09:59,947 - INFO - Selected email is open
+2025-11-05 21:10:01,138 - ERROR - Failed to click on Attachment options button:control Attachment options not found: Attachment options not found
+2025-11-05 21:10:11,296 - ERROR - Context menu not found: timed out
+2025-11-05 21:10:11,296 - ERROR - Error occurred while trying to click 'Save As': timed out
+2025-11-05 21:12:28,721 - INFO - Found 8 mail items
+2025-11-05 21:12:28,844 - INFO - Selected email is open
+2025-11-05 21:12:30,531 - INFO - Attachment options clicked
+2025-11-05 21:12:37,038 - INFO - Clicked on 'Save As' successfully.
+2025-11-05 21:12:38,560 - INFO - Save Attachment dialog is opened
+2025-11-05 21:12:39,967 - INFO - Selected folder:pywin_practice
+2025-11-05 21:12:39,968 - INFO - File to be saved as: Doc_2.txt
+2025-11-05 21:12:41,628 - INFO - Edited file name: Doc_2.txt
+2025-11-05 21:12:42,825 - INFO - Save button is clicked
+2025-11-06 13:05:24,703 - INFO - New Email clicked
+2025-11-06 13:05:25,988 - INFO - Clicked on New mail and Send mail window opened
+2025-11-06 13:05:30,005 - INFO - To email id is set correctly
+2025-11-06 13:05:34,117 - INFO - Cc email id is set correctly
+2025-11-06 13:05:35,937 - INFO - Subject is set correctly
+2025-11-06 13:05:45,871 - INFO - Text in body is set correctly
+2025-11-06 13:05:51,327 - INFO - Clicked on Attach File...
+2025-11-06 13:05:52,396 - INFO - Recent items window is open
+2025-11-06 13:05:52,899 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-11-06 13:05:53,774 - INFO - Attach Popup is occurred..
+2025-11-06 13:05:59,189 - INFO - Attach as Copy option is selected
+2025-11-06 13:06:04,657 - INFO - Clicked on Send
+2025-11-06 13:06:07,497 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x000002229CEF11D0>' closed successfully.
+2025-11-06 13:06:16,615 - INFO - Unread clicked
+2025-11-06 13:06:20,904 - INFO - Right-clicked on the selected option.
+2025-11-06 13:06:25,128 - INFO - Email marked as unread.
+2025-11-06 13:06:33,933 - INFO - Found 7 mail items
+2025-11-06 13:06:34,550 - INFO - Most recent email: uia_controls.ListItemWrapper - 'Subject Reiterating Dress Code Policy & Customer Interaction Guidelines, Sent Wed 8:19 PM, Size 23 KB, Flag Status Unflagged, Preview Dear All,         As representatives of Futurism, each of us plays a vital role in shaping how customers and prospects perceive us.     To ensure we maintain a consistent, professional image across all interactions, we’d like to reiterate the Dress Code P, ', DataItem
+2025-11-06 13:06:38,014 - INFO - Right-clicked on the selected option.
+2025-11-06 13:06:42,254 - INFO - Email marked as unread.
+2025-11-06 13:06:49,930 - INFO - Successfully clicked on 'Inbox' menu item.
+2025-11-06 13:06:51,525 - INFO - Clicked email with subject: Demo subject
+2025-11-06 13:07:02,453 - INFO - Edited message in reply
+2025-11-06 13:07:08,043 - INFO - Clicked on Send
+2025-11-06 13:07:35,924 - INFO - Successfully clicked on '.*Sent Items.*' menu item.
+2025-11-06 13:07:35,925 - INFO - Successfully clicked on sent item.
+2025-11-06 13:07:37,594 - INFO - Clicked email with subject: Demo subject
+2025-11-06 13:07:40,731 - INFO - Right-clicked on the selected option.
+2025-11-06 13:07:42,062 - INFO - Clicked on Delete
+2025-11-06 13:07:50,659 - INFO - Click on Contact View from Search Bar
+2025-11-06 13:07:52,499 - INFO - Clicked on New Contact button
+2025-11-06 13:07:53,697 - INFO - New contact dialog opened
+2025-11-06 13:07:56,534 - INFO - All details are entered
+2025-11-06 13:07:57,192 - INFO - Clicked on Save and Close button
+2025-11-06 13:08:08,888 - INFO - Successfully clicked on '.*Inbox.*' menu item.
+2025-11-06 13:08:08,890 - INFO - Successfully clicked on inbox.
+2025-11-06 13:08:12,382 - INFO - Found 7 mail items
+2025-11-06 13:08:12,501 - INFO - Selected email with subject: To Swapnali K, Subject RE: Demo subject, Sent 1:07 PM, Size 12 KB, Flag Status Unflagged, Preview Hello, Swapnali K.    This is Reply Testcase..!    Best Regards, Swapnali K        From: Swapnali K  Sent: Wednesday, November 5, 2025 8:05 PM  To: Swapnali K <swapnalik@futurismtechnologies.com>  Cc: Swapnali K <swapnalik@futurismtechnologies.com>  Subje, 
+2025-11-06 13:08:16,038 - INFO - Right-clicked on the selected option.
+2025-11-06 13:08:17,402 - INFO - Clicked on Move
+2025-11-06 13:08:18,071 - INFO - Clicked on Archive
+2025-11-06 13:08:29,059 - INFO - Successfully clicked on '.*Inbox.*' menu item.
+2025-11-06 13:08:29,059 - INFO - Clicked on Inbox
+2025-11-06 13:08:30,263 - INFO - Categorized menu clicked
+2025-11-06 13:08:32,217 - INFO - Clicked on 'Blue Category'
+2025-11-06 13:08:32,563 - INFO - Total mails:7
+2025-11-06 13:08:33,066 - INFO - Most recent email: uia_controls.ListItemWrapper - 'To Swapnali K, Subject FW: Demo subject, Sent 10/16/2025, Size 13 KB, Categories Blue Category, Flag Status Unflagged, Preview Hello, Swapnali K.    This is Forward Testcase..!    Best Regards, Swapnali K        From: Swapnali K <swapnalik@futurismtechnologies.com>  Sent: Wednesday, October 15, 2025 3:22 PM  To: Swapnali K <swapnalik@futurismtechnologies.com>  Subject: RE: Demo s, ', DataItem
+2025-11-06 13:08:34,411 - INFO - Forward clicked
+2025-11-06 13:08:36,417 - INFO - Pop Out clicked
+2025-11-06 13:08:36,418 - INFO - Clicked on Pop Out
+2025-11-06 13:08:37,654 - INFO - Forward window is visible
+2025-11-06 13:08:38,980 - INFO - to_field typed successfully
+2025-11-06 13:08:40,204 - INFO - Cc typed successfully
+2025-11-06 13:08:49,297 - INFO - Clicked on Send
+2025-11-06 13:08:50,947 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x000002229CCA3E70>' closed successfully.
+2025-11-06 13:08:53,429 - INFO - Search bar cleared.
+2025-11-06 13:09:03,714 - INFO - Successfully clicked on '.*Deleted Items:.*' menu item.
+2025-11-06 13:09:03,715 - INFO - Clicked on Deleted Items
+2025-11-06 13:09:05,001 - INFO - Recover items recently removed from this folder clicked
+2025-11-06 13:09:07,771 - INFO - Recover deleted items window is visible
+2025-11-06 13:09:10,251 - INFO - Clicked on first item
+2025-11-06 13:09:12,476 - INFO - Ok clicked
+2025-11-06 13:09:21,005 - INFO - Searched contact: aarti t
+2025-11-06 13:09:23,006 - INFO - Search contact: aarti t
+2025-11-06 13:09:31,308 - INFO - Clicked on contact
+2025-11-06 13:09:33,150 - INFO - New Contact Group clicked
+2025-11-06 13:09:33,861 - INFO - New contact grp dialog opened
+2025-11-06 13:09:34,276 - INFO - Entered contact group name
+2025-11-06 13:09:34,603 - INFO - Clicked on Add Members button
+2025-11-06 13:09:35,139 - INFO - Clicked on From Address Book button
+2025-11-06 13:09:35,140 - INFO - Select member dialog is opened
+2025-11-06 13:09:37,977 - INFO - Entered 'Aarti T' and pressed Enter
+2025-11-06 13:09:40,345 - INFO - Search bar is cleared
+2025-11-06 13:09:43,066 - INFO - Clicked on OK button
+2025-11-06 13:09:44,203 - INFO - Clicked on Save & Close button
+2025-11-06 13:09:46,380 - INFO - Clicked on New Item button
+2025-11-06 13:09:46,979 - INFO - Clicked on E-mail Message menu item
+2025-11-06 13:09:50,302 - INFO - Send mail window is opened
+2025-11-06 13:09:51,361 - INFO - Group name is entered
+2025-11-06 13:09:51,361 - INFO - To field is entered
+2025-11-06 13:09:52,984 - INFO - Subject is entered
+2025-11-06 13:10:03,411 - INFO - Page 1 content has been entered
+2025-11-06 13:10:08,856 - INFO - Clicked on Send
+2025-11-06 13:10:10,378 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x000002229D034590>' closed successfully.
+2025-11-06 13:10:18,993 - INFO - Successfully clicked on '.*Inbox:.*' menu item.
+2025-11-06 13:10:20,512 - INFO - Clicked email with subject: Demo subject
+2025-11-06 13:10:23,631 - INFO - Right-clicked on the selected option.
+2025-11-06 13:10:25,495 - INFO - Move clicked
+2025-11-06 13:10:26,901 - INFO - Other Folder clicked
+2025-11-06 13:10:28,373 - INFO - Task clicked
+2025-11-06 13:10:28,959 - INFO - Clicked on OK
+2025-11-06 13:10:30,566 - INFO - New Task window is opened
+2025-11-06 13:10:30,910 - INFO - Due date set to 12/12/2025
+2025-11-06 13:10:31,553 - INFO - Priority set to High
+2025-11-06 13:10:31,913 - INFO - Reminder checkbox is checked
+2025-11-06 13:10:32,299 - INFO - Reminder date set to 30/12/2025
+2025-11-06 13:10:33,212 - INFO - Time set to 02:30 PM
+2025-11-06 13:10:33,851 - INFO - Clicked on Save and Close
+2025-11-06 13:10:35,215 - INFO - Tasks clicked
+2025-11-06 13:10:35,875 - INFO - task_to_do_dlg is opened
+2025-11-06 13:10:36,164 - INFO - 2Task items found
+2025-11-06 13:10:36,388 - INFO - Most recent unread email clicked: uia_controls.ListItemWrapper - 'Task Subject Demo subject, Start Date None, Reminder Time Tue 12/30/2025 2:30 PM, Due Date Fri 12/12/2025, In Folder Tasks, Reminder Has Reminder, Flag Status Unflagged, ', DataItem
+2025-11-06 13:10:42,006 - INFO - Clicked on Delete
+2025-11-06 13:10:50,952 - INFO - Successfully clicked on '.*Inbox.*' menu item.
+2025-11-06 13:10:53,697 - INFO - Found 7 mail items
+2025-11-06 13:10:53,813 - INFO - Selected email with subject:To Swapnali K, Subject FW: Demo subject, Sent 1:09 PM, Size 16 KB, Flag Status Unflagged, Preview Hello, Swapnali K.    This is Forward Testcase..!    Best Regards, Swapnali K        From: Swapnali K  Sent: Thursday, October 16, 2025 1:32 PM  To: Swapnali K <swapnalik@futurismtechnologies.com>  Cc: Swapnali K <swapnalik@futurismtechnologies.com>  Subj, 
+2025-11-06 13:10:57,383 - INFO - Right-clicked on the selected option.
+2025-11-06 13:10:58,745 - INFO - Clicked on Follow Up
+2025-11-06 13:10:59,241 - INFO - Found 11 sub menu items
+2025-11-06 13:10:59,372 - INFO - Clicked on No Date flag:
+2025-11-06 13:11:00,658 - INFO - Clicked on inbox menu
+2025-11-06 13:11:01,153 - INFO - Right-clicked on inbox menu
+2025-11-06 13:11:02,576 - INFO - Clicked on Create New Folder menu item
+2025-11-06 13:11:03,793 - INFO - Create New Folder window is visible
+2025-11-06 13:11:07,355 - INFO - Demo folder is created
+2025-11-06 13:11:08,934 - INFO - Right clicked on selected mail
+2025-11-06 13:11:09,483 - INFO - Opened Move menu
+2025-11-06 13:11:11,822 - INFO - Located Move submenu
+2025-11-06 13:11:12,670 - INFO - Found GroupBox inside Move submenu
+2025-11-06 13:11:14,535 - INFO - Successfully moved email to Demo folder
+2025-11-06 13:11:17,795 - INFO - Deleted folder successfully
+2025-11-06 13:11:18,594 - INFO - Delete pop-up appeared.
+2025-11-06 13:11:19,484 - INFO - Clicked Yes to delete the folder.
+2025-11-06 13:11:30,430 - INFO - Found 7 mail items
+2025-11-06 13:11:30,539 - INFO - Selected email is open
+2025-11-06 13:11:31,508 - ERROR - Failed to click on Attachment options button:control Attachment options not found: Attachment options not found
+2025-11-06 13:11:41,779 - ERROR - Context menu not found: timed out
+2025-11-06 13:11:41,779 - ERROR - Error occurred while trying to click 'Save As': timed out
+2025-11-06 13:11:58,236 - INFO - File tab clicked
+2025-11-06 13:12:00,595 - INFO - Clicked on 'Manage Rules & Alerts successfully.
+2025-11-06 13:12:01,757 - INFO - Rule and Alert window is visible
+2025-11-06 13:12:02,433 - INFO - New Rule... clicked
+2025-11-06 13:12:03,509 - INFO - Rules Wizard window is visible
+2025-11-06 13:12:05,996 - INFO - Next > in Wizard window clicked
+2025-11-06 13:12:07,716 - INFO - Condition1:Unchecked from people or public group
+2025-11-06 13:12:10,428 - INFO - Condition2:Checked with specific words in the subject)
+2025-11-06 13:12:14,402 - INFO - Condition3:Checked through the specified account
+2025-11-06 13:12:15,960 - INFO - Condition4: Checked sent only to me
+2025-11-06 13:12:16,726 - INFO - Clicked via keystrokes
+2025-11-06 13:12:18,270 - INFO - Dialog for through the specified account appeared.
+2025-11-06 13:12:19,141 - INFO - Clicked OK button in Account dialog
+2025-11-06 13:12:20,539 - INFO - Clicked 'with specific words in the subject' via keystrokes
+2025-11-06 13:12:22,136 - INFO - Search Text dlg is visible
+2025-11-06 13:12:24,145 - INFO - Text is entered in search box
+2025-11-06 13:12:25,079 - INFO - Clicked on Add button
+2025-11-06 13:12:25,983 - INFO - Clicked on OK button
+2025-11-06 13:12:27,342 - INFO - Clicked 'with specific words in the subject' via keystrokes
+2025-11-06 13:12:29,034 - INFO - Rules and Alerts dlg is visible
+2025-11-06 13:12:29,996 - INFO - Clicked on Inbox folder
+2025-11-06 13:12:31,034 - INFO - Clicked OK button
+2025-11-06 13:12:34,295 - INFO - Clicked Next button 2
+2025-11-06 13:12:35,832 - INFO - process_rule:Unchecked from people or public group
+2025-11-06 13:12:38,526 - INFO - Clicked Next button 3
+2025-11-06 13:12:41,569 - INFO - Clicked Next button 4
+2025-11-06 13:12:42,189 - INFO - Clicked Finish button
+2025-11-06 13:12:43,894 - INFO - Clicked OK button
+2025-11-06 13:12:44,513 - INFO - Clicked Apply button
+2025-11-06 13:12:47,155 - INFO - Clicked OK button
+2025-11-06 13:14:31,377 - INFO - Found 7 mail items
+2025-11-06 13:14:31,486 - INFO - Selected email is open
+2025-11-06 13:14:33,016 - ERROR - Failed to click on Attachment options button:control Attachment options not found: Attachment options not found
+2025-11-06 13:14:43,093 - ERROR - Context menu not found: timed out
+2025-11-06 13:14:43,093 - ERROR - Error occurred while trying to click 'Save As': timed out
+2025-11-06 13:15:03,855 - INFO - Found 7 mail items
+2025-11-06 13:15:03,965 - INFO - Selected email is open
+2025-11-06 13:15:05,622 - ERROR - Failed to click on Attachment options button:control Attachment options not found: Attachment options not found
+2025-11-06 13:15:15,670 - ERROR - Context menu not found: timed out
+2025-11-06 13:15:15,670 - ERROR - Error occurred while trying to click 'Save As': timed out
+2025-11-06 13:16:20,829 - INFO - Found 7 mail items
+2025-11-06 13:16:20,949 - INFO - Selected email is open
+2025-11-06 13:16:22,416 - ERROR - Failed to click on Attachment options button:control Attachment options not found: Attachment options not found
+2025-11-06 13:16:32,426 - ERROR - Context menu not found: timed out
+2025-11-06 13:16:32,426 - ERROR - Error occurred while trying to click 'Save As': timed out
+2025-11-06 13:18:31,731 - INFO - Found 7 mail items
+2025-11-06 13:18:31,855 - INFO - Selected email is open
+2025-11-06 13:18:36,973 - INFO - Attachment options clicked
+2025-11-06 13:18:43,478 - INFO - Clicked on 'Save As' successfully.
+2025-11-06 13:18:44,996 - INFO - Save Attachment dialog is opened
+2025-11-06 13:18:46,394 - INFO - Selected folder:pywin_practice
+2025-11-06 13:18:46,395 - INFO - File to be saved as: Doc_2.txt
+2025-11-06 13:18:48,073 - INFO - Edited file name: Doc_2.txt
+2025-11-06 13:18:49,281 - INFO - Save button is clicked
+2025-11-06 16:08:27,803 - INFO - New Email clicked
+2025-11-06 16:08:29,471 - INFO - Clicked on New mail and Send mail window opened
+2025-11-06 16:08:33,613 - INFO - To email id is set correctly
+2025-11-06 16:08:37,710 - INFO - Cc email id is set correctly
+2025-11-06 16:08:39,569 - INFO - Subject is set correctly
+2025-11-06 16:08:49,604 - INFO - Text in body is set correctly
+2025-11-06 16:08:55,046 - INFO - Clicked on Attach File...
+2025-11-06 16:08:56,112 - INFO - Recent items window is open
+2025-11-06 16:08:56,619 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-11-06 16:08:57,547 - INFO - Attach Popup is occurred..
+2025-11-06 16:09:02,956 - INFO - Attach as Copy option is selected
+2025-11-06 16:09:08,454 - INFO - Clicked on Send
+2025-11-06 16:09:10,983 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x00000143FC316C10>' closed successfully.
+2025-11-06 16:20:07,565 - INFO - Unread clicked
+2025-11-06 16:20:14,911 - INFO - Right-clicked on the selected option.
+2025-11-06 16:20:20,031 - ERROR - Failed to interact with context menu:timed out
+2025-11-06 16:20:46,730 - INFO - Unread clicked
+2025-11-06 16:20:51,472 - INFO - Right-clicked on the selected option.
+2025-11-06 16:20:56,508 - ERROR - Failed to interact with context menu:timed out
+2025-11-06 16:21:36,954 - INFO - Unread clicked
+2025-11-06 16:21:41,076 - INFO - Right-clicked on the selected option.
+2025-11-06 16:21:46,149 - ERROR - Failed to interact with context menu:timed out
+2025-11-06 16:22:44,986 - INFO - Unread clicked
+2025-11-06 16:22:49,123 - INFO - Right-clicked on the selected option.
+2025-11-06 16:22:54,378 - ERROR - Failed to interact with context menu:timed out
+2025-11-06 16:23:14,705 - INFO - New Email clicked
+2025-11-06 16:23:15,913 - INFO - Clicked on New mail and Send mail window opened
+2025-11-06 16:23:20,027 - INFO - To email id is set correctly
+2025-11-06 16:23:24,189 - INFO - Cc email id is set correctly
+2025-11-06 16:23:26,022 - INFO - Subject is set correctly
+2025-11-06 16:23:35,891 - INFO - Text in body is set correctly
+2025-11-06 16:23:41,345 - INFO - Clicked on Attach File...
+2025-11-06 16:23:42,392 - INFO - Recent items window is open
+2025-11-06 16:23:42,917 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-11-06 16:23:43,855 - INFO - Attach Popup is occurred..
+2025-11-06 16:23:49,285 - INFO - Attach as Copy option is selected
+2025-11-06 16:23:54,774 - INFO - Clicked on Send
+2025-11-06 16:23:57,384 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x00000286D9C06850>' closed successfully.
+2025-11-06 16:24:54,346 - INFO - Unread clicked
+2025-11-06 16:24:58,449 - INFO - Right-clicked on the selected option.
+2025-11-06 16:25:03,912 - ERROR - Failed to interact with context menu:timed out
+2025-11-06 16:30:28,845 - INFO - Unread clicked
+2025-11-06 16:32:16,993 - INFO - Found 8 mail items
+2025-11-06 16:32:17,593 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Demo subject, Sent 4:25 PM, Size 42 KB, Flag Status Unflagged, Preview Hello, Swapnali K.         This is the body of the page….!         Best Regards,    Swapnali K.    Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confidential and privileged info, ', DataItem
+2025-11-06 16:32:20,718 - INFO - Right-clicked on the selected option.
+2025-11-06 16:32:22,616 - INFO - Email marked as read.
+2025-11-06 16:45:03,924 - INFO - New Email clicked
+2025-11-06 16:45:05,369 - INFO - Clicked on New mail and Send mail window opened
+2025-11-06 16:45:09,505 - INFO - To email id is set correctly
+2025-11-06 16:45:13,646 - INFO - Cc email id is set correctly
+2025-11-06 16:45:15,506 - INFO - Subject is set correctly
+2025-11-06 16:45:25,403 - INFO - Text in body is set correctly
+2025-11-06 16:45:30,849 - INFO - Clicked on Attach File...
+2025-11-06 16:45:32,106 - INFO - Recent items window is open
+2025-11-06 16:45:32,639 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-11-06 16:45:33,732 - INFO - Attach Popup is occurred..
+2025-11-06 16:45:39,263 - INFO - Attach as Copy option is selected
+2025-11-06 16:45:44,730 - INFO - Clicked on Send
+2025-11-06 16:45:47,123 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x000001A2B7096B10>' closed successfully.
+2025-11-06 17:03:39,828 - INFO - Found 8 mail items
+2025-11-06 17:03:40,487 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Demo subject, Sent 4:25 PM, Size 42 KB, Flag Status Unflagged, Preview Hello, Swapnali K.         This is the body of the page….!         Best Regards,    Swapnali K.    Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confidential and privileged info, ', DataItem
+2025-11-06 17:03:43,611 - INFO - Right-clicked on the selected option.
+2025-11-06 17:03:45,578 - INFO - Email marked as read.
+2025-11-06 17:05:06,154 - INFO - Found 8 mail items
+2025-11-06 17:05:06,692 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Demo subject, Sent 4:25 PM, Size 42 KB, Flag Status Unflagged, Preview Hello, Swapnali K.         This is the body of the page….!         Best Regards,    Swapnali K.    Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confidential and privileged info, ', DataItem
+2025-11-06 17:05:09,806 - INFO - Right-clicked on the selected option.
+2025-11-06 17:05:16,134 - INFO - Email marked as unread.
+2025-11-06 17:09:10,969 - INFO - Found 8 mail items
+2025-11-06 17:09:11,563 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Demo subject, Sent 5:05 PM, Size 42 KB, Flag Status Unflagged, Preview Hello, Swapnali K.         This is the body of the page….!         Best Regards,    Swapnali K.    Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confidential and privileged info, ', DataItem
+2025-11-06 17:09:14,679 - INFO - Right-clicked on the selected option.
+2025-11-06 17:09:16,626 - INFO - Email marked as read.
+2025-11-06 17:13:28,803 - INFO - Found 8 mail items
+2025-11-06 17:13:29,467 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Demo subject, Sent 5:05 PM, Size 42 KB, Flag Status Unflagged, Preview Hello, Swapnali K.         This is the body of the page….!         Best Regards,    Swapnali K.    Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confidential and privileged info, ', DataItem
+2025-11-06 17:13:32,592 - INFO - Right-clicked on the selected option.
+2025-11-06 17:13:36,892 - INFO - Email marked as unread.
+2025-11-06 17:22:29,524 - ERROR - Failed to interact with the Outlook window: There are 3 elements that match the criteria {'title_re': '.*', 'backend': 'uia', 'process': 26020}
+2025-11-06 17:24:08,112 - INFO - Found 8 mail items
+2025-11-06 17:24:08,679 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Demo subject, Sent 5:05 PM, Size 42 KB, Flag Status Unflagged, Preview Hello, Swapnali K.         This is the body of the page….!         Best Regards,    Swapnali K.    Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confidential and privileged info, ', DataItem
+2025-11-06 17:24:11,799 - INFO - Right-clicked on the selected option.
+2025-11-06 17:24:13,814 - INFO - Email marked as read.
+2025-11-06 17:25:21,262 - INFO - Found 8 mail items
+2025-11-06 17:25:21,772 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Demo subject, Sent 5:05 PM, Size 42 KB, Flag Status Unflagged, Preview Hello, Swapnali K.         This is the body of the page….!         Best Regards,    Swapnali K.    Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confidential and privileged info, ', DataItem
+2025-11-06 17:25:24,898 - INFO - Right-clicked on the selected option.
+2025-11-06 17:25:28,871 - INFO - Email marked as unread.
+2025-11-06 17:27:57,630 - INFO - Found 8 mail items
+2025-11-06 17:27:58,179 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Demo subject, Sent 5:05 PM, Size 42 KB, Flag Status Unflagged, Preview Hello, Swapnali K.         This is the body of the page….!         Best Regards,    Swapnali K.    Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confidential and privileged info, ', DataItem
+2025-11-06 17:28:01,302 - INFO - Right-clicked on the selected option.
+2025-11-06 17:28:03,235 - INFO - Email marked as read.
+2025-11-06 18:53:47,828 - ERROR - Failed to interact with the Outlook window: There are 3 elements that match the criteria {'title_re': '.*', 'backend': 'uia', 'process': 5244}
+2025-11-06 19:01:25,155 - INFO - Found 8 mail items
+2025-11-06 19:01:25,777 - INFO - Most recent email: uia_controls.ListItemWrapper - 'To Swapnali K, Subject Re: [Request ID :##RE-114271##] : Install FFmpeg  and available it  in PATH., Sent 6:07 PM, Size 13 KB, Flag Status Unflagged, Preview Dear Swapnali K,    Thanks for contacting us,We have received your request and we would like to know few more details about the problem in order to solve it fast, please provide us the following details.    Can I known  the purpose of this app, why do you, ', DataItem
+2025-11-06 19:01:28,916 - INFO - Right-clicked on the selected option.
+2025-11-06 19:01:33,888 - INFO - Email marked as unread.
+2025-11-06 19:07:43,518 - INFO - Found 8 mail items
+2025-11-06 19:07:44,283 - INFO - Most recent email: uia_controls.ListItemWrapper - 'To Swapnali K, Subject Re: [Request ID :##RE-114271##] : Install FFmpeg  and available it  in PATH., Sent 6:07 PM, Size 13 KB, Flag Status Unflagged, Preview Dear Swapnali K,    Thanks for contacting us,We have received your request and we would like to know few more details about the problem in order to solve it fast, please provide us the following details.    Can I known  the purpose of this app, why do you, ', DataItem
+2025-11-06 19:07:47,402 - INFO - Right-clicked on the selected option.
+2025-11-06 19:07:52,388 - INFO - Email marked as unread.
+2025-11-06 19:11:23,050 - INFO - Found 8 mail items
+2025-11-06 19:11:23,847 - INFO - Most recent email: uia_controls.ListItemWrapper - 'To Swapnali K, Subject Request : ##RE-114271## raised by you was closed, Sent 7:10 PM, Size 29 KB, Flag Status Unflagged, Preview Dear Swapnali K,  	     	  Thank you for contacting the Managed Service Support team.  	  This message is to confirm that we have resolved your ticket : 114271  	     	  Ticket No  	114271  	  Subject  	Install FFmpeg  and available it  in PATH.  	  Engin, ', DataItem
+2025-11-06 19:11:26,973 - INFO - Right-clicked on the selected option.
+2025-11-06 19:11:28,905 - INFO - Email marked as read.
+2025-11-06 19:13:29,308 - INFO - New Email clicked
+2025-11-06 19:13:30,654 - INFO - Clicked on New mail and Send mail window opened
+2025-11-06 19:13:34,874 - INFO - To email id is set correctly
+2025-11-06 19:13:38,970 - INFO - Cc email id is set correctly
+2025-11-06 19:13:40,832 - INFO - Subject is set correctly
+2025-11-06 19:13:50,918 - INFO - Text in body is set correctly
+2025-11-06 19:13:56,413 - INFO - Clicked on Attach File...
+2025-11-06 19:13:57,830 - INFO - Recent items window is open
+2025-11-06 19:13:58,387 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-11-06 19:13:59,599 - INFO - Attach Popup is occurred..
+2025-11-06 19:14:05,145 - INFO - Attach as Copy option is selected
+2025-11-06 19:16:19,658 - INFO - New Email clicked
+2025-11-06 19:16:20,976 - INFO - Clicked on New mail and Send mail window opened
+2025-11-06 19:16:25,022 - INFO - To email id is set correctly
+2025-11-06 19:16:29,145 - INFO - Cc email id is set correctly
+2025-11-06 19:16:31,041 - INFO - Subject is set correctly
+2025-11-06 19:16:40,835 - INFO - Text in body is set correctly
+2025-11-06 19:16:46,298 - INFO - Clicked on Attach File...
+2025-11-06 19:16:47,815 - INFO - Recent items window is open
+2025-11-06 19:16:48,373 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-11-06 19:16:49,514 - INFO - Attach Popup is occurred..
+2025-11-06 19:16:55,017 - INFO - Attach as Copy option is selected
+2025-11-06 19:45:21,435 - INFO - Found 8 mail items
+2025-11-06 19:45:22,248 - INFO - Most recent email: uia_controls.ListItemWrapper - 'To Swapnali K, Subject Request : ##RE-114271## raised by you was closed, Sent 7:10 PM, Size 29 KB, Flag Status Unflagged, Preview Dear Swapnali K,  	     	  Thank you for contacting the Managed Service Support team.  	  This message is to confirm that we have resolved your ticket : 114271  	     	  Ticket No  	114271  	  Subject  	Install FFmpeg  and available it  in PATH.  	  Engin, ', DataItem
+2025-11-06 19:45:25,378 - INFO - Right-clicked on the selected option.
+2025-11-06 19:45:29,821 - INFO - Email marked as unread.
+2025-11-06 19:47:03,341 - INFO - New Email clicked
+2025-11-06 19:47:05,244 - INFO - Clicked on New mail and Send mail window opened
+2025-11-06 19:47:09,312 - INFO - To email id is set correctly
+2025-11-06 19:47:13,403 - INFO - Cc email id is set correctly
+2025-11-06 19:47:15,273 - INFO - Subject is set correctly
+2025-11-06 19:47:25,124 - INFO - Text in body is set correctly
+2025-11-06 19:47:30,619 - INFO - Clicked on Attach File...
+2025-11-06 19:47:32,037 - INFO - Recent items window is open
+2025-11-06 19:47:32,592 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-11-06 19:58:19,997 - INFO - Successfully clicked on 'Inbox' menu item.
+2025-11-06 19:58:21,571 - INFO - Clicked email with subject: Demo subject
+2025-11-06 19:58:32,512 - INFO - Edited message in reply
+2025-11-06 19:58:38,177 - INFO - Clicked on Send
+2025-11-06 19:59:34,154 - INFO - Successfully clicked on 'Inbox' menu item.
+2025-11-06 19:59:36,425 - INFO - Clicked email with subject: Demo subject
+2025-11-06 19:59:48,499 - INFO - Edited message in reply
+2025-11-06 20:02:06,914 - INFO - New Email clicked
+2025-11-06 20:02:08,810 - INFO - Clicked on New mail and Send mail window opened
+2025-11-06 20:02:12,917 - INFO - To email id is set correctly
+2025-11-06 20:02:17,011 - INFO - Cc email id is set correctly
+2025-11-06 20:02:18,855 - INFO - Subject is set correctly
+2025-11-06 20:02:28,745 - INFO - Text in body is set correctly
+2025-11-06 20:02:34,236 - INFO - Clicked on Attach File...
+2025-11-06 20:02:35,724 - INFO - Recent items window is open
+2025-11-06 20:02:36,932 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-11-06 20:02:38,021 - INFO - Attach Popup is occurred..
+2025-11-06 20:02:43,856 - INFO - Attach as Copy option is selected
+2025-11-06 20:02:49,037 - ERROR - Failed to click on Send: No Windows of that application are active
+2025-11-06 20:02:49,374 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x00000218FC0CEFD0>' closed successfully.
+2025-11-06 20:03:09,577 - INFO - New Email clicked
+2025-11-06 20:03:10,858 - INFO - Clicked on New mail and Send mail window opened
+2025-11-06 20:03:14,929 - INFO - To email id is set correctly
+2025-11-06 20:03:19,009 - INFO - Cc email id is set correctly
+2025-11-06 20:03:20,889 - INFO - Subject is set correctly
+2025-11-06 20:03:30,780 - INFO - Text in body is set correctly
+2025-11-06 20:03:36,281 - INFO - Clicked on Attach File...
+2025-11-06 20:03:37,442 - INFO - Recent items window is open
+2025-11-06 20:03:37,975 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-11-06 20:03:39,051 - INFO - Attach Popup is occurred..
+2025-11-06 20:03:44,571 - INFO - Attach as Copy option is selected
+2025-11-06 20:03:50,097 - INFO - Clicked on Send
+2025-11-06 20:03:53,232 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x000002C6CBCEEC10>' closed successfully.
+2025-11-06 20:04:43,888 - INFO - New Email clicked
+2025-11-06 20:04:45,254 - INFO - Clicked on New mail and Send mail window opened
+2025-11-06 20:04:49,324 - INFO - To email id is set correctly
+2025-11-06 20:04:53,766 - INFO - Cc email id is set correctly
+2025-11-06 20:04:55,662 - INFO - Subject is set correctly
+2025-11-06 20:05:05,645 - INFO - Text in body is set correctly
+2025-11-06 20:05:11,097 - INFO - Clicked on Attach File...
+2025-11-06 20:05:12,245 - INFO - Recent items window is open
+2025-11-06 20:05:12,768 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-11-06 20:30:54,695 - ERROR - Failed to click on send mail:control New Email not found: New Email not found
+2025-11-06 20:32:58,140 - INFO - New Email clicked
+2025-11-06 20:33:00,089 - INFO - Clicked on New mail and Send mail window opened
+2025-11-06 20:33:04,250 - INFO - To email id is set correctly
+2025-11-06 20:33:08,317 - INFO - Cc email id is set correctly
+2025-11-06 20:33:10,141 - INFO - Subject is set correctly
+2025-11-06 20:33:19,936 - INFO - Text in body is set correctly
+2025-11-06 20:33:25,380 - INFO - Clicked on Attach File...
+2025-11-06 20:33:26,950 - INFO - Recent items window is open
+2025-11-06 20:34:10,906 - INFO - New Email clicked
+2025-11-06 20:34:12,851 - INFO - Clicked on New mail and Send mail window opened
+2025-11-06 20:34:17,002 - INFO - To email id is set correctly
+2025-11-06 20:34:21,079 - INFO - Cc email id is set correctly
+2025-11-06 20:34:22,930 - INFO - Subject is set correctly
+2025-11-06 20:34:32,706 - INFO - Text in body is set correctly
+2025-11-06 20:34:38,167 - INFO - Clicked on Attach File...
+2025-11-06 20:34:39,466 - INFO - Recent items window is open
+2025-11-06 20:34:39,974 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-11-06 20:38:11,839 - INFO - Successfully clicked on 'Inbox' menu item.
+2025-11-06 20:39:01,527 - INFO - Successfully clicked on 'Inbox' menu item.
+2025-11-06 20:39:03,764 - INFO - Clicked email with subject: Demo subject
+2025-11-06 20:39:15,633 - INFO - Edited message in reply
+2025-11-06 20:39:21,257 - INFO - Clicked on Send
+2025-11-06 20:39:54,325 - INFO - Successfully clicked on 'Inbox' menu item.
+2025-11-06 20:39:55,860 - INFO - Clicked email with subject: Demo subject
+2025-11-06 20:40:06,901 - INFO - Edited message in reply
+2025-11-06 20:40:12,499 - INFO - Clicked on Send
+2025-11-06 20:42:50,633 - INFO - Successfully clicked on 'Inbox' menu item.
+2025-11-06 20:42:52,206 - INFO - Clicked email with subject: Demo subject
+2025-11-06 20:43:04,746 - INFO - Edited message in reply
+2025-11-06 20:44:49,608 - INFO - New Email clicked
+2025-11-06 20:44:50,910 - INFO - Clicked on New mail and Send mail window opened
+2025-11-06 20:44:54,934 - INFO - To email id is set correctly
+2025-11-06 20:44:59,036 - INFO - Cc email id is set correctly
+2025-11-06 20:45:00,843 - INFO - Subject is set correctly
+2025-11-06 20:45:10,622 - INFO - Text in body is set correctly
+2025-11-06 20:45:16,067 - INFO - Clicked on Attach File...
+2025-11-06 20:45:17,446 - INFO - Recent items window is open
+2025-11-06 20:45:17,990 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-11-06 20:45:19,110 - INFO - Attach Popup is occurred..
+2025-11-06 20:45:24,647 - INFO - Attach as Copy option is selected
+2025-11-06 20:45:30,149 - INFO - Clicked on Send
+2025-11-06 20:45:33,207 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x000002C1F320EC10>' closed successfully.
+2025-11-06 20:46:06,824 - INFO - New Email clicked
+2025-11-06 20:46:08,799 - INFO - Clicked on New mail and Send mail window opened
+2025-11-06 20:46:12,950 - INFO - To email id is set correctly
+2025-11-06 20:46:18,997 - INFO - Cc email id is set correctly
+2025-11-06 20:46:21,033 - INFO - Subject is set correctly

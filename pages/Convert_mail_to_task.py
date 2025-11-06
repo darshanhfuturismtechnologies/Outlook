@@ -21,7 +21,7 @@ class TaskConverter(Helper):
         # self.outlook.print_control_identifiers()
 
     def click_on_deleted_items(self):
-        self.click_menu_item(".*Sent Items:.*")
+        self.click_menu_item(".*Inbox:.*")
 
     def click_on_demo_sub_mail(self):
         try:
@@ -217,10 +217,10 @@ class TaskConverter(Helper):
             task_to_do_dlg = self.app.window(title_re=".*Tasks.*")
             task_to_do_dlg.wait('exists visible ready', timeout=10)
             self.logger.info("task_to_do_dlg is opened")
-            task_to_do_dlg.print_control_identifiers()
+            # task_to_do_dlg.print_control_identifiers()
 
             # Main container for the task for a month
-            group_box = task_to_do_dlg.child_window(title="Group By: Expanded:Flag: Due Date: Next Month",control_type="Group")
+            group_box = task_to_do_dlg.child_window(title="Group By: Expanded: Flag: Due Date: Next Month", control_type="Group")
 
 
             # All children of that main container
@@ -228,7 +228,7 @@ class TaskConverter(Helper):
             self.logger.info(f"{len(task_items)}Task items found")
 
             if task_items:
-                recent_task = task_items[0]
+                recent_task = task_items[1]
                 recent_task.click_input()
                 self.logger.info(f"Most recent unread email clicked: {recent_task}")
             else:

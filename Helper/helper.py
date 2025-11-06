@@ -1,9 +1,10 @@
+
 import time
 from pywinauto import Application
 from Logger import logs
 
 class Helper:
-    def __init__(self,app:Application,title_re:str):                            #Helper constructor called when object is created.
+    def __init__(self,app: Application,title_re:str):                            #Helper constructor called when object is created.
         #self.send_mail_window = None
         self.selected_mail = None
         self.app = app                                                          #Store the passed application object so methods can use
@@ -11,7 +12,6 @@ class Helper:
         self.outlook = self.app.window(title_re=title_re)                       #store the window title
         self.outlook.maximize()
         self.outlook.wait('exists ready visible enabled',timeout=30)            #Waits until the window exists,ready for interaction,visible,and enabled.
-
 
     """Method for click element"""
     def click(self,control_title:str,control_type:str):
@@ -122,22 +122,5 @@ class Helper:
         except Exception as e:
             self.logger.error(f"Context menu not found: {e}")
             raise
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

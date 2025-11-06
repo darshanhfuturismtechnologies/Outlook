@@ -1,0 +1,130 @@
+============================= test session starts =============================
+platform win32 -- Python 3.13.5, pytest-8.4.1, pluggy-1.6.0
+rootdir: C:\Users\swapnalik\PycharmProjects\Outlook
+plugins: html-4.1.1, metadata-3.1.1
+collected 15 items
+
+tests\test_case_01.py .                                                  [  6%]
+tests\test_case_02.py .                                                  [ 13%]
+tests\test_case_03.py .                                                  [ 20%]
+tests\test_case_04.py .                                                  [ 26%]
+tests\test_case_05.py .                                                  [ 33%]
+tests\test_case_06.py .                                                  [ 40%]
+tests\test_case_07.py .                                                  [ 46%]
+tests\test_case_08.py .                                                  [ 53%]
+tests\test_case_09.py .                                                  [ 60%]
+tests\test_case_10.py .                                                  [ 66%]
+tests\test_case_11.py .                                                  [ 73%]
+tests\test_case_12.py .                                                  [ 80%]
+tests\test_case_13.py .                                                  [ 86%]
+tests\test_case_14.py F                                                  [ 93%]
+tests\test_case_15.py .                                                  [100%]
+
+================================== FAILURES ===================================
+_____________________ test_download_attachment_from_email _____________________
+
+setup_outlook = <pywinauto.application.Application object at 0x000002229CECD010>
+
+    def test_download_attachment_from_email(setup_outlook):
+        attachment = Download_attachments(setup_outlook)
+        attachment.search_mail_of_demo_sub()
+        attachment.click_on_attachment_option()
+        attachment.click_on_save_attachment()
+>       attachment.save_attachment_at_folder()
+
+tests\test_case_14.py:9: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+pages\Download_attatchments.py:74: in save_attachment_at_folder
+    self.save_attachment_dialog.wait('visible',timeout=5)
+..\..\AppData\Local\Programs\Python\Python313\Lib\site-packages\pywinauto\application.py:529: in wait
+    wait_until(timeout, retry_interval,
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+timeout = 5, retry_interval = 0.09
+func = <function WindowSpecification.wait.<locals>.<lambda> at 0x000002229D019D00>
+value = True, op = <built-in function eq>, args = (), kwargs = {}
+start = 692977.1973653, func_val = False, time_left = -0.19007549993693829
+err = TimeoutError('timed out')
+
+    def wait_until(timeout,
+                   retry_interval,
+                   func,
+                   value=True,
+                   op=operator.eq,
+                   *args, **kwargs):
+        r"""
+        Wait until ``op(function(*args, **kwargs), value)`` is True or until timeout expires
+    
+        * **timeout**  how long the function will try the function
+        * **retry_interval**  how long to wait between retries
+        * **func** the function that will be executed
+        * **value**  the value to be compared against (defaults to True)
+        * **op** the comparison function (defaults to equality)\
+        * **args** optional arguments to be passed to func when called
+        * **kwargs** optional keyword arguments to be passed to func when called
+    
+        Returns the return value of the function
+        If the operation times out then the return value of the the function
+        is in the 'function_value' attribute of the raised exception.
+    
+        e.g. ::
+    
+            try:
+                # wait a maximum of 10.5 seconds for the
+                # the objects item_count() method to return 10
+                # in increments of .5 of a second
+                wait_until(10.5, .5, self.item_count, 10)
+            except TimeoutError as e:
+                print("timed out")
+        """
+        start = timestamp()
+    
+        func_val = func(*args, **kwargs)
+        # while the function hasn't returned what we are waiting for
+        while not op(func_val, value):
+    
+            # find out how much of the time is left
+            time_left = timeout - (timestamp() - start)
+    
+            # if we have to wait some more
+            if time_left > 0:
+                # wait either the retry_interval or else the amount of
+                # time until the timeout expires (whichever is less)
+                time.sleep(min(retry_interval, time_left))
+                func_val = func(*args, **kwargs)
+            else:
+                err = TimeoutError("timed out")
+                err.function_value = func_val
+>               raise err
+E               pywinauto.timings.TimeoutError: timed out
+
+..\..\AppData\Local\Programs\Python\Python313\Lib\site-packages\pywinauto\timings.py:375: TimeoutError
+---------------------------- Captured stderr call -----------------------------
+2025-11-06 13:11:30,430 - INFO - Found 7 mail items
+2025-11-06 13:11:30,539 - INFO - Selected email is open
+2025-11-06 13:11:31,508 - ERROR - Failed to click on Attachment options button:control Attachment options not found: Attachment options not found
+2025-11-06 13:11:41,779 - ERROR - Context menu not found: timed out
+2025-11-06 13:11:41,779 - ERROR - Error occurred while trying to click 'Save As': timed out
+------------------------------ Captured log call ------------------------------
+INFO     root:Download_attatchments.py:31 Found 7 mail items
+INFO     root:Download_attatchments.py:36 Selected email is open
+ERROR    root:Download_attatchments.py:45 Failed to click on Attachment options button:control Attachment options not found: Attachment options not found
+ERROR    root:helper.py:123 Context menu not found: timed out
+ERROR    root:Download_attatchments.py:68 Error occurred while trying to click 'Save As': timed out
+============================== warnings summary ===============================
+tests/test_case_01.py::test_send_mail
+tests/test_case_04.py::test_reply_to_mail
+tests/test_case_08.py::test_forward_email
+tests/test_case_11.py::test_create_group_and_send_send_mail
+  C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pywinauto\controls\uiawrapper.py:415: RuntimeWarning: The window has not been focused due to COMError: (-2146233079, None, (None, None, None, 0, None))
+    warnings.warn('The window has not been focused due to ' \
+
+tests/test_case_01.py::test_send_mail
+tests/test_case_09.py::test_recover_mail_from_server_backup
+  C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pywinauto\application.py:290: DeprecationWarning: WindowSpecification.Window() WindowSpecification.Window_(), WindowSpecification.window() and WindowSpecification.window_() are deprecated, please switch to WindowSpecification.child_window()
+    warnings.warn(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ===========================
+FAILED tests/test_case_14.py::test_download_attachment_from_email - pywinauto...
+============ 1 failed, 14 passed, 6 warnings in 452.96s (0:07:32) =============
