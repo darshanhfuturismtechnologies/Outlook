@@ -1,14 +1,14 @@
-
 import pytest
 from pywinauto import Application
 from Screen_recorder.Screen_recorder import ScreenRecorder
 
 
-#scope=session: the fixture runs once per test session, not per test.
-#autouse=True: automatically used by all tests without needing to explicitly add it to test functions.
+
+"""Start recording for the whole test session."""
+#scope=session:runs only once for the entire test suite (before any test starts and after all tests finish).
+#autouse=True:automatically applies to all tests (you don’t have to include it manually in each test).
 @pytest.fixture(scope="session", autouse=True)
 def session_record():
-    """Start recording for the whole test session."""
     recorder = ScreenRecorder("tests_record.mp4")
     recorder.start()
     yield
@@ -36,7 +36,7 @@ def setup_outlook():
 #Dictionary to store recorders for each failing test.
 _failure_recorders = {}
 
-"""Hook called after each test phase — start recording on failure."""
+"""Hook — Start Recording When a Test Fails"""
 #hookwrapper=True:-Allows us to run code before and after Pytest collects the test report.
 #outcome = yield:-Wait for the original Pytest test report to be generated.
 #result = outcome.get_result():-Get the report object, which contains test results (passed,failed,skipped).
@@ -62,18 +62,23 @@ def pytest_runtest_makereport(item):
 
 
 
-"""Runs after each test, even if the test failed."""
+"""Hook — Stop Failure Recording After Teardown"""""
+#Runs after each test’s teardown phase — even if it failed.
+#Retrieves and removes (pop) the corresponding recorder from the dictionary.
+#If a recorder exists,it stops the recording.
 #_failure_recorders.pop(item.nodeid, None):-Get the recorder for this test and remove it from the dictionary.
 #recorder.stop():-Stop the recording after teardown finishes.
 
 @pytest.hookimpl(hookwrapper=True)
 def pytest_runtest_teardown(item):
-    """Stop failure recording after test teardown."""
     yield
-    recorder = _failure_recorders.pop(item.nodeid, None)
+    recorder = _failure_recorders.pop(item.nodeid,None)
     if recorder:
         recorder.stop()
         print(f"Stopped failure recording for {item.nodeid}")
+
+
+
 
 
 

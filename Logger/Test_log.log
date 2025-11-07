@@ -8228,3 +8228,11 @@ AttributeError: 'NoneType' object has no attribute 'toggle'
 2025-11-06 20:46:12,950 - INFO - To email id is set correctly
 2025-11-06 20:46:18,997 - INFO - Cc email id is set correctly
 2025-11-06 20:46:21,033 - INFO - Subject is set correctly
+2025-11-07 13:52:00,420 - INFO - Searched contact: aarti t
+2025-11-07 13:52:02,422 - INFO - Search contact: aarti t
+2025-11-07 14:12:15,766 - INFO - Searched contact: aarti t
+2025-11-07 14:12:17,767 - INFO - Searched contact: aarti t
+2025-11-07 14:12:19,768 - INFO - Search contact: aarti t
+2025-11-07 14:25:11,541 - INFO - Searched contact: aarti t
+2025-11-07 14:25:13,541 - INFO - Searched contact: aarti t
+2025-11-07 14:25:15,542 - INFO - Search contact: aarti t

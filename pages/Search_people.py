@@ -1,9 +1,36 @@
+# import time
+# from Helper.helper import Helper
+#
+# class SearchPeople(Helper):
+#     def __init__(self,app):
+#         super().__init__(app,".*Outlook.*")
+#
+#     def click_on_search_people_and_enter_contact(self,contact_name):
+#         find_group = self.outlook.child_window(title="Find", control_type="Group")
+#         search_edit = find_group.child_window(control_type="Edit", found_index=0)
+#         search_edit.wait("ready", timeout=10)
+#         search_edit.click_input()
+#
+#         # 2. Type name and press ENTER twice
+#         search_edit.type_keys(contact_name + "{ENTER}{ENTER}",with_spaces=True)
+#
+#         result_list = self.outlook.child_window(control_type="List")
+#         results = result_list.children()
+#
+#         # Check if any result contains the contact name
+#         for result in results:
+#             if contact_name.lower() in result.window_text().lower():
+#                 return result.window_text()  # Return the contact info if found
+#
+#         # Return None if contact is not found
+#         return None
+
 import time
 from Helper.helper import Helper
 
 class SearchPeople(Helper):
-    def __init__(self,app):
-        super().__init__(app,".*Outlook.*")
+    def __init__(self, app):
+        super().__init__(app, ".*Outlook.*")
 
     def click_on_search_people_and_enter_contact(self):
         find_group = self.outlook.child_window(title="Find", control_type="Group")
@@ -11,11 +38,31 @@ class SearchPeople(Helper):
         search_edit.wait("ready", timeout=10)
         search_edit.click_input()
 
-        # 2. Type name and press ENTER twice
-        search_edit.type_keys("aarti t" + "{ENTER}{ENTER}",with_spaces=True)
+        search_edit.type_keys("aarti t" + "{ENTER}{ENTER}", with_spaces=True)
+        self.logger.info(f"Searched contact: {"aarti t"}")
+        time.sleep(2)
+
         self.logger.info(f"Searched contact: {"aarti t" }")
-        time.sleep(2)  # wait for contact card window to open
+        time.sleep(2)
         self.logger.info(f"Search contact: {"aarti t" }")
+        # self.outlook.print_control_identifiers()
+
+
+    # if contact:
+    #     print(f"Found contact: {contact}")
+    # else:
+    #     print("Contact not found.")
+
+    # Example usage: Search for a contact named "John Doe"
+    # contact = search_person_in_outlook("John Doe")
+
+
+
+
+
+
+
+
 
         # self.outlook. child_window(title="IM", auto_id="PersonaSendIMMenu", control_type="MenuItem").click_input()
         # self.logger.info("Clicked")
