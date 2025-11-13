@@ -204,7 +204,7 @@ class Create_rule(Helper):
             try:
                 process_rule = self.rules_wizard_dlg.child_window(title="stop processing more rules",control_type="CheckBox",found_index=1)
                 if process_rule.get_toggle_state():  # If already checked
-                    process_rule.toggle()  # Uncheck it
+                    process_rule.toggle()  #Uncheck it
                     self.logger.info("process_rule:Unchecked from people or public group")
                 else:
                     self.logger.info("process_rule was already unchecked")

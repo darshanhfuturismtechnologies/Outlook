@@ -1,0 +1,15 @@
+2025-11-12 14:45:11,981 - INFO - Successfully clicked on '.*Inbox.*' menu item.
+2025-11-12 14:45:11,981 - INFO - Clicked on Inbox
+2025-11-12 14:45:13,152 - INFO - Categorized menu clicked
+2025-11-12 14:45:15,022 - INFO - Clicked on 'Blue Category'
+2025-11-12 14:45:15,456 - INFO - Total mails:7
+2025-11-12 14:45:16,064 - INFO - Most recent email: uia_controls.ListItemWrapper - 'To Swapnali K, Subject FW: Demo subject, Sent 10/16/2025, Size 13 KB, Categories Blue Category, Flag Status Unflagged, Preview Hello, Swapnali K.    This is Forward Testcase..!    Best Regards, Swapnali K        From: Swapnali K <swapnalik@futurismtechnologies.com>  Sent: Wednesday, October 15, 2025 3:22 PM  To: Swapnali K <swapnalik@futurismtechnologies.com>  Subject: RE: Demo s, ', DataItem
+2025-11-12 14:45:17,279 - INFO - Forward clicked
+2025-11-12 14:45:19,489 - INFO - Pop Out clicked
+2025-11-12 14:45:19,489 - INFO - Clicked on Pop Out
+2025-11-12 14:45:21,043 - INFO - Forward window is visible
+2025-11-12 14:45:22,525 - INFO - to_field typed successfully
+2025-11-12 14:45:23,874 - INFO - Cc typed successfully
+2025-11-12 14:45:33,018 - INFO - Clicked on Send
+2025-11-12 14:45:34,667 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x00000288BEC33B60>' closed successfully.
+2025-11-12 14:45:37,171 - INFO - Search bar cleared.

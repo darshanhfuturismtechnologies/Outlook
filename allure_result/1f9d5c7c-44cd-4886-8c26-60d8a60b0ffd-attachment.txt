@@ -1,0 +1,5 @@
+[32mINFO    [0m root:helper.py:92 Successfully clicked on '.*Sent Items.*' menu item.
+[32mINFO    [0m root:Delete_mail.py:17 Successfully clicked on sent item.
+[32mINFO    [0m root:Delete_mail.py:34 Clicked email with subject: Demo subject
+[32mINFO    [0m root:helper.py:106 Right-clicked on the selected option.
+[32mINFO    [0m root:Delete_mail.py:54 Clicked on Delete

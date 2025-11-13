@@ -1,0 +1,5 @@
+[32mINFO    [0m root:contact_management.py:22 Click on Contact View from Search Bar
+[32mINFO    [0m root:contact_management.py:33 Clicked on New Contact button
+[32mINFO    [0m root:contact_management.py:37 New contact dialog opened
+[32mINFO    [0m root:contact_management.py:60 All details are entered
+[32mINFO    [0m root:contact_management.py:68 Clicked on Save and Close button

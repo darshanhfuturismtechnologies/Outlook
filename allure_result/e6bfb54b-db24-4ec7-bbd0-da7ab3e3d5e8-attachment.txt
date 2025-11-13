@@ -1,0 +1,3 @@
+2025-11-12 14:43:25,099 - INFO - Unread clicked
+2025-11-12 14:43:29,226 - INFO - Right-clicked on the selected option.
+2025-11-12 14:43:32,986 - INFO - Email marked as read.

@@ -1,0 +1,3 @@
+[32mINFO    [0m root:Search_people.py:42 Searched contact: aarti t
+[32mINFO    [0m root:Search_people.py:45 Searched contact: aarti t
+[32mINFO    [0m root:Search_people.py:47 Search contact: aarti t

@@ -1,0 +1,5 @@
+2025-11-12 14:44:14,219 - INFO - Successfully clicked on '.*Sent Items.*' menu item.
+2025-11-12 14:44:14,220 - INFO - Successfully clicked on sent item.
+2025-11-12 14:44:15,889 - INFO - Clicked email with subject: Demo subject
+2025-11-12 14:44:19,021 - INFO - Right-clicked on the selected option.
+2025-11-12 14:44:20,541 - INFO - Clicked on Delete

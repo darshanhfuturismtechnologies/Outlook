@@ -1,0 +1,7 @@
+2025-11-12 14:44:52,282 - INFO - Successfully clicked on '.*Inbox.*' menu item.
+2025-11-12 14:44:52,283 - INFO - Successfully clicked on inbox.
+2025-11-12 14:44:55,222 - INFO - Found 8 mail items
+2025-11-12 14:44:55,352 - INFO - Selected email with subject: To Swapnali K, Subject FW: Demo subject, Sent Mon 4:39 PM, Size 10 KB, Start Date None, Due Date None, Flag Status Red Flag, Preview Hello, Swapnali K.    This is Forward Testcase..!    Best Regards, Swapnali K        From: Swapnali K  Sent: Thursday, October 16, 2025 1:32 PM  To: Swapnali K <swapnalik@futurismtechnologies.com>  Cc: Swapnali K <swapnalik@futurismtechnologies.com>  Subj, 
+2025-11-12 14:44:58,963 - INFO - Right-clicked on the selected option.
+2025-11-12 14:45:00,426 - INFO - Clicked on Move
+2025-11-12 14:45:01,028 - INFO - Clicked on Archive

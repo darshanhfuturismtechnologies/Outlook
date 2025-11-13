@@ -1,0 +1,4 @@
+[32mINFO    [0m root:ReadMail.py:18 Found 8 mail items
+[32mINFO    [0m root:ReadMail.py:26 Most recent email: uia_controls.ListItemWrapper - 'To Swapnali K, Subject Satish C is trying to reach you in Microsoft Teams, Sent Tue 8:30 PM, Size 68 KB, Flag Status Unflagged, Preview CAUTION : This email originated from outside of the organization. Do not click links or open attachments unless you recognize the sender and know the content is safe..    Microsoft Teams 	   <https://statics.teams.microsoft.com/evergreen-assets/emails/not, ', DataItem
+[32mINFO    [0m root:helper.py:106 Right-clicked on the selected option.
+[32mINFO    [0m root:ReadMail.py:54 Email marked as unread.

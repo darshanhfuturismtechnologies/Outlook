@@ -1,0 +1,30 @@
+2025-11-12 14:48:56,477 - INFO - File tab clicked
+2025-11-12 14:48:59,402 - INFO - Clicked on 'Manage Rules & Alerts successfully.
+2025-11-12 14:49:00,568 - INFO - Rule and Alert window is visible
+2025-11-12 14:49:01,352 - INFO - New Rule... clicked
+2025-11-12 14:49:02,826 - INFO - Rules Wizard window is visible
+2025-11-12 14:49:05,741 - INFO - Next > in Wizard window clicked
+2025-11-12 14:49:07,349 - INFO - Condition1:Unchecked from people or public group
+2025-11-12 14:49:08,917 - INFO - Condition2:Checked with specific words in the subject)
+2025-11-12 14:49:10,526 - INFO - Condition3:Checked through the specified account
+2025-11-12 14:49:12,252 - INFO - Condition4: Checked sent only to me
+2025-11-12 14:49:13,062 - INFO - Clicked via keystrokes
+2025-11-12 14:49:14,693 - INFO - Dialog for through the specified account appeared.
+2025-11-12 14:49:15,626 - INFO - Clicked OK button in Account dialog
+2025-11-12 14:49:16,951 - INFO - Clicked 'with specific words in the subject' via keystrokes
+2025-11-12 14:49:18,637 - INFO - Search Text dlg is visible
+2025-11-12 14:49:20,704 - INFO - Text is entered in search box
+2025-11-12 14:49:21,696 - INFO - Clicked on Add button
+2025-11-12 14:49:22,666 - INFO - Clicked on OK button
+2025-11-12 14:49:23,999 - INFO - Clicked 'with specific words in the subject' via keystrokes
+2025-11-12 14:49:25,695 - INFO - Rules and Alerts dlg is visible
+2025-11-12 14:49:26,714 - INFO - Clicked on Inbox folder
+2025-11-12 14:49:27,730 - INFO - Clicked OK button
+2025-11-12 14:49:30,962 - INFO - Clicked Next button 2
+2025-11-12 14:49:32,471 - INFO - process_rule:Unchecked from people or public group
+2025-11-12 14:49:35,378 - INFO - Clicked Next button 3
+2025-11-12 14:49:38,504 - INFO - Clicked Next button 4
+2025-11-12 14:49:39,149 - INFO - Clicked Finish button
+2025-11-12 14:49:40,963 - INFO - Clicked OK button
+2025-11-12 14:49:41,515 - INFO - Clicked Apply button
+2025-11-12 14:49:44,593 - INFO - Clicked OK button

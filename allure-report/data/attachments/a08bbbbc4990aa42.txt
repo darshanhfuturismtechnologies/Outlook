@@ -1,0 +1,20 @@
+2025-11-12 14:47:49,996 - INFO - Successfully clicked on '.*Inbox.*' menu item.
+2025-11-12 14:47:52,101 - INFO - Found 7 mail items
+2025-11-12 14:47:52,232 - INFO - Selected email with subject:To Swapnali K, Subject FW: Demo subject, Sent 2:46 PM, Size 16 KB, Flag Status Unflagged, Preview Hello, Swapnali K.    This is Forward Testcase..!    Best Regards, Swapnali K        From: Swapnali K  Sent: Thursday, October 16, 2025 1:32 PM  To: Swapnali K <swapnalik@futurismtechnologies.com>  Cc: Swapnali K <swapnalik@futurismtechnologies.com>  Subj, 
+2025-11-12 14:47:55,836 - INFO - Right-clicked on the selected option.
+2025-11-12 14:47:57,304 - INFO - Clicked on Follow Up
+2025-11-12 14:47:57,796 - INFO - Found 11 sub menu items
+2025-11-12 14:47:57,912 - INFO - Clicked on No Date flag:
+2025-11-12 14:47:59,414 - INFO - Clicked on inbox menu
+2025-11-12 14:47:59,930 - INFO - Right-clicked on inbox menu
+2025-11-12 14:48:01,351 - INFO - Clicked on Create New Folder menu item
+2025-11-12 14:48:02,597 - INFO - Create New Folder window is visible
+2025-11-12 14:48:06,274 - INFO - Demo folder is created
+2025-11-12 14:48:07,854 - INFO - Right clicked on selected mail
+2025-11-12 14:48:08,459 - INFO - Opened Move menu
+2025-11-12 14:48:10,924 - INFO - Located Move submenu
+2025-11-12 14:48:11,850 - INFO - Found GroupBox inside Move submenu
+2025-11-12 14:48:13,912 - INFO - Successfully moved email to Demo folder
+2025-11-12 14:48:17,407 - INFO - Deleted folder successfully
+2025-11-12 14:48:18,235 - INFO - Delete pop-up appeared.
+2025-11-12 14:48:19,196 - INFO - Clicked Yes to delete the folder.

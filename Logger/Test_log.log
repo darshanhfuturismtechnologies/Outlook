@@ -8236,3 +8236,1544 @@ AttributeError: 'NoneType' object has no attribute 'toggle'
 2025-11-07 14:25:11,541 - INFO - Searched contact: aarti t
 2025-11-07 14:25:13,541 - INFO - Searched contact: aarti t
 2025-11-07 14:25:15,542 - INFO - Search contact: aarti t
+2025-11-07 18:44:33,589 - INFO - New Email clicked
+2025-11-07 18:44:35,021 - INFO - Clicked on New mail and Send mail window opened
+2025-11-07 18:44:39,152 - INFO - To email id is set correctly
+2025-11-07 18:44:43,232 - INFO - Cc email id is set correctly
+2025-11-07 18:44:45,023 - INFO - Subject is set correctly
+2025-11-07 18:44:54,839 - INFO - Text in body is set correctly
+2025-11-07 18:45:00,298 - INFO - Clicked on Attach File...
+2025-11-07 18:45:01,792 - INFO - Recent items window is open
+2025-11-07 18:45:02,372 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-11-07 18:45:03,385 - INFO - Attach Popup is occurred..
+2025-11-07 18:45:08,825 - INFO - Attach as Copy option is selected
+2025-11-07 18:45:14,295 - INFO - Clicked on Send
+2025-11-07 18:45:18,603 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x00000127B9ADEFD0>' closed successfully.
+2025-11-07 18:46:58,522 - INFO - New Email clicked
+2025-11-07 18:47:00,377 - INFO - Clicked on New mail and Send mail window opened
+2025-11-07 18:47:04,545 - INFO - To email id is set correctly
+2025-11-07 18:47:09,713 - INFO - Cc email id is set correctly
+2025-11-07 18:47:11,717 - INFO - Subject is set correctly
+2025-11-07 18:47:21,418 - INFO - Text in body is set correctly
+2025-11-07 18:47:26,851 - INFO - Clicked on Attach File...
+2025-11-07 18:47:28,190 - INFO - Recent items window is open
+2025-11-07 18:47:28,724 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-11-07 18:47:29,750 - INFO - Attach Popup is occurred..
+2025-11-07 18:47:35,181 - INFO - Attach as Copy option is selected
+2025-11-07 18:47:40,632 - INFO - Clicked on Send
+2025-11-07 18:47:43,038 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x000002703F99EC10>' closed successfully.
+2025-11-07 18:57:29,306 - INFO - Found 7 mail items
+2025-11-07 18:57:29,866 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Demo subject, Sent 6:47 PM, Size 42 KB, Flag Status Unflagged, Preview Hello, Swapnali K.         This is the body of the page….!         Best Regards,    Swapnali K.    Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confidential and privileged info, ', DataItem
+2025-11-07 18:57:32,992 - INFO - Right-clicked on the selected option.
+2025-11-07 18:57:34,891 - INFO - Email marked as read.
+2025-11-07 18:58:57,559 - INFO - New Email clicked
+2025-11-07 18:58:58,858 - INFO - Clicked on New mail and Send mail window opened
+2025-11-07 18:59:02,873 - INFO - To email id is set correctly
+2025-11-07 18:59:07,843 - INFO - Cc email id is set correctly
+2025-11-07 18:59:09,682 - INFO - Subject is set correctly
+2025-11-07 19:13:28,145 - INFO - New Email clicked
+2025-11-07 19:13:29,352 - INFO - Clicked on New mail and Send mail window opened
+2025-11-07 19:13:33,425 - INFO - To email id is set correctly
+2025-11-07 19:13:37,508 - INFO - Cc email id is set correctly
+2025-11-07 19:13:39,347 - INFO - Subject is set correctly
+2025-11-07 19:13:49,092 - INFO - Text in body is set correctly
+2025-11-07 19:13:54,518 - INFO - Clicked on Attach File...
+2025-11-07 19:13:55,903 - INFO - Recent items window is open
+2025-11-07 19:13:56,424 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-11-07 19:16:33,431 - INFO - New Email clicked
+2025-11-07 19:16:34,684 - INFO - Clicked on New mail and Send mail window opened
+2025-11-07 19:16:38,701 - INFO - To email id is set correctly
+2025-11-07 19:16:42,785 - INFO - Cc email id is set correctly
+2025-11-07 19:16:44,618 - INFO - Subject is set correctly
+2025-11-07 19:16:54,297 - INFO - Text in body is set correctly
+2025-11-07 19:16:59,704 - INFO - Clicked on Attach File...
+2025-11-07 19:17:01,076 - INFO - Recent items window is open
+2025-11-07 19:17:01,609 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-11-07 19:40:05,029 - INFO - New Email clicked
+2025-11-07 19:40:06,272 - INFO - Clicked on New mail and Send mail window opened
+2025-11-07 19:40:10,316 - INFO - To email id is set correctly
+2025-11-07 19:40:14,374 - INFO - Cc email id is set correctly
+2025-11-07 19:40:16,230 - INFO - Subject is set correctly
+2025-11-07 19:40:26,035 - INFO - Text in body is set correctly
+2025-11-07 19:40:31,537 - INFO - Clicked on Attach File...
+2025-11-07 19:40:32,893 - INFO - Recent items window is open
+2025-11-07 19:40:33,410 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-11-07 19:42:44,461 - INFO - Click on Contact View from Search Bar
+2025-11-07 19:42:45,799 - INFO - Clicked on New Contact button
+2025-11-07 19:42:46,968 - INFO - New contact dialog opened
+2025-11-07 19:59:03,412 - INFO - Successfully clicked on 'Inbox' menu item.
+2025-11-07 19:59:04,913 - INFO - Clicked email with subject: Demo subject
+2025-11-07 19:59:16,640 - INFO - Edited message in reply
+2025-11-07 20:11:51,598 - INFO - Successfully clicked on '.*Inbox.*' menu item.
+2025-11-07 20:11:51,599 - INFO - Clicked on Inbox
+2025-11-07 20:11:54,693 - INFO - Categorized menu clicked
+2025-11-07 20:11:56,613 - INFO - Clicked on 'Blue Category'
+2025-11-07 20:11:57,037 - INFO - Total mails:7
+2025-11-07 20:11:57,604 - INFO - Most recent email: uia_controls.ListItemWrapper - 'To Swapnali K, Subject FW: Demo subject, Sent 10/16/2025, Size 13 KB, Categories Blue Category, Flag Status Unflagged, Preview Hello, Swapnali K.    This is Forward Testcase..!    Best Regards, Swapnali K        From: Swapnali K <swapnalik@futurismtechnologies.com>  Sent: Wednesday, October 15, 2025 3:22 PM  To: Swapnali K <swapnalik@futurismtechnologies.com>  Subject: RE: Demo s, ', DataItem
+2025-11-07 20:11:59,041 - INFO - Forward clicked
+2025-11-07 20:12:01,784 - INFO - Pop Out clicked
+2025-11-07 20:12:01,784 - INFO - Clicked on Pop Out
+2025-11-07 20:12:03,095 - INFO - Forward window is visible
+2025-11-07 20:12:04,452 - INFO - to_field typed successfully
+2025-11-07 20:12:05,729 - INFO - Cc typed successfully
+2025-11-07 20:14:17,501 - INFO - Successfully clicked on '.*Inbox.*' menu item.
+2025-11-07 20:14:17,501 - INFO - Clicked on Inbox
+2025-11-07 20:14:18,604 - INFO - Categorized menu clicked
+2025-11-07 20:14:23,922 - ERROR - Failed to select blue category item:timed out
+2025-11-07 20:20:04,927 - INFO - Successfully clicked on '.*Inbox.*' menu item.
+2025-11-07 20:20:04,928 - INFO - Clicked on Inbox
+2025-11-07 20:20:05,982 - INFO - Categorized menu clicked
+2025-11-07 20:20:07,884 - INFO - Clicked on 'Blue Category'
+2025-11-07 20:20:08,248 - INFO - Total mails:7
+2025-11-07 20:20:08,780 - INFO - Most recent email: uia_controls.ListItemWrapper - 'To Swapnali K, Subject FW: Demo subject, Sent 10/16/2025, Size 13 KB, Categories Blue Category, Flag Status Unflagged, Preview Hello, Swapnali K.    This is Forward Testcase..!    Best Regards, Swapnali K        From: Swapnali K <swapnalik@futurismtechnologies.com>  Sent: Wednesday, October 15, 2025 3:22 PM  To: Swapnali K <swapnalik@futurismtechnologies.com>  Subject: RE: Demo s, ', DataItem
+2025-11-07 20:20:10,181 - INFO - Forward clicked
+2025-11-07 20:20:12,236 - INFO - Pop Out clicked
+2025-11-07 20:20:12,236 - INFO - Clicked on Pop Out
+2025-11-07 20:20:14,084 - INFO - Forward window is visible
+2025-11-07 20:20:15,435 - INFO - to_field typed successfully
+2025-11-07 20:20:16,696 - INFO - Cc typed successfully
+2025-11-07 20:23:01,550 - INFO - Successfully clicked on '.*Inbox.*' menu item.
+2025-11-07 20:23:01,551 - INFO - Clicked on Inbox
+2025-11-07 20:23:02,799 - INFO - Categorized menu clicked
+2025-11-07 20:23:04,709 - INFO - Clicked on 'Blue Category'
+2025-11-07 20:23:05,108 - INFO - Total mails:7
+2025-11-07 20:23:05,668 - INFO - Most recent email: uia_controls.ListItemWrapper - 'To Swapnali K, Subject FW: Demo subject, Sent 10/16/2025, Size 13 KB, Categories Blue Category, Flag Status Unflagged, Preview Hello, Swapnali K.    This is Forward Testcase..!    Best Regards, Swapnali K        From: Swapnali K <swapnalik@futurismtechnologies.com>  Sent: Wednesday, October 15, 2025 3:22 PM  To: Swapnali K <swapnalik@futurismtechnologies.com>  Subject: RE: Demo s, ', DataItem
+2025-11-07 20:23:07,139 - INFO - Forward clicked
+2025-11-07 20:23:09,862 - INFO - Pop Out clicked
+2025-11-07 20:23:09,862 - INFO - Clicked on Pop Out
+2025-11-07 20:23:11,232 - INFO - Forward window is visible
+2025-11-07 20:23:12,599 - INFO - to_field typed successfully
+2025-11-07 20:23:13,860 - INFO - Cc typed successfully
+2025-11-07 20:25:22,602 - INFO - Successfully clicked on '.*Inbox.*' menu item.
+2025-11-07 20:25:22,603 - INFO - Clicked on Inbox
+2025-11-07 20:25:25,011 - INFO - Categorized menu clicked
+2025-11-07 20:25:26,948 - INFO - Clicked on 'Blue Category'
+2025-11-07 20:25:27,351 - INFO - Total mails:7
+2025-11-07 20:25:27,902 - INFO - Most recent email: uia_controls.ListItemWrapper - 'To Swapnali K, Subject FW: Demo subject, Sent 10/16/2025, Size 13 KB, Categories Blue Category, Flag Status Unflagged, Preview Hello, Swapnali K.    This is Forward Testcase..!    Best Regards, Swapnali K        From: Swapnali K <swapnalik@futurismtechnologies.com>  Sent: Wednesday, October 15, 2025 3:22 PM  To: Swapnali K <swapnalik@futurismtechnologies.com>  Subject: RE: Demo s, ', DataItem
+2025-11-07 20:25:29,359 - INFO - Forward clicked
+2025-11-07 20:25:31,299 - INFO - Pop Out clicked
+2025-11-07 20:25:31,299 - INFO - Clicked on Pop Out
+2025-11-07 20:25:32,698 - INFO - Forward window is visible
+2025-11-07 20:25:34,057 - INFO - to_field typed successfully
+2025-11-07 20:25:35,319 - INFO - Cc typed successfully
+2025-11-07 20:29:07,292 - INFO - Successfully clicked on '.*Inbox.*' menu item.
+2025-11-07 20:29:07,292 - INFO - Clicked on Inbox
+2025-11-07 20:29:09,215 - INFO - Categorized menu clicked
+2025-11-07 20:29:11,135 - INFO - Clicked on 'Blue Category'
+2025-11-07 20:29:11,491 - INFO - Total mails:7
+2025-11-07 20:29:12,032 - INFO - Most recent email: uia_controls.ListItemWrapper - 'To Swapnali K, Subject FW: Demo subject, Sent 10/16/2025, Size 13 KB, Categories Blue Category, Flag Status Unflagged, Preview Hello, Swapnali K.    This is Forward Testcase..!    Best Regards, Swapnali K        From: Swapnali K <swapnalik@futurismtechnologies.com>  Sent: Wednesday, October 15, 2025 3:22 PM  To: Swapnali K <swapnalik@futurismtechnologies.com>  Subject: RE: Demo s, ', DataItem
+2025-11-07 20:29:13,532 - INFO - Forward clicked
+2025-11-07 20:29:15,603 - INFO - Pop Out clicked
+2025-11-07 20:29:15,604 - INFO - Clicked on Pop Out
+2025-11-07 20:29:16,928 - INFO - Forward window is visible
+2025-11-07 20:29:18,291 - INFO - to_field typed successfully
+2025-11-07 20:29:19,560 - INFO - Cc typed successfully
+2025-11-07 20:30:36,349 - INFO - Successfully clicked on '.*Inbox.*' menu item.
+2025-11-07 20:30:36,350 - INFO - Clicked on Inbox
+2025-11-07 20:30:38,388 - INFO - Categorized menu clicked
+2025-11-07 20:30:40,275 - INFO - Clicked on 'Blue Category'
+2025-11-07 20:30:40,587 - INFO - Total mails:0
+2025-11-07 20:30:40,587 - ERROR - Failed to click on recent mail:No emails found in the inbox
+2025-11-07 20:33:29,461 - INFO - Successfully clicked on '.*Inbox.*' menu item.
+2025-11-07 20:33:29,462 - INFO - Clicked on Inbox
+2025-11-07 20:33:30,731 - INFO - Categorized menu clicked
+2025-11-07 20:33:32,635 - INFO - Clicked on 'Blue Category'
+2025-11-07 20:33:33,030 - INFO - Total mails:7
+2025-11-07 20:33:33,561 - INFO - Most recent email: uia_controls.ListItemWrapper - 'To Swapnali K, Subject FW: Demo subject, Sent 10/16/2025, Size 13 KB, Categories Blue Category, Flag Status Unflagged, Preview Hello, Swapnali K.    This is Forward Testcase..!    Best Regards, Swapnali K        From: Swapnali K <swapnalik@futurismtechnologies.com>  Sent: Wednesday, October 15, 2025 3:22 PM  To: Swapnali K <swapnalik@futurismtechnologies.com>  Subject: RE: Demo s, ', DataItem
+2025-11-07 20:33:34,962 - INFO - Forward clicked
+2025-11-07 20:33:36,953 - INFO - Pop Out clicked
+2025-11-07 20:33:36,954 - INFO - Clicked on Pop Out
+2025-11-07 20:33:38,308 - INFO - Forward window is visible
+2025-11-07 20:33:39,666 - INFO - to_field typed successfully
+2025-11-07 20:33:40,922 - INFO - Cc typed successfully
+2025-11-07 20:35:16,663 - INFO - Successfully clicked on '.*Inbox.*' menu item.
+2025-11-07 20:35:16,664 - INFO - Clicked on Inbox
+2025-11-07 20:35:17,849 - INFO - Categorized menu clicked
+2025-11-07 20:35:19,770 - INFO - Clicked on 'Blue Category'
+2025-11-07 20:35:20,159 - INFO - Total mails:7
+2025-11-07 20:35:20,727 - INFO - Most recent email: uia_controls.ListItemWrapper - 'To Swapnali K, Subject FW: Demo subject, Sent 10/16/2025, Size 13 KB, Categories Blue Category, Flag Status Unflagged, Preview Hello, Swapnali K.    This is Forward Testcase..!    Best Regards, Swapnali K        From: Swapnali K <swapnalik@futurismtechnologies.com>  Sent: Wednesday, October 15, 2025 3:22 PM  To: Swapnali K <swapnalik@futurismtechnologies.com>  Subject: RE: Demo s, ', DataItem
+2025-11-07 20:35:22,233 - INFO - Forward clicked
+2025-11-07 20:35:24,304 - INFO - Pop Out clicked
+2025-11-07 20:35:24,305 - INFO - Clicked on Pop Out
+2025-11-07 20:35:25,618 - INFO - Forward window is visible
+2025-11-07 20:35:26,972 - INFO - to_field typed successfully
+2025-11-07 20:35:28,234 - INFO - Cc typed successfully
+2025-11-07 20:38:31,549 - INFO - Successfully clicked on '.*Inbox.*' menu item.
+2025-11-07 20:38:31,550 - INFO - Clicked on Inbox
+2025-11-07 20:38:32,787 - INFO - Categorized menu clicked
+2025-11-07 20:38:34,708 - INFO - Clicked on 'Blue Category'
+2025-11-07 20:38:35,131 - INFO - Total mails:7
+2025-11-07 20:38:35,747 - INFO - Most recent email: uia_controls.ListItemWrapper - 'To Swapnali K, Subject FW: Demo subject, Sent 10/16/2025, Size 13 KB, Categories Blue Category, Flag Status Unflagged, Preview Hello, Swapnali K.    This is Forward Testcase..!    Best Regards, Swapnali K        From: Swapnali K <swapnalik@futurismtechnologies.com>  Sent: Wednesday, October 15, 2025 3:22 PM  To: Swapnali K <swapnalik@futurismtechnologies.com>  Subject: RE: Demo s, ', DataItem
+2025-11-07 20:38:37,387 - INFO - Forward clicked
+2025-11-07 20:38:39,510 - INFO - Pop Out clicked
+2025-11-07 20:38:39,510 - INFO - Clicked on Pop Out
+2025-11-07 20:38:40,797 - INFO - Forward window is visible
+2025-11-07 20:38:42,155 - INFO - to_field typed successfully
+2025-11-07 20:38:43,408 - INFO - Cc typed successfully
+2025-11-07 20:42:25,588 - INFO - Successfully clicked on '.*Inbox.*' menu item.
+2025-11-07 20:42:25,589 - INFO - Clicked on Inbox
+2025-11-07 20:42:27,377 - INFO - Categorized menu clicked
+2025-11-07 20:42:29,298 - INFO - Clicked on 'Blue Category'
+2025-11-07 20:42:29,662 - INFO - Total mails:0
+2025-11-07 20:42:29,663 - ERROR - Failed to click on recent mail:No emails found in the inbox
+2025-11-07 20:43:40,982 - INFO - Successfully clicked on '.*Inbox.*' menu item.
+2025-11-07 20:43:40,983 - INFO - Clicked on Inbox
+2025-11-07 20:43:42,186 - INFO - Categorized menu clicked
+2025-11-07 20:43:44,089 - INFO - Clicked on 'Blue Category'
+2025-11-07 20:43:44,489 - INFO - Total mails:7
+2025-11-07 20:43:45,040 - INFO - Most recent email: uia_controls.ListItemWrapper - 'To Swapnali K, Subject FW: Demo subject, Sent 10/16/2025, Size 13 KB, Categories Blue Category, Flag Status Unflagged, Preview Hello, Swapnali K.    This is Forward Testcase..!    Best Regards, Swapnali K        From: Swapnali K <swapnalik@futurismtechnologies.com>  Sent: Wednesday, October 15, 2025 3:22 PM  To: Swapnali K <swapnalik@futurismtechnologies.com>  Subject: RE: Demo s, ', DataItem
+2025-11-07 20:43:46,485 - INFO - Forward clicked
+2025-11-07 20:43:48,674 - INFO - Pop Out clicked
+2025-11-07 20:43:48,674 - INFO - Clicked on Pop Out
+2025-11-07 20:43:50,004 - INFO - Forward window is visible
+2025-11-07 20:43:51,338 - INFO - to_field typed successfully
+2025-11-07 20:43:52,594 - INFO - Cc typed successfully
+2025-11-07 20:45:24,521 - INFO - Successfully clicked on '.*Inbox.*' menu item.
+2025-11-07 20:45:24,521 - INFO - Clicked on Inbox
+2025-11-07 20:45:25,775 - INFO - Categorized menu clicked
+2025-11-07 20:45:27,713 - INFO - Clicked on 'Blue Category'
+2025-11-07 20:45:28,166 - INFO - Total mails:7
+2025-11-07 20:45:28,709 - INFO - Most recent email: uia_controls.ListItemWrapper - 'To Swapnali K, Subject FW: Demo subject, Sent 10/16/2025, Size 13 KB, Categories Blue Category, Flag Status Unflagged, Preview Hello, Swapnali K.    This is Forward Testcase..!    Best Regards, Swapnali K        From: Swapnali K <swapnalik@futurismtechnologies.com>  Sent: Wednesday, October 15, 2025 3:22 PM  To: Swapnali K <swapnalik@futurismtechnologies.com>  Subject: RE: Demo s, ', DataItem
+2025-11-07 20:45:30,158 - INFO - Forward clicked
+2025-11-07 20:45:32,263 - INFO - Pop Out clicked
+2025-11-07 20:45:32,264 - INFO - Clicked on Pop Out
+2025-11-07 20:45:33,576 - INFO - Forward window is visible
+2025-11-07 20:45:34,930 - INFO - to_field typed successfully
+2025-11-07 20:45:36,197 - INFO - Cc typed successfully
+2025-11-07 20:51:14,793 - INFO - Successfully clicked on '.*Inbox.*' menu item.
+2025-11-07 20:51:14,794 - INFO - Clicked on Inbox
+2025-11-07 20:51:16,014 - INFO - Categorized menu clicked
+2025-11-07 20:51:17,917 - INFO - Clicked on 'Blue Category'
+2025-11-07 20:51:18,330 - INFO - Total mails:7
+2025-11-07 20:51:18,865 - INFO - Most recent email: uia_controls.ListItemWrapper - 'To Swapnali K, Subject FW: Demo subject, Sent 10/16/2025, Size 13 KB, Categories Blue Category, Flag Status Unflagged, Preview Hello, Swapnali K.    This is Forward Testcase..!    Best Regards, Swapnali K        From: Swapnali K <swapnalik@futurismtechnologies.com>  Sent: Wednesday, October 15, 2025 3:22 PM  To: Swapnali K <swapnalik@futurismtechnologies.com>  Subject: RE: Demo s, ', DataItem
+2025-11-07 20:51:20,298 - INFO - Forward clicked
+2025-11-07 20:51:22,319 - INFO - Pop Out clicked
+2025-11-07 20:51:22,320 - INFO - Clicked on Pop Out
+2025-11-07 20:51:23,611 - INFO - Forward window is visible
+2025-11-07 20:51:24,970 - INFO - to_field typed successfully
+2025-11-07 20:51:26,227 - INFO - Cc typed successfully
+2025-11-07 20:53:34,793 - INFO - Successfully clicked on '.*Inbox.*' menu item.
+2025-11-07 20:53:34,794 - INFO - Clicked on Inbox
+2025-11-07 20:53:36,107 - INFO - Categorized menu clicked
+2025-11-07 20:53:38,120 - INFO - Clicked on 'Blue Category'
+2025-11-07 20:53:38,487 - INFO - Total mails:7
+2025-11-07 20:53:39,148 - INFO - Most recent email: uia_controls.ListItemWrapper - 'To Swapnali K, Subject FW: Demo subject, Sent 10/16/2025, Size 13 KB, Categories Blue Category, Flag Status Unflagged, Preview Hello, Swapnali K.    This is Forward Testcase..!    Best Regards, Swapnali K        From: Swapnali K <swapnalik@futurismtechnologies.com>  Sent: Wednesday, October 15, 2025 3:22 PM  To: Swapnali K <swapnalik@futurismtechnologies.com>  Subject: RE: Demo s, ', DataItem
+2025-11-07 20:53:40,808 - INFO - Forward clicked
+2025-11-07 20:53:43,166 - INFO - Pop Out clicked
+2025-11-07 20:53:43,167 - INFO - Clicked on Pop Out
+2025-11-07 20:53:44,686 - INFO - Forward window is visible
+2025-11-07 20:53:46,096 - INFO - to_field typed successfully
+2025-11-07 20:53:47,421 - INFO - Cc typed successfully
+2025-11-07 21:00:32,579 - INFO - Successfully clicked on '.*Inbox.*' menu item.
+2025-11-07 21:00:32,580 - INFO - Clicked on Inbox
+2025-11-07 21:00:33,945 - INFO - Categorized menu clicked
+2025-11-07 21:00:35,939 - INFO - Clicked on 'Blue Category'
+2025-11-07 21:00:36,315 - INFO - Total mails:7
+2025-11-07 21:00:36,983 - INFO - Most recent email: uia_controls.ListItemWrapper - 'To Swapnali K, Subject FW: Demo subject, Sent 10/16/2025, Size 13 KB, Categories Blue Category, Flag Status Unflagged, Preview Hello, Swapnali K.    This is Forward Testcase..!    Best Regards, Swapnali K        From: Swapnali K <swapnalik@futurismtechnologies.com>  Sent: Wednesday, October 15, 2025 3:22 PM  To: Swapnali K <swapnalik@futurismtechnologies.com>  Subject: RE: Demo s, ', DataItem
+2025-11-07 21:00:38,697 - INFO - Forward clicked
+2025-11-07 21:00:41,370 - INFO - Pop Out clicked
+2025-11-07 21:00:41,371 - INFO - Clicked on Pop Out
+2025-11-07 21:00:43,091 - INFO - Forward window is visible
+2025-11-07 21:00:44,498 - INFO - to_field typed successfully
+2025-11-07 21:00:45,827 - INFO - Cc typed successfully
+2025-11-07 21:02:17,736 - INFO - Successfully clicked on '.*Inbox.*' menu item.
+2025-11-07 21:02:17,737 - INFO - Clicked on Inbox
+2025-11-07 21:02:19,242 - INFO - Categorized menu clicked
+2025-11-07 21:02:21,527 - INFO - Clicked on 'Blue Category'
+2025-11-07 21:02:22,174 - INFO - Total mails:7
+2025-11-07 21:02:22,940 - INFO - Most recent email: uia_controls.ListItemWrapper - 'To Swapnali K, Subject FW: Demo subject, Sent 10/16/2025, Size 13 KB, Categories Blue Category, Flag Status Unflagged, Preview Hello, Swapnali K.    This is Forward Testcase..!    Best Regards, Swapnali K        From: Swapnali K <swapnalik@futurismtechnologies.com>  Sent: Wednesday, October 15, 2025 3:22 PM  To: Swapnali K <swapnalik@futurismtechnologies.com>  Subject: RE: Demo s, ', DataItem
+2025-11-07 21:02:24,896 - INFO - Forward clicked
+2025-11-07 21:02:27,537 - INFO - Pop Out clicked
+2025-11-07 21:02:27,537 - INFO - Clicked on Pop Out
+2025-11-07 21:02:29,164 - INFO - Forward window is visible
+2025-11-07 21:02:30,698 - INFO - to_field typed successfully
+2025-11-07 21:02:32,182 - INFO - Cc typed successfully
+2025-11-07 21:23:08,074 - INFO - New Email clicked
+2025-11-07 21:23:09,401 - INFO - Clicked on New mail and Send mail window opened
+2025-11-07 21:23:13,644 - INFO - To email id is set correctly
+2025-11-07 21:23:17,715 - INFO - Cc email id is set correctly
+2025-11-07 21:23:19,511 - INFO - Subject is set correctly
+2025-11-07 21:25:18,757 - INFO - New Email clicked
+2025-11-07 21:25:20,336 - INFO - Clicked on New mail and Send mail window opened
+2025-11-07 21:25:24,508 - INFO - To email id is set correctly
+2025-11-07 21:25:28,581 - INFO - Cc email id is set correctly
+2025-11-07 21:25:30,426 - INFO - Subject is set correctly
+2025-11-07 21:27:33,514 - INFO - New Email clicked
+2025-11-07 21:27:34,864 - INFO - Clicked on New mail and Send mail window opened
+2025-11-07 21:27:38,997 - INFO - To email id is set correctly
+2025-11-07 21:27:43,228 - INFO - Cc email id is set correctly
+2025-11-07 21:27:45,047 - INFO - Subject is set correctly
+2025-11-07 21:30:08,688 - INFO - New Email clicked
+2025-11-07 21:30:09,976 - INFO - Clicked on New mail and Send mail window opened
+2025-11-07 21:30:14,147 - INFO - To email id is set correctly
+2025-11-07 21:30:18,391 - INFO - Cc email id is set correctly
+2025-11-07 21:30:20,198 - INFO - Subject is set correctly
+2025-11-07 21:32:04,113 - INFO - New Email clicked
+2025-11-07 21:32:05,595 - INFO - Clicked on New mail and Send mail window opened
+2025-11-07 21:32:09,656 - INFO - To email id is set correctly
+2025-11-07 21:32:13,707 - INFO - Cc email id is set correctly
+2025-11-07 21:32:15,520 - INFO - Subject is set correctly
+2025-11-07 21:34:09,432 - INFO - New Email clicked
+2025-11-07 21:34:10,697 - INFO - Clicked on New mail and Send mail window opened
+2025-11-07 21:34:14,730 - INFO - To email id is set correctly
+2025-11-07 21:34:18,921 - INFO - Cc email id is set correctly
+2025-11-07 21:34:20,708 - INFO - Subject is set correctly
+2025-11-07 21:37:32,014 - INFO - New Email clicked
+2025-11-07 21:37:33,191 - INFO - Clicked on New mail and Send mail window opened
+2025-11-07 21:37:37,824 - INFO - To email id is set correctly
+2025-11-07 21:37:42,065 - INFO - Cc email id is set correctly
+2025-11-07 21:37:43,911 - INFO - Subject is set correctly
+2025-11-07 21:39:29,734 - INFO - New Email clicked
+2025-11-07 21:39:30,771 - INFO - Clicked on New mail and Send mail window opened
+2025-11-07 21:39:34,786 - INFO - To email id is set correctly
+2025-11-07 21:39:38,885 - INFO - Cc email id is set correctly
+2025-11-07 21:39:40,724 - INFO - Subject is set correctly
+2025-11-07 21:41:57,829 - INFO - New Email clicked
+2025-11-07 21:41:58,876 - INFO - Clicked on New mail and Send mail window opened
+2025-11-07 21:42:02,906 - INFO - To email id is set correctly
+2025-11-07 21:42:06,932 - INFO - Cc email id is set correctly
+2025-11-07 21:42:08,744 - INFO - Subject is set correctly
+2025-11-10 13:05:31,990 - INFO - New Email clicked
+2025-11-10 13:05:33,411 - INFO - Clicked on New mail and Send mail window opened
+2025-11-10 13:05:37,527 - INFO - To email id is set correctly
+2025-11-10 13:05:41,636 - INFO - Cc email id is set correctly
+2025-11-10 13:05:43,449 - INFO - Subject is set correctly
+2025-11-10 13:09:34,282 - INFO - New Email clicked
+2025-11-10 13:09:35,354 - INFO - Clicked on New mail and Send mail window opened
+2025-11-10 13:09:39,440 - INFO - To email id is set correctly
+2025-11-10 13:09:43,929 - INFO - Cc email id is set correctly
+2025-11-10 13:09:45,769 - INFO - Subject is set correctly
+2025-11-10 13:10:52,420 - INFO - New Email clicked
+2025-11-10 13:10:53,562 - INFO - Clicked on New mail and Send mail window opened
+2025-11-10 13:10:57,648 - INFO - To email id is set correctly
+2025-11-10 13:11:01,752 - INFO - Cc email id is set correctly
+2025-11-10 13:11:03,610 - INFO - Subject is set correctly
+2025-11-10 13:13:34,101 - INFO - New Email clicked
+2025-11-10 13:13:35,396 - INFO - Clicked on New mail and Send mail window opened
+2025-11-10 13:13:39,440 - INFO - To email id is set correctly
+2025-11-10 13:13:43,604 - INFO - Cc email id is set correctly
+2025-11-10 13:13:45,445 - INFO - Subject is set correctly
+2025-11-10 13:14:09,489 - INFO - New Email clicked
+2025-11-10 13:14:10,561 - INFO - Clicked on New mail and Send mail window opened
+2025-11-10 13:14:14,668 - INFO - To email id is set correctly
+2025-11-10 13:14:18,746 - INFO - Cc email id is set correctly
+2025-11-10 13:14:20,609 - INFO - Subject is set correctly
+2025-11-10 13:16:12,133 - INFO - New Email clicked
+2025-11-10 13:16:13,306 - INFO - Clicked on New mail and Send mail window opened
+2025-11-10 13:16:17,408 - INFO - To email id is set correctly
+2025-11-10 13:16:21,513 - INFO - Cc email id is set correctly
+2025-11-10 13:16:23,363 - INFO - Subject is set correctly
+2025-11-10 13:17:46,060 - INFO - New Email clicked
+2025-11-10 13:17:47,319 - INFO - Clicked on New mail and Send mail window opened
+2025-11-10 13:17:51,391 - INFO - To email id is set correctly
+2025-11-10 13:17:55,528 - INFO - Cc email id is set correctly
+2025-11-10 13:17:57,369 - INFO - Subject is set correctly
+2025-11-10 13:20:16,733 - INFO - New Email clicked
+2025-11-10 13:20:17,841 - INFO - Clicked on New mail and Send mail window opened
+2025-11-10 13:20:21,941 - INFO - To email id is set correctly
+2025-11-10 13:20:26,077 - INFO - Cc email id is set correctly
+2025-11-10 13:20:27,956 - INFO - Subject is set correctly
+2025-11-10 13:25:30,942 - INFO - New Email clicked
+2025-11-10 13:25:32,087 - INFO - Clicked on New mail and Send mail window opened
+2025-11-10 13:25:36,168 - INFO - To email id is set correctly
+2025-11-10 13:25:40,342 - INFO - Cc email id is set correctly
+2025-11-10 13:25:42,177 - INFO - Subject is set correctly
+2025-11-10 13:26:50,853 - INFO - New Email clicked
+2025-11-10 13:26:52,017 - INFO - Clicked on New mail and Send mail window opened
+2025-11-10 13:26:56,054 - INFO - To email id is set correctly
+2025-11-10 13:27:00,154 - INFO - Cc email id is set correctly
+2025-11-10 13:27:01,966 - INFO - Subject is set correctly
+2025-11-10 13:30:27,155 - INFO - New Email clicked
+2025-11-10 13:30:28,352 - INFO - Clicked on New mail and Send mail window opened
+2025-11-10 13:30:32,374 - INFO - To email id is set correctly
+2025-11-10 13:30:36,533 - INFO - Cc email id is set correctly
+2025-11-10 13:30:38,400 - INFO - Subject is set correctly
+2025-11-10 13:33:37,718 - INFO - New Email clicked
+2025-11-10 13:33:38,921 - INFO - Clicked on New mail and Send mail window opened
+2025-11-10 13:33:42,986 - INFO - To email id is set correctly
+2025-11-10 13:33:47,510 - INFO - Cc email id is set correctly
+2025-11-10 13:33:49,262 - INFO - Subject is set correctly
+2025-11-10 13:36:18,678 - INFO - New Email clicked
+2025-11-10 13:36:19,842 - INFO - Clicked on New mail and Send mail window opened
+2025-11-10 13:36:23,920 - INFO - To email id is set correctly
+2025-11-10 13:36:28,337 - INFO - Cc email id is set correctly
+2025-11-10 13:36:30,143 - INFO - Subject is set correctly
+2025-11-10 13:38:06,318 - INFO - New Email clicked
+2025-11-10 13:38:07,402 - INFO - Clicked on New mail and Send mail window opened
+2025-11-10 13:38:11,464 - INFO - To email id is set correctly
+2025-11-10 13:38:15,776 - INFO - Cc email id is set correctly
+2025-11-10 13:38:17,589 - INFO - Subject is set correctly
+2025-11-10 13:47:27,722 - INFO - New Email clicked
+2025-11-10 13:47:29,041 - INFO - Clicked on New mail and Send mail window opened
+2025-11-10 13:47:33,750 - INFO - To email id is set correctly
+2025-11-10 13:47:38,060 - INFO - Cc email id is set correctly
+2025-11-10 13:47:40,235 - INFO - Subject is set correctly
+2025-11-10 13:49:32,399 - INFO - New Email clicked
+2025-11-10 13:49:33,628 - INFO - Clicked on New mail and Send mail window opened
+2025-11-10 13:49:37,720 - INFO - To email id is set correctly
+2025-11-10 13:49:41,833 - INFO - Cc email id is set correctly
+2025-11-10 13:49:43,651 - INFO - Subject is set correctly
+2025-11-10 13:54:25,239 - INFO - New Email clicked
+2025-11-10 13:54:26,475 - INFO - Clicked on New mail and Send mail window opened
+2025-11-10 13:54:30,572 - INFO - To email id is set correctly
+2025-11-10 13:54:34,665 - INFO - Cc email id is set correctly
+2025-11-10 13:54:36,702 - INFO - Subject is set correctly
+2025-11-10 14:03:35,019 - INFO - New Email clicked
+2025-11-10 14:03:36,367 - INFO - Clicked on New mail and Send mail window opened
+2025-11-10 14:03:40,452 - INFO - To email id is set correctly
+2025-11-10 14:03:44,738 - INFO - Cc email id is set correctly
+2025-11-10 14:03:46,635 - INFO - Subject is set correctly
+2025-11-10 14:06:40,513 - INFO - New Email clicked
+2025-11-10 14:06:41,734 - INFO - Clicked on New mail and Send mail window opened
+2025-11-10 14:06:45,789 - INFO - To email id is set correctly
+2025-11-10 14:06:49,959 - INFO - Cc email id is set correctly
+2025-11-10 14:06:51,792 - INFO - Subject is set correctly
+2025-11-10 14:07:47,981 - INFO - New Email clicked
+2025-11-10 14:07:49,224 - INFO - Clicked on New mail and Send mail window opened
+2025-11-10 14:07:53,402 - INFO - To email id is set correctly
+2025-11-10 14:07:57,568 - INFO - Cc email id is set correctly
+2025-11-10 14:07:59,440 - INFO - Subject is set correctly
+2025-11-10 14:10:38,591 - INFO - New Email clicked
+2025-11-10 14:10:39,799 - INFO - Clicked on New mail and Send mail window opened
+2025-11-10 14:10:43,923 - INFO - To email id is set correctly
+2025-11-10 14:10:48,076 - INFO - Cc email id is set correctly
+2025-11-10 14:10:49,953 - INFO - Subject is set correctly
+2025-11-10 14:15:20,135 - INFO - New Email clicked
+2025-11-10 14:15:21,445 - INFO - Clicked on New mail and Send mail window opened
+2025-11-10 14:15:25,599 - INFO - To email id is set correctly
+2025-11-10 14:15:29,764 - INFO - Cc email id is set correctly
+2025-11-10 14:15:31,654 - INFO - Subject is set correctly
+2025-11-10 14:17:28,076 - INFO - New Email clicked
+2025-11-10 14:17:29,473 - INFO - Clicked on New mail and Send mail window opened
+2025-11-10 14:17:33,583 - INFO - To email id is set correctly
+2025-11-10 14:17:38,607 - INFO - Cc email id is set correctly
+2025-11-10 14:17:41,157 - INFO - Subject is set correctly
+2025-11-10 14:24:24,276 - INFO - New Email clicked
+2025-11-10 14:24:25,621 - INFO - Clicked on New mail and Send mail window opened
+2025-11-10 14:24:30,070 - INFO - To email id is set correctly
+2025-11-10 14:24:34,440 - INFO - Cc email id is set correctly
+2025-11-10 14:24:36,362 - INFO - Subject is set correctly
+2025-11-10 14:26:47,392 - INFO - New Email clicked
+2025-11-10 14:26:48,731 - INFO - Clicked on New mail and Send mail window opened
+2025-11-10 14:26:52,806 - INFO - To email id is set correctly
+2025-11-10 14:26:57,294 - INFO - Cc email id is set correctly
+2025-11-10 14:26:59,158 - INFO - Subject is set correctly
+2025-11-10 14:28:36,479 - INFO - Found 8 mail items
+2025-11-10 14:28:37,220 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Demo subject, Sent Fri 11/7, Size 42 KB, Flag Status Unflagged, Preview Hello, Swapnali K.         This is the body of the page….!         Best Regards,    Swapnali K.    Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confidential and privileged info, ', DataItem
+2025-11-10 14:28:40,353 - INFO - Right-clicked on the selected option.
+2025-11-10 14:29:56,809 - INFO - Found 8 mail items
+2025-11-10 14:29:57,400 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Demo subject, Sent Fri 11/7, Size 42 KB, Flag Status Unflagged, Preview Hello, Swapnali K.         This is the body of the page….!         Best Regards,    Swapnali K.    Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confidential and privileged info, ', DataItem
+2025-11-10 14:30:00,522 - INFO - Right-clicked on the selected option.
+2025-11-10 14:30:04,947 - INFO - Email marked as unread.
+2025-11-10 14:33:09,706 - INFO - Successfully clicked on '.*Sent Items.*' menu item.
+2025-11-10 14:33:09,706 - INFO - Successfully clicked on sent item.
+2025-11-10 14:33:11,472 - INFO - Clicked email with subject: Demo subject
+2025-11-10 14:33:14,594 - INFO - Right-clicked on the selected option.
+2025-11-10 14:35:16,846 - INFO - New Email clicked
+2025-11-10 14:35:18,122 - INFO - Clicked on New mail and Send mail window opened
+2025-11-10 14:35:22,205 - INFO - To email id is set correctly
+2025-11-10 14:35:26,340 - INFO - Cc email id is set correctly
+2025-11-10 14:35:28,226 - INFO - Subject is set correctly
+2025-11-10 14:36:08,710 - INFO - Unread clicked
+2025-11-10 14:36:12,863 - INFO - Right-clicked on the selected option.
+2025-11-10 14:38:16,754 - INFO - Clicked on contact
+2025-11-10 14:38:18,847 - INFO - New Contact Group clicked
+2025-11-10 14:38:19,750 - INFO - New contact grp dialog opened
+2025-11-10 14:38:20,294 - INFO - Entered contact group name
+2025-11-10 14:38:20,635 - INFO - Clicked on Add Members button
+2025-11-10 14:38:21,219 - INFO - Clicked on From Address Book button
+2025-11-10 14:38:21,220 - INFO - Select member dialog is opened
+2025-11-10 14:38:24,722 - INFO - Entered 'Aarti T' and pressed Enter
+2025-11-10 14:38:27,131 - INFO - Search bar is cleared
+2025-11-10 14:38:30,686 - INFO - Clicked on OK button
+2025-11-10 14:40:23,860 - INFO - File tab clicked
+2025-11-10 14:40:27,677 - INFO - Clicked on 'Manage Rules & Alerts successfully.
+2025-11-10 14:40:29,625 - INFO - Rule and Alert window is visible
+2025-11-10 14:40:30,335 - INFO - New Rule... clicked
+2025-11-10 14:40:31,897 - INFO - Rules Wizard window is visible
+2025-11-10 14:40:34,534 - INFO - Next > in Wizard window clicked
+2025-11-10 14:40:36,256 - INFO - Condition1:Unchecked from people or public group
+2025-11-10 14:40:37,844 - INFO - Condition2:Checked with specific words in the subject)
+2025-11-10 14:40:39,436 - INFO - Condition3:Checked through the specified account
+2025-11-10 14:40:41,069 - INFO - Condition4: Checked sent only to me
+2025-11-10 14:40:41,923 - INFO - Clicked via keystrokes
+2025-11-10 14:40:43,615 - INFO - Dialog for through the specified account appeared.
+2025-11-10 14:40:44,552 - INFO - Clicked OK button in Account dialog
+2025-11-10 15:11:38,369 - INFO - New Email clicked
+2025-11-10 15:11:39,738 - INFO - Clicked on New mail and Send mail window opened
+2025-11-10 15:11:43,823 - INFO - To email id is set correctly
+2025-11-10 15:59:59,438 - INFO - Click on Contact View from Search Bar
+2025-11-10 16:00:00,911 - INFO - Clicked on New Contact button
+2025-11-10 16:00:02,310 - INFO - New contact dialog opened
+2025-11-10 16:00:05,570 - INFO - All details are entered
+2025-11-10 16:01:01,115 - INFO - Click on Contact View from Search Bar
+2025-11-10 16:01:02,575 - INFO - Clicked on New Contact button
+2025-11-10 16:01:03,904 - INFO - New contact dialog opened
+2025-11-10 16:01:06,832 - INFO - All details are entered
+2025-11-10 16:01:07,445 - INFO - Clicked on Save and Close button
+2025-11-10 16:36:17,256 - ERROR - Failed to click on send mail:control New Email not found: (-2147220991, 'An event was unable to invoke any of the subscribers', (None, None, None, 0, None))
+2025-11-10 16:36:30,269 - INFO - Unread clicked
+2025-11-10 16:36:34,411 - INFO - Right-clicked on the selected option.
+2025-11-10 16:36:39,454 - ERROR - Failed to interact with context menu:timed out
+2025-11-10 16:36:50,262 - INFO - Found 8 mail items
+2025-11-10 16:36:50,923 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Demo subject, Sent Fri 11/7, Size 42 KB, Flag Status Unflagged, Preview Hello, Swapnali K.         This is the body of the page….!         Best Regards,    Swapnali K.    Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confidential and privileged info, ', DataItem
+2025-11-10 16:36:54,046 - INFO - Right-clicked on the selected option.
+2025-11-10 16:36:56,286 - INFO - Email marked as read.
+2025-11-10 16:37:09,902 - INFO - Successfully clicked on 'Inbox' menu item.
+2025-11-10 16:37:11,446 - INFO - Clicked email with subject: Demo subject
+2025-11-10 16:37:22,473 - INFO - Edited message in reply
+2025-11-10 16:37:28,109 - INFO - Clicked on Send
+2025-11-10 16:37:59,986 - INFO - Successfully clicked on '.*Sent Items.*' menu item.
+2025-11-10 16:37:59,986 - INFO - Successfully clicked on sent item.
+2025-11-10 16:38:01,989 - INFO - Clicked email with subject: Demo subject
+2025-11-10 16:38:05,109 - INFO - Right-clicked on the selected option.
+2025-11-10 16:38:07,061 - INFO - Clicked on Delete
+2025-11-10 16:38:18,745 - INFO - Click on Contact View from Search Bar
+2025-11-10 16:38:20,257 - INFO - Clicked on New Contact button
+2025-11-10 16:38:21,602 - INFO - New contact dialog opened
+2025-11-10 16:38:24,574 - INFO - All details are entered
+2025-11-10 16:38:25,378 - INFO - Clicked on Save and Close button
+2025-11-10 16:38:38,537 - INFO - Successfully clicked on '.*Inbox.*' menu item.
+2025-11-10 16:38:38,538 - INFO - Successfully clicked on inbox.
+2025-11-10 16:38:42,568 - INFO - Found 8 mail items
+2025-11-10 16:38:42,683 - INFO - Selected email with subject: To Swapnali K, Subject RE: Demo subject, Sent 4:37 PM, Size 12 KB, Flag Status Unflagged, Preview Hello, Swapnali K.    This is Reply Testcase..!    Best Regards, Swapnali K        From: Swapnali K <swapnalik@futurismtechnologies.com>  Sent: Friday, November 7, 2025 6:59 PM  To: Swapnali K <swapnalik@futurismtechnologies.com>  Cc: Swapnali K <swapnali, 
+2025-11-10 16:38:46,254 - INFO - Right-clicked on the selected option.
+2025-11-10 16:38:47,835 - INFO - Clicked on Move
+2025-11-10 16:38:48,536 - INFO - Clicked on Archive
+2025-11-10 16:38:58,455 - INFO - Successfully clicked on '.*Inbox.*' menu item.
+2025-11-10 16:38:58,455 - INFO - Clicked on Inbox
+2025-11-10 16:38:59,760 - INFO - Categorized menu clicked
+2025-11-10 16:39:01,713 - INFO - Clicked on 'Blue Category'
+2025-11-10 16:39:02,169 - INFO - Total mails:7
+2025-11-10 16:39:02,800 - INFO - Most recent email: uia_controls.ListItemWrapper - 'To Swapnali K, Subject FW: Demo subject, Sent 10/16/2025, Size 13 KB, Categories Blue Category, Flag Status Unflagged, Preview Hello, Swapnali K.    This is Forward Testcase..!    Best Regards, Swapnali K        From: Swapnali K <swapnalik@futurismtechnologies.com>  Sent: Wednesday, October 15, 2025 3:22 PM  To: Swapnali K <swapnalik@futurismtechnologies.com>  Subject: RE: Demo s, ', DataItem
+2025-11-10 16:39:04,327 - INFO - Forward clicked
+2025-11-10 16:39:06,565 - INFO - Pop Out clicked
+2025-11-10 16:39:06,566 - INFO - Clicked on Pop Out
+2025-11-10 16:39:08,509 - INFO - Forward window is visible
+2025-11-10 16:39:09,917 - INFO - to_field typed successfully
+2025-11-10 16:39:11,214 - INFO - Cc typed successfully
+2025-11-10 16:39:20,400 - INFO - Clicked on Send
+2025-11-10 16:39:22,406 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x000001F59CC320B0>' closed successfully.
+2025-11-10 16:39:25,096 - INFO - Search bar cleared.
+2025-11-10 16:39:35,087 - INFO - Successfully clicked on '.*Deleted Items:.*' menu item.
+2025-11-10 16:39:35,087 - INFO - Clicked on Deleted Items
+2025-11-10 16:39:37,626 - INFO - Recover items recently removed from this folder clicked
+2025-11-10 16:39:40,812 - INFO - Recover deleted items window is visible
+2025-11-10 16:39:44,364 - INFO - Clicked on first item
+2025-11-10 16:39:47,225 - INFO - Ok clicked
+2025-11-10 16:39:59,286 - INFO - Searched contact: aarti t
+2025-11-10 16:40:01,287 - INFO - Searched contact: aarti t
+2025-11-10 16:40:03,287 - INFO - Search contact: aarti t
+2025-11-10 16:40:17,178 - INFO - Clicked on contact
+2025-11-10 16:40:19,137 - INFO - New Contact Group clicked
+2025-11-10 16:40:19,982 - INFO - New contact grp dialog opened
+2025-11-10 16:40:20,443 - INFO - Entered contact group name
+2025-11-10 16:40:20,825 - INFO - Clicked on Add Members button
+2025-11-10 16:40:21,694 - INFO - Clicked on From Address Book button
+2025-11-10 16:40:21,695 - INFO - Select member dialog is opened
+2025-11-10 16:40:24,719 - INFO - Entered 'Aarti T' and pressed Enter
+2025-11-10 16:40:27,086 - INFO - Search bar is cleared
+2025-11-10 16:40:29,784 - INFO - Clicked on OK button
+2025-11-10 16:40:31,130 - INFO - Clicked on Save & Close button
+2025-11-10 16:40:33,536 - INFO - Clicked on New Item button
+2025-11-10 16:40:34,221 - INFO - Clicked on E-mail Message menu item
+2025-11-10 16:40:37,553 - INFO - Send mail window is opened
+2025-11-10 16:40:38,575 - INFO - Group name is entered
+2025-11-10 16:40:38,575 - INFO - To field is entered
+2025-11-10 16:40:40,226 - INFO - Subject is entered
+2025-11-10 16:40:54,291 - ERROR - Failed to enter text:{'title_re': '.*- Message..*', 'backend': 'uia', 'process': 2616}
+2025-11-10 16:40:59,431 - ERROR - Failed to click on Send: No Windows of that application are active
+2025-11-10 16:40:59,561 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x000001F59CBDD080>' closed successfully.
+2025-11-10 16:41:10,213 - INFO - Successfully clicked on '.*Inbox:.*' menu item.
+2025-11-10 16:41:11,767 - INFO - Clicked email with subject: Demo subject
+2025-11-10 16:41:14,906 - INFO - Right-clicked on the selected option.
+2025-11-10 16:41:16,852 - INFO - Move clicked
+2025-11-10 16:41:18,677 - INFO - Other Folder clicked
+2025-11-10 16:41:20,282 - INFO - Task clicked
+2025-11-10 16:41:20,952 - INFO - Clicked on OK
+2025-11-10 16:41:25,058 - INFO - New Task window is opened
+2025-11-10 16:41:25,538 - INFO - Due date set to 12/12/2025
+2025-11-10 16:41:26,338 - INFO - Priority set to High
+2025-11-10 16:41:26,714 - INFO - Reminder checkbox is checked
+2025-11-10 16:41:27,135 - INFO - Reminder date set to 30/12/2025
+2025-11-10 16:41:28,143 - INFO - Time set to 02:30 PM
+2025-11-10 16:41:28,795 - INFO - Clicked on Save and Close
+2025-11-10 16:41:30,755 - INFO - Tasks clicked
+2025-11-10 16:41:32,313 - INFO - task_to_do_dlg is opened
+2025-11-10 16:41:32,757 - INFO - 2Task items found
+2025-11-10 16:41:32,893 - INFO - Most recent unread email clicked: uia_controls.ListItemWrapper - 'Task Subject FW: Demo subject, Start Date None, Reminder Time Tue 12/30/2025 2:30 PM, Due Date Fri 12/12/2025, In Folder Tasks, Reminder Has Reminder, Flag Status Unflagged, ', DataItem
+2025-11-10 16:41:43,054 - ERROR - Failed to click on Delete: {'title': 'Delete', 'control_type': 'Button', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - '2 Reminder(s)', #32770, 94702752>, 'backend': 'uia'}
+2025-11-10 16:41:54,719 - INFO - Successfully clicked on '.*Inbox.*' menu item.
+2025-11-10 16:41:56,945 - INFO - Found 8 mail items
+2025-11-10 16:41:57,069 - INFO - Selected email with subject:To Swapnali K, Subject FW: Demo subject, Sent 4:39 PM, Size 10 KB, Flag Status Unflagged, Preview Hello, Swapnali K.    This is Forward Testcase..!    Best Regards, Swapnali K        From: Swapnali K  Sent: Thursday, October 16, 2025 1:32 PM  To: Swapnali K <swapnalik@futurismtechnologies.com>  Cc: Swapnali K <swapnalik@futurismtechnologies.com>  Subj, 
+2025-11-10 16:42:00,712 - INFO - Right-clicked on the selected option.
+2025-11-10 16:42:02,765 - INFO - Clicked on Follow Up
+2025-11-10 16:42:03,352 - INFO - Found 11 sub menu items
+2025-11-10 16:42:03,483 - INFO - Clicked on No Date flag:
+2025-11-10 16:42:05,094 - INFO - Clicked on inbox menu
+2025-11-10 16:42:05,623 - INFO - Right-clicked on inbox menu
+2025-11-10 16:42:07,222 - INFO - Clicked on Create New Folder menu item
+2025-11-10 16:42:08,560 - INFO - Create New Folder window is visible
+2025-11-10 16:42:12,245 - INFO - Demo folder is created
+2025-11-10 16:42:13,749 - INFO - Right clicked on selected mail
+2025-11-10 16:42:14,347 - INFO - Opened Move menu
+2025-11-10 16:42:17,014 - INFO - Located Move submenu
+2025-11-10 16:42:17,951 - INFO - Found GroupBox inside Move submenu
+2025-11-10 16:42:19,972 - INFO - Successfully moved email to Demo folder
+2025-11-10 16:42:23,569 - INFO - Deleted folder successfully
+2025-11-10 16:42:24,430 - INFO - Delete pop-up appeared.
+2025-11-10 16:42:25,373 - INFO - Clicked Yes to delete the folder.
+2025-11-10 16:42:36,766 - INFO - Found 8 mail items
+2025-11-10 16:42:36,881 - INFO - Selected email is open
+2025-11-10 16:42:38,867 - INFO - Attachment options clicked
+2025-11-10 16:42:45,479 - INFO - Clicked on 'Save As' successfully.
+2025-11-10 16:42:47,013 - INFO - Save Attachment dialog is opened
+2025-11-10 16:42:48,518 - INFO - Selected folder:pywin_practice
+2025-11-10 16:42:48,520 - INFO - File to be saved as: Doc_2.txt
+2025-11-10 16:42:50,304 - INFO - Edited file name: Doc_2.txt
+2025-11-10 16:42:51,648 - INFO - Save button is clicked
+2025-11-10 17:00:35,331 - INFO - New Email clicked
+2025-11-10 17:00:36,972 - INFO - Clicked on New mail and Send mail window opened
+2025-11-10 17:00:41,075 - INFO - To email id is set correctly
+2025-11-10 17:00:45,150 - INFO - Cc email id is set correctly
+2025-11-10 17:00:47,015 - INFO - Subject is set correctly
+2025-11-10 17:02:04,740 - INFO - Successfully clicked on '.*Inbox.*' menu item.
+2025-11-10 17:02:04,741 - INFO - Clicked on Inbox
+2025-11-10 17:02:06,630 - INFO - Categorized menu clicked
+2025-11-10 17:02:08,635 - INFO - Clicked on 'Blue Category'
+2025-11-10 17:02:09,021 - INFO - Total mails:7
+2025-11-10 17:02:09,662 - INFO - Most recent email: uia_controls.ListItemWrapper - 'To Swapnali K, Subject FW: Demo subject, Sent 10/16/2025, Size 13 KB, Categories Blue Category, Flag Status Unflagged, Preview Hello, Swapnali K.    This is Forward Testcase..!    Best Regards, Swapnali K        From: Swapnali K <swapnalik@futurismtechnologies.com>  Sent: Wednesday, October 15, 2025 3:22 PM  To: Swapnali K <swapnalik@futurismtechnologies.com>  Subject: RE: Demo s, ', DataItem
+2025-11-10 17:02:11,616 - INFO - Forward clicked
+2025-11-10 17:03:03,910 - ERROR - Clicked on contact via search box:{'title_re': '.*Outlook.*', 'backend': 'uia', 'enabled_only': False, 'visible_only': False, 'process': 2460}
+2025-11-10 17:03:14,008 - ERROR - Failed to open new contact group:timed out
+2025-11-10 17:03:14,009 - ERROR - Failed to enter contact group name:'NoneType' object has no attribute 'child_window'
+2025-11-10 17:03:14,009 - ERROR - Failed to click on Address Book:'NoneType' object has no attribute 'child_window'
+2025-11-10 17:03:14,009 - ERROR - Failed to Add members:'NoneType' object has no attribute 'child_window'
+2025-11-10 17:03:30,408 - ERROR - Failed to click on '.*Inbox:.*' menu item: timed out
+2025-11-10 17:03:35,536 - ERROR - Error while selecting Demo Sub Mail:{'title_re': '.*Outlook.*', 'backend': 'uia', 'enabled_only': False, 'visible_only': False, 'process': 27972}
+2025-11-10 17:03:35,537 - ERROR - No option selected after right-click.
+2025-11-10 17:03:45,687 - ERROR - Failed to click 'Move->Other Folder':timed out
+2025-11-11 13:18:04,416 - INFO - New Email clicked
+2025-11-11 13:18:14,500 - ERROR - Failed to click on send mail:timed out
+2025-11-11 13:20:18,789 - ERROR - Failed to click on send mail:control New Email not found: New Email not found
+2025-11-11 13:20:39,379 - INFO - New Email clicked
+2025-11-11 13:20:41,017 - INFO - Clicked on New mail and Send mail window opened
+2025-11-11 13:20:45,178 - INFO - To email id is set correctly
+2025-11-11 13:20:49,359 - INFO - Cc email id is set correctly
+2025-11-11 13:20:51,308 - INFO - Subject is set correctly
+2025-11-12 14:42:59,468 - INFO - New Email clicked
+2025-11-12 14:43:00,902 - INFO - Clicked on New mail and Send mail window opened
+2025-11-12 14:43:05,440 - INFO - To email id is set correctly
+2025-11-12 14:43:09,592 - INFO - Cc email id is set correctly
+2025-11-12 14:43:11,498 - INFO - Subject is set correctly
+2025-11-12 14:43:25,099 - INFO - Unread clicked
+2025-11-12 14:43:29,226 - INFO - Right-clicked on the selected option.
+2025-11-12 14:43:32,986 - INFO - Email marked as read.
+2025-11-12 14:43:43,737 - INFO - Found 8 mail items
+2025-11-12 14:43:44,368 - INFO - Most recent email: uia_controls.ListItemWrapper - 'To Swapnali K, Subject Satish C is trying to reach you in Microsoft Teams, Sent Tue 8:30 PM, Size 68 KB, Flag Status Unflagged, Preview CAUTION : This email originated from outside of the organization. Do not click links or open attachments unless you recognize the sender and know the content is safe..    Microsoft Teams 	   <https://statics.teams.microsoft.com/evergreen-assets/emails/not, ', DataItem
+2025-11-12 14:43:47,487 - INFO - Right-clicked on the selected option.
+2025-11-12 14:43:51,594 - INFO - Email marked as unread.
+2025-11-12 14:44:02,810 - INFO - Successfully clicked on 'Inbox' menu item.
+2025-11-12 14:44:14,219 - INFO - Successfully clicked on '.*Sent Items.*' menu item.
+2025-11-12 14:44:14,220 - INFO - Successfully clicked on sent item.
+2025-11-12 14:44:15,889 - INFO - Clicked email with subject: Demo subject
+2025-11-12 14:44:19,021 - INFO - Right-clicked on the selected option.
+2025-11-12 14:44:20,541 - INFO - Clicked on Delete
+2025-11-12 14:44:32,181 - INFO - Click on Contact View from Search Bar
+2025-11-12 14:44:33,514 - INFO - Clicked on New Contact button
+2025-11-12 14:44:34,776 - INFO - New contact dialog opened
+2025-11-12 14:44:37,644 - INFO - All details are entered
+2025-11-12 14:44:38,317 - INFO - Clicked on Save and Close button
+2025-11-12 14:44:52,282 - INFO - Successfully clicked on '.*Inbox.*' menu item.
+2025-11-12 14:44:52,283 - INFO - Successfully clicked on inbox.
+2025-11-12 14:44:55,222 - INFO - Found 8 mail items
+2025-11-12 14:44:55,352 - INFO - Selected email with subject: To Swapnali K, Subject FW: Demo subject, Sent Mon 4:39 PM, Size 10 KB, Start Date None, Due Date None, Flag Status Red Flag, Preview Hello, Swapnali K.    This is Forward Testcase..!    Best Regards, Swapnali K        From: Swapnali K  Sent: Thursday, October 16, 2025 1:32 PM  To: Swapnali K <swapnalik@futurismtechnologies.com>  Cc: Swapnali K <swapnalik@futurismtechnologies.com>  Subj, 
+2025-11-12 14:44:58,963 - INFO - Right-clicked on the selected option.
+2025-11-12 14:45:00,426 - INFO - Clicked on Move
+2025-11-12 14:45:01,028 - INFO - Clicked on Archive
+2025-11-12 14:45:11,981 - INFO - Successfully clicked on '.*Inbox.*' menu item.
+2025-11-12 14:45:11,981 - INFO - Clicked on Inbox
+2025-11-12 14:45:13,152 - INFO - Categorized menu clicked
+2025-11-12 14:45:15,022 - INFO - Clicked on 'Blue Category'
+2025-11-12 14:45:15,456 - INFO - Total mails:7
+2025-11-12 14:45:16,064 - INFO - Most recent email: uia_controls.ListItemWrapper - 'To Swapnali K, Subject FW: Demo subject, Sent 10/16/2025, Size 13 KB, Categories Blue Category, Flag Status Unflagged, Preview Hello, Swapnali K.    This is Forward Testcase..!    Best Regards, Swapnali K        From: Swapnali K <swapnalik@futurismtechnologies.com>  Sent: Wednesday, October 15, 2025 3:22 PM  To: Swapnali K <swapnalik@futurismtechnologies.com>  Subject: RE: Demo s, ', DataItem
+2025-11-12 14:45:17,279 - INFO - Forward clicked
+2025-11-12 14:45:19,489 - INFO - Pop Out clicked
+2025-11-12 14:45:19,489 - INFO - Clicked on Pop Out
+2025-11-12 14:45:21,043 - INFO - Forward window is visible
+2025-11-12 14:45:22,525 - INFO - to_field typed successfully
+2025-11-12 14:45:23,874 - INFO - Cc typed successfully
+2025-11-12 14:45:33,018 - INFO - Clicked on Send
+2025-11-12 14:45:34,667 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x00000288BEC33B60>' closed successfully.
+2025-11-12 14:45:37,171 - INFO - Search bar cleared.
+2025-11-12 14:45:49,107 - INFO - Successfully clicked on '.*Deleted Items:.*' menu item.
+2025-11-12 14:45:49,108 - INFO - Clicked on Deleted Items
+2025-11-12 14:45:50,257 - INFO - Recover items recently removed from this folder clicked
+2025-11-12 14:45:51,889 - INFO - Recover deleted items window is visible
+2025-11-12 14:45:53,102 - INFO - Clicked on first item
+2025-11-12 14:45:54,446 - INFO - Ok clicked
+2025-11-12 14:46:07,202 - INFO - Searched contact: aarti t
+2025-11-12 14:46:09,202 - INFO - Searched contact: aarti t
+2025-11-12 14:46:11,203 - INFO - Search contact: aarti t
+2025-11-12 14:46:23,014 - INFO - Clicked on contact
+2025-11-12 14:46:24,813 - INFO - New Contact Group clicked
+2025-11-12 14:46:25,662 - INFO - New contact grp dialog opened
+2025-11-12 14:46:26,192 - INFO - Entered contact group name
+2025-11-12 14:46:26,565 - INFO - Clicked on Add Members button
+2025-11-12 14:46:27,150 - INFO - Clicked on From Address Book button
+2025-11-12 14:46:27,151 - INFO - Select member dialog is opened
+2025-11-12 14:46:29,547 - INFO - Entered 'Aarti T' and pressed Enter
+2025-11-12 14:46:31,919 - INFO - Search bar is cleared
+2025-11-12 14:46:34,604 - INFO - Clicked on OK button
+2025-11-12 14:46:35,747 - INFO - Clicked on Save & Close button
+2025-11-12 14:46:38,291 - INFO - Clicked on New Item button
+2025-11-12 14:46:38,840 - INFO - Clicked on E-mail Message menu item
+2025-11-12 14:46:42,165 - INFO - Send mail window is opened
+2025-11-12 14:46:43,235 - INFO - Group name is entered
+2025-11-12 14:46:43,235 - INFO - To field is entered
+2025-11-12 14:46:44,906 - INFO - Subject is entered
+2025-11-12 14:46:55,542 - INFO - Page 1 content has been entered
+2025-11-12 14:47:01,016 - INFO - Clicked on Send
+2025-11-12 14:47:02,764 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x00000288BED4A510>' closed successfully.
+2025-11-12 14:47:13,926 - INFO - Successfully clicked on '.*Inbox:.*' menu item.
+2025-11-12 14:47:15,479 - INFO - Clicked email with subject: Demo subject
+2025-11-12 14:47:18,617 - INFO - Right-clicked on the selected option.
+2025-11-12 14:47:20,595 - INFO - Move clicked
+2025-11-12 14:47:22,186 - INFO - Other Folder clicked
+2025-11-12 14:47:23,674 - INFO - Task clicked
+2025-11-12 14:47:24,257 - INFO - Clicked on OK
+2025-11-12 14:47:26,753 - INFO - New Task window is opened
+2025-11-12 14:47:27,143 - INFO - Due date set to 12/12/2025
+2025-11-12 14:47:27,891 - INFO - Priority set to High
+2025-11-12 14:47:28,311 - INFO - Reminder checkbox is checked
+2025-11-12 14:47:28,687 - INFO - Reminder date set to 30/12/2025
+2025-11-12 14:47:29,642 - INFO - Time set to 02:30 PM
+2025-11-12 14:47:30,313 - INFO - Clicked on Save and Close
+2025-11-12 14:47:31,985 - INFO - Tasks clicked
+2025-11-12 14:47:32,857 - INFO - task_to_do_dlg is opened
+2025-11-12 14:47:33,208 - INFO - 3Task items found
+2025-11-12 14:47:33,469 - INFO - Most recent unread email clicked: uia_controls.ListItemWrapper - 'Task Subject FW: Demo subject, Start Date None, Reminder Time Tue 12/30/2025 2:30 PM, Due Date Fri 12/12/2025, In Folder Tasks, Reminder Has Reminder, Flag Status Unflagged, ', DataItem
+2025-11-12 14:47:39,042 - INFO - Clicked on Delete
+2025-11-12 14:47:49,996 - INFO - Successfully clicked on '.*Inbox.*' menu item.
+2025-11-12 14:47:52,101 - INFO - Found 7 mail items
+2025-11-12 14:47:52,232 - INFO - Selected email with subject:To Swapnali K, Subject FW: Demo subject, Sent 2:46 PM, Size 16 KB, Flag Status Unflagged, Preview Hello, Swapnali K.    This is Forward Testcase..!    Best Regards, Swapnali K        From: Swapnali K  Sent: Thursday, October 16, 2025 1:32 PM  To: Swapnali K <swapnalik@futurismtechnologies.com>  Cc: Swapnali K <swapnalik@futurismtechnologies.com>  Subj, 
+2025-11-12 14:47:55,836 - INFO - Right-clicked on the selected option.
+2025-11-12 14:47:57,304 - INFO - Clicked on Follow Up
+2025-11-12 14:47:57,796 - INFO - Found 11 sub menu items
+2025-11-12 14:47:57,912 - INFO - Clicked on No Date flag:
+2025-11-12 14:47:59,414 - INFO - Clicked on inbox menu
+2025-11-12 14:47:59,930 - INFO - Right-clicked on inbox menu
+2025-11-12 14:48:01,351 - INFO - Clicked on Create New Folder menu item
+2025-11-12 14:48:02,597 - INFO - Create New Folder window is visible
+2025-11-12 14:48:06,274 - INFO - Demo folder is created
+2025-11-12 14:48:07,854 - INFO - Right clicked on selected mail
+2025-11-12 14:48:08,459 - INFO - Opened Move menu
+2025-11-12 14:48:10,924 - INFO - Located Move submenu
+2025-11-12 14:48:11,850 - INFO - Found GroupBox inside Move submenu
+2025-11-12 14:48:13,912 - INFO - Successfully moved email to Demo folder
+2025-11-12 14:48:17,407 - INFO - Deleted folder successfully
+2025-11-12 14:48:18,235 - INFO - Delete pop-up appeared.
+2025-11-12 14:48:19,196 - INFO - Clicked Yes to delete the folder.
+2025-11-12 14:48:30,950 - INFO - Found 8 mail items
+2025-11-12 14:48:31,071 - INFO - Selected email is open
+2025-11-12 14:48:32,827 - INFO - Attachment options clicked
+2025-11-12 14:48:39,332 - INFO - Clicked on 'Save As' successfully.
+2025-11-12 14:48:40,896 - INFO - Save Attachment dialog is opened
+2025-11-12 14:48:42,296 - INFO - Selected folder:pywin_practice
+2025-11-12 14:48:42,298 - INFO - File to be saved as: Doc_2.txt
+2025-11-12 14:48:43,574 - INFO - Edited file name: Doc_2.txt
+2025-11-12 14:48:44,869 - INFO - Save button is clicked
+2025-11-12 14:48:56,477 - INFO - File tab clicked
+2025-11-12 14:48:59,402 - INFO - Clicked on 'Manage Rules & Alerts successfully.
+2025-11-12 14:49:00,568 - INFO - Rule and Alert window is visible
+2025-11-12 14:49:01,352 - INFO - New Rule... clicked
+2025-11-12 14:49:02,826 - INFO - Rules Wizard window is visible
+2025-11-12 14:49:05,741 - INFO - Next > in Wizard window clicked
+2025-11-12 14:49:07,349 - INFO - Condition1:Unchecked from people or public group
+2025-11-12 14:49:08,917 - INFO - Condition2:Checked with specific words in the subject)
+2025-11-12 14:49:10,526 - INFO - Condition3:Checked through the specified account
+2025-11-12 14:49:12,252 - INFO - Condition4: Checked sent only to me
+2025-11-12 14:49:13,062 - INFO - Clicked via keystrokes
+2025-11-12 14:49:14,693 - INFO - Dialog for through the specified account appeared.
+2025-11-12 14:49:15,626 - INFO - Clicked OK button in Account dialog
+2025-11-12 14:49:16,951 - INFO - Clicked 'with specific words in the subject' via keystrokes
+2025-11-12 14:49:18,637 - INFO - Search Text dlg is visible
+2025-11-12 14:49:20,704 - INFO - Text is entered in search box
+2025-11-12 14:49:21,696 - INFO - Clicked on Add button
+2025-11-12 14:49:22,666 - INFO - Clicked on OK button
+2025-11-12 14:49:23,999 - INFO - Clicked 'with specific words in the subject' via keystrokes
+2025-11-12 14:49:25,695 - INFO - Rules and Alerts dlg is visible
+2025-11-12 14:49:26,714 - INFO - Clicked on Inbox folder
+2025-11-12 14:49:27,730 - INFO - Clicked OK button
+2025-11-12 14:49:30,962 - INFO - Clicked Next button 2
+2025-11-12 14:49:32,471 - INFO - process_rule:Unchecked from people or public group
+2025-11-12 14:49:35,378 - INFO - Clicked Next button 3
+2025-11-12 14:49:38,504 - INFO - Clicked Next button 4
+2025-11-12 14:49:39,149 - INFO - Clicked Finish button
+2025-11-12 14:49:40,963 - INFO - Clicked OK button
+2025-11-12 14:49:41,515 - INFO - Clicked Apply button
+2025-11-12 14:49:44,593 - INFO - Clicked OK button
+2025-11-12 16:31:04,751 - INFO - Unread clicked
+2025-11-12 16:31:09,156 - INFO - Right-clicked on the selected option.
+2025-11-12 16:31:59,651 - INFO - File tab clicked
+2025-11-12 16:32:02,719 - INFO - Clicked on 'Manage Rules & Alerts successfully.
+2025-11-12 16:32:03,865 - INFO - Rule and Alert window is visible
+2025-11-12 16:32:04,625 - INFO - New Rule... clicked
+2025-11-12 16:32:05,580 - INFO - Rules Wizard window is visible
+2025-11-12 16:32:08,221 - INFO - Next > in Wizard window clicked
+2025-11-12 16:32:09,795 - INFO - Condition1:Unchecked from people or public group
+2025-11-12 16:32:11,331 - INFO - Condition2:Checked with specific words in the subject)
+2025-11-12 16:32:12,896 - INFO - Condition3:Checked through the specified account
+2025-11-12 16:32:14,528 - INFO - Condition4: Checked sent only to me
+2025-11-12 16:32:15,344 - INFO - Clicked via keystrokes
+2025-11-12 16:32:16,972 - INFO - Dialog for through the specified account appeared.
+2025-11-12 16:32:17,922 - INFO - Clicked OK button in Account dialog
+2025-11-12 16:32:19,228 - INFO - Clicked 'with specific words in the subject' via keystrokes
+2025-11-12 16:32:20,898 - INFO - Search Text dlg is visible
+2025-11-12 16:32:22,936 - INFO - Text is entered in search box
+2025-11-12 16:32:23,852 - INFO - Clicked on Add button
+2025-11-12 16:32:24,789 - INFO - Clicked on OK button
+2025-11-12 16:32:26,126 - INFO - Clicked 'with specific words in the subject' via keystrokes
+2025-11-12 16:32:27,853 - INFO - Rules and Alerts dlg is visible
+2025-11-12 16:32:28,859 - INFO - Clicked on Inbox folder
+2025-11-12 16:32:29,848 - INFO - Clicked OK button
+2025-11-12 16:32:32,990 - INFO - Clicked Next button 2
+2025-11-12 16:32:34,470 - INFO - process_rule:Unchecked from people or public group
+2025-11-12 16:32:37,322 - INFO - Clicked Next button 3
+2025-11-12 16:32:40,416 - INFO - Clicked Next button 4
+2025-11-12 16:32:41,052 - INFO - Clicked Finish button
+2025-11-12 16:32:42,857 - INFO - Clicked OK button
+2025-11-12 16:32:43,409 - INFO - Clicked Apply button
+2025-11-12 16:32:46,453 - INFO - Clicked OK button
+2025-11-12 16:35:04,847 - INFO - File tab clicked
+2025-11-12 16:35:07,914 - INFO - Clicked on 'Manage Rules & Alerts successfully.
+2025-11-12 16:35:09,100 - INFO - Rule and Alert window is visible
+2025-11-12 16:35:09,868 - INFO - New Rule... clicked
+2025-11-12 16:35:10,832 - INFO - Rules Wizard window is visible
+2025-11-12 16:35:13,506 - INFO - Next > in Wizard window clicked
+2025-11-12 16:35:15,077 - INFO - Condition1:Unchecked from people or public group
+2025-11-12 16:35:16,622 - INFO - Condition2:Checked with specific words in the subject)
+2025-11-12 16:35:18,176 - INFO - Condition3:Checked through the specified account
+2025-11-12 16:35:19,768 - INFO - Condition4: Checked sent only to me
+2025-11-12 16:35:20,575 - INFO - Clicked via keystrokes
+2025-11-12 16:35:22,198 - INFO - Dialog for through the specified account appeared.
+2025-11-12 16:35:23,113 - INFO - Clicked OK button in Account dialog
+2025-11-12 16:35:24,435 - INFO - Clicked 'with specific words in the subject' via keystrokes
+2025-11-12 16:35:26,070 - INFO - Search Text dlg is visible
+2025-11-12 16:35:28,118 - INFO - Text is entered in search box
+2025-11-12 16:35:29,084 - INFO - Clicked on Add button
+2025-11-12 16:35:30,054 - INFO - Clicked on OK button
+2025-11-12 16:35:31,370 - INFO - Clicked 'with specific words in the subject' via keystrokes
+2025-11-12 16:35:33,058 - INFO - Rules and Alerts dlg is visible
+2025-11-12 16:35:34,051 - INFO - Clicked on Inbox folder
+2025-11-12 16:35:34,973 - INFO - Clicked OK button
+2025-11-12 16:35:38,132 - INFO - Clicked Next button 2
+2025-11-12 16:35:39,659 - INFO - process_rule:Unchecked from people or public group
+2025-11-12 16:35:42,481 - INFO - Clicked Next button 3
+2025-11-12 16:35:45,592 - INFO - Clicked Next button 4
+2025-11-12 16:35:46,237 - INFO - Clicked Finish button
+2025-11-12 16:35:48,060 - INFO - Clicked OK button
+2025-11-12 16:35:48,653 - INFO - Clicked Apply button
+2025-11-12 16:35:51,395 - INFO - Clicked OK button
+2025-11-12 16:40:30,961 - INFO - File tab clicked
+2025-11-12 16:40:34,043 - INFO - Clicked on 'Manage Rules & Alerts successfully.
+2025-11-12 16:40:35,227 - INFO - Rule and Alert window is visible
+2025-11-12 16:40:36,026 - INFO - New Rule... clicked
+2025-11-12 16:40:36,981 - INFO - Rules Wizard window is visible
+2025-11-12 16:40:39,672 - INFO - Next > in Wizard window clicked
+2025-11-12 16:40:41,245 - INFO - Condition1:Unchecked from people or public group
+2025-11-12 16:40:42,796 - INFO - Condition2:Checked with specific words in the subject)
+2025-11-12 16:40:44,377 - INFO - Condition3:Checked through the specified account
+2025-11-12 16:40:46,083 - INFO - Condition4: Checked sent only to me
+2025-11-12 16:40:46,896 - INFO - Clicked via keystrokes
+2025-11-12 16:40:48,553 - INFO - Dialog for through the specified account appeared.
+2025-11-12 16:40:49,489 - INFO - Clicked OK button in Account dialog
+2025-11-12 16:40:50,820 - INFO - Clicked 'with specific words in the subject' via keystrokes
+2025-11-12 16:40:52,469 - INFO - Search Text dlg is visible
+2025-11-12 16:40:54,531 - INFO - Text is entered in search box
+2025-11-12 16:40:55,492 - INFO - Clicked on Add button
+2025-11-12 16:40:56,453 - INFO - Clicked on OK button
+2025-11-12 16:40:57,780 - INFO - Clicked 'with specific words in the subject' via keystrokes
+2025-11-12 16:40:59,485 - INFO - Rules and Alerts dlg is visible
+2025-11-12 16:41:00,477 - INFO - Clicked on Inbox folder
+2025-11-12 16:41:01,442 - INFO - Clicked OK button
+2025-11-12 16:41:04,665 - INFO - Clicked Next button 2
+2025-11-12 16:41:06,153 - INFO - process_rule:Unchecked from people or public group
+2025-11-12 16:41:08,997 - INFO - Clicked Next button 3
+2025-11-12 16:41:12,124 - INFO - Clicked Next button 4
+2025-11-12 16:41:12,776 - INFO - Clicked Finish button
+2025-11-12 16:41:14,583 - INFO - Clicked OK button
+2025-11-12 16:41:15,160 - INFO - Clicked Apply button
+2025-11-12 16:41:18,155 - INFO - Clicked OK button
+2025-11-12 16:46:59,106 - INFO - File tab clicked
+2025-11-12 16:47:02,273 - INFO - Clicked on 'Manage Rules & Alerts successfully.
+2025-11-12 16:47:03,496 - INFO - Rule and Alert window is visible
+2025-11-12 16:47:04,270 - INFO - New Rule... clicked
+2025-11-12 16:47:05,230 - INFO - Rules Wizard window is visible
+2025-11-12 16:47:07,882 - INFO - Next > in Wizard window clicked
+2025-11-12 16:47:09,466 - INFO - Condition1:Unchecked from people or public group
+2025-11-12 16:47:11,030 - INFO - Condition2:Checked with specific words in the subject)
+2025-11-12 16:47:12,591 - INFO - Condition3:Checked through the specified account
+2025-11-12 16:47:14,189 - INFO - Condition4: Checked sent only to me
+2025-11-12 16:47:14,999 - INFO - Clicked via keystrokes
+2025-11-12 16:47:16,644 - INFO - Dialog for through the specified account appeared.
+2025-11-12 16:47:17,563 - INFO - Clicked OK button in Account dialog
+2025-11-12 16:47:18,906 - INFO - Clicked 'with specific words in the subject' via keystrokes
+2025-11-12 16:47:20,540 - INFO - Search Text dlg is visible
+2025-11-12 16:47:22,587 - INFO - Text is entered in search box
+2025-11-12 16:47:23,534 - INFO - Clicked on Add button
+2025-11-12 16:47:24,514 - INFO - Clicked on OK button
+2025-11-12 16:47:25,830 - INFO - Clicked 'with specific words in the subject' via keystrokes
+2025-11-12 16:47:27,527 - INFO - Rules and Alerts dlg is visible
+2025-11-12 16:47:28,534 - INFO - Clicked on Inbox folder
+2025-11-12 16:47:29,472 - INFO - Clicked OK button
+2025-11-12 16:47:32,631 - INFO - Clicked Next button 2
+2025-11-12 16:47:34,138 - INFO - process_rule:Unchecked from people or public group
+2025-11-12 16:47:36,977 - INFO - Clicked Next button 3
+2025-11-12 16:47:40,088 - INFO - Clicked Next button 4
+2025-11-12 16:47:40,724 - INFO - Clicked Finish button
+2025-11-12 16:47:42,530 - INFO - Clicked OK button
+2025-11-12 16:47:43,115 - INFO - Clicked Apply button
+2025-11-12 16:47:46,066 - INFO - Clicked OK button
+2025-11-12 16:50:14,462 - INFO - Successfully clicked on '.*Inbox:.*' menu item.
+2025-11-12 16:50:14,870 - ERROR - Error while selecting Demo Sub Mail:No email found with subject: Demo subject
+2025-11-12 16:50:14,871 - ERROR - No option selected after right-click.
+2025-11-12 16:50:24,936 - ERROR - Failed to click 'Move->Other Folder':timed out
+2025-11-12 16:51:27,861 - INFO - File tab clicked
+2025-11-12 16:51:30,905 - INFO - Clicked on 'Manage Rules & Alerts successfully.
+2025-11-12 16:51:32,078 - INFO - Rule and Alert window is visible
+2025-11-12 16:51:32,878 - INFO - New Rule... clicked
+2025-11-12 16:51:33,862 - INFO - Rules Wizard window is visible
+2025-11-12 16:51:36,573 - INFO - Next > in Wizard window clicked
+2025-11-12 16:51:38,178 - INFO - Condition1:Unchecked from people or public group
+2025-11-12 16:51:39,749 - INFO - Condition2:Checked with specific words in the subject)
+2025-11-12 16:51:41,333 - INFO - Condition3:Checked through the specified account
+2025-11-12 16:51:42,897 - INFO - Condition4: Checked sent only to me
+2025-11-12 16:51:43,737 - INFO - Clicked via keystrokes
+2025-11-12 16:51:45,394 - INFO - Dialog for through the specified account appeared.
+2025-11-12 16:51:46,323 - INFO - Clicked OK button in Account dialog
+2025-11-12 16:51:47,702 - INFO - Clicked 'with specific words in the subject' via keystrokes
+2025-11-12 16:51:49,422 - INFO - Search Text dlg is visible
+2025-11-12 16:51:51,495 - INFO - Text is entered in search box
+2025-11-12 16:53:54,347 - INFO - New Email clicked
+2025-11-12 16:53:55,676 - INFO - Clicked on New mail and Send mail window opened
+2025-11-12 16:53:59,898 - INFO - To email id is set correctly
+2025-11-12 16:54:04,044 - INFO - Cc email id is set correctly
+2025-11-12 16:54:05,965 - INFO - Subject is set correctly
+2025-11-12 16:54:15,928 - INFO - Text in body is set correctly
+2025-11-12 16:54:21,405 - INFO - Clicked on Attach File...
+2025-11-12 16:54:22,828 - INFO - Recent items window is open
+2025-11-12 16:54:23,395 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-11-12 16:54:43,559 - ERROR - Failed to attach file: timed out
+2025-11-12 16:54:49,133 - INFO - Clicked on Send
+2025-11-12 16:54:51,943 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x000001F9D792F750>' closed successfully.
+2025-11-12 16:59:14,414 - INFO - File tab clicked
+2025-11-12 16:59:17,626 - INFO - Clicked on 'Manage Rules & Alerts successfully.
+2025-11-12 16:59:18,800 - INFO - Rule and Alert window is visible
+2025-11-12 16:59:19,598 - INFO - New Rule... clicked
+2025-11-12 16:59:20,568 - INFO - Rules Wizard window is visible
+2025-11-12 16:59:23,288 - INFO - Next > in Wizard window clicked
+2025-11-12 16:59:24,874 - INFO - Condition1:Unchecked from people or public group
+2025-11-12 16:59:26,430 - INFO - Condition2:Checked with specific words in the subject)
+2025-11-12 16:59:27,972 - INFO - Condition3:Checked through the specified account
+2025-11-12 16:59:29,613 - INFO - Condition4: Checked sent only to me
+2025-11-12 16:59:30,440 - INFO - Clicked via keystrokes
+2025-11-12 16:59:32,093 - INFO - Dialog for through the specified account appeared.
+2025-11-12 16:59:33,028 - INFO - Clicked OK button in Account dialog
+2025-11-12 16:59:34,423 - INFO - Clicked 'with specific words in the subject' via keystrokes
+2025-11-12 16:59:36,076 - INFO - Search Text dlg is visible
+2025-11-12 16:59:38,138 - INFO - Text is entered in search box
+2025-11-12 16:59:39,108 - INFO - Clicked on Add button
+2025-11-12 16:59:40,085 - INFO - Clicked on OK button
+2025-11-12 16:59:41,422 - INFO - Clicked 'with specific words in the subject' via keystrokes
+2025-11-12 16:59:43,160 - INFO - Rules and Alerts dlg is visible
+2025-11-12 16:59:44,166 - INFO - Clicked on Inbox folder
+2025-11-12 16:59:45,137 - INFO - Clicked OK button
+2025-11-12 16:59:48,331 - INFO - Clicked Next button 2
+2025-11-12 16:59:49,846 - INFO - process_rule:Unchecked from people or public group
+2025-11-12 16:59:52,729 - INFO - Clicked Next button 3
+2025-11-12 16:59:55,890 - INFO - Clicked Next button 4
+2025-11-12 16:59:56,593 - INFO - Clicked Finish button
+2025-11-12 16:59:58,449 - INFO - Clicked OK button
+2025-11-12 16:59:59,018 - INFO - Clicked Apply button
+2025-11-12 17:00:01,961 - INFO - Clicked OK button
+2025-11-12 17:02:19,691 - INFO - File tab clicked
+2025-11-12 17:02:22,632 - INFO - Clicked on 'Manage Rules & Alerts successfully.
+2025-11-12 17:02:23,731 - INFO - Rule and Alert window is visible
+2025-11-12 17:02:24,521 - INFO - New Rule... clicked
+2025-11-12 17:02:25,486 - INFO - Rules Wizard window is visible
+2025-11-12 17:02:28,167 - INFO - Next > in Wizard window clicked
+2025-11-12 17:02:29,747 - INFO - Condition1:Unchecked from people or public group
+2025-11-12 17:02:31,313 - INFO - Condition2:Checked with specific words in the subject)
+2025-11-12 17:02:32,889 - INFO - Condition3:Checked through the specified account
+2025-11-12 17:02:34,495 - INFO - Condition4: Checked sent only to me
+2025-11-12 17:02:35,398 - INFO - Clicked via keystrokes
+2025-11-12 17:02:37,043 - INFO - Dialog for through the specified account appeared.
+2025-11-12 17:02:37,967 - INFO - Clicked OK button in Account dialog
+2025-11-12 17:02:39,301 - INFO - Clicked 'with specific words in the subject' via keystrokes
+2025-11-12 17:02:40,953 - INFO - Search Text dlg is visible
+2025-11-12 17:02:43,010 - INFO - Text is entered in search box
+2025-11-12 17:02:44,015 - INFO - Clicked on Add button
+2025-11-12 17:02:45,002 - INFO - Clicked on OK button
+2025-11-12 17:02:46,339 - INFO - Clicked 'with specific words in the subject' via keystrokes
+2025-11-12 17:02:48,038 - INFO - Rules and Alerts dlg is visible
+2025-11-12 17:02:49,038 - INFO - Clicked on Inbox folder
+2025-11-12 17:02:50,042 - INFO - Clicked OK button
+2025-11-12 17:02:53,270 - INFO - Clicked Next button 2
+2025-11-12 17:02:54,760 - INFO - process_rule:Unchecked from people or public group
+2025-11-12 17:02:57,618 - INFO - Clicked Next button 3
+2025-11-12 17:03:00,746 - INFO - Clicked Next button 4
+2025-11-12 17:03:01,365 - INFO - Clicked Finish button
+2025-11-12 17:03:03,213 - INFO - Clicked OK button
+2025-11-12 17:03:03,806 - INFO - Clicked Apply button
+2025-11-12 17:03:07,890 - INFO - Clicked OK button
+2025-11-12 17:05:21,449 - INFO - File tab clicked
+2025-11-12 17:05:24,545 - INFO - Clicked on 'Manage Rules & Alerts successfully.
+2025-11-12 17:05:25,821 - INFO - Rule and Alert window is visible
+2025-11-12 17:05:26,634 - INFO - New Rule... clicked
+2025-11-12 17:05:27,638 - INFO - Rules Wizard window is visible
+2025-11-12 17:05:30,381 - INFO - Next > in Wizard window clicked
+2025-11-12 17:05:32,034 - INFO - Condition1:Unchecked from people or public group
+2025-11-12 17:05:33,650 - INFO - Condition2:Checked with specific words in the subject)
+2025-11-12 17:05:35,289 - INFO - Condition3:Checked through the specified account
+2025-11-12 17:05:36,951 - INFO - Condition4: Checked sent only to me
+2025-11-12 17:05:37,796 - INFO - Clicked via keystrokes
+2025-11-12 17:05:39,450 - INFO - Dialog for through the specified account appeared.
+2025-11-12 17:05:40,433 - INFO - Clicked OK button in Account dialog
+2025-11-12 17:05:41,815 - INFO - Clicked 'with specific words in the subject' via keystrokes
+2025-11-12 17:05:43,532 - INFO - Search Text dlg is visible
+2025-11-12 17:05:45,600 - INFO - Text is entered in search box
+2025-11-12 17:05:46,571 - INFO - Clicked on Add button
+2025-11-12 17:05:47,574 - INFO - Clicked on OK button
+2025-11-12 17:05:48,938 - INFO - Clicked 'with specific words in the subject' via keystrokes
+2025-11-12 17:05:50,696 - INFO - Rules and Alerts dlg is visible
+2025-11-12 17:05:51,755 - INFO - Clicked on Inbox folder
+2025-11-12 17:05:52,743 - INFO - Clicked OK button
+2025-11-12 17:05:56,004 - INFO - Clicked Next button 2
+2025-11-12 17:05:57,541 - INFO - process_rule:Unchecked from people or public group
+2025-11-12 17:06:00,435 - INFO - Clicked Next button 3
+2025-11-12 17:06:03,612 - INFO - Clicked Next button 4
+2025-11-12 17:06:04,282 - INFO - Clicked Finish button
+2025-11-12 17:06:06,156 - INFO - Clicked OK button
+2025-11-12 17:06:06,741 - INFO - Clicked Apply button
+2025-11-12 17:06:09,701 - INFO - Clicked OK button
+2025-11-12 18:26:20,048 - INFO - Successfully clicked on '.*Deleted Items:.*' menu item.
+2025-11-12 18:26:20,049 - INFO - Clicked on Deleted Items
+2025-11-12 18:26:21,118 - INFO - Recover items recently removed from this folder clicked
+2025-11-12 18:26:22,769 - INFO - Recover deleted items window is visible
+2025-11-12 18:26:23,945 - INFO - Clicked on first item
+2025-11-12 18:26:25,313 - INFO - Ok clicked
+2025-11-12 18:27:52,370 - INFO - Successfully clicked on '.*Deleted Items:.*' menu item.
+2025-11-12 18:27:52,378 - INFO - Clicked on Deleted Items
+2025-11-12 18:27:53,424 - INFO - Recover items recently removed from this folder clicked
+2025-11-12 18:27:55,047 - INFO - Recover deleted items window is visible
+2025-11-12 18:27:56,243 - INFO - Clicked on first item
+2025-11-12 18:27:57,573 - INFO - Ok clicked
+2025-11-12 18:37:48,147 - INFO - Successfully clicked on '.*Deleted Items:.*' menu item.
+2025-11-12 18:37:48,148 - INFO - Clicked on Deleted Items
+2025-11-12 18:37:49,703 - INFO - Recover items recently removed from this folder clicked
+2025-11-12 18:37:51,410 - INFO - Recover deleted items window is visible
+2025-11-12 18:37:52,544 - INFO - Clicked on first item
+2025-11-12 18:37:53,799 - INFO - Ok clicked
+2025-11-12 18:42:57,003 - INFO - File tab clicked
+2025-11-12 18:42:59,949 - INFO - Clicked on 'Manage Rules & Alerts successfully.
+2025-11-12 18:43:00,944 - INFO - Rule and Alert window is visible
+2025-11-12 18:43:01,738 - INFO - New Rule... clicked
+2025-11-12 18:43:02,732 - INFO - Rules Wizard window is visible
+2025-11-12 18:43:05,450 - INFO - Next > in Wizard window clicked
+2025-11-12 18:43:07,047 - INFO - Condition1:Unchecked from people or public group
+2025-11-12 18:43:08,647 - INFO - Condition2:Checked with specific words in the subject)
+2025-11-12 18:43:10,258 - INFO - Condition3:Checked through the specified account
+2025-11-12 18:43:11,886 - INFO - Condition4: Checked sent only to me
+2025-11-12 18:43:12,733 - INFO - Clicked via keystrokes
+2025-11-12 18:43:14,405 - INFO - Dialog for through the specified account appeared.
+2025-11-12 18:43:15,362 - INFO - Clicked OK button in Account dialog
+2025-11-12 18:43:16,768 - INFO - Clicked 'with specific words in the subject' via keystrokes
+2025-11-12 18:43:18,371 - INFO - Search Text dlg is visible
+2025-11-12 18:43:20,406 - INFO - Text is entered in search box
+2025-11-12 18:43:21,404 - INFO - Clicked on Add button
+2025-11-12 18:43:22,382 - INFO - Clicked on OK button
+2025-11-12 18:43:23,737 - INFO - Clicked 'with specific words in the subject' via keystrokes
+2025-11-12 18:43:25,479 - INFO - Rules and Alerts dlg is visible
+2025-11-12 18:43:26,513 - INFO - Clicked on Inbox folder
+2025-11-12 18:43:27,474 - INFO - Clicked OK button
+2025-11-12 18:43:30,734 - INFO - Clicked Next button 2
+2025-11-12 18:43:32,466 - INFO - process_rule:Unchecked from people or public group
+2025-11-12 18:43:35,315 - INFO - Clicked Next button 3
+2025-11-12 18:43:38,442 - INFO - Clicked Next button 4
+2025-11-12 18:43:39,103 - INFO - Clicked Finish button
+2025-11-12 18:43:40,934 - INFO - Clicked OK button
+2025-11-12 18:43:41,535 - INFO - Clicked Apply button
+2025-11-12 18:43:44,545 - INFO - Clicked OK button
+2025-11-12 18:47:12,718 - INFO - Successfully clicked on '.*Deleted Items:.*' menu item.
+2025-11-12 18:47:12,724 - INFO - Clicked on Deleted Items
+2025-11-12 18:47:13,784 - INFO - Recover items recently removed from this folder clicked
+2025-11-12 18:47:15,331 - INFO - Recover deleted items window is visible
+2025-11-12 18:47:16,408 - INFO - Clicked on first item
+2025-11-12 18:47:17,717 - INFO - Ok clicked
+2025-11-12 18:50:46,155 - INFO - Successfully clicked on '.*Deleted Items:.*' menu item.
+2025-11-12 18:50:46,161 - INFO - Clicked on Deleted Items
+2025-11-12 18:50:47,220 - INFO - Recover items recently removed from this folder clicked
+2025-11-12 18:50:48,798 - INFO - Recover deleted items window is visible
+2025-11-12 18:50:49,879 - INFO - Clicked on first item
+2025-11-12 18:50:51,114 - INFO - Ok clicked
+2025-11-12 18:51:28,778 - INFO - Successfully clicked on '.*Deleted Items:.*' menu item.
+2025-11-12 18:51:28,779 - INFO - Clicked on Deleted Items
+2025-11-12 18:51:29,848 - INFO - Recover items recently removed from this folder clicked
+2025-11-12 18:51:31,294 - INFO - Recover deleted items window is visible
+2025-11-12 18:51:32,374 - INFO - Clicked on first item
+2025-11-12 18:51:33,584 - INFO - Ok clicked
+2025-11-12 18:52:53,768 - INFO - Successfully clicked on '.*Deleted Items:.*' menu item.
+2025-11-12 18:52:53,769 - INFO - Clicked on Deleted Items
+2025-11-12 18:52:55,425 - INFO - Recover items recently removed from this folder clicked
+2025-11-12 18:52:56,994 - INFO - Recover deleted items window is visible
+2025-11-12 18:52:58,063 - INFO - Clicked on first item
+2025-11-12 18:52:59,323 - INFO - Ok clicked
+2025-11-12 19:04:33,900 - INFO - Successfully clicked on '.*Deleted Items:.*' menu item.
+2025-11-12 19:04:33,901 - INFO - Clicked on Deleted Items
+2025-11-12 19:04:35,019 - INFO - Recover items recently removed from this folder clicked
+2025-11-12 19:04:36,548 - INFO - Recover deleted items window is visible
+2025-11-12 19:04:37,560 - INFO - Clicked on first item
+2025-11-12 19:04:38,831 - INFO - Ok clicked
+2025-11-12 19:15:12,629 - INFO - Successfully clicked on '.*Deleted Items:.*' menu item.
+2025-11-12 19:15:12,630 - INFO - Clicked on Deleted Items
+2025-11-12 19:15:13,682 - INFO - Recover items recently removed from this folder clicked
+2025-11-12 19:15:15,215 - INFO - Recover deleted items window is visible
+2025-11-12 19:15:16,192 - INFO - Clicked on first item
+2025-11-12 19:15:17,395 - INFO - Ok clicked
+2025-11-12 19:26:36,719 - INFO - Successfully clicked on '.*Deleted Items:.*' menu item.
+2025-11-12 19:26:36,725 - INFO - Clicked on Deleted Items
+2025-11-12 19:26:37,973 - INFO - Recover items recently removed from this folder clicked
+2025-11-12 19:26:39,424 - INFO - Recover deleted items window is visible
+2025-11-12 19:26:40,380 - INFO - Clicked on first item
+2025-11-12 19:26:41,573 - INFO - Ok clicked
+2025-11-12 19:28:27,130 - INFO - Successfully clicked on '.*Sent Items.*' menu item.
+2025-11-12 19:28:27,131 - INFO - Successfully clicked on sent item.
+2025-11-12 19:29:43,566 - INFO - Successfully clicked on '.*Deleted Items:.*' menu item.
+2025-11-12 19:29:43,567 - INFO - Clicked on Deleted Items
+2025-11-12 19:29:44,636 - INFO - Recover items recently removed from this folder clicked
+2025-11-12 19:29:46,061 - INFO - Recover deleted items window is visible
+2025-11-12 19:29:47,030 - INFO - Clicked on first item
+2025-11-12 19:29:48,169 - INFO - Ok clicked
+2025-11-12 19:33:35,521 - INFO - Successfully clicked on '.*Deleted Items:.*' menu item.
+2025-11-12 19:33:35,522 - INFO - Clicked on Deleted Items
+2025-11-12 19:33:36,540 - INFO - Recover items recently removed from this folder clicked
+2025-11-12 19:33:37,965 - INFO - Recover deleted items window is visible
+2025-11-12 19:33:38,866 - INFO - Clicked on first item
+2025-11-12 19:33:40,002 - INFO - Ok clicked
+2025-11-12 19:35:31,524 - INFO - Successfully clicked on '.*Deleted Items:.*' menu item.
+2025-11-12 19:35:31,525 - INFO - Clicked on Deleted Items
+2025-11-12 19:35:32,721 - INFO - Recover items recently removed from this folder clicked
+2025-11-12 19:35:34,193 - INFO - Recover deleted items window is visible
+2025-11-12 19:35:35,070 - INFO - Clicked on first item
+2025-11-12 19:35:36,198 - INFO - Ok clicked
+2025-11-12 19:40:29,096 - INFO - Searched contact: aarti t
+2025-11-12 19:40:31,098 - INFO - Searched contact: aarti t
+2025-11-12 19:40:33,099 - INFO - Search contact: aarti t
+2025-11-12 19:52:56,352 - INFO - Searched contact: aarti t
+2025-11-12 19:52:58,354 - INFO - Searched contact: aarti t
+2025-11-12 19:53:00,355 - INFO - Search contact: aarti t
+2025-11-12 20:27:55,477 - INFO - Searched contact: aarti t
+2025-11-12 20:27:57,479 - INFO - Searched contact: aarti t
+2025-11-12 20:27:59,480 - INFO - Search contact: aarti t
+2025-11-12 20:29:10,115 - INFO - Searched contact: aarti t
+2025-11-12 20:29:12,117 - INFO - Searched contact: aarti t
+2025-11-12 20:29:14,119 - INFO - Search contact: aarti t
+2025-11-12 20:30:56,812 - INFO - Searched contact: aarti t
+2025-11-12 20:30:58,815 - INFO - Searched contact: aarti t
+2025-11-12 20:31:00,816 - INFO - Search contact: aarti t
+2025-11-12 20:43:21,307 - INFO - Searched contact: aarti t
+2025-11-12 20:43:23,308 - INFO - Searched contact: aarti t
+2025-11-12 20:43:25,349 - INFO - Search contact: aarti t
+2025-11-12 20:50:16,174 - INFO - Searched contact: aarti t
+2025-11-12 20:50:18,175 - INFO - Searched contact: aarti t
+2025-11-12 20:50:20,176 - INFO - Search contact: aarti t
+2025-11-12 20:54:12,615 - INFO - Searched contact: aarti t
+2025-11-12 20:54:14,617 - INFO - Searched contact: aarti t
+2025-11-12 20:54:16,617 - INFO - Search contact: aarti t
+2025-11-12 20:58:03,054 - INFO - Searched contact: aarti t
+2025-11-12 20:58:05,056 - INFO - Searched contact: aarti t
+2025-11-12 20:58:07,057 - INFO - Search contact: aarti t
+2025-11-12 20:59:25,713 - INFO - Searched contact: aarti t
+2025-11-12 20:59:27,715 - INFO - Searched contact: aarti t
+2025-11-12 20:59:29,715 - INFO - Search contact: aarti t
+2025-11-13 12:48:25,044 - INFO - Searched contact: aarti t
+2025-11-13 12:48:27,045 - INFO - Searched contact: aarti t
+2025-11-13 12:48:29,046 - INFO - Search contact: aarti t
+2025-11-13 12:51:09,726 - INFO - Searched contact: aarti t
+2025-11-13 12:51:11,728 - INFO - Searched contact: aarti t
+2025-11-13 12:51:13,729 - INFO - Search contact: aarti t
+2025-11-13 12:55:54,362 - INFO - Searched contact: aarti t
+2025-11-13 12:55:56,354 - INFO - Searched contact: aarti t
+2025-11-13 12:55:58,345 - INFO - Search contact: aarti t
+2025-11-13 12:57:55,905 - ERROR - Failed to click on send mail:control New Email not found: New Email not found
+2025-11-13 13:01:59,536 - INFO - Successfully clicked on '.*Deleted Items:.*' menu item.
+2025-11-13 13:01:59,544 - INFO - Clicked on Deleted Items
+2025-11-13 13:02:00,597 - INFO - Recover items recently removed from this folder clicked
+2025-11-13 13:02:02,020 - INFO - Recover deleted items window is visible
+2025-11-13 13:02:02,886 - INFO - Clicked on first item
+2025-11-13 13:02:03,993 - INFO - Ok clicked
+2025-11-13 13:03:44,156 - INFO - Searched contact: aarti t
+2025-11-13 13:03:46,158 - INFO - Searched contact: aarti t
+2025-11-13 13:03:48,159 - INFO - Search contact: aarti t
+2025-11-13 13:09:42,055 - INFO - Searched contact: aarti t
+2025-11-13 13:09:44,056 - INFO - Searched contact: aarti t
+2025-11-13 13:09:46,057 - INFO - Search contact: aarti t
+2025-11-13 13:12:31,057 - INFO - Successfully clicked on '.*Deleted Items:.*' menu item.
+2025-11-13 13:12:31,064 - INFO - Clicked on Deleted Items
+2025-11-13 13:12:32,076 - INFO - Recover items recently removed from this folder clicked
+2025-11-13 13:12:33,989 - INFO - Recover deleted items window is visible
+2025-11-13 13:12:35,454 - INFO - Clicked on first item
+2025-11-13 13:12:36,794 - INFO - Ok clicked
+2025-11-13 13:21:40,889 - INFO - Successfully clicked on '.*Deleted Items:.*' menu item.
+2025-11-13 13:21:40,895 - INFO - Clicked on Deleted Items
+2025-11-13 13:21:41,961 - INFO - Recover items recently removed from this folder clicked
+2025-11-13 13:21:43,309 - INFO - Recover deleted items window is visible
+2025-11-13 13:21:44,115 - INFO - Clicked on first item
+2025-11-13 13:21:45,183 - INFO - Ok clicked
+2025-11-13 13:22:47,201 - INFO - New Email clicked
+2025-11-13 13:22:48,585 - INFO - Clicked on New mail and Send mail window opened
+2025-11-13 13:22:52,981 - INFO - To email id is set correctly
+2025-11-13 13:22:57,103 - INFO - Cc email id is set correctly
+2025-11-13 13:22:58,977 - INFO - Subject is set correctly
+2025-11-13 13:23:08,944 - INFO - Text in body is set correctly
+2025-11-13 13:23:14,378 - INFO - Clicked on Attach File...
+2025-11-13 13:23:15,493 - INFO - Recent items window is open
+2025-11-13 13:23:16,067 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-11-13 13:23:36,138 - ERROR - Failed to attach file: timed out
+2025-11-13 13:23:41,655 - INFO - Clicked on Send
+2025-11-13 13:23:44,647 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x0000022C3A6A3D90>' closed successfully.
+2025-11-13 13:23:55,721 - INFO - Unread clicked
+2025-11-13 13:27:53,307 - INFO - Found 8 mail items
+2025-11-13 13:27:53,894 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Automated Pywinauto Test Report, Sent 1:26 PM, Size 50 KB, Flag Status Unflagged, Preview Hello,     Please find attached the detailed HTML report for the executed test cases.     Best regards,     Swapnali K     Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confiden, ', DataItem
+2025-11-13 13:27:57,011 - INFO - Right-clicked on the selected option.
+2025-11-13 13:27:58,994 - INFO - Email marked as read.
+2025-11-13 13:37:29,944 - INFO - Found 8 mail items
+2025-11-13 13:37:30,551 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Automated Pywinauto Test Report, Sent 1:36 PM, Size 50 KB, Flag Status Unflagged, Preview Hello,     Please find attached the detailed HTML report for the executed test cases.     Best regards,     Swapnali K     Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confiden, ', DataItem
+2025-11-13 13:37:33,672 - INFO - Right-clicked on the selected option.
+2025-11-13 13:37:35,720 - INFO - Email marked as read.
+2025-11-13 13:45:00,905 - INFO - Found 8 mail items
+2025-11-13 13:45:01,642 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Automated Pywinauto Test Report, Sent 1:38 PM, Size 50 KB, Flag Status Unflagged, Preview Hello,     Please find attached the detailed HTML report for the executed test cases.     Best regards,     Swapnali K     Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confiden, ', DataItem
+2025-11-13 13:45:04,763 - INFO - Right-clicked on the selected option.
+2025-11-13 13:45:09,103 - INFO - Email marked as unread.
+2025-11-13 14:08:29,786 - INFO - Found 8 mail items
+2025-11-13 14:08:30,341 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Automated Pywinauto Test Report, Sent 1:45 PM, Size 50 KB, Flag Status Unflagged, Preview Hello,     Please find attached the detailed HTML report for the executed test cases.     Best regards,     Swapnali K     Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confiden, ', DataItem
+2025-11-13 14:08:33,484 - INFO - Right-clicked on the selected option.
+2025-11-13 14:08:35,558 - INFO - Email marked as read.
+2025-11-13 14:09:53,946 - INFO - Found 8 mail items
+2025-11-13 14:09:54,582 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Automated Pywinauto Test Report, Sent 1:45 PM, Size 50 KB, Flag Status Unflagged, Preview Hello,     Please find attached the detailed HTML report for the executed test cases.     Best regards,     Swapnali K     Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confiden, ', DataItem
+2025-11-13 14:09:57,699 - INFO - Right-clicked on the selected option.
+2025-11-13 14:10:01,889 - INFO - Email marked as unread.
+2025-11-13 14:12:01,954 - INFO - Found 8 mail items
+2025-11-13 14:12:02,545 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Automated Pywinauto Test Report, Sent 1:45 PM, Size 50 KB, Flag Status Unflagged, Preview Hello,     Please find attached the detailed HTML report for the executed test cases.     Best regards,     Swapnali K     Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confiden, ', DataItem
+2025-11-13 14:12:05,662 - INFO - Right-clicked on the selected option.
+2025-11-13 14:12:07,678 - INFO - Email marked as read.
+2025-11-13 14:15:17,056 - INFO - Found 8 mail items
+2025-11-13 14:15:17,564 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Automated Pywinauto Test Report, Sent 1:45 PM, Size 50 KB, Flag Status Unflagged, Preview Hello,     Please find attached the detailed HTML report for the executed test cases.     Best regards,     Swapnali K     Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confiden, ', DataItem
+2025-11-13 14:15:20,687 - INFO - Right-clicked on the selected option.
+2025-11-13 14:15:24,861 - INFO - Email marked as unread.
+2025-11-13 14:16:38,314 - INFO - Found 8 mail items
+2025-11-13 14:16:38,915 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Automated Pywinauto Test Report, Sent 1:45 PM, Size 50 KB, Flag Status Unflagged, Preview Hello,     Please find attached the detailed HTML report for the executed test cases.     Best regards,     Swapnali K     Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confiden, ', DataItem
+2025-11-13 14:16:42,034 - INFO - Right-clicked on the selected option.
+2025-11-13 14:16:44,034 - INFO - Email marked as read.
+2025-11-13 14:21:47,264 - INFO - Found 8 mail items
+2025-11-13 14:21:47,875 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Automated Pywinauto Test Report, Sent 2:21 PM, Size 50 KB, Flag Status Unflagged, Preview Hello,     Please find attached the detailed HTML report for the executed test cases.     Best regards,     Swapnali K     Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confiden, ', DataItem
+2025-11-13 14:21:51,008 - INFO - Right-clicked on the selected option.
+2025-11-13 14:21:53,006 - INFO - Email marked as read.
+2025-11-13 14:31:11,849 - INFO - Found 8 mail items
+2025-11-13 14:31:12,392 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject 12th nov, Sent 2:27 PM, Size 557 KB, Flag Status Unflagged, Preview Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confidential and privileged information. If you are not the intended recipient, please contact the sender by reply e-mail and destr, ', DataItem
+2025-11-13 14:31:15,516 - INFO - Right-clicked on the selected option.
+2025-11-13 14:31:20,309 - INFO - Email marked as unread.
+2025-11-13 14:33:53,909 - INFO - Found 8 mail items
+2025-11-13 14:33:54,562 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Automated Pywinauto Test Report, Sent 2:33 PM, Size 50 KB, Flag Status Unflagged, Preview Hello,     Please find attached the detailed HTML report for the executed test cases.     Best regards,     Swapnali K     Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confiden, ', DataItem
+2025-11-13 14:33:57,680 - INFO - Right-clicked on the selected option.
+2025-11-13 14:34:01,801 - INFO - Email marked as unread.
+2025-11-13 14:45:21,535 - INFO - Found 8 mail items
+2025-11-13 14:45:22,059 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Automated Pywinauto Test Report, Sent 2:34 PM, Size 50 KB, Flag Status Unflagged, Preview Hello,     Please find attached the detailed HTML report for the executed test cases.     Best regards,     Swapnali K     Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confiden, ', DataItem
+2025-11-13 14:45:25,182 - INFO - Right-clicked on the selected option.
+2025-11-13 14:45:29,309 - INFO - Email marked as unread.
+2025-11-13 15:00:19,304 - INFO - Found 8 mail items
+2025-11-13 15:00:19,875 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Automated Pywinauto Test Report, Sent 2:34 PM, Size 50 KB, Flag Status Unflagged, Preview Hello,     Please find attached the detailed HTML report for the executed test cases.     Best regards,     Swapnali K     Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confiden, ', DataItem
+2025-11-13 15:00:22,989 - INFO - Right-clicked on the selected option.
+2025-11-13 15:00:27,044 - INFO - Email marked as unread.
+2025-11-13 15:02:22,788 - INFO - Found 8 mail items
+2025-11-13 15:02:23,348 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Automated Pywinauto Test Report, Sent 2:34 PM, Size 50 KB, Flag Status Unflagged, Preview Hello,     Please find attached the detailed HTML report for the executed test cases.     Best regards,     Swapnali K     Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confiden, ', DataItem
+2025-11-13 15:02:26,466 - INFO - Right-clicked on the selected option.
+2025-11-13 15:02:30,957 - INFO - Email marked as unread.
+2025-11-13 15:12:19,938 - INFO - Found 8 mail items
+2025-11-13 15:12:20,468 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Automated Pywinauto Test Report, Sent 2:34 PM, Size 50 KB, Flag Status Unflagged, Preview Hello,     Please find attached the detailed HTML report for the executed test cases.     Best regards,     Swapnali K     Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confiden, ', DataItem
+2025-11-13 15:12:23,588 - INFO - Right-clicked on the selected option.
+2025-11-13 15:12:25,587 - INFO - Email marked as read.
+2025-11-13 15:19:28,167 - INFO - Found 8 mail items
+2025-11-13 15:19:28,744 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Automated Pywinauto Test Report, Sent 3:13 PM, Size 50 KB, Flag Status Unflagged, Preview Hello,     Please find attached the detailed HTML report for the executed test cases.     Best regards,     Swapnali K     Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confiden, ', DataItem
+2025-11-13 15:19:31,858 - INFO - Right-clicked on the selected option.
+2025-11-13 15:19:33,856 - INFO - Email marked as read.
+2025-11-13 15:22:54,674 - INFO - Found 8 mail items
+2025-11-13 15:22:55,325 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Automated Pywinauto Test Report, Sent 3:20 PM, Size 79 KB, Flag Status Unflagged, Preview Hello,    Please find below the detailed HTML report for the executed test cases:      report_2025-11-13_15-19-19.html      Report generated on 13-Nov-2025 at 15:19:19 by pytest-html <https://pypi.python.org/pypi/pytest-html>  v4.1.1      Environment    N, ', DataItem
+2025-11-13 15:22:58,476 - INFO - Right-clicked on the selected option.
+2025-11-13 15:23:00,559 - INFO - Email marked as read.
+2025-11-13 15:25:32,104 - INFO - Found 8 mail items
+2025-11-13 15:25:32,709 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Automated Pywinauto Test Report, Sent 3:20 PM, Size 79 KB, Flag Status Unflagged, Preview Hello,    Please find below the detailed HTML report for the executed test cases:      report_2025-11-13_15-19-19.html      Report generated on 13-Nov-2025 at 15:19:19 by pytest-html <https://pypi.python.org/pypi/pytest-html>  v4.1.1      Environment    N, ', DataItem
+2025-11-13 15:25:35,820 - INFO - Right-clicked on the selected option.
+2025-11-13 15:25:40,011 - INFO - Email marked as unread.
+2025-11-13 15:28:36,636 - INFO - Found 8 mail items
+2025-11-13 15:28:37,228 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Automated Pywinauto Test Report, Sent 3:20 PM, Size 79 KB, Flag Status Unflagged, Preview Hello,    Please find below the detailed HTML report for the executed test cases:      report_2025-11-13_15-19-19.html      Report generated on 13-Nov-2025 at 15:19:19 by pytest-html <https://pypi.python.org/pypi/pytest-html>  v4.1.1      Environment    N, ', DataItem
+2025-11-13 15:28:40,356 - INFO - Right-clicked on the selected option.
+2025-11-13 15:28:42,426 - INFO - Email marked as read.
+2025-11-13 15:30:05,150 - INFO - Found 8 mail items
+2025-11-13 15:30:05,833 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Automated Pywinauto Test Report, Sent 3:29 PM, Size 79 KB, Flag Status Unflagged, Preview Hello,    Please find below the detailed HTML report for the executed test cases:      report_2025-11-13_15-28-28.html      Report generated on 13-Nov-2025 at 15:28:28 by pytest-html <https://pypi.python.org/pypi/pytest-html>  v4.1.1      Environment    N, ', DataItem
+2025-11-13 15:30:08,952 - INFO - Right-clicked on the selected option.
+2025-11-13 15:30:11,034 - INFO - Email marked as read.
+2025-11-13 15:33:54,852 - INFO - Found 8 mail items
+2025-11-13 15:33:55,461 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Automated Pywinauto Test Report, Sent 3:30 PM, Size 79 KB, Flag Status Unflagged, Preview Hello,    Please find below the detailed HTML report for the executed test cases:      report_2025-11-13_15-29-56.html      Report generated on 13-Nov-2025 at 15:29:56 by pytest-html <https://pypi.python.org/pypi/pytest-html>  v4.1.1      Environment    N, ', DataItem
+2025-11-13 15:33:58,580 - INFO - Right-clicked on the selected option.
+2025-11-13 15:34:00,631 - INFO - Email marked as read.
+2025-11-13 15:36:15,416 - INFO - New Email clicked
+2025-11-13 15:36:17,931 - INFO - Clicked on New mail and Send mail window opened
+2025-11-13 15:36:22,225 - INFO - To email id is set correctly
+2025-11-13 15:36:26,393 - INFO - Cc email id is set correctly
+2025-11-13 15:36:28,344 - INFO - Subject is set correctly
+2025-11-13 15:36:38,384 - INFO - Text in body is set correctly
+2025-11-13 15:36:43,857 - INFO - Clicked on Attach File...
+2025-11-13 15:36:44,905 - INFO - Recent items window is open
+2025-11-13 15:36:45,485 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-11-13 15:37:05,661 - ERROR - Failed to attach file: timed out
+2025-11-13 15:37:11,141 - INFO - Clicked on Send
+2025-11-13 15:37:13,718 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x00000158F50BF890>' closed successfully.
+2025-11-13 15:37:23,953 - INFO - Unread clicked
+2025-11-13 15:37:39,314 - INFO - Found 8 mail items
+2025-11-13 15:37:39,899 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Automated Pywinauto Test Report, Sent 3:34 PM, Size 50 KB, Flag Status Unflagged, Preview Hello,     Please find attached the detailed HTML report for the executed test cases.     Best regards,   Swapnali K     Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confidenti, ', DataItem
+2025-11-13 15:37:43,027 - INFO - Right-clicked on the selected option.
+2025-11-13 15:37:45,009 - INFO - Email marked as read.
+2025-11-13 15:37:57,469 - INFO - Successfully clicked on 'Inbox' menu item.
+2025-11-13 15:38:08,942 - INFO - Successfully clicked on '.*Sent Items.*' menu item.
+2025-11-13 15:38:08,942 - INFO - Successfully clicked on sent item.
+2025-11-13 15:38:10,661 - INFO - Clicked email with subject: Demo subject
+2025-11-13 15:38:13,782 - INFO - Right-clicked on the selected option.
+2025-11-13 15:38:15,330 - INFO - Clicked on Delete
+2025-11-13 15:38:26,279 - INFO - Click on Contact View from Search Bar
+2025-11-13 15:38:27,556 - INFO - Clicked on New Contact button
+2025-11-13 15:38:28,813 - INFO - New contact dialog opened
+2025-11-13 15:38:32,151 - INFO - All details are entered
+2025-11-13 15:38:32,908 - INFO - Clicked on Save and Close button
+2025-11-13 15:38:45,570 - INFO - Successfully clicked on '.*Inbox.*' menu item.
+2025-11-13 15:38:45,571 - INFO - Successfully clicked on inbox.
+2025-11-13 15:38:48,566 - INFO - Found 7 mail items
+2025-11-13 15:38:48,697 - INFO - Selected email with subject: With Attachments, To Swapnali K, Subject Demo subject, Sent 1:24 PM, Size 13 KB, Flag Status Unflagged, Preview Swapnali K has shared a OneDrive for Business file with you. To view it, click the link below.          Copy of QA_intern_training_desktop_automation (002).xlsx        Hello, Swapnali K.    This is the body of the page….!    Best Regards,  Swapnali K., 
+2025-11-13 15:38:52,284 - INFO - Right-clicked on the selected option.
+2025-11-13 15:38:53,797 - INFO - Clicked on Move
+2025-11-13 15:38:54,410 - INFO - Clicked on Archive
+2025-11-13 15:39:03,758 - INFO - Successfully clicked on '.*Inbox.*' menu item.
+2025-11-13 15:39:03,759 - INFO - Clicked on Inbox
+2025-11-13 15:39:05,371 - INFO - Categorized menu clicked
+2025-11-13 15:39:07,309 - INFO - Clicked on 'Blue Category'
+2025-11-13 15:39:07,707 - INFO - Total mails:7
+2025-11-13 15:39:08,326 - INFO - Most recent email: uia_controls.ListItemWrapper - 'To Swapnali K, Subject FW: Demo subject, Sent 10/16/2025, Size 13 KB, Categories Blue Category, Flag Status Unflagged, Preview Hello, Swapnali K.    This is Forward Testcase..!    Best Regards, Swapnali K        From: Swapnali K <swapnalik@futurismtechnologies.com>  Sent: Wednesday, October 15, 2025 3:22 PM  To: Swapnali K <swapnalik@futurismtechnologies.com>  Subject: RE: Demo s, ', DataItem
+2025-11-13 15:39:09,636 - INFO - Forward clicked
+2025-11-13 15:39:11,694 - INFO - Pop Out clicked
+2025-11-13 15:39:11,694 - INFO - Clicked on Pop Out
+2025-11-13 15:39:13,284 - INFO - Forward window is visible
+2025-11-13 15:39:14,805 - INFO - to_field typed successfully
+2025-11-13 15:39:16,179 - INFO - Cc typed successfully
+2025-11-13 15:39:25,421 - INFO - Clicked on Send
+2025-11-13 15:39:27,057 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x00000158F5226430>' closed successfully.
+2025-11-13 15:39:29,520 - INFO - Search bar cleared.
+2025-11-13 15:39:40,000 - INFO - Successfully clicked on '.*Deleted Items:.*' menu item.
+2025-11-13 15:39:40,000 - INFO - Clicked on Deleted Items
+2025-11-13 15:39:41,095 - INFO - Recover items recently removed from this folder clicked
+2025-11-13 15:40:09,896 - INFO - Searched contact: aarti t
+2025-11-13 15:40:11,897 - INFO - Searched contact: aarti t
+2025-11-13 15:40:13,898 - INFO - Search contact: aarti t
+2025-11-13 15:40:25,197 - INFO - Clicked on contact
+2025-11-13 15:40:26,988 - INFO - New Contact Group clicked
+2025-11-13 15:40:27,788 - INFO - New contact grp dialog opened
+2025-11-13 15:40:28,301 - INFO - Entered contact group name
+2025-11-13 15:40:28,660 - INFO - Clicked on Add Members button
+2025-11-13 15:40:29,263 - INFO - Clicked on From Address Book button
+2025-11-13 15:40:29,263 - INFO - Select member dialog is opened
+2025-11-13 15:40:33,174 - INFO - Entered 'Aarti T' and pressed Enter
+2025-11-13 15:40:35,573 - INFO - Search bar is cleared
+2025-11-13 15:40:38,191 - INFO - Clicked on OK button
+2025-11-13 15:40:39,279 - INFO - Clicked on Save & Close button
+2025-11-13 15:40:41,437 - INFO - Clicked on New Item button
+2025-11-13 15:40:41,826 - ERROR - E-mail Message menu item not found
+2025-11-13 15:40:54,966 - ERROR - Failed to enter group name: timed out
+2025-11-13 15:41:00,036 - ERROR - Failed to enter subject: {'title_re': '.*- Message..*', 'backend': 'uia', 'process': 19100}
+2025-11-13 15:41:05,094 - ERROR - Failed to enter text:{'title_re': '.*- Message..*', 'backend': 'uia', 'process': 19100}
+2025-11-13 15:41:10,280 - ERROR - Failed to click on Send: No Windows of that application are active
+2025-11-13 15:41:10,438 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x00000158F5226270>' closed successfully.
+2025-11-13 15:41:20,121 - INFO - Successfully clicked on '.*Inbox:.*' menu item.
+2025-11-13 15:41:22,053 - INFO - Clicked email with subject: Demo subject
+2025-11-13 15:41:25,179 - INFO - Right-clicked on the selected option.
+2025-11-13 15:41:27,262 - INFO - Move clicked
+2025-11-13 15:41:28,835 - INFO - Other Folder clicked
+2025-11-13 15:41:30,374 - INFO - Task clicked
+2025-11-13 15:41:31,004 - INFO - Clicked on OK
+2025-11-13 15:41:32,814 - INFO - New Task window is opened
+2025-11-13 15:41:33,213 - INFO - Due date set to 12/12/2025
+2025-11-13 15:41:33,992 - INFO - Priority set to High
+2025-11-13 15:41:34,394 - INFO - Reminder checkbox is checked
+2025-11-13 15:41:34,788 - INFO - Reminder date set to 30/12/2025
+2025-11-13 15:41:35,696 - INFO - Time set to 02:30 PM
+2025-11-13 15:41:36,377 - INFO - Clicked on Save and Close
+2025-11-13 15:41:38,097 - INFO - Tasks clicked
+2025-11-13 15:41:38,926 - INFO - task_to_do_dlg is opened
+2025-11-13 15:41:39,271 - INFO - 4Task items found
+2025-11-13 15:41:39,597 - INFO - Most recent unread email clicked: uia_controls.ListItemWrapper - 'Task Subject FW: Demo subject, Start Date None, Reminder Time Tue 12/30/2025 2:30 PM, Due Date Fri 12/12/2025, In Folder Tasks, Reminder Has Reminder, Flag Status Unflagged, ', DataItem
+2025-11-13 15:41:45,176 - INFO - Clicked on Delete
+2025-11-13 15:41:54,691 - INFO - Successfully clicked on '.*Inbox.*' menu item.
+2025-11-13 15:41:57,316 - INFO - Found 7 mail items
+2025-11-13 15:41:57,445 - INFO - Selected email with subject:With Attachments, To Swapnali K, Subject Demo subject, Sent 3:38 PM, Size 18 KB, Flag Status Unflagged, Preview Swapnali K has shared a OneDrive for Business file with you. To view it, click the link below.          Copy of QA_intern_training_desktop_automation (002).xlsx        Hello, Swapnali K.    This is the body of the page….!    Best Regards,  Swapnali K.  Di, 
+2025-11-13 15:42:01,005 - INFO - Right-clicked on the selected option.
+2025-11-13 15:42:03,338 - INFO - Clicked on Follow Up
+2025-11-13 15:42:03,870 - INFO - Found 11 sub menu items
+2025-11-13 15:42:04,033 - INFO - Clicked on No Date flag:
+2025-11-13 15:42:05,547 - INFO - Clicked on inbox menu
+2025-11-13 15:42:06,231 - INFO - Right-clicked on inbox menu
+2025-11-13 15:42:07,871 - INFO - Clicked on Create New Folder menu item
+2025-11-13 15:42:09,121 - INFO - Create New Folder window is visible
+2025-11-13 15:42:12,848 - INFO - Demo folder is created
+2025-11-13 15:42:14,424 - INFO - Right clicked on selected mail
+2025-11-13 15:42:15,011 - INFO - Opened Move menu
+2025-11-13 15:42:18,153 - INFO - Located Move submenu
+2025-11-13 15:42:19,243 - INFO - Found GroupBox inside Move submenu
+2025-11-13 15:42:21,300 - INFO - Successfully moved email to Demo folder
+2025-11-13 15:42:24,863 - INFO - Deleted folder successfully
+2025-11-13 15:42:25,714 - INFO - Delete pop-up appeared.
+2025-11-13 15:42:26,732 - INFO - Clicked Yes to delete the folder.
+2025-11-13 15:42:39,390 - INFO - Found 7 mail items
+2025-11-13 15:42:39,515 - INFO - Selected email is open
+2025-11-13 15:42:40,551 - ERROR - Failed to click on Attachment options button:control Attachment options not found: Attachment options not found
+2025-11-13 15:42:50,564 - ERROR - Context menu not found: timed out
+2025-11-13 15:42:50,565 - ERROR - Error occurred while trying to click 'Save As': timed out
+2025-11-13 15:43:04,479 - INFO - File tab clicked
+2025-11-13 15:43:07,778 - INFO - Clicked on 'Manage Rules & Alerts successfully.
+2025-11-13 15:43:12,897 - ERROR - Failed to open Rules and Alert window: timed out
+2025-11-13 15:47:28,089 - INFO - Found 8 mail items
+2025-11-13 15:47:28,683 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Automated Pywinauto Test Report, Sent 3:46 PM, Size 50 KB, Flag Status Unflagged, Preview Hello,     Please find attached the detailed HTML report for the executed test cases.     Best regards,   Swapnali K     Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confidenti, ', DataItem
+2025-11-13 15:47:31,813 - INFO - Right-clicked on the selected option.
+2025-11-13 15:47:33,818 - INFO - Email marked as read.
+2025-11-13 15:48:22,229 - INFO - Found 8 mail items
+2025-11-13 15:48:22,753 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Automated Pywinauto Test Report, Sent 3:46 PM, Size 50 KB, Flag Status Unflagged, Preview Hello,     Please find attached the detailed HTML report for the executed test cases.     Best regards,   Swapnali K     Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confidenti, ', DataItem
+2025-11-13 15:48:25,968 - INFO - Right-clicked on the selected option.
+2025-11-13 15:48:30,493 - INFO - Email marked as unread.
+2025-11-13 16:01:57,766 - INFO - Found 8 mail items
+2025-11-13 16:01:58,336 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Automated Pywinauto Test Report, Sent 3:49 PM, Size 50 KB, Flag Status Unflagged, Preview Hello,     Please find attached the detailed HTML report for the executed test cases.     Best regards,     Swapnali K     Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confiden, ', DataItem
+2025-11-13 16:02:01,483 - INFO - Right-clicked on the selected option.
+2025-11-13 16:02:03,464 - INFO - Email marked as read.
+2025-11-13 16:02:44,826 - INFO - Found 8 mail items
+2025-11-13 16:02:45,351 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Automated Pywinauto Test Report, Sent 3:49 PM, Size 50 KB, Flag Status Unflagged, Preview Hello,     Please find attached the detailed HTML report for the executed test cases.     Best regards,     Swapnali K     Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confiden, ', DataItem
+2025-11-13 16:02:48,567 - INFO - Right-clicked on the selected option.
+2025-11-13 16:02:53,119 - INFO - Email marked as unread.
+2025-11-13 16:05:00,762 - INFO - Found 8 mail items
+2025-11-13 16:05:01,300 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Automated Pywinauto Test Report, Sent 3:49 PM, Size 50 KB, Flag Status Unflagged, Preview Hello,     Please find attached the detailed HTML report for the executed test cases.     Best regards,     Swapnali K     Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confiden, ', DataItem
+2025-11-13 16:05:04,419 - INFO - Right-clicked on the selected option.
+2025-11-13 16:05:06,497 - INFO - Email marked as read.
+2025-11-13 16:08:42,187 - INFO - Found 8 mail items
+2025-11-13 16:08:42,805 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Automated Pywinauto Test Report, Sent 3:49 PM, Size 50 KB, Flag Status Unflagged, Preview Hello,     Please find attached the detailed HTML report for the executed test cases.     Best regards,     Swapnali K     Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confiden, ', DataItem
+2025-11-13 16:08:45,918 - INFO - Right-clicked on the selected option.
+2025-11-13 16:08:50,026 - INFO - Email marked as unread.
+2025-11-13 16:34:49,759 - INFO - Found 8 mail items
+2025-11-13 16:34:50,386 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Automated Test Execution Report, Sent 4:09 PM, Size 44 KB, Flag Status Unflagged, Preview Hello,     Please find attached the latest HTML report from test execution.     Regards.     Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confidential and privileged informatio, ', DataItem
+2025-11-13 16:34:53,496 - INFO - Right-clicked on the selected option.
+2025-11-13 16:34:55,510 - INFO - Email marked as read.
+2025-11-13 16:40:37,445 - INFO - Found 8 mail items
+2025-11-13 16:40:38,052 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Automated Pywinauto Test Report, Sent 4:35 PM, Size 50 KB, Flag Status Unflagged, Preview Hello,     Please find attached the detailed HTML report for the executed test cases.     Best regards,     Swapnali K     Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confiden, ', DataItem
+2025-11-13 16:40:41,184 - INFO - Right-clicked on the selected option.
+2025-11-13 16:40:43,250 - INFO - Email marked as read.
+2025-11-13 16:42:49,538 - INFO - Found 8 mail items
+2025-11-13 16:42:50,099 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Automated Test Report: report_2025-11-13_16-40-26.html, Sent 4:41 PM, Size 49 KB, Flag Status Unflagged, Preview Please find the automated test report attached.     Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confidential and privileged information. If you are not the intended recipient,, ', DataItem
+2025-11-13 16:42:53,227 - INFO - Right-clicked on the selected option.
+2025-11-13 16:42:55,294 - INFO - Email marked as read.
+2025-11-13 16:47:28,993 - INFO - Found 8 mail items
+2025-11-13 16:47:29,616 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Automated Pywinauto Test Report, Sent 4:43 PM, Size 50 KB, Flag Status Unflagged, Preview Hello,     Please find attached the detailed HTML report for the executed test cases.     Best regards,     Swapnali K     Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confiden, ', DataItem
+2025-11-13 16:47:32,729 - INFO - Right-clicked on the selected option.
+2025-11-13 16:47:34,795 - INFO - Email marked as read.
+2025-11-13 17:07:45,865 - INFO - Found 8 mail items
+2025-11-13 17:07:46,505 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Automated Pywinauto Test Report, Sent 4:48 PM, Size 50 KB, Flag Status Unflagged, Preview Hello,     Please find attached the detailed HTML report for the executed test cases.     Best regards,     Swapnali K     Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confiden, ', DataItem
+2025-11-13 17:07:49,627 - INFO - Right-clicked on the selected option.
+2025-11-13 17:07:51,708 - INFO - Email marked as read.
+2025-11-13 17:14:07,319 - INFO - Found 8 mail items
+2025-11-13 17:14:07,889 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Automated Pywinauto Test Report, Sent 5:08 PM, Size 50 KB, Flag Status Unflagged, Preview Hello,     Please find attached the detailed HTML report for the executed test cases.     Best regards,     Swapnali K     Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confiden, ', DataItem
+2025-11-13 17:14:11,014 - INFO - Right-clicked on the selected option.
+2025-11-13 17:14:13,029 - INFO - Email marked as read.
+2025-11-13 17:16:21,992 - INFO - Found 8 mail items
+2025-11-13 17:16:22,546 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Automated Pywinauto Test Report, Sent 5:08 PM, Size 50 KB, Flag Status Unflagged, Preview Hello,     Please find attached the detailed HTML report for the executed test cases.     Best regards,     Swapnali K     Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confiden, ', DataItem
+2025-11-13 17:16:25,663 - INFO - Right-clicked on the selected option.
+2025-11-13 17:16:29,853 - INFO - Email marked as unread.
+2025-11-13 17:17:41,435 - INFO - Found 8 mail items
+2025-11-13 17:17:41,956 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Automated Pywinauto Test Report, Sent 5:08 PM, Size 50 KB, Flag Status Unflagged, Preview Hello,     Please find attached the detailed HTML report for the executed test cases.     Best regards,     Swapnali K     Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confiden, ', DataItem
+2025-11-13 17:17:45,156 - INFO - Right-clicked on the selected option.
+2025-11-13 17:17:47,154 - INFO - Email marked as read.
+2025-11-13 17:19:52,540 - INFO - Found 8 mail items
+2025-11-13 17:19:53,097 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Automated Pywinauto Test Report, Sent 5:08 PM, Size 50 KB, Flag Status Unflagged, Preview Hello,     Please find attached the detailed HTML report for the executed test cases.     Best regards,     Swapnali K     Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confiden, ', DataItem
+2025-11-13 17:19:56,210 - INFO - Right-clicked on the selected option.
+2025-11-13 17:20:00,863 - INFO - Email marked as unread.
+2025-11-13 17:22:50,234 - INFO - Found 8 mail items
+2025-11-13 17:22:50,798 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Automated Pywinauto Test Report, Sent 5:20 PM, Size 50 KB, Flag Status Unflagged, Preview Hello,     Please find attached the detailed HTML report for the executed test cases.     Best regards,     Swapnali K     Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confiden, ', DataItem
+2025-11-13 17:22:53,930 - INFO - Right-clicked on the selected option.
+2025-11-13 17:22:55,992 - INFO - Email marked as read.
+2025-11-13 18:56:35,144 - INFO - Found 8 mail items
+2025-11-13 18:56:35,779 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Automated Pywinauto Test Report, Sent 5:20 PM, Size 50 KB, Flag Status Unflagged, Preview Hello,     Please find attached the detailed HTML report for the executed test cases.     Best regards,     Swapnali K     Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confiden, ', DataItem
+2025-11-13 18:56:38,891 - INFO - Right-clicked on the selected option.
+2025-11-13 18:56:43,312 - INFO - Email marked as unread.
+2025-11-13 19:07:37,047 - INFO - Found 8 mail items
+2025-11-13 19:07:37,675 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Automated Pywinauto Test Report, Sent 6:57 PM, Size 50 KB, Flag Status Unflagged, Preview Hello,     Please find attached the detailed HTML report for the executed test cases.     Best regards,     Swapnali K     Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confiden, ', DataItem
+2025-11-13 19:07:40,803 - INFO - Right-clicked on the selected option.
+2025-11-13 19:07:42,816 - INFO - Email marked as read.
+2025-11-13 19:12:00,352 - INFO - Unread clicked
+2025-11-13 19:12:32,785 - INFO - Unread clicked
+2025-11-13 19:13:12,024 - INFO - Searched contact: aarti t
+2025-11-13 19:13:14,026 - INFO - Searched contact: aarti t
+2025-11-13 19:13:16,027 - INFO - Search contact: aarti t
+2025-11-13 19:18:50,839 - INFO - Found 8 mail items
+2025-11-13 19:18:51,409 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Automated Test Execution Report, Sent 7:13 PM, Size 50 KB, Flag Status Unflagged, Preview Hello, Please find attached the detailed HTML report for the executed test cases. Best regards, Swapnali K Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confidential and privile, ', DataItem
+2025-11-13 19:18:54,542 - INFO - Right-clicked on the selected option.
+2025-11-13 19:18:58,666 - INFO - Email marked as unread.
+2025-11-13 19:20:59,315 - INFO - Found 8 mail items
+2025-11-13 19:20:59,810 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Automated Test Execution Report, Sent 7:19 PM, Size 51 KB, Flag Status Unflagged, Preview Hello, Please find attached the detailed HTML report for the executed test cases. Best regards, Swapnali K Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confidential and privile, ', DataItem
+2025-11-13 19:21:03,052 - INFO - Right-clicked on the selected option.
+2025-11-13 19:21:05,075 - INFO - Email marked as read.
+2025-11-13 19:28:23,629 - INFO - Found 8 mail items
+2025-11-13 19:28:24,256 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Automated Test Execution Report, Sent 7:21 PM, Size 51 KB, Flag Status Unflagged, Preview Hello,    Please find attached the detailed HTML report for the executed test cases.    Best regards,  Swapnali K Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confidential and , ', DataItem
+2025-11-13 19:28:27,381 - INFO - Right-clicked on the selected option.
+2025-11-13 19:28:29,380 - INFO - Email marked as read.
+2025-11-13 19:37:58,756 - INFO - Found 7 mail items
+2025-11-13 19:37:59,412 - INFO - Most recent email: uia_controls.ListItemWrapper - 'With Attachments, To Swapnali K, Subject Automated Test Execution Report, Sent 7:37 PM, Size 49 KB, Flag Status Unflagged, Preview Hello,    Please find attached the detailed HTML report for the executed test cases.    Best regards,  Swapnali K,    Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confidential , ', DataItem
+2025-11-13 19:38:02,544 - INFO - Right-clicked on the selected option.
+2025-11-13 19:38:04,592 - INFO - Email marked as read.
+2025-11-13 20:03:16,973 - INFO - Found 7 mail items
+2025-11-13 20:03:17,096 - INFO - Selected email is open
+2025-11-13 20:03:18,134 - ERROR - Failed to click on Attachment options button:control Attachment options not found: Attachment options not found
+2025-11-13 20:03:29,072 - ERROR - Context menu not found: timed out
+2025-11-13 20:03:29,073 - ERROR - Error occurred while trying to click 'Save As': timed out
+2025-11-13 20:07:05,480 - INFO - File tab clicked
+2025-11-13 20:07:08,374 - INFO - Clicked on 'Manage Rules & Alerts successfully.
+2025-11-13 20:07:09,518 - INFO - Rule and Alert window is visible
+2025-11-13 20:07:10,314 - INFO - New Rule... clicked
+2025-11-13 20:07:11,300 - INFO - Rules Wizard window is visible
+2025-11-13 20:07:14,019 - INFO - Next > in Wizard window clicked
+2025-11-13 20:07:15,609 - INFO - Condition1:Unchecked from people or public group
+2025-11-13 20:07:17,176 - INFO - Condition2:Checked with specific words in the subject)
+2025-11-13 20:07:18,752 - INFO - Condition3:Checked through the specified account
+2025-11-13 20:07:20,374 - INFO - Condition4: Checked sent only to me
+2025-11-13 20:07:21,181 - INFO - Clicked via keystrokes
+2025-11-13 20:07:22,853 - INFO - Dialog for through the specified account appeared.
+2025-11-13 20:07:23,819 - INFO - Clicked OK button in Account dialog
+2025-11-13 20:07:25,209 - INFO - Clicked 'with specific words in the subject' via keystrokes
+2025-11-13 20:07:26,899 - INFO - Search Text dlg is visible
+2025-11-13 20:07:28,966 - INFO - Text is entered in search box
+2025-11-13 20:07:29,913 - INFO - Clicked on Add button
+2025-11-13 20:07:30,867 - INFO - Clicked on OK button
+2025-11-13 20:07:32,210 - INFO - Clicked 'with specific words in the subject' via keystrokes
+2025-11-13 20:07:33,952 - INFO - Rules and Alerts dlg is visible
+2025-11-13 20:07:34,982 - INFO - Clicked on Inbox folder
+2025-11-13 20:07:35,913 - INFO - Clicked OK button
+2025-11-13 20:07:39,112 - INFO - Clicked Next button 2
+2025-11-13 20:07:40,625 - INFO - process_rule:Unchecked from people or public group
+2025-11-13 20:07:43,510 - INFO - Clicked Next button 3
+2025-11-13 20:07:46,671 - INFO - Clicked Next button 4
+2025-11-13 20:07:47,323 - INFO - Clicked Finish button
+2025-11-13 20:07:49,113 - INFO - Clicked OK button
+2025-11-13 20:07:49,691 - INFO - Clicked Apply button
+2025-11-13 20:07:52,675 - INFO - Clicked OK button
