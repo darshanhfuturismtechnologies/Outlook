@@ -1,0 +1,4 @@
+[32mINFO    [0m root:helper.py:108 Successfully clicked on 'Inbox' menu item.
+[32mINFO    [0m root:Reply.py:31 Clicked email with subject: Demo subject
+[32mINFO    [0m root:Reply.py:54 Edited message in reply
+[32mINFO    [0m root:helper.py:59 Clicked on Send

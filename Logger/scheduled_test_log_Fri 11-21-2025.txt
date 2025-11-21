@@ -1,0 +1,291 @@
+HTML report will be saved at: C:\Users\swapnalik\PycharmProjects\Outlook\Html_reports\report_2025-11-21_19-51-36.html
+============================= test session starts =============================
+platform win32 -- Python 3.13.5, pytest-8.4.1, pluggy-1.6.0
+rootdir: C:\Users\swapnalik\PycharmProjects\Outlook
+plugins: allure-pytest-2.15.0, html-4.1.1, metadata-3.1.1
+collected 20 items
+
+tests\test_case_01.py [INFO] Recording started: C:\Users\swapnalik\PycharmProjects\Outlook\test_recordings\test_send_mail.mp4.mkv
+.[INFO] Recording discarded (test passed)
+                                                  [  5%]
+tests\test_case_02.py [INFO] Recording started: C:\Users\swapnalik\PycharmProjects\Outlook\test_recordings\test_unread_mail.mp4.mkv
+.[INFO] Recording discarded (test passed)
+                                                  [ 10%]
+tests\test_case_03.py [INFO] Recording started: C:\Users\swapnalik\PycharmProjects\Outlook\test_recordings\test_read_mail.mp4.mkv
+.[INFO] Recording discarded (test passed)
+                                                  [ 15%]
+tests\test_case_04.py [INFO] Recording started: C:\Users\swapnalik\PycharmProjects\Outlook\test_recordings\test_reply_to_mail.mp4.mkv
+.[INFO] Recording discarded (test passed)
+                                                  [ 20%]
+tests\test_case_05.py [INFO] Recording started: C:\Users\swapnalik\PycharmProjects\Outlook\test_recordings\test_delete_mail.mp4.mkv
+.[INFO] Recording discarded (test passed)
+                                                  [ 25%]
+tests\test_case_06.py [INFO] Recording started: C:\Users\swapnalik\PycharmProjects\Outlook\test_recordings\test_contact_management.mp4.mkv
+.[INFO] Recording discarded (test passed)
+                                                  [ 30%]
+tests\test_case_07.py [INFO] Recording started: C:\Users\swapnalik\PycharmProjects\Outlook\test_recordings\test_move_to_archive.mp4.mkv
+.[INFO] Recording discarded (test passed)
+                                                  [ 35%]
+tests\test_case_08.py [INFO] Recording started: C:\Users\swapnalik\PycharmProjects\Outlook\test_recordings\test_forward_email.mp4.mkv
+.[INFO] Recording discarded (test passed)
+                                                  [ 40%]
+tests\test_case_09.py [INFO] Recording started: C:\Users\swapnalik\PycharmProjects\Outlook\test_recordings\test_recover_mail_from_server_backup.mp4.mkv
+.[INFO] Recording discarded (test passed)
+                                                  [ 45%]
+tests\test_case_10.py [INFO] Recording started: C:\Users\swapnalik\PycharmProjects\Outlook\test_recordings\test_search_people_and_send_msg_on_teams.mp4.mkv
+.[INFO] Recording discarded (test passed)
+                                                  [ 50%]
+tests\test_case_11.py [INFO] Recording started: C:\Users\swapnalik\PycharmProjects\Outlook\test_recordings\test_create_group_and_send_send_mail.mp4.mkv
+.[INFO] Recording discarded (test passed)
+                                                  [ 55%]
+tests\test_case_12.py [INFO] Recording started: C:\Users\swapnalik\PycharmProjects\Outlook\test_recordings\test_convert_mail_into_task.mp4.mkv
+.[INFO] Recording discarded (test passed)
+                                                  [ 60%]
+tests\test_case_13.py [INFO] Recording started: C:\Users\swapnalik\PycharmProjects\Outlook\test_recordings\test_mark_as_flag_and_move_to_folder.mp4.mkv
+.[INFO] Recording discarded (test passed)
+                                                  [ 65%]
+tests\test_case_14.py [INFO] Recording started: C:\Users\swapnalik\PycharmProjects\Outlook\test_recordings\test_download_attachment_from_email.mp4.mkv
+.[INFO] Recording discarded (test passed)
+                                                  [ 70%]
+tests\test_case_15.py [INFO] Recording started: C:\Users\swapnalik\PycharmProjects\Outlook\test_recordings\test_create_rule_and_delete_it.mp4.mkv
+.[INFO] Recording discarded (test passed)
+                                                  [ 75%]
+tests\test_case_16.py Windows fatal exception: code 0x800706ba
+
+Current thread 0x000067c4 (most recent call first):
+  Garbage-collecting
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\_post_coinit\unknwn.py", line 416 in Release
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\_post_coinit\unknwn.py", line 284 in __del__
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pywinauto\uia_element_info.py", line 52 in elements_from_uia_array
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pywinauto\uia_element_info.py", line 270 in _get_elements
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pywinauto\uia_element_info.py", line 307 in descendants
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pywinauto\findwindows.py", line 212 in find_elements
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pywinauto\findwindows.py", line 84 in find_element
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pywinauto\application.py", line 222 in __get_ctrl
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pywinauto\timings.py", line 436 in wait_until_passes
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pywinauto\application.py", line 250 in __resolve_control
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pywinauto\application.py", line 482 in __check_all_conditions
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pywinauto\application.py", line 530 in <lambda>
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pywinauto\timings.py", line 359 in wait_until
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pywinauto\application.py", line 529 in wait
+  File "C:\Users\swapnalik\PycharmProjects\Outlook\pages\Msg_on_teams_thr_outlook.py", line 20 in click_on_new_item_menu
+  File "C:\Users\swapnalik\PycharmProjects\Outlook\tests\test_case_16.py", line 6 in test_msg_on_teams_through_outlook
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\python.py", line 157 in pytest_pyfunc_call
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pluggy\_callers.py", line 121 in _multicall
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pluggy\_manager.py", line 120 in _hookexec
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pluggy\_hooks.py", line 512 in __call__
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\python.py", line 1671 in runtest
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\runner.py", line 178 in pytest_runtest_call
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pluggy\_callers.py", line 121 in _multicall
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pluggy\_manager.py", line 120 in _hookexec
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pluggy\_hooks.py", line 512 in __call__
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\runner.py", line 246 in <lambda>
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\runner.py", line 344 in from_call
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\runner.py", line 245 in call_and_report
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\runner.py", line 136 in runtestprotocol
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\runner.py", line 117 in pytest_runtest_protocol
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pluggy\_callers.py", line 121 in _multicall
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pluggy\_manager.py", line 120 in _hookexec
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pluggy\_hooks.py", line 512 in __call__
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\main.py", line 367 in pytest_runtestloop
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pluggy\_callers.py", line 121 in _multicall
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pluggy\_manager.py", line 120 in _hookexec
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pluggy\_hooks.py", line 512 in __call__
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\main.py", line 343 in _main
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\main.py", line 289 in wrap_session
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\main.py", line 336 in pytest_cmdline_main
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pluggy\_callers.py", line 121 in _multicall
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pluggy\_manager.py", line 120 in _hookexec
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pluggy\_hooks.py", line 512 in __call__
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\config\__init__.py", line 175 in main
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\config\__init__.py", line 201 in console_main
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pytest\__main__.py", line 9 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 198 in _run_module_as_main
+Windows fatal exception: code 0x800706ba
+
+Current thread 0x000067c4 (most recent call first):
+  Garbage-collecting
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\_post_coinit\unknwn.py", line 416 in Release
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\_post_coinit\unknwn.py", line 284 in __del__
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pywinauto\uia_element_info.py", line 52 in elements_from_uia_array
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pywinauto\uia_element_info.py", line 270 in _get_elements
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pywinauto\uia_element_info.py", line 307 in descendants
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pywinauto\findwindows.py", line 212 in find_elements
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pywinauto\findwindows.py", line 84 in find_element
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pywinauto\application.py", line 222 in __get_ctrl
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pywinauto\timings.py", line 436 in wait_until_passes
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pywinauto\application.py", line 250 in __resolve_control
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pywinauto\application.py", line 482 in __check_all_conditions
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pywinauto\application.py", line 530 in <lambda>
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pywinauto\timings.py", line 359 in wait_until
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pywinauto\application.py", line 529 in wait
+  File "C:\Users\swapnalik\PycharmProjects\Outlook\pages\Msg_on_teams_thr_outlook.py", line 20 in click_on_new_item_menu
+  File "C:\Users\swapnalik\PycharmProjects\Outlook\tests\test_case_16.py", line 6 in test_msg_on_teams_through_outlook
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\python.py", line 157 in pytest_pyfunc_call
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pluggy\_callers.py", line 121 in _multicall
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pluggy\_manager.py", line 120 in _hookexec
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pluggy\_hooks.py", line 512 in __call__
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\python.py", line 1671 in runtest
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\runner.py", line 178 in pytest_runtest_call
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pluggy\_callers.py", line 121 in _multicall
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pluggy\_manager.py", line 120 in _hookexec
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pluggy\_hooks.py", line 512 in __call__
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\runner.py", line 246 in <lambda>
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\runner.py", line 344 in from_call
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\runner.py", line 245 in call_and_report
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\runner.py", line 136 in runtestprotocol
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\runner.py", line 117 in pytest_runtest_protocol
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pluggy\_callers.py", line 121 in _multicall
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pluggy\_manager.py", line 120 in _hookexec
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pluggy\_hooks.py", line 512 in __call__
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\main.py", line 367 in pytest_runtestloop
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pluggy\_callers.py", line 121 in _multicall
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pluggy\_manager.py", line 120 in _hookexec
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pluggy\_hooks.py", line 512 in __call__
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\main.py", line 343 in _main
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\main.py", line 289 in wrap_session
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\main.py", line 336 in pytest_cmdline_main
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pluggy\_callers.py", line 121 in _multicall
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pluggy\_manager.py", line 120 in _hookexec
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pluggy\_hooks.py", line 512 in __call__
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\config\__init__.py", line 175 in main
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\config\__init__.py", line 201 in console_main
+  File "C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pytest\__main__.py", line 9 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 198 in _run_module_as_main
+[INFO] Recording started: C:\Users\swapnalik\PycharmProjects\Outlook\test_recordings\test_msg_on_teams_through_outlook.mp4.mkv
+.[INFO] Recording discarded (test passed)
+                                                  [ 80%]
+tests\test_case_17.py [INFO] Recording started: C:\Users\swapnalik\PycharmProjects\Outlook\test_recordings\test_quick_steps.mp4.mkv
+.[INFO] Recording discarded (test passed)
+                                                  [ 85%]
+tests\test_case_18.py [INFO] Recording started: C:\Users\swapnalik\PycharmProjects\Outlook\test_recordings\test_signature.mp4.mkv
+F[INFO] Recording saved: C:\Users\swapnalik\PycharmProjects\Outlook\test_recordings\test_signature.mp4
+                                                  [ 90%]
+tests\test_case_19.py [INFO] Recording started: C:\Users\swapnalik\PycharmProjects\Outlook\test_recordings\test_change_view.mp4.mkv
+.[INFO] Recording discarded (test passed)
+                                                  [ 95%]
+tests\test_case_20.py [INFO] Recording started: C:\Users\swapnalik\PycharmProjects\Outlook\test_recordings\test_reading_pane.mp4.mkv
+.[INFO] Recording discarded (test passed)
+                                                  [100%]
+
+================================== FAILURES ===================================
+_______________________________ test_signature ________________________________
+
+setup_outlook = <pywinauto.application.Application object at 0x0000018DB072D7B0>
+
+    def test_signature(setup_outlook):
+        sign=Signature(setup_outlook)
+        sign.click_on_new_mail()
+        sign.click_signature_menu_select_signature_option()
+>       sign.capture_signatures_and_stationery_window()
+
+tests\test_case_18.py:8: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+pages\Signature.py:34: in capture_signatures_and_stationery_window
+    self.sign_and_stationery_dlg=self.wait_for_child_window(parent=self.New_email_dlg,title_re=".*Signatures and Stationery.*",timeout=5)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Helper\helper.py:172: in wait_for_child_window
+    raise e
+Helper\helper.py:163: in wait_for_child_window
+    child.wait("visible", timeout=timeout)
+..\..\AppData\Local\Programs\Python\Python313\Lib\site-packages\pywinauto\application.py:529: in wait
+    wait_until(timeout, retry_interval,
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+timeout = 5, retry_interval = 0.09
+func = <function WindowSpecification.wait.<locals>.<lambda> at 0x0000018DAF9C8540>
+value = True, op = <built-in function eq>, args = (), kwargs = {}
+start = 2013604.3427674, func_val = False, time_left = -0.26241610012948513
+err = TimeoutError('timed out')
+
+    def wait_until(timeout,
+                   retry_interval,
+                   func,
+                   value=True,
+                   op=operator.eq,
+                   *args, **kwargs):
+        r"""
+        Wait until ``op(function(*args, **kwargs), value)`` is True or until timeout expires
+    
+        * **timeout**  how long the function will try the function
+        * **retry_interval**  how long to wait between retries
+        * **func** the function that will be executed
+        * **value**  the value to be compared against (defaults to True)
+        * **op** the comparison function (defaults to equality)\
+        * **args** optional arguments to be passed to func when called
+        * **kwargs** optional keyword arguments to be passed to func when called
+    
+        Returns the return value of the function
+        If the operation times out then the return value of the the function
+        is in the 'function_value' attribute of the raised exception.
+    
+        e.g. ::
+    
+            try:
+                # wait a maximum of 10.5 seconds for the
+                # the objects item_count() method to return 10
+                # in increments of .5 of a second
+                wait_until(10.5, .5, self.item_count, 10)
+            except TimeoutError as e:
+                print("timed out")
+        """
+        start = timestamp()
+    
+        func_val = func(*args, **kwargs)
+        # while the function hasn't returned what we are waiting for
+        while not op(func_val, value):
+    
+            # find out how much of the time is left
+            time_left = timeout - (timestamp() - start)
+    
+            # if we have to wait some more
+            if time_left > 0:
+                # wait either the retry_interval or else the amount of
+                # time until the timeout expires (whichever is less)
+                time.sleep(min(retry_interval, time_left))
+                func_val = func(*args, **kwargs)
+            else:
+                err = TimeoutError("timed out")
+                err.function_value = func_val
+>               raise err
+E               pywinauto.timings.TimeoutError: timed out
+
+..\..\AppData\Local\Programs\Python\Python313\Lib\site-packages\pywinauto\timings.py:375: TimeoutError
+---------------------------- Captured stderr call -----------------------------
+2025-11-21 20:01:16,183 - INFO - New Email clicked
+2025-11-21 20:01:17,837 - INFO - Window appeared: .*- Message..*
+2025-11-21 20:01:23,323 - INFO - Clicked on Signature
+2025-11-21 20:01:23,664 - ERROR - Failed to click on signature_option1:There are 2 elements that match the criteria {'title': 'Signature', 'control_type': 'Menu', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - 'Untitled - Message (HTML) ', rctrl_renwnd32, 81333670>, 'backend': 'uia'}
+2025-11-21 20:01:28,927 - ERROR - Child window NOT found under parent.
+title_re=.*Signatures and Stationery.*,control_type=None
+------------------------------ Captured log call ------------------------------
+INFO     root:helper.py:29 New Email clicked
+INFO     root:helper.py:149 Window appeared: .*- Message..*
+INFO     root:helper.py:59 Clicked on Signature
+ERROR    root:Signature.py:31 Failed to click on signature_option1:There are 2 elements that match the criteria {'title': 'Signature', 'control_type': 'Menu', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - 'Untitled - Message (HTML) ', rctrl_renwnd32, 81333670>, 'backend': 'uia'}
+ERROR    root:helper.py:168 Child window NOT found under parent.
+title_re=.*Signatures and Stationery.*,control_type=None
+============================== warnings summary ===============================
+tests/test_case_01.py::test_send_mail
+tests/test_case_04.py::test_reply_to_mail
+tests/test_case_08.py::test_forward_email
+tests/test_case_11.py::test_create_group_and_send_send_mail
+  C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pywinauto\controls\uiawrapper.py:415: RuntimeWarning: The window has not been focused due to COMError: (-2146233079, None, (None, None, None, 0, None))
+    warnings.warn('The window has not been focused due to ' \
+
+tests/test_case_01.py::test_send_mail
+tests/test_case_09.py::test_recover_mail_from_server_backup
+tests/test_case_17.py::test_quick_steps
+  C:\Users\swapnalik\AppData\Local\Programs\Python\Python313\Lib\site-packages\pywinauto\application.py:290: DeprecationWarning: WindowSpecification.Window() WindowSpecification.Window_(), WindowSpecification.window() and WindowSpecification.window_() are deprecated, please switch to WindowSpecification.child_window()
+    warnings.warn(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+- Generated html report: file:///C:/Users/swapnalik/PycharmProjects/Outlook/Html_reports/report_2025-11-21_19-51-36.html -
+=========================== short test summary info ===========================
+FAILED tests/test_case_18.py::test_signature - pywinauto.timings.TimeoutError...
+============ 1 failed, 19 passed, 7 warnings in 663.35s (0:11:03) =============
+Final HTML report ready: C:\Users\swapnalik\PycharmProjects\Outlook\Html_reports\report_2025-11-21_19-51-36.html
+Attached report:C:\Users\swapnalik\PycharmProjects\Outlook\Html_reports\report_2025-11-21_19-51-36.html
+Email sent successfully to swapnalik@futurismtechnologies.com.

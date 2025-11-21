@@ -1,9 +1,0 @@
-2025-11-12 14:48:30,950 - INFO - Found 8 mail items
-2025-11-12 14:48:31,071 - INFO - Selected email is open
-2025-11-12 14:48:32,827 - INFO - Attachment options clicked
-2025-11-12 14:48:39,332 - INFO - Clicked on 'Save As' successfully.
-2025-11-12 14:48:40,896 - INFO - Save Attachment dialog is opened
-2025-11-12 14:48:42,296 - INFO - Selected folder:pywin_practice
-2025-11-12 14:48:42,298 - INFO - File to be saved as: Doc_2.txt
-2025-11-12 14:48:43,574 - INFO - Edited file name: Doc_2.txt
-2025-11-12 14:48:44,869 - INFO - Save button is clicked

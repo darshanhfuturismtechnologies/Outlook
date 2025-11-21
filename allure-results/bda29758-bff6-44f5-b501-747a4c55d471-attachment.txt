@@ -1,0 +1,20 @@
+[32mINFO    [0m root:Group_creation.py:29 Clicked on contact
+[32mINFO    [0m root:helper.py:29 New Contact Group clicked
+[32mINFO    [0m root:Group_creation.py:43 New contact grp dialog opened
+[32mINFO    [0m root:Group_creation.py:52 Entered contact group name
+[32mINFO    [0m root:Group_creation.py:62 Clicked on Add Members button
+[32mINFO    [0m root:Group_creation.py:65 Clicked on From Address Book button
+[32mINFO    [0m root:Group_creation.py:74 Select member dialog is opened
+[32mINFO    [0m root:Group_creation.py:80 Entered 'Aarti T' and pressed Enter
+[32mINFO    [0m root:Group_creation.py:88 Search bar is cleared
+[32mINFO    [0m root:Group_creation.py:101 Clicked on OK button
+[32mINFO    [0m root:Group_creation.py:124 Clicked on Save & Close button
+[32mINFO    [0m root:Group_creation.py:136 Clicked on New Item button
+[32mINFO    [0m root:Group_creation.py:145 Clicked on E-mail Message menu item
+[32mINFO    [0m root:Group_creation.py:159 Send mail window is opened
+[32mINFO    [0m root:Group_creation.py:165 Group name is entered
+[32mINFO    [0m root:Group_creation.py:166 To field is entered
+[32mINFO    [0m root:Group_creation.py:176 Subject is entered
+[32mINFO    [0m root:Group_creation.py:191 Page 1 content has been entered
+[32mINFO    [0m root:helper.py:59 Clicked on Send
+[32mINFO    [0m root:helper.py:91 Window '<pywinauto.application.WindowSpecification object at 0x00000207AD80FF50>' closed successfully.

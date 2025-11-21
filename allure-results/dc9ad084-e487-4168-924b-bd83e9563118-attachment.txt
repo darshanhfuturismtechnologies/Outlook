@@ -1,0 +1,26 @@
+2025-11-21 19:29:25,329 - INFO - Quick step pane is visible
+2025-11-21 19:29:25,801 - INFO - Clicked on Create New
+2025-11-21 19:29:25,802 - INFO - Clicked on Create New
+2025-11-21 19:29:25,803 - INFO - Clicked on Create New
+2025-11-21 19:29:25,804 - INFO - Clicked on Create New
+2025-11-21 19:29:27,173 - INFO - Quick Step dlg is visible
+2025-11-21 19:29:27,670 - INFO - Open clicked
+2025-11-21 19:29:28,555 - INFO - Action menu is visible
+2025-11-21 19:29:29,014 - INFO - Length of list_items: 7
+2025-11-21 19:29:29,126 - INFO - Mark complete selected
+2025-11-21 19:29:29,727 - INFO - Open shortcut key clicked
+2025-11-21 19:29:30,306 - INFO - Shortcut key ComboBox expanded
+2025-11-21 19:29:30,744 - INFO - Found 10 shortcut key items
+2025-11-21 19:29:30,876 - INFO - Shortcut key 'CTRL+SHIFT+1' selected
+2025-11-21 19:29:31,256 - INFO - Confirmation popup appeared
+2025-11-21 19:29:32,119 - INFO - Clicked Yes on popup
+2025-11-21 19:29:35,598 - INFO - Finish clicked
+2025-11-21 19:29:36,735 - INFO - Successfully clicked on '.*Inbox:.*' menu item.
+2025-11-21 19:29:38,308 - INFO - Clicked email with subject: Demo subject
+2025-11-21 19:29:39,210 - INFO - Mark complete clicked
+2025-11-21 19:29:40,459 - INFO - Right clicked on Mark complete
+2025-11-21 19:29:41,298 - INFO - Context menu is visible
+2025-11-21 19:29:41,298 - INFO - Found Pane inside context menu
+2025-11-21 19:29:41,298 - INFO - Found GroupBox inside Pane
+2025-11-21 19:29:41,721 - INFO - Found 3 menu items in the GroupBox.
+2025-11-21 19:29:41,836 - INFO - Delete button clicked

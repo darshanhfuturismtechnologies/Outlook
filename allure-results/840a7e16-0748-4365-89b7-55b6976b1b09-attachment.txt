@@ -1,0 +1,5 @@
+2025-11-21 19:24:15,594 - INFO - Click on Contact View from Search Bar
+2025-11-21 19:24:16,866 - INFO - Clicked on New Contact button
+2025-11-21 19:24:18,055 - INFO - New contact dialog opened
+2025-11-21 19:24:21,206 - INFO - All details are entered
+2025-11-21 19:24:21,765 - INFO - Clicked on Save and Close button

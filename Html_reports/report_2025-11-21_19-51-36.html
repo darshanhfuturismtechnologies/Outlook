@@ -1,0 +1,1091 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title id="head-title">report_2025-11-21_19-51-36.html</title>
+      <style type="text/css">body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  /* do not increase min-width as some may use split screens */
+  min-width: 800px;
+  color: #999;
+}
+
+h1 {
+  font-size: 24px;
+  color: black;
+}
+
+h2 {
+  font-size: 16px;
+  color: black;
+}
+
+p {
+  color: black;
+}
+
+a {
+  color: #999;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+/******************************
+ * SUMMARY INFORMATION
+ ******************************/
+#environment td {
+  padding: 5px;
+  border: 1px solid #e6e6e6;
+  vertical-align: top;
+}
+#environment tr:nth-child(odd) {
+  background-color: #f6f6f6;
+}
+#environment ul {
+  margin: 0;
+  padding: 0 20px;
+}
+
+/******************************
+ * TEST RESULT COLORS
+ ******************************/
+span.passed,
+.passed .col-result {
+  color: green;
+}
+
+span.skipped,
+span.xfailed,
+span.rerun,
+.skipped .col-result,
+.xfailed .col-result,
+.rerun .col-result {
+  color: orange;
+}
+
+span.error,
+span.failed,
+span.xpassed,
+.error .col-result,
+.failed .col-result,
+.xpassed .col-result {
+  color: red;
+}
+
+.col-links__extra {
+  margin-right: 3px;
+}
+
+/******************************
+ * RESULTS TABLE
+ *
+ * 1. Table Layout
+ * 2. Extra
+ * 3. Sorting items
+ *
+ ******************************/
+/*------------------
+ * 1. Table Layout
+ *------------------*/
+#results-table {
+  border: 1px solid #e6e6e6;
+  color: #999;
+  font-size: 12px;
+  width: 100%;
+}
+#results-table th,
+#results-table td {
+  padding: 5px;
+  border: 1px solid #e6e6e6;
+  text-align: left;
+}
+#results-table th {
+  font-weight: bold;
+}
+
+/*------------------
+ * 2. Extra
+ *------------------*/
+.logwrapper {
+  max-height: 230px;
+  overflow-y: scroll;
+  background-color: #e6e6e6;
+}
+.logwrapper.expanded {
+  max-height: none;
+}
+.logwrapper.expanded .logexpander:after {
+  content: "collapse [-]";
+}
+.logwrapper .logexpander {
+  z-index: 1;
+  position: sticky;
+  top: 10px;
+  width: max-content;
+  border: 1px solid;
+  border-radius: 3px;
+  padding: 5px 7px;
+  margin: 10px 0 10px calc(100% - 80px);
+  cursor: pointer;
+  background-color: #e6e6e6;
+}
+.logwrapper .logexpander:after {
+  content: "expand [+]";
+}
+.logwrapper .logexpander:hover {
+  color: #000;
+  border-color: #000;
+}
+.logwrapper .log {
+  min-height: 40px;
+  position: relative;
+  top: -50px;
+  height: calc(100% + 50px);
+  border: 1px solid #e6e6e6;
+  color: black;
+  display: block;
+  font-family: "Courier New", Courier, monospace;
+  padding: 5px;
+  padding-right: 80px;
+  white-space: pre-wrap;
+}
+
+div.media {
+  border: 1px solid #e6e6e6;
+  float: right;
+  height: 240px;
+  margin: 0 5px;
+  overflow: hidden;
+  width: 320px;
+}
+
+.media-container {
+  display: grid;
+  grid-template-columns: 25px auto 25px;
+  align-items: center;
+  flex: 1 1;
+  overflow: hidden;
+  height: 200px;
+}
+
+.media-container--fullscreen {
+  grid-template-columns: 0px auto 0px;
+}
+
+.media-container__nav--right,
+.media-container__nav--left {
+  text-align: center;
+  cursor: pointer;
+}
+
+.media-container__viewport {
+  cursor: pointer;
+  text-align: center;
+  height: inherit;
+}
+.media-container__viewport img,
+.media-container__viewport video {
+  object-fit: cover;
+  width: 100%;
+  max-height: 100%;
+}
+
+.media__name,
+.media__counter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex: 0 0 25px;
+  align-items: center;
+}
+
+.collapsible td:not(.col-links) {
+  cursor: pointer;
+}
+.collapsible td:not(.col-links):hover::after {
+  color: #bbb;
+  font-style: italic;
+  cursor: pointer;
+}
+
+.col-result {
+  width: 130px;
+}
+.col-result:hover::after {
+  content: " (hide details)";
+}
+
+.col-result.collapsed:hover::after {
+  content: " (show details)";
+}
+
+#environment-header h2:hover::after {
+  content: " (hide details)";
+  color: #bbb;
+  font-style: italic;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+#environment-header.collapsed h2:hover::after {
+  content: " (show details)";
+  color: #bbb;
+  font-style: italic;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+/*------------------
+ * 3. Sorting items
+ *------------------*/
+.sortable {
+  cursor: pointer;
+}
+.sortable.desc:after {
+  content: " ";
+  position: relative;
+  left: 5px;
+  bottom: -12.5px;
+  border: 10px solid #4caf50;
+  border-bottom: 0;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+.sortable.asc:after {
+  content: " ";
+  position: relative;
+  left: 5px;
+  bottom: 12.5px;
+  border: 10px solid #4caf50;
+  border-top: 0;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+
+.hidden, .summary__reload__button.hidden {
+  display: none;
+}
+
+.summary__data {
+  flex: 0 0 550px;
+}
+.summary__reload {
+  flex: 1 1;
+  display: flex;
+  justify-content: center;
+}
+.summary__reload__button {
+  flex: 0 0 300px;
+  display: flex;
+  color: white;
+  font-weight: bold;
+  background-color: #4caf50;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.summary__reload__button:hover {
+  background-color: #46a049;
+}
+.summary__spacer {
+  flex: 0 0 550px;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filters,
+.collapse {
+  display: flex;
+  align-items: center;
+}
+.filters button,
+.collapse button {
+  color: #999;
+  border: none;
+  background: none;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.filters button:hover,
+.collapse button:hover {
+  color: #ccc;
+}
+
+.filter__label {
+  margin-right: 10px;
+}
+
+      </style>
+    
+  </head>
+  <body>
+    <h1 id="title">report_2025-11-21_19-51-36.html</h1>
+    <p>Report generated on 21-Nov-2025 at 20:02:40 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a>
+        v4.1.1</p>
+    <div id="environment-header">
+      <h2>Environment</h2>
+    </div>
+    <table id="environment"></table>
+    <!-- TEMPLATES -->
+      <template id="template_environment_row">
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+    </template>
+    <template id="template_results-table__body--empty">
+      <tbody class="results-table-row">
+        <tr id="not-found-message">
+          <td colspan="4">No results found. Check the filters.</th>
+        </tr>
+    </template>
+    <template id="template_results-table__tbody">
+      <tbody class="results-table-row">
+        <tr class="collapsible">
+        </tr>
+        <tr class="extras-row">
+          <td class="extra" colspan="4">
+            <div class="extraHTML"></div>
+            <div class="media">
+              <div class="media-container">
+                  <div class="media-container__nav--left"><</div>
+                  <div class="media-container__viewport">
+                    <img src="" />
+                    <video controls>
+                      <source src="" type="video/mp4">
+                    </video>
+                  </div>
+                  <div class="media-container__nav--right">></div>
+                </div>
+                <div class="media__name"></div>
+                <div class="media__counter"></div>
+            </div>
+            <div class="logwrapper">
+              <div class="logexpander"></div>
+              <div class="log"></div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </template>
+    <!-- END TEMPLATES -->
+    <div class="summary">
+      <div class="summary__data">
+        <h2>Summary</h2>
+        <div class="additional-summary prefix">
+        </div>
+        <p class="run-count">20 tests took 00:11:02.</p>
+        <p class="filter">(Un)check the boxes to filter the results.</p>
+        <div class="summary__reload">
+          <div class="summary__reload__button hidden" onclick="location.reload()">
+            <div>There are still tests running. <br />Reload this page to get the latest results!</div>
+          </div>
+        </div>
+        <div class="summary__spacer"></div>
+        <div class="controls">
+          <div class="filters">
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="failed" />
+            <span class="failed">1 Failed,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="passed" />
+            <span class="passed">19 Passed,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="skipped" disabled/>
+            <span class="skipped">0 Skipped,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="xfailed" disabled/>
+            <span class="xfailed">0 Expected failures,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="xpassed" disabled/>
+            <span class="xpassed">0 Unexpected passes,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="error" disabled/>
+            <span class="error">0 Errors,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="rerun" disabled/>
+            <span class="rerun">0 Reruns</span>
+          </div>
+          <div class="collapse">
+            <button id="show_all_details">Show all details</button>&nbsp;/&nbsp;<button id="hide_all_details">Hide all details</button>
+          </div>
+        </div>
+      </div>
+      <div class="additional-summary summary">
+      </div>
+      <div class="additional-summary postfix">
+      </div>
+    </div>
+    <table id="results-table">
+      <thead id="results-table-head">
+        <tr>
+          <th class="sortable" data-column-type="result">Result</th>
+          <th class="sortable" data-column-type="testId">Test</th>
+          <th class="sortable" data-column-type="duration">Duration</th>
+          <th>Links</th>
+        </tr>
+      </thead>
+    </table>
+  </body>
+  <footer>
+    <div id="data-container" data-jsonblob="{&#34;environment&#34;: {&#34;Python&#34;: &#34;3.13.5&#34;, &#34;Platform&#34;: &#34;Windows-10-10.0.19043-SP0&#34;, &#34;Packages&#34;: {&#34;pytest&#34;: &#34;8.4.1&#34;, &#34;pluggy&#34;: &#34;1.6.0&#34;}, &#34;Plugins&#34;: {&#34;allure-pytest&#34;: &#34;2.15.0&#34;, &#34;html&#34;: &#34;4.1.1&#34;, &#34;metadata&#34;: &#34;3.1.1&#34;}, &#34;JAVA_HOME&#34;: &#34;C:\\Program Files\\Java\\jdk1.8.0_20&#34;}, &#34;tests&#34;: {&#34;tests/test_case_01.py::test_send_mail&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_case_01.py::test_send_mail&#34;, &#34;duration&#34;: &#34;00:01:08&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_case_01.py::test_send_mail&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:01:08&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stderr call -----------------------------\n2025-11-21 19:51:47,299 - INFO - New Email clicked\n2025-11-21 19:51:48,939 - INFO - Clicked on New mail and Send mail window opened\n2025-11-21 19:51:53,303 - INFO - To email id is set correctly\n2025-11-21 19:51:57,348 - INFO - Cc email id is set correctly\n2025-11-21 19:51:59,166 - INFO - Subject is set correctly\n2025-11-21 19:52:08,965 - INFO - Text in body is set correctly\n2025-11-21 19:52:14,394 - INFO - Clicked on Attach File...\n2025-11-21 19:52:15,754 - INFO - Recent items window is open\n2025-11-21 19:52:16,284 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx\n2025-11-21 19:52:36,451 - ERROR - Failed to attach file: timed out\n2025-11-21 19:52:41,965 - INFO - Clicked on Send\n2025-11-21 19:52:44,602 - INFO - Window &amp;#x27;&amp;lt;pywinauto.application.WindowSpecification object at 0x0000018DB06BEFD0&amp;gt;&amp;#x27; closed successfully.\n\n------------------------------ Captured log call -------------------------------\nINFO     root:helper.py:29 New Email clicked\nINFO     root:Send_mail.py:24 Clicked on New mail and Send mail window opened\nINFO     root:Send_mail.py:35 To email id is set correctly\nINFO     root:Send_mail.py:46 Cc email id is set correctly\nINFO     root:Send_mail.py:57 Subject is set correctly\nINFO     root:Send_mail.py:73 Text in body is set correctly\nINFO     root:helper.py:59 Clicked on Attach File...\nINFO     root:Send_mail.py:83 Recent items window is open\nINFO     root:helper.py:76 Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx\nERROR    root:Send_mail.py:100 Failed to attach file: timed out\nINFO     root:helper.py:59 Clicked on Send\nINFO     root:helper.py:91 Window &amp;#x27;&amp;lt;pywinauto.application.WindowSpecification object at 0x0000018DB06BEFD0&amp;gt;&amp;#x27; closed successfully.\n\n&#34;}], &#34;tests/test_case_02.py::test_unread_mail&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_case_02.py::test_unread_mail&#34;, &#34;duration&#34;: &#34;00:00:19&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_case_02.py::test_unread_mail&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:19&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nMost recent unread email clicked: uia_controls.ListItemWrapper - &amp;#x27;To Swapnali K, Subject Your request with id ##RE-103880## has been assigned to Pavan K, Sent 6/28/2025, Size 28 KB, Flag Status Unflagged, Preview Dear Swapnali K,  \t     \t  This is an acknowledgement mail for request id 103880 has been assigned to Pavan K.  \t  Complete details of the request can be viewed at https://SUPPORT.futurismtechnologies.com/WorkOrder.do?woMode=viewWO&amp;amp;woID=103880&amp;amp;PORTALID=1T, &amp;#x27;, DataItem\n\n----------------------------- Captured stderr call -----------------------------\n2025-11-21 19:52:54,363 - INFO - Unread clicked\n2025-11-21 19:52:58,773 - INFO - Right-clicked on the selected option.\n2025-11-21 19:53:03,496 - INFO - Email marked as unread.\n\n------------------------------ Captured log call -------------------------------\nINFO     root:helper.py:29 Unread clicked\nINFO     root:helper.py:122 Right-clicked on the selected option.\nINFO     root:Unread_mail.py:53 Email marked as unread.\n\n&#34;}], &#34;tests/test_case_03.py::test_read_mail&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_case_03.py::test_read_mail&#34;, &#34;duration&#34;: &#34;00:00:15&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_case_03.py::test_read_mail&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:15&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stderr call -----------------------------\n2025-11-21 19:53:12,425 - INFO - Found 7 mail items\n2025-11-21 19:53:13,434 - INFO - Most recent email: uia_controls.ListItemWrapper - &amp;#x27;With Attachments, To Swapnali K, Subject Demo subject, Sent 7:53 PM, Size 42 KB, Flag Status Unflagged, Preview Hello, Swapnali K.         This is the body of the page\u2026.!         Best Regards,    Swapnali K.         Best regards,    Swapnali K.         Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and ma, &amp;#x27;, DataItem\n2025-11-21 19:53:16,630 - INFO - Right-clicked on the selected option.\n2025-11-21 19:53:18,642 - INFO - Email marked as read.\n\n------------------------------ Captured log call -------------------------------\nINFO     root:ReadMail.py:18 Found 7 mail items\nINFO     root:ReadMail.py:26 Most recent email: uia_controls.ListItemWrapper - &amp;#x27;With Attachments, To Swapnali K, Subject Demo subject, Sent 7:53 PM, Size 42 KB, Flag Status Unflagged, Preview Hello, Swapnali K.         This is the body of the page\u2026.!         Best Regards,    Swapnali K.         Best regards,    Swapnali K.         Disclaimer: This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and ma, &amp;#x27;, DataItem\nINFO     root:helper.py:122 Right-clicked on the selected option.\nINFO     root:ReadMail.py:44 Email marked as read.\n\n&#34;}], &#34;tests/test_case_04.py::test_reply_to_mail&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_case_04.py::test_reply_to_mail&#34;, &#34;duration&#34;: &#34;00:00:49&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_case_04.py::test_reply_to_mail&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:49&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stderr call -----------------------------\n2025-11-21 19:53:29,774 - INFO - Successfully clicked on &amp;#x27;Inbox&amp;#x27; menu item.\n2025-11-21 19:53:31,359 - INFO - Clicked email with subject: Demo subject\n2025-11-21 19:53:42,290 - INFO - Edited message in reply\n2025-11-21 19:53:47,916 - INFO - Clicked on Send\n\n------------------------------ Captured log call -------------------------------\nINFO     root:helper.py:108 Successfully clicked on &amp;#x27;Inbox&amp;#x27; menu item.\nINFO     root:Reply.py:31 Clicked email with subject: Demo subject\nINFO     root:Reply.py:54 Edited message in reply\nINFO     root:helper.py:59 Clicked on Send\n\n&#34;}], &#34;tests/test_case_05.py::test_delete_mail&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_case_05.py::test_delete_mail&#34;, &#34;duration&#34;: &#34;00:00:18&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_case_05.py::test_delete_mail&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:18&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stderr call -----------------------------\n2025-11-21 19:54:19,543 - INFO - Successfully clicked on &amp;#x27;.*Sent Items.*&amp;#x27; menu item.\n2025-11-21 19:54:19,544 - INFO - Successfully clicked on sent item.\n2025-11-21 19:54:21,229 - INFO - Clicked email with subject: Demo subject\n2025-11-21 19:54:24,348 - INFO - Right-clicked on the selected option.\n2025-11-21 19:54:25,881 - INFO - Clicked on Delete\n\n------------------------------ Captured log call -------------------------------\nINFO     root:helper.py:108 Successfully clicked on &amp;#x27;.*Sent Items.*&amp;#x27; menu item.\nINFO     root:Delete_mail.py:17 Successfully clicked on sent item.\nINFO     root:Delete_mail.py:34 Clicked email with subject: Demo subject\nINFO     root:helper.py:122 Right-clicked on the selected option.\nINFO     root:Delete_mail.py:54 Clicked on Delete\n\n&#34;}], &#34;tests/test_case_06.py::test_contact_management&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_case_06.py::test_contact_management&#34;, &#34;duration&#34;: &#34;00:00:22&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_case_06.py::test_contact_management&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:22&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stderr call -----------------------------\n2025-11-21 19:54:37,129 - INFO - Click on Contact View from Search Bar\n2025-11-21 19:54:40,009 - INFO - Clicked on New Contact button\n2025-11-21 19:54:41,248 - INFO - New contact dialog opened\n2025-11-21 19:54:44,273 - INFO - All details are entered\n2025-11-21 19:54:44,865 - INFO - Clicked on Save and Close button\n\n------------------------------ Captured log call -------------------------------\nINFO     root:contact_management.py:22 Click on Contact View from Search Bar\nINFO     root:contact_management.py:33 Clicked on New Contact button\nINFO     root:contact_management.py:37 New contact dialog opened\nINFO     root:contact_management.py:60 All details are entered\nINFO     root:contact_management.py:68 Clicked on Save and Close button\n\n&#34;}], &#34;tests/test_case_07.py::test_move_to_archive&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_case_07.py::test_move_to_archive&#34;, &#34;duration&#34;: &#34;00:00:20&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_case_07.py::test_move_to_archive&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:20&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stderr call -----------------------------\n2025-11-21 19:54:58,171 - INFO - Successfully clicked on &amp;#x27;.*Inbox.*&amp;#x27; menu item.\n2025-11-21 19:54:58,171 - INFO - Successfully clicked on inbox.\n2025-11-21 19:55:01,623 - INFO - Found 7 mail items\n2025-11-21 19:55:01,756 - INFO - Selected email with subject: To Swapnali K, Subject RE: Demo subject, Sent 7:54 PM, Size 7 KB, Flag Status Unflagged, Preview Hello, Swapnali K.    This is Reply Testcase..!    Best Regards, Swapnali K        From: Swapnali K &amp;lt;swapnalik@futurismtechnologies.com&amp;gt;  Sent: Friday, November 21, 2025 7:53 PM  To: Swapnali K &amp;lt;swapnalik@futurismtechnologies.com&amp;gt;  Cc: Swapnali K &amp;lt;swapnal, \n2025-11-21 19:55:05,424 - INFO - Right-clicked on the selected option.\n2025-11-21 19:55:06,857 - INFO - Clicked on Move\n2025-11-21 19:55:07,491 - INFO - Clicked on Archive\n\n------------------------------ Captured log call -------------------------------\nINFO     root:helper.py:108 Successfully clicked on &amp;#x27;.*Inbox.*&amp;#x27; menu item.\nINFO     root:Move_email_to_folder.py:18 Successfully clicked on inbox.\nINFO     root:Move_email_to_folder.py:30 Found 7 mail items\nINFO     root:Move_email_to_folder.py:37 Selected email with subject: To Swapnali K, Subject RE: Demo subject, Sent 7:54 PM, Size 7 KB, Flag Status Unflagged, Preview Hello, Swapnali K.    This is Reply Testcase..!    Best Regards, Swapnali K        From: Swapnali K &amp;lt;swapnalik@futurismtechnologies.com&amp;gt;  Sent: Friday, November 21, 2025 7:53 PM  To: Swapnali K &amp;lt;swapnalik@futurismtechnologies.com&amp;gt;  Cc: Swapnali K &amp;lt;swapnal, \nINFO     root:helper.py:122 Right-clicked on the selected option.\nINFO     root:Move_email_to_folder.py:51 Clicked on Move\nINFO     root:Move_email_to_folder.py:60 Clicked on Archive\n\n&#34;}], &#34;tests/test_case_08.py::test_forward_email&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_case_08.py::test_forward_email&#34;, &#34;duration&#34;: &#34;00:01:04&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_case_08.py::test_forward_email&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:01:04&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stderr call -----------------------------\n2025-11-21 19:55:18,138 - INFO - Successfully clicked on &amp;#x27;.*Inbox.*&amp;#x27; menu item.\n2025-11-21 19:55:18,139 - INFO - Clicked on Inbox\n2025-11-21 19:55:19,348 - INFO - Categorized menu clicked\n2025-11-21 19:55:21,201 - INFO - Clicked on &amp;#x27;Blue Category&amp;#x27;\n2025-11-21 19:55:21,586 - INFO - Total mails:7\n2025-11-21 19:55:22,206 - INFO - Most recent email: uia_controls.ListItemWrapper - &amp;#x27;To Swapnali K, Subject FW: Demo subject, Sent 10/16/2025, Size 13 KB, Categories Blue Category, Flag Status Unflagged, Preview Hello, Swapnali K.    This is Forward Testcase..!    Best Regards, Swapnali K        From: Swapnali K &amp;lt;swapnalik@futurismtechnologies.com&amp;gt;  Sent: Wednesday, October 15, 2025 3:22 PM  To: Swapnali K &amp;lt;swapnalik@futurismtechnologies.com&amp;gt;  Subject: RE: Demo s, &amp;#x27;, DataItem\n2025-11-21 19:55:23,579 - INFO - Forward clicked\n2025-11-21 19:55:25,765 - INFO - Pop Out clicked\n2025-11-21 19:55:25,765 - INFO - Clicked on Pop Out\n2025-11-21 19:55:27,108 - INFO - Forward window is visible\n2025-11-21 19:55:28,490 - INFO - to_field typed successfully\n2025-11-21 19:55:29,754 - INFO - Cc typed successfully\n2025-11-21 19:55:38,844 - INFO - Clicked on Send\n2025-11-21 19:56:08,916 - WARNING - Timeout waiting for window to close. Mail might not be sent yet.Error:timed out\n2025-11-21 19:56:11,365 - INFO - Search bar cleared.\n\n------------------------------ Captured log call -------------------------------\nINFO     root:helper.py:108 Successfully clicked on &amp;#x27;.*Inbox.*&amp;#x27; menu item.\nINFO     root:Forward_email.py:21 Clicked on Inbox\nINFO     root:Forward_email.py:32 Categorized menu clicked\nINFO     root:Forward_email.py:41 Clicked on &amp;#x27;Blue Category&amp;#x27;\nINFO     root:Forward_email.py:53 Total mails:7\nINFO     root:Forward_email.py:58 Most recent email: uia_controls.ListItemWrapper - &amp;#x27;To Swapnali K, Subject FW: Demo subject, Sent 10/16/2025, Size 13 KB, Categories Blue Category, Flag Status Unflagged, Preview Hello, Swapnali K.    This is Forward Testcase..!    Best Regards, Swapnali K        From: Swapnali K &amp;lt;swapnalik@futurismtechnologies.com&amp;gt;  Sent: Wednesday, October 15, 2025 3:22 PM  To: Swapnali K &amp;lt;swapnalik@futurismtechnologies.com&amp;gt;  Subject: RE: Demo s, &amp;#x27;, DataItem\nINFO     root:helper.py:29 Forward clicked\nINFO     root:helper.py:29 Pop Out clicked\nINFO     root:Forward_email.py:69 Clicked on Pop Out\nINFO     root:Forward_email.py:75 Forward window is visible\nINFO     root:Forward_email.py:80 to_field typed successfully\nINFO     root:Forward_email.py:84 Cc typed successfully\nINFO     root:Forward_email.py:103 Clicked on Send\nWARNING  root:helper.py:94 Timeout waiting for window to close. Mail might not be sent yet.Error:timed out\nINFO     root:Forward_email.py:115 Search bar cleared.\n\n&#34;}], &#34;tests/test_case_09.py::test_recover_mail_from_server_backup&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_case_09.py::test_recover_mail_from_server_backup&#34;, &#34;duration&#34;: &#34;00:00:18&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_case_09.py::test_recover_mail_from_server_backup&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:18&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stderr call -----------------------------\n2025-11-21 19:56:23,940 - INFO - Successfully clicked on &amp;#x27;.*Deleted Items:.*&amp;#x27; menu item.\n2025-11-21 19:56:23,940 - INFO - Clicked on Deleted Items\n2025-11-21 19:56:25,195 - INFO - Recover items recently removed from this folder clicked\n2025-11-21 19:56:26,635 - INFO - Recover deleted items window is visible\n2025-11-21 19:56:27,651 - INFO - Clicked on first item\n2025-11-21 19:56:28,830 - INFO - Ok clicked\n\n------------------------------ Captured log call -------------------------------\nINFO     root:helper.py:108 Successfully clicked on &amp;#x27;.*Deleted Items:.*&amp;#x27; menu item.\nINFO     root:Recover_mail.py:10 Clicked on Deleted Items\nINFO     root:helper.py:29 Recover items recently removed from this folder clicked\nINFO     root:Recover_mail.py:17 Recover deleted items window is visible\nINFO     root:Recover_mail.py:24 Clicked on first item\nINFO     root:helper.py:29 Ok clicked\n\n&#34;}], &#34;tests/test_case_10.py::test_search_people_and_send_msg_on_teams&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_case_10.py::test_search_people_and_send_msg_on_teams&#34;, &#34;duration&#34;: &#34;00:00:16&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_case_10.py::test_search_people_and_send_msg_on_teams&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:16&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stderr call -----------------------------\n2025-11-21 19:56:40,314 - INFO - Searched contact: aarti t\n2025-11-21 19:56:42,316 - INFO - Searched contact: aarti t\n2025-11-21 19:56:44,317 - INFO - Search contact: aarti t\n\n------------------------------ Captured log call -------------------------------\nINFO     root:Search_people.py:42 Searched contact: aarti t\nINFO     root:Search_people.py:45 Searched contact: aarti t\nINFO     root:Search_people.py:47 Search contact: aarti t\n\n&#34;}], &#34;tests/test_case_11.py::test_create_group_and_send_send_mail&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_case_11.py::test_create_group_and_send_send_mail&#34;, &#34;duration&#34;: &#34;00:00:52&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_case_11.py::test_create_group_and_send_send_mail&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:52&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stderr call -----------------------------\n2025-11-21 19:56:55,963 - INFO - Clicked on contact\n2025-11-21 19:56:57,654 - INFO - New Contact Group clicked\n2025-11-21 19:56:59,077 - INFO - New contact grp dialog opened\n2025-11-21 19:56:59,852 - INFO - Entered contact group name\n2025-11-21 19:57:00,333 - INFO - Clicked on Add Members button\n2025-11-21 19:57:00,867 - INFO - Clicked on From Address Book button\n2025-11-21 19:57:00,868 - INFO - Select member dialog is opened\n2025-11-21 19:57:03,363 - INFO - Entered &amp;#x27;Aarti T&amp;#x27; and pressed Enter\n2025-11-21 19:57:05,736 - INFO - Search bar is cleared\n2025-11-21 19:57:08,375 - INFO - Clicked on OK button\n2025-11-21 19:57:09,646 - INFO - Clicked on Save &amp;amp; Close button\n2025-11-21 19:57:12,235 - INFO - Clicked on New Item button\n2025-11-21 19:57:12,806 - INFO - Clicked on E-mail Message menu item\n2025-11-21 19:57:16,139 - INFO - Send mail window is opened\n2025-11-21 19:57:17,200 - INFO - Group name is entered\n2025-11-21 19:57:17,200 - INFO - To field is entered\n2025-11-21 19:57:18,872 - INFO - Subject is entered\n2025-11-21 19:57:29,443 - INFO - Page 1 content has been entered\n2025-11-21 19:57:34,894 - INFO - Clicked on Send\n2025-11-21 19:57:36,806 - INFO - Window &amp;#x27;&amp;lt;pywinauto.application.WindowSpecification object at 0x0000018DB17767B0&amp;gt;&amp;#x27; closed successfully.\n\n------------------------------ Captured log call -------------------------------\nINFO     root:Group_creation.py:29 Clicked on contact\nINFO     root:helper.py:29 New Contact Group clicked\nINFO     root:Group_creation.py:43 New contact grp dialog opened\nINFO     root:Group_creation.py:52 Entered contact group name\nINFO     root:Group_creation.py:62 Clicked on Add Members button\nINFO     root:Group_creation.py:65 Clicked on From Address Book button\nINFO     root:Group_creation.py:74 Select member dialog is opened\nINFO     root:Group_creation.py:80 Entered &amp;#x27;Aarti T&amp;#x27; and pressed Enter\nINFO     root:Group_creation.py:88 Search bar is cleared\nINFO     root:Group_creation.py:101 Clicked on OK button\nINFO     root:Group_creation.py:124 Clicked on Save &amp;amp; Close button\nINFO     root:Group_creation.py:136 Clicked on New Item button\nINFO     root:Group_creation.py:145 Clicked on E-mail Message menu item\nINFO     root:Group_creation.py:159 Send mail window is opened\nINFO     root:Group_creation.py:165 Group name is entered\nINFO     root:Group_creation.py:166 To field is entered\nINFO     root:Group_creation.py:176 Subject is entered\nINFO     root:Group_creation.py:191 Page 1 content has been entered\nINFO     root:helper.py:59 Clicked on Send\nINFO     root:helper.py:91 Window &amp;#x27;&amp;lt;pywinauto.application.WindowSpecification object at 0x0000018DB17767B0&amp;gt;&amp;#x27; closed successfully.\n\n&#34;}], &#34;tests/test_case_12.py::test_convert_mail_into_task&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_case_12.py::test_convert_mail_into_task&#34;, &#34;duration&#34;: &#34;00:00:36&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_case_12.py::test_convert_mail_into_task&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:36&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stderr call -----------------------------\n2025-11-21 19:57:47,779 - INFO - Successfully clicked on &amp;#x27;.*Inbox:.*&amp;#x27; menu item.\n2025-11-21 19:57:49,316 - INFO - Clicked email with subject: Demo subject\n2025-11-21 19:57:52,434 - INFO - Right-clicked on the selected option.\n2025-11-21 19:57:54,383 - INFO - Move clicked\n2025-11-21 19:57:55,969 - INFO - Other Folder clicked\n2025-11-21 19:57:57,461 - INFO - Task clicked\n2025-11-21 19:57:57,986 - INFO - Clicked on OK\n2025-11-21 19:57:59,900 - INFO - New Task window is opened\n2025-11-21 19:58:00,362 - INFO - Due date set to 12/12/2025\n2025-11-21 19:58:01,210 - INFO - Priority set to High\n2025-11-21 19:58:01,612 - INFO - Reminder checkbox is checked\n2025-11-21 19:58:02,070 - INFO - Reminder date set to 30/12/2025\n2025-11-21 19:58:03,042 - INFO - Time set to 02:30 PM\n2025-11-21 19:58:03,671 - INFO - Clicked on Save and Close\n2025-11-21 19:58:05,306 - INFO - Tasks clicked\n2025-11-21 19:58:06,167 - INFO - task_to_do_dlg is opened\n2025-11-21 19:58:06,497 - INFO - 4Task items found\n2025-11-21 19:58:06,740 - INFO - Most recent unread email clicked: uia_controls.ListItemWrapper - &amp;#x27;Task Subject FW: Demo subject, Start Date None, Reminder Time Tue 12/30/2025 2:30 PM, Due Date Fri 12/12/2025, In Folder Tasks, Reminder Has Reminder, Flag Status Unflagged, &amp;#x27;, DataItem\n2025-11-21 19:58:12,290 - INFO - Clicked on Delete\n\n------------------------------ Captured log call -------------------------------\nINFO     root:helper.py:108 Successfully clicked on &amp;#x27;.*Inbox:.*&amp;#x27; menu item.\nINFO     root:Convert_mail_to_task.py:41 Clicked email with subject: Demo subject\nINFO     root:helper.py:122 Right-clicked on the selected option.\nINFO     root:Convert_mail_to_task.py:68 Move clicked\nINFO     root:Convert_mail_to_task.py:79 Other Folder clicked\nINFO     root:Convert_mail_to_task.py:117 Task clicked\nINFO     root:Convert_mail_to_task.py:129 Clicked on OK\nINFO     root:Convert_mail_to_task.py:150 New Task window is opened\nINFO     root:Convert_mail_to_task.py:154 Due date set to 12/12/2025\nINFO     root:Convert_mail_to_task.py:166 Priority set to High\nINFO     root:Convert_mail_to_task.py:176 Reminder checkbox is checked\nINFO     root:Convert_mail_to_task.py:186 Reminder date set to 30/12/2025\nINFO     root:Convert_mail_to_task.py:197 Time set to 02:30 PM\nINFO     root:Convert_mail_to_task.py:207 Clicked on Save and Close\nINFO     root:helper.py:29 Tasks clicked\nINFO     root:Convert_mail_to_task.py:219 task_to_do_dlg is opened\nINFO     root:Convert_mail_to_task.py:228 4Task items found\nINFO     root:Convert_mail_to_task.py:233 Most recent unread email clicked: uia_controls.ListItemWrapper - &amp;#x27;Task Subject FW: Demo subject, Start Date None, Reminder Time Tue 12/30/2025 2:30 PM, Due Date Fri 12/12/2025, In Folder Tasks, Reminder Has Reminder, Flag Status Unflagged, &amp;#x27;, DataItem\nINFO     root:helper.py:59 Clicked on Delete\n\n&#34;}], &#34;tests/test_case_13.py::test_mark_as_flag_and_move_to_folder&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_case_13.py::test_mark_as_flag_and_move_to_folder&#34;, &#34;duration&#34;: &#34;00:00:40&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_case_13.py::test_mark_as_flag_and_move_to_folder&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:40&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stderr call -----------------------------\n2025-11-21 19:58:22,113 - INFO - Successfully clicked on &amp;#x27;.*Inbox.*&amp;#x27; menu item.\n2025-11-21 19:58:24,272 - INFO - Found 7 mail items\n2025-11-21 19:58:24,388 - INFO - Selected email with subject:To Swapnali K, Subject RE: Demo subject, Sent 7:54 PM, Size 13 KB, Flag Status Unflagged, Preview Hello, Swapnali K.    This is Reply Testcase..!    Best Regards, Swapnali K        From: Swapnali K &amp;lt;swapnalik@futurismtechnologies.com&amp;gt;  Sent: Friday, November 21, 2025 7:53 PM  To: Swapnali K &amp;lt;swapnalik@futurismtechnologies.com&amp;gt;  Cc: Swapnali K &amp;lt;swapnal, \n2025-11-21 19:58:27,975 - INFO - Right-clicked on the selected option.\n2025-11-21 19:58:30,427 - INFO - Clicked on Follow Up\n2025-11-21 19:58:30,920 - INFO - Found 11 sub menu items\n2025-11-21 19:58:31,048 - INFO - Clicked on No Date flag:\n2025-11-21 19:58:32,547 - INFO - Clicked on inbox menu\n2025-11-21 19:58:33,079 - INFO - Right-clicked on inbox menu\n2025-11-21 19:58:34,506 - INFO - Clicked on Create New Folder menu item\n2025-11-21 19:58:35,707 - INFO - Create New Folder window is visible\n2025-11-21 19:58:39,382 - INFO - Demo folder is created\n2025-11-21 19:58:40,943 - INFO - Right clicked on selected mail\n2025-11-21 19:58:41,514 - INFO - Opened Move menu\n2025-11-21 19:58:44,369 - INFO - Located Move submenu\n2025-11-21 19:58:45,441 - INFO - Found GroupBox inside Move submenu\n2025-11-21 19:58:47,435 - INFO - Successfully moved email to Demo folder\n2025-11-21 19:58:50,864 - INFO - Deleted folder successfully\n2025-11-21 19:58:51,693 - INFO - Delete pop-up appeared.\n2025-11-21 19:58:52,647 - INFO - Clicked Yes to delete the folder.\n\n------------------------------ Captured log call -------------------------------\nINFO     root:helper.py:108 Successfully clicked on &amp;#x27;.*Inbox.*&amp;#x27; menu item.\nINFO     root:Mark_flag_and_move_in_folder.py:28 Found 7 mail items\nINFO     root:Mark_flag_and_move_in_folder.py:35 Selected email with subject:To Swapnali K, Subject RE: Demo subject, Sent 7:54 PM, Size 13 KB, Flag Status Unflagged, Preview Hello, Swapnali K.    This is Reply Testcase..!    Best Regards, Swapnali K        From: Swapnali K &amp;lt;swapnalik@futurismtechnologies.com&amp;gt;  Sent: Friday, November 21, 2025 7:53 PM  To: Swapnali K &amp;lt;swapnalik@futurismtechnologies.com&amp;gt;  Cc: Swapnali K &amp;lt;swapnal, \nINFO     root:helper.py:122 Right-clicked on the selected option.\nINFO     root:Mark_flag_and_move_in_folder.py:47 Clicked on Follow Up\nINFO     root:Mark_flag_and_move_in_folder.py:56 Found 11 sub menu items\nINFO     root:Mark_flag_and_move_in_folder.py:61 Clicked on No Date flag:\nINFO     root:Mark_flag_and_move_in_folder.py:70 Clicked on inbox menu\nINFO     root:Mark_flag_and_move_in_folder.py:72 Right-clicked on inbox menu\nINFO     root:Mark_flag_and_move_in_folder.py:80 Clicked on Create New Folder menu item\nINFO     root:Mark_flag_and_move_in_folder.py:88 Create New Folder window is visible\nINFO     root:Mark_flag_and_move_in_folder.py:93 Demo folder is created\nINFO     root:Mark_flag_and_move_in_folder.py:102 Right clicked on selected mail\nINFO     root:Mark_flag_and_move_in_folder.py:107 Opened Move menu\nINFO     root:Mark_flag_and_move_in_folder.py:113 Located Move submenu\nINFO     root:Mark_flag_and_move_in_folder.py:118 Found GroupBox inside Move submenu\nINFO     root:Mark_flag_and_move_in_folder.py:125 Successfully moved email to Demo folder\nINFO     root:Mark_flag_and_move_in_folder.py:141 Deleted folder successfully\nINFO     root:Mark_flag_and_move_in_folder.py:150 Delete pop-up appeared.\nINFO     root:Mark_flag_and_move_in_folder.py:156 Clicked Yes to delete the folder.\n\n&#34;}], &#34;tests/test_case_14.py::test_download_attachment_from_email&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_case_14.py::test_download_attachment_from_email&#34;, &#34;duration&#34;: &#34;00:00:26&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_case_14.py::test_download_attachment_from_email&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:26&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stderr call -----------------------------\n2025-11-21 19:59:03,917 - INFO - Found 7 mail items\n2025-11-21 19:59:04,028 - INFO - Selected email is open\n2025-11-21 19:59:05,951 - INFO - Attachment options clicked\n2025-11-21 19:59:12,448 - INFO - Clicked on &amp;#x27;Save As&amp;#x27; successfully.\n2025-11-21 19:59:13,992 - INFO - Save Attachment dialog is opened\n2025-11-21 19:59:15,449 - INFO - Selected folder:pywin_practice\n2025-11-21 19:59:15,450 - INFO - File to be saved as: Doc_2.txt\n2025-11-21 19:59:16,813 - INFO - Edited file name: Doc_2.txt\n2025-11-21 19:59:18,157 - INFO - Save button is clicked\n\n------------------------------ Captured log call -------------------------------\nINFO     root:Download_attatchments.py:31 Found 7 mail items\nINFO     root:Download_attatchments.py:36 Selected email is open\nINFO     root:helper.py:29 Attachment options clicked\nINFO     root:Download_attatchments.py:63 Clicked on &amp;#x27;Save As&amp;#x27; successfully.\nINFO     root:Download_attatchments.py:75 Save Attachment dialog is opened\nINFO     root:Download_attatchments.py:88 Selected folder:pywin_practice\nINFO     root:Download_attatchments.py:109 File to be saved as: Doc_2.txt\nINFO     root:Download_attatchments.py:115 Edited file name: Doc_2.txt\nINFO     root:Download_attatchments.py:121 Save button is clicked\n\n&#34;}], &#34;tests/test_case_15.py::test_create_rule_and_delete_it&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_case_15.py::test_create_rule_and_delete_it&#34;, &#34;duration&#34;: &#34;00:00:56&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_case_15.py::test_create_rule_and_delete_it&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:56&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stderr call -----------------------------\n2025-11-21 19:59:27,374 - INFO - File tab clicked\n2025-11-21 19:59:30,987 - INFO - Clicked on &amp;#x27;Manage Rules &amp;amp; Alerts successfully.\n2025-11-21 19:59:32,155 - INFO - Rule and Alert window is visible\n2025-11-21 19:59:32,909 - INFO - New Rule... clicked\n2025-11-21 19:59:33,850 - INFO - Rules Wizard window is visible\n2025-11-21 19:59:36,505 - INFO - Next &amp;gt; in Wizard window clicked\n2025-11-21 19:59:38,194 - INFO - Condition1:Unchecked from people or public group\n2025-11-21 19:59:39,740 - INFO - Condition2:Checked with specific words in the subject)\n2025-11-21 19:59:41,278 - INFO - Condition3:Checked through the specified account\n2025-11-21 19:59:42,828 - INFO - Condition4: Checked sent only to me\n2025-11-21 19:59:43,610 - INFO - Clicked via keystrokes\n2025-11-21 19:59:45,218 - INFO - Dialog for through the specified account appeared.\n2025-11-21 19:59:46,120 - INFO - Clicked OK button in Account dialog\n2025-11-21 19:59:47,394 - INFO - Clicked &amp;#x27;with specific words in the subject&amp;#x27; via keystrokes\n2025-11-21 19:59:49,016 - INFO - Search Text dlg is visible\n2025-11-21 19:59:51,059 - INFO - Text is entered in search box\n2025-11-21 19:59:52,058 - INFO - Clicked on Add button\n2025-11-21 19:59:52,977 - INFO - Clicked on OK button\n2025-11-21 19:59:54,278 - INFO - Clicked &amp;#x27;with specific words in the subject&amp;#x27; via keystrokes\n2025-11-21 19:59:55,957 - INFO - Rules and Alerts dlg is visible\n2025-11-21 19:59:56,984 - INFO - Clicked on Inbox folder\n2025-11-21 19:59:57,922 - INFO - Clicked OK button\n2025-11-21 20:00:01,056 - INFO - Clicked Next button 2\n2025-11-21 20:00:02,541 - INFO - process_rule:Unchecked from people or public group\n2025-11-21 20:00:05,303 - INFO - Clicked Next button 3\n2025-11-21 20:00:08,297 - INFO - Clicked Next button 4\n2025-11-21 20:00:08,917 - INFO - Clicked Finish button\n2025-11-21 20:00:10,683 - INFO - Clicked OK button\n2025-11-21 20:00:11,240 - INFO - Clicked Apply button\n2025-11-21 20:00:14,193 - INFO - Clicked OK button\n\n------------------------------ Captured log call -------------------------------\nINFO     root:Create_rule.py:17 File tab clicked\nINFO     root:Create_rule.py:35 Clicked on &amp;#x27;Manage Rules &amp;amp; Alerts successfully.\nINFO     root:Create_rule.py:45 Rule and Alert window is visible\nINFO     root:helper.py:29 New Rule... clicked\nINFO     root:Create_rule.py:56 Rules Wizard window is visible\nINFO     root:Create_rule.py:64 Next &amp;gt; in Wizard window clicked\nINFO     root:Create_rule.py:77 Condition1:Unchecked from people or public group\nINFO     root:Create_rule.py:90 Condition2:Checked with specific words in the subject)\nINFO     root:Create_rule.py:99 Condition3:Checked through the specified account\nINFO     root:Create_rule.py:108 Condition4: Checked sent only to me\nINFO     root:Create_rule.py:120 Clicked via keystrokes\nINFO     root:Create_rule.py:126 Dialog for through the specified account appeared.\nINFO     root:Create_rule.py:129 Clicked OK button in Account dialog\nINFO     root:Create_rule.py:140 Clicked &amp;#x27;with specific words in the subject&amp;#x27; via keystrokes\nINFO     root:Create_rule.py:146 Search Text dlg is visible\nINFO     root:Create_rule.py:149 Text is entered in search box\nINFO     root:Create_rule.py:154 Clicked on Add button\nINFO     root:Create_rule.py:159 Clicked on OK button\nINFO     root:Create_rule.py:167 Clicked &amp;#x27;with specific words in the subject&amp;#x27; via keystrokes\nINFO     root:Create_rule.py:173 Rules and Alerts dlg is visible\nINFO     root:Create_rule.py:187 Clicked on Inbox folder\nINFO     root:Create_rule.py:194 Clicked OK button\nINFO     root:Create_rule.py:200 Clicked Next button 2\nINFO     root:Create_rule.py:208 process_rule:Unchecked from people or public group\nINFO     root:Create_rule.py:217 Clicked Next button 3\nINFO     root:Create_rule.py:223 Clicked Next button 4\nINFO     root:Create_rule.py:228 Clicked Finish button\nINFO     root:Create_rule.py:235 Clicked OK button\nINFO     root:Create_rule.py:240 Clicked Apply button\nINFO     root:Create_rule.py:245 Clicked OK button\n\n&#34;}], &#34;tests/test_case_16.py::test_msg_on_teams_through_outlook&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_case_16.py::test_msg_on_teams_through_outlook&#34;, &#34;duration&#34;: &#34;00:00:26&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_case_16.py::test_msg_on_teams_through_outlook&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:26&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stderr call -----------------------------\n2025-11-21 20:00:24,069 - INFO - New Item menu has been clicked.\n2025-11-21 20:00:25,908 - INFO - Chat item has been clicked.\n2025-11-21 20:00:27,406 - INFO - Teams dialog captured successfully.\n2025-11-21 20:00:28,191 - INFO - Pane is visible\n2025-11-21 20:00:30,584 - INFO - To field combobox has been clicked.\n2025-11-21 20:00:34,190 - INFO - Name typed into &amp;#x27;To&amp;#x27; field.\n2025-11-21 20:00:34,531 - INFO - Suggestions list is visible.\n2025-11-21 20:00:35,307 - INFO - First suggestion clicked.\n2025-11-21 20:00:36,617 - INFO - Swapnali K&amp;#x27;s window is visble\n2025-11-21 20:00:39,041 - INFO - Message typed into &amp;#x27;Edit&amp;#x27; field.\n2025-11-21 20:00:39,776 - INFO - Send message has been clicked.\n2025-11-21 20:00:40,197 - INFO - Microsoft Teams app has been closed.\n\n------------------------------ Captured log call -------------------------------\nINFO     root:Msg_on_teams_thr_outlook.py:22 New Item menu has been clicked.\nINFO     root:Msg_on_teams_thr_outlook.py:35 Chat item has been clicked.\nINFO     root:Msg_on_teams_thr_outlook.py:48 Teams dialog captured successfully.\nINFO     root:Msg_on_teams_thr_outlook.py:59 Pane is visible\nINFO     root:Msg_on_teams_thr_outlook.py:64 To field combobox has been clicked.\nINFO     root:Msg_on_teams_thr_outlook.py:72 Name typed into &amp;#x27;To&amp;#x27; field.\nINFO     root:Msg_on_teams_thr_outlook.py:77 Suggestions list is visible.\nINFO     root:Msg_on_teams_thr_outlook.py:82 First suggestion clicked.\nINFO     root:Msg_on_teams_thr_outlook.py:92 Swapnali K&amp;#x27;s window is visble\nINFO     root:Msg_on_teams_thr_outlook.py:96 Message typed into &amp;#x27;Edit&amp;#x27; field.\nINFO     root:Msg_on_teams_thr_outlook.py:105 Send message has been clicked.\nINFO     root:Msg_on_teams_thr_outlook.py:112 Microsoft Teams app has been closed.\n\n&#34;}], &#34;tests/test_case_17.py::test_quick_steps&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_case_17.py::test_quick_steps&#34;, &#34;duration&#34;: &#34;00:00:27&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_case_17.py::test_quick_steps&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:27&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stderr call -----------------------------\n2025-11-21 20:00:50,555 - INFO - Quick step pane is visible\n2025-11-21 20:00:50,979 - INFO - Clicked on Create New\n2025-11-21 20:00:50,980 - INFO - Clicked on Create New\n2025-11-21 20:00:50,980 - INFO - Clicked on Create New\n2025-11-21 20:00:50,981 - INFO - Clicked on Create New\n2025-11-21 20:00:50,982 - INFO - Clicked on Create New\n2025-11-21 20:00:52,360 - INFO - Quick Step dlg is visible\n2025-11-21 20:00:52,867 - INFO - Open clicked\n2025-11-21 20:00:53,780 - INFO - Action menu is visible\n2025-11-21 20:00:54,250 - INFO - Length of list_items: 7\n2025-11-21 20:00:54,373 - INFO - Mark complete selected\n2025-11-21 20:00:54,908 - INFO - Open shortcut key clicked\n2025-11-21 20:00:55,514 - INFO - Shortcut key ComboBox expanded\n2025-11-21 20:00:55,965 - INFO - Found 10 shortcut key items\n2025-11-21 20:00:56,080 - INFO - Shortcut key &amp;#x27;CTRL+SHIFT+1&amp;#x27; selected\n2025-11-21 20:00:56,478 - INFO - Confirmation popup appeared\n2025-11-21 20:00:57,385 - INFO - Clicked Yes on popup\n2025-11-21 20:01:00,930 - INFO - Finish clicked\n2025-11-21 20:01:02,162 - INFO - Successfully clicked on &amp;#x27;.*Inbox:.*&amp;#x27; menu item.\n2025-11-21 20:01:03,729 - INFO - Clicked email with subject: Demo subject\n2025-11-21 20:01:04,571 - INFO - Mark complete clicked\n2025-11-21 20:01:05,178 - INFO - Right clicked on Mark complete\n2025-11-21 20:01:06,072 - INFO - Context menu is visible\n2025-11-21 20:01:06,073 - INFO - Found Pane inside context menu\n2025-11-21 20:01:06,073 - INFO - Found GroupBox inside Pane\n2025-11-21 20:01:06,525 - INFO - Found 3 menu items in the GroupBox.\n2025-11-21 20:01:06,650 - INFO - Delete button clicked\n\n------------------------------ Captured log call -------------------------------\nINFO     root:Quick_step.py:15 Quick step pane is visible\nINFO     root:Quick_step.py:24 Clicked on Create New\nINFO     root:Quick_step.py:24 Clicked on Create New\nINFO     root:Quick_step.py:24 Clicked on Create New\nINFO     root:Quick_step.py:24 Clicked on Create New\nINFO     root:Quick_step.py:24 Clicked on Create New\nINFO     root:Quick_step.py:36 Quick Step dlg is visible\nINFO     root:Quick_step.py:44 Open clicked\nINFO     root:Quick_step.py:48 Action menu is visible\nINFO     root:Quick_step.py:52 Length of list_items: 7\nINFO     root:Quick_step.py:63 Mark complete selected\nINFO     root:Quick_step.py:75 Open shortcut key clicked\nINFO     root:Quick_step.py:80 Shortcut key ComboBox expanded\nINFO     root:Quick_step.py:84 Found 10 shortcut key items\nINFO     root:Quick_step.py:90 Shortcut key &amp;#x27;CTRL+SHIFT+1&amp;#x27; selected\nINFO     root:Quick_step.py:104 Confirmation popup appeared\nINFO     root:Quick_step.py:111 Clicked Yes on popup\nINFO     root:Quick_step.py:137 Finish clicked\nINFO     root:helper.py:108 Successfully clicked on &amp;#x27;.*Inbox:.*&amp;#x27; menu item.\nINFO     root:Quick_step.py:159 Clicked email with subject: Demo subject\nINFO     root:Quick_step.py:175 Mark complete clicked\nINFO     root:Quick_step.py:183 Right clicked on Mark complete\nINFO     root:Quick_step.py:193 Context menu is visible\nINFO     root:Quick_step.py:197 Found Pane inside context menu\nINFO     root:Quick_step.py:201 Found GroupBox inside Pane\nINFO     root:Quick_step.py:205 Found 3 menu items in the GroupBox.\nINFO     root:Quick_step.py:217 Delete button clicked\n\n&#34;}], &#34;tests/test_case_18.py::test_signature&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;tests/test_case_18.py::test_signature&#34;, &#34;duration&#34;: &#34;00:00:23&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_case_18.py::test_signature&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:23&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;setup_outlook = &amp;lt;pywinauto.application.Application object at 0x0000018DB072D7B0&amp;gt;\n\n    def test_signature(setup_outlook):\n        sign=Signature(setup_outlook)\n        sign.click_on_new_mail()\n        sign.click_signature_menu_select_signature_option()\n&amp;gt;       sign.capture_signatures_and_stationery_window()\n\ntests\\test_case_18.py:8: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\npages\\Signature.py:34: in capture_signatures_and_stationery_window\n    self.sign_and_stationery_dlg=self.wait_for_child_window(parent=self.New_email_dlg,title_re=&amp;quot;.*Signatures and Stationery.*&amp;quot;,timeout=5)\n                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nHelper\\helper.py:172: in wait_for_child_window\n    raise e\nHelper\\helper.py:163: in wait_for_child_window\n    child.wait(&amp;quot;visible&amp;quot;, timeout=timeout)\n..\\..\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pywinauto\\application.py:529: in wait\n    wait_until(timeout, retry_interval,\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\ntimeout = 5, retry_interval = 0.09\nfunc = &amp;lt;function WindowSpecification.wait.&amp;lt;locals&amp;gt;.&amp;lt;lambda&amp;gt; at 0x0000018DAF9C8540&amp;gt;\nvalue = True, op = &amp;lt;built-in function eq&amp;gt;, args = (), kwargs = {}\nstart = 2013604.3427674, func_val = False, time_left = -0.26241610012948513\nerr = TimeoutError(&amp;#x27;timed out&amp;#x27;)\n\n    def wait_until(timeout,\n                   retry_interval,\n                   func,\n                   value=True,\n                   op=operator.eq,\n                   *args, **kwargs):\n        r&amp;quot;&amp;quot;&amp;quot;\n        Wait until ``op(function(*args, **kwargs), value)`` is True or until timeout expires\n    \n        * **timeout**  how long the function will try the function\n        * **retry_interval**  how long to wait between retries\n        * **func** the function that will be executed\n        * **value**  the value to be compared against (defaults to True)\n        * **op** the comparison function (defaults to equality)\\\n        * **args** optional arguments to be passed to func when called\n        * **kwargs** optional keyword arguments to be passed to func when called\n    \n        Returns the return value of the function\n        If the operation times out then the return value of the the function\n        is in the &amp;#x27;function_value&amp;#x27; attribute of the raised exception.\n    \n        e.g. ::\n    \n            try:\n                # wait a maximum of 10.5 seconds for the\n                # the objects item_count() method to return 10\n                # in increments of .5 of a second\n                wait_until(10.5, .5, self.item_count, 10)\n            except TimeoutError as e:\n                print(&amp;quot;timed out&amp;quot;)\n        &amp;quot;&amp;quot;&amp;quot;\n        start = timestamp()\n    \n        func_val = func(*args, **kwargs)\n        # while the function hasn&amp;#x27;t returned what we are waiting for\n        while not op(func_val, value):\n    \n            # find out how much of the time is left\n            time_left = timeout - (timestamp() - start)\n    \n            # if we have to wait some more\n            if time_left &amp;gt; 0:\n                # wait either the retry_interval or else the amount of\n                # time until the timeout expires (whichever is less)\n                time.sleep(min(retry_interval, time_left))\n                func_val = func(*args, **kwargs)\n            else:\n                err = TimeoutError(&amp;quot;timed out&amp;quot;)\n                err.function_value = func_val\n&amp;gt;               raise err\nE               pywinauto.timings.TimeoutError: timed out\n\n..\\..\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pywinauto\\timings.py:375: TimeoutError\n\n----------------------------- Captured stderr call -----------------------------\n2025-11-21 20:01:16,183 - INFO - New Email clicked\n2025-11-21 20:01:17,837 - INFO - Window appeared: .*- Message..*\n2025-11-21 20:01:23,323 - INFO - Clicked on Signature\n2025-11-21 20:01:23,664 - ERROR - Failed to click on signature_option1:There are 2 elements that match the criteria {&amp;#x27;title&amp;#x27;: &amp;#x27;Signature&amp;#x27;, &amp;#x27;control_type&amp;#x27;: &amp;#x27;Menu&amp;#x27;, &amp;#x27;top_level_only&amp;#x27;: False, &amp;#x27;parent&amp;#x27;: &amp;lt;uia_element_info.UIAElementInfo - &amp;#x27;Untitled - Message (HTML) &amp;#x27;, rctrl_renwnd32, 81333670&amp;gt;, &amp;#x27;backend&amp;#x27;: &amp;#x27;uia&amp;#x27;}\n2025-11-21 20:01:28,927 - ERROR - Child window NOT found under parent.\ntitle_re=.*Signatures and Stationery.*,control_type=None\n\n------------------------------ Captured log call -------------------------------\nINFO     root:helper.py:29 New Email clicked\nINFO     root:helper.py:149 Window appeared: .*- Message..*\nINFO     root:helper.py:59 Clicked on Signature\nERROR    root:Signature.py:31 Failed to click on signature_option1:There are 2 elements that match the criteria {&amp;#x27;title&amp;#x27;: &amp;#x27;Signature&amp;#x27;, &amp;#x27;control_type&amp;#x27;: &amp;#x27;Menu&amp;#x27;, &amp;#x27;top_level_only&amp;#x27;: False, &amp;#x27;parent&amp;#x27;: &amp;lt;uia_element_info.UIAElementInfo - &amp;#x27;Untitled - Message (HTML) &amp;#x27;, rctrl_renwnd32, 81333670&amp;gt;, &amp;#x27;backend&amp;#x27;: &amp;#x27;uia&amp;#x27;}\nERROR    root:helper.py:168 Child window NOT found under parent.\ntitle_re=.*Signatures and Stationery.*,control_type=None\n\n&#34;}], &#34;tests/test_case_19.py::test_change_view&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_case_19.py::test_change_view&#34;, &#34;duration&#34;: &#34;00:00:37&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_case_19.py::test_change_view&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:37&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stderr call -----------------------------\n2025-11-21 20:01:38,277 - INFO - View clicked\n2025-11-21 20:01:38,879 - INFO - Clicked on Change View\n2025-11-21 20:01:39,993 - INFO - View menu is visible\n2025-11-21 20:01:40,499 - INFO - Clicked on compact view\n2025-11-21 20:01:45,985 - INFO - Clicked on Change View\n2025-11-21 20:01:47,136 - INFO - View menu is visible\n2025-11-21 20:01:47,624 - INFO - Clicked on single view\n2025-11-21 20:01:53,076 - INFO - Clicked on Change View\n2025-11-21 20:01:54,248 - INFO - View menu is visible\n2025-11-21 20:01:54,794 - INFO - Clicked on preview view\n2025-11-21 20:02:00,368 - INFO - Clicked on Change View\n2025-11-21 20:02:01,525 - INFO - View menu is visible\n2025-11-21 20:02:02,007 - INFO - Clicked on default view\n\n------------------------------ Captured log call -------------------------------\nINFO     root:helper.py:29 View clicked\nINFO     root:Change_view.py:17 Clicked on Change View\nINFO     root:Change_view.py:21 View menu is visible\nINFO     root:Change_view.py:28 Clicked on compact view\nINFO     root:Change_view.py:17 Clicked on Change View\nINFO     root:Change_view.py:21 View menu is visible\nINFO     root:Change_view.py:38 Clicked on single view\nINFO     root:Change_view.py:17 Clicked on Change View\nINFO     root:Change_view.py:21 View menu is visible\nINFO     root:Change_view.py:49 Clicked on preview view\nINFO     root:Change_view.py:17 Clicked on Change View\nINFO     root:Change_view.py:21 View menu is visible\nINFO     root:Change_view.py:59 Clicked on default view\n\n&#34;}], &#34;tests/test_case_20.py::test_reading_pane&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_case_20.py::test_reading_pane&#34;, &#34;duration&#34;: &#34;00:00:32&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_case_20.py::test_reading_pane&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:32&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stderr call -----------------------------\n2025-11-21 20:02:18,214 - INFO - View clicked\n2025-11-21 20:02:18,799 - INFO - Reading Pane clicked\n2025-11-21 20:02:19,930 - INFO - Reading pane menu is visible\n2025-11-21 20:02:20,317 - INFO - Found 4 menu items\n2025-11-21 20:02:25,437 - INFO - Clicked on Bottom\n2025-11-21 20:02:25,874 - INFO - Reading Pane clicked\n2025-11-21 20:02:26,996 - INFO - Reading pane menu is visible\n2025-11-21 20:02:27,354 - INFO - Found 4 menu items\n2025-11-21 20:02:32,461 - INFO - Clicked on Off\n2025-11-21 20:02:32,897 - INFO - Reading Pane clicked\n2025-11-21 20:02:34,019 - INFO - Reading pane menu is visible\n2025-11-21 20:02:34,404 - INFO - Found 4 menu items\n2025-11-21 20:02:39,520 - INFO - Clicked on Right\n\n------------------------------ Captured log call -------------------------------\nINFO     root:helper.py:29 View clicked\nINFO     root:Reading_pane.py:18 Reading Pane clicked\nINFO     root:Reading_pane.py:22 Reading pane menu is visible\nINFO     root:Reading_pane.py:25 Found 4 menu items\nINFO     root:Reading_pane.py:36 Clicked on Bottom\nINFO     root:Reading_pane.py:18 Reading Pane clicked\nINFO     root:Reading_pane.py:22 Reading pane menu is visible\nINFO     root:Reading_pane.py:25 Found 4 menu items\nINFO     root:Reading_pane.py:54 Clicked on Off\nINFO     root:Reading_pane.py:18 Reading Pane clicked\nINFO     root:Reading_pane.py:22 Reading pane menu is visible\nINFO     root:Reading_pane.py:25 Found 4 menu items\nINFO     root:Reading_pane.py:72 Clicked on Right\n\n&#34;}]}, &#34;renderCollapsed&#34;: [&#34;passed&#34;], &#34;initialSort&#34;: &#34;result&#34;, &#34;title&#34;: &#34;report_2025-11-21_19-51-36.html&#34;}"></div>
+    <script>
+      (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
+const { getCollapsedCategory, setCollapsedIds } = require('./storage.js')
+
+class DataManager {
+    setManager(data) {
+        const collapsedCategories = [...getCollapsedCategory(data.renderCollapsed)]
+        const collapsedIds = []
+        const tests = Object.values(data.tests).flat().map((test, index) => {
+            const collapsed = collapsedCategories.includes(test.result.toLowerCase())
+            const id = `test_${index}`
+            if (collapsed) {
+                collapsedIds.push(id)
+            }
+            return {
+                ...test,
+                id,
+                collapsed,
+            }
+        })
+        const dataBlob = { ...data, tests }
+        this.data = { ...dataBlob }
+        this.renderData = { ...dataBlob }
+        setCollapsedIds(collapsedIds)
+    }
+
+    get allData() {
+        return { ...this.data }
+    }
+
+    resetRender() {
+        this.renderData = { ...this.data }
+    }
+
+    setRender(data) {
+        this.renderData.tests = [...data]
+    }
+
+    toggleCollapsedItem(id) {
+        this.renderData.tests = this.renderData.tests.map((test) =>
+            test.id === id ? { ...test, collapsed: !test.collapsed } : test,
+        )
+    }
+
+    set allCollapsed(collapsed) {
+        this.renderData = { ...this.renderData, tests: [...this.renderData.tests.map((test) => (
+            { ...test, collapsed }
+        ))] }
+    }
+
+    get testSubset() {
+        return [...this.renderData.tests]
+    }
+
+    get environment() {
+        return this.renderData.environment
+    }
+
+    get initialSort() {
+        return this.data.initialSort
+    }
+}
+
+module.exports = {
+    manager: new DataManager(),
+}
+
+},{"./storage.js":8}],2:[function(require,module,exports){
+const mediaViewer = require('./mediaviewer.js')
+const templateEnvRow = document.getElementById('template_environment_row')
+const templateResult = document.getElementById('template_results-table__tbody')
+
+function htmlToElements(html) {
+    const temp = document.createElement('template')
+    temp.innerHTML = html
+    return temp.content.childNodes
+}
+
+const find = (selector, elem) => {
+    if (!elem) {
+        elem = document
+    }
+    return elem.querySelector(selector)
+}
+
+const findAll = (selector, elem) => {
+    if (!elem) {
+        elem = document
+    }
+    return [...elem.querySelectorAll(selector)]
+}
+
+const dom = {
+    getStaticRow: (key, value) => {
+        const envRow = templateEnvRow.content.cloneNode(true)
+        const isObj = typeof value === 'object' && value !== null
+        const values = isObj ? Object.keys(value).map((k) => `${k}: ${value[k]}`) : null
+
+        const valuesElement = htmlToElements(
+            values ? `<ul>${values.map((val) => `<li>${val}</li>`).join('')}<ul>` : `<div>${value}</div>`)[0]
+        const td = findAll('td', envRow)
+        td[0].textContent = key
+        td[1].appendChild(valuesElement)
+
+        return envRow
+    },
+    getResultTBody: ({ testId, id, log, extras, resultsTableRow, tableHtml, result, collapsed }) => {
+        const resultBody = templateResult.content.cloneNode(true)
+        resultBody.querySelector('tbody').classList.add(result.toLowerCase())
+        resultBody.querySelector('tbody').id = testId
+        resultBody.querySelector('.collapsible').dataset.id = id
+
+        resultsTableRow.forEach((html) => {
+            const t = document.createElement('template')
+            t.innerHTML = html
+            resultBody.querySelector('.collapsible').appendChild(t.content)
+        })
+
+        if (log) {
+            // Wrap lines starting with "E" with span.error to color those lines red
+            const wrappedLog = log.replace(/^E.*$/gm, (match) => `<span class="error">${match}</span>`)
+            resultBody.querySelector('.log').innerHTML = wrappedLog
+        } else {
+            resultBody.querySelector('.log').remove()
+        }
+
+        if (collapsed) {
+            resultBody.querySelector('.collapsible > td')?.classList.add('collapsed')
+            resultBody.querySelector('.extras-row').classList.add('hidden')
+        } else {
+            resultBody.querySelector('.collapsible > td')?.classList.remove('collapsed')
+        }
+
+        const media = []
+        extras?.forEach(({ name, format_type, content }) => {
+            if (['image', 'video'].includes(format_type)) {
+                media.push({ path: content, name, format_type })
+            }
+
+            if (format_type === 'html') {
+                resultBody.querySelector('.extraHTML').insertAdjacentHTML('beforeend', `<div>${content}</div>`)
+            }
+        })
+        mediaViewer.setup(resultBody, media)
+
+        // Add custom html from the pytest_html_results_table_html hook
+        tableHtml?.forEach((item) => {
+            resultBody.querySelector('td[class="extra"]').insertAdjacentHTML('beforeend', item)
+        })
+
+        return resultBody
+    },
+}
+
+module.exports = {
+    dom,
+    htmlToElements,
+    find,
+    findAll,
+}
+
+},{"./mediaviewer.js":6}],3:[function(require,module,exports){
+const { manager } = require('./datamanager.js')
+const { doSort } = require('./sort.js')
+const storageModule = require('./storage.js')
+
+const getFilteredSubSet = (filter) =>
+    manager.allData.tests.filter(({ result }) => filter.includes(result.toLowerCase()))
+
+const doInitFilter = () => {
+    const currentFilter = storageModule.getVisible()
+    const filteredSubset = getFilteredSubSet(currentFilter)
+    manager.setRender(filteredSubset)
+}
+
+const doFilter = (type, show) => {
+    if (show) {
+        storageModule.showCategory(type)
+    } else {
+        storageModule.hideCategory(type)
+    }
+
+    const currentFilter = storageModule.getVisible()
+    const filteredSubset = getFilteredSubSet(currentFilter)
+    manager.setRender(filteredSubset)
+
+    const sortColumn = storageModule.getSort()
+    doSort(sortColumn, true)
+}
+
+module.exports = {
+    doFilter,
+    doInitFilter,
+}
+
+},{"./datamanager.js":1,"./sort.js":7,"./storage.js":8}],4:[function(require,module,exports){
+const { redraw, bindEvents, renderStatic } = require('./main.js')
+const { doInitFilter } = require('./filter.js')
+const { doInitSort } = require('./sort.js')
+const { manager } = require('./datamanager.js')
+const data = JSON.parse(document.getElementById('data-container').dataset.jsonblob)
+
+function init() {
+    manager.setManager(data)
+    doInitFilter()
+    doInitSort()
+    renderStatic()
+    redraw()
+    bindEvents()
+}
+
+init()
+
+},{"./datamanager.js":1,"./filter.js":3,"./main.js":5,"./sort.js":7}],5:[function(require,module,exports){
+const { dom, find, findAll } = require('./dom.js')
+const { manager } = require('./datamanager.js')
+const { doSort } = require('./sort.js')
+const { doFilter } = require('./filter.js')
+const {
+    getVisible,
+    getCollapsedIds,
+    setCollapsedIds,
+    getSort,
+    getSortDirection,
+    possibleFilters,
+} = require('./storage.js')
+
+const removeChildren = (node) => {
+    while (node.firstChild) {
+        node.removeChild(node.firstChild)
+    }
+}
+
+const renderStatic = () => {
+    const renderEnvironmentTable = () => {
+        const environment = manager.environment
+        const rows = Object.keys(environment).map((key) => dom.getStaticRow(key, environment[key]))
+        const table = document.getElementById('environment')
+        removeChildren(table)
+        rows.forEach((row) => table.appendChild(row))
+    }
+    renderEnvironmentTable()
+}
+
+const addItemToggleListener = (elem) => {
+    elem.addEventListener('click', ({ target }) => {
+        const id = target.parentElement.dataset.id
+        manager.toggleCollapsedItem(id)
+
+        const collapsedIds = getCollapsedIds()
+        if (collapsedIds.includes(id)) {
+            const updated = collapsedIds.filter((item) => item !== id)
+            setCollapsedIds(updated)
+        } else {
+            collapsedIds.push(id)
+            setCollapsedIds(collapsedIds)
+        }
+        redraw()
+    })
+}
+
+const renderContent = (tests) => {
+    const sortAttr = getSort(manager.initialSort)
+    const sortAsc = JSON.parse(getSortDirection())
+    const rows = tests.map(dom.getResultTBody)
+    const table = document.getElementById('results-table')
+    const tableHeader = document.getElementById('results-table-head')
+
+    const newTable = document.createElement('table')
+    newTable.id = 'results-table'
+
+    // remove all sorting classes and set the relevant
+    findAll('.sortable', tableHeader).forEach((elem) => elem.classList.remove('asc', 'desc'))
+    tableHeader.querySelector(`.sortable[data-column-type="${sortAttr}"]`)?.classList.add(sortAsc ? 'desc' : 'asc')
+    newTable.appendChild(tableHeader)
+
+    if (!rows.length) {
+        const emptyTable = document.getElementById('template_results-table__body--empty').content.cloneNode(true)
+        newTable.appendChild(emptyTable)
+    } else {
+        rows.forEach((row) => {
+            if (!!row) {
+                findAll('.collapsible td:not(.col-links', row).forEach(addItemToggleListener)
+                find('.logexpander', row).addEventListener('click',
+                    (evt) => evt.target.parentNode.classList.toggle('expanded'),
+                )
+                newTable.appendChild(row)
+            }
+        })
+    }
+
+    table.replaceWith(newTable)
+}
+
+const renderDerived = () => {
+    const currentFilter = getVisible()
+    possibleFilters.forEach((result) => {
+        const input = document.querySelector(`input[data-test-result="${result}"]`)
+        input.checked = currentFilter.includes(result)
+    })
+}
+
+const bindEvents = () => {
+    const filterColumn = (evt) => {
+        const { target: element } = evt
+        const { testResult } = element.dataset
+
+        doFilter(testResult, element.checked)
+        const collapsedIds = getCollapsedIds()
+        const updated = manager.renderData.tests.map((test) => {
+            return {
+                ...test,
+                collapsed: collapsedIds.includes(test.id),
+            }
+        })
+        manager.setRender(updated)
+        redraw()
+    }
+
+    const header = document.getElementById('environment-header')
+    header.addEventListener('click', () => {
+        const table = document.getElementById('environment')
+        table.classList.toggle('hidden')
+        header.classList.toggle('collapsed')
+    })
+
+    findAll('input[name="filter_checkbox"]').forEach((elem) => {
+        elem.addEventListener('click', filterColumn)
+    })
+
+    findAll('.sortable').forEach((elem) => {
+        elem.addEventListener('click', (evt) => {
+            const { target: element } = evt
+            const { columnType } = element.dataset
+            doSort(columnType)
+            redraw()
+        })
+    })
+
+    document.getElementById('show_all_details').addEventListener('click', () => {
+        manager.allCollapsed = false
+        setCollapsedIds([])
+        redraw()
+    })
+    document.getElementById('hide_all_details').addEventListener('click', () => {
+        manager.allCollapsed = true
+        const allIds = manager.renderData.tests.map((test) => test.id)
+        setCollapsedIds(allIds)
+        redraw()
+    })
+}
+
+const redraw = () => {
+    const { testSubset } = manager
+
+    renderContent(testSubset)
+    renderDerived()
+}
+
+module.exports = {
+    redraw,
+    bindEvents,
+    renderStatic,
+}
+
+},{"./datamanager.js":1,"./dom.js":2,"./filter.js":3,"./sort.js":7,"./storage.js":8}],6:[function(require,module,exports){
+class MediaViewer {
+    constructor(assets) {
+        this.assets = assets
+        this.index = 0
+    }
+
+    nextActive() {
+        this.index = this.index === this.assets.length - 1 ? 0 : this.index + 1
+        return [this.activeFile, this.index]
+    }
+
+    prevActive() {
+        this.index = this.index === 0 ? this.assets.length - 1 : this.index -1
+        return [this.activeFile, this.index]
+    }
+
+    get currentIndex() {
+        return this.index
+    }
+
+    get activeFile() {
+        return this.assets[this.index]
+    }
+}
+
+
+const setup = (resultBody, assets) => {
+    if (!assets.length) {
+        resultBody.querySelector('.media').classList.add('hidden')
+        return
+    }
+
+    const mediaViewer = new MediaViewer(assets)
+    const container = resultBody.querySelector('.media-container')
+    const leftArrow = resultBody.querySelector('.media-container__nav--left')
+    const rightArrow = resultBody.querySelector('.media-container__nav--right')
+    const mediaName = resultBody.querySelector('.media__name')
+    const counter = resultBody.querySelector('.media__counter')
+    const imageEl = resultBody.querySelector('img')
+    const sourceEl = resultBody.querySelector('source')
+    const videoEl = resultBody.querySelector('video')
+
+    const setImg = (media, index) => {
+        if (media?.format_type === 'image') {
+            imageEl.src = media.path
+
+            imageEl.classList.remove('hidden')
+            videoEl.classList.add('hidden')
+        } else if (media?.format_type === 'video') {
+            sourceEl.src = media.path
+
+            videoEl.classList.remove('hidden')
+            imageEl.classList.add('hidden')
+        }
+
+        mediaName.innerText = media?.name
+        counter.innerText = `${index + 1} / ${assets.length}`
+    }
+    setImg(mediaViewer.activeFile, mediaViewer.currentIndex)
+
+    const moveLeft = () => {
+        const [media, index] = mediaViewer.prevActive()
+        setImg(media, index)
+    }
+    const doRight = () => {
+        const [media, index] = mediaViewer.nextActive()
+        setImg(media, index)
+    }
+    const openImg = () => {
+        window.open(mediaViewer.activeFile.path, '_blank')
+    }
+    if (assets.length === 1) {
+        container.classList.add('media-container--fullscreen')
+    } else {
+        leftArrow.addEventListener('click', moveLeft)
+        rightArrow.addEventListener('click', doRight)
+    }
+    imageEl.addEventListener('click', openImg)
+}
+
+module.exports = {
+    setup,
+}
+
+},{}],7:[function(require,module,exports){
+const { manager } = require('./datamanager.js')
+const storageModule = require('./storage.js')
+
+const genericSort = (list, key, ascending, customOrder) => {
+    let sorted
+    if (customOrder) {
+        sorted = list.sort((a, b) => {
+            const aValue = a.result.toLowerCase()
+            const bValue = b.result.toLowerCase()
+
+            const aIndex = customOrder.findIndex((item) => item.toLowerCase() === aValue)
+            const bIndex = customOrder.findIndex((item) => item.toLowerCase() === bValue)
+
+            // Compare the indices to determine the sort order
+            return aIndex - bIndex
+        })
+    } else {
+        sorted = list.sort((a, b) => a[key] === b[key] ? 0 : a[key] > b[key] ? 1 : -1)
+    }
+
+    if (ascending) {
+        sorted.reverse()
+    }
+    return sorted
+}
+
+const durationSort = (list, ascending) => {
+    const parseDuration = (duration) => {
+        if (duration.includes(':')) {
+            // If it's in the format "HH:mm:ss"
+            const [hours, minutes, seconds] = duration.split(':').map(Number)
+            return (hours * 3600 + minutes * 60 + seconds) * 1000
+        } else {
+            // If it's in the format "nnn ms"
+            return parseInt(duration)
+        }
+    }
+    const sorted = list.sort((a, b) => parseDuration(a['duration']) - parseDuration(b['duration']))
+    if (ascending) {
+        sorted.reverse()
+    }
+    return sorted
+}
+
+const doInitSort = () => {
+    const type = storageModule.getSort(manager.initialSort)
+    const ascending = storageModule.getSortDirection()
+    const list = manager.testSubset
+    const initialOrder = ['Error', 'Failed', 'Rerun', 'XFailed', 'XPassed', 'Skipped', 'Passed']
+
+    storageModule.setSort(type)
+    storageModule.setSortDirection(ascending)
+
+    if (type?.toLowerCase() === 'original') {
+        manager.setRender(list)
+    } else {
+        let sortedList
+        switch (type) {
+        case 'duration':
+            sortedList = durationSort(list, ascending)
+            break
+        case 'result':
+            sortedList = genericSort(list, type, ascending, initialOrder)
+            break
+        default:
+            sortedList = genericSort(list, type, ascending)
+            break
+        }
+        manager.setRender(sortedList)
+    }
+}
+
+const doSort = (type, skipDirection) => {
+    const newSortType = storageModule.getSort(manager.initialSort) !== type
+    const currentAsc = storageModule.getSortDirection()
+    let ascending
+    if (skipDirection) {
+        ascending = currentAsc
+    } else {
+        ascending = newSortType ? false : !currentAsc
+    }
+    storageModule.setSort(type)
+    storageModule.setSortDirection(ascending)
+
+    const list = manager.testSubset
+    const sortedList = type === 'duration' ? durationSort(list, ascending) : genericSort(list, type, ascending)
+    manager.setRender(sortedList)
+}
+
+module.exports = {
+    doInitSort,
+    doSort,
+}
+
+},{"./datamanager.js":1,"./storage.js":8}],8:[function(require,module,exports){
+const possibleFilters = [
+    'passed',
+    'skipped',
+    'failed',
+    'error',
+    'xfailed',
+    'xpassed',
+    'rerun',
+]
+
+const getVisible = () => {
+    const url = new URL(window.location.href)
+    const settings = new URLSearchParams(url.search).get('visible')
+    const lower = (item) => {
+        const lowerItem = item.toLowerCase()
+        if (possibleFilters.includes(lowerItem)) {
+            return lowerItem
+        }
+        return null
+    }
+    return settings === null ?
+        possibleFilters :
+        [...new Set(settings?.split(',').map(lower).filter((item) => item))]
+}
+
+const hideCategory = (categoryToHide) => {
+    const url = new URL(window.location.href)
+    const visibleParams = new URLSearchParams(url.search).get('visible')
+    const currentVisible = visibleParams ? visibleParams.split(',') : [...possibleFilters]
+    const settings = [...new Set(currentVisible)].filter((f) => f !== categoryToHide).join(',')
+
+    url.searchParams.set('visible', settings)
+    window.history.pushState({}, null, unescape(url.href))
+}
+
+const showCategory = (categoryToShow) => {
+    if (typeof window === 'undefined') {
+        return
+    }
+    const url = new URL(window.location.href)
+    const currentVisible = new URLSearchParams(url.search).get('visible')?.split(',').filter(Boolean) ||
+        [...possibleFilters]
+    const settings = [...new Set([categoryToShow, ...currentVisible])]
+    const noFilter = possibleFilters.length === settings.length || !settings.length
+
+    noFilter ? url.searchParams.delete('visible') : url.searchParams.set('visible', settings.join(','))
+    window.history.pushState({}, null, unescape(url.href))
+}
+
+const getSort = (initialSort) => {
+    const url = new URL(window.location.href)
+    let sort = new URLSearchParams(url.search).get('sort')
+    if (!sort) {
+        sort = initialSort || 'result'
+    }
+    return sort
+}
+
+const setSort = (type) => {
+    const url = new URL(window.location.href)
+    url.searchParams.set('sort', type)
+    window.history.pushState({}, null, unescape(url.href))
+}
+
+const getCollapsedCategory = (renderCollapsed) => {
+    let categories
+    if (typeof window !== 'undefined') {
+        const url = new URL(window.location.href)
+        const collapsedItems = new URLSearchParams(url.search).get('collapsed')
+        switch (true) {
+        case !renderCollapsed && collapsedItems === null:
+            categories = ['passed']
+            break
+        case collapsedItems?.length === 0 || /^["']{2}$/.test(collapsedItems):
+            categories = []
+            break
+        case /^all$/.test(collapsedItems) || collapsedItems === null && /^all$/.test(renderCollapsed):
+            categories = [...possibleFilters]
+            break
+        default:
+            categories = collapsedItems?.split(',').map((item) => item.toLowerCase()) || renderCollapsed
+            break
+        }
+    } else {
+        categories = []
+    }
+    return categories
+}
+
+const getSortDirection = () => JSON.parse(sessionStorage.getItem('sortAsc')) || false
+const setSortDirection = (ascending) => sessionStorage.setItem('sortAsc', ascending)
+
+const getCollapsedIds = () => JSON.parse(sessionStorage.getItem('collapsedIds')) || []
+const setCollapsedIds = (list) => sessionStorage.setItem('collapsedIds', JSON.stringify(list))
+
+module.exports = {
+    getVisible,
+    hideCategory,
+    showCategory,
+    getCollapsedIds,
+    setCollapsedIds,
+    getSort,
+    setSort,
+    getSortDirection,
+    setSortDirection,
+    getCollapsedCategory,
+    possibleFilters,
+}
+
+},{}]},{},[4]);
+    </script>
+  </footer>
+</html>

@@ -1,6 +1,0 @@
-[32mINFO    [0m root:helper.py:92 Successfully clicked on '.*Deleted Items:.*' menu item.
-[32mINFO    [0m root:Recover_mail.py:10 Clicked on Deleted Items
-[32mINFO    [0m root:helper.py:31 Recover items recently removed from this folder clicked
-[32mINFO    [0m root:Recover_mail.py:17 Recover deleted items window is visible
-[32mINFO    [0m root:Recover_mail.py:24 Clicked on first item
-[32mINFO    [0m root:helper.py:31 Ok clicked

@@ -1,0 +1,6 @@
+2025-11-21 19:25:38,282 - INFO - Successfully clicked on '.*Deleted Items:.*' menu item.
+2025-11-21 19:25:38,282 - INFO - Clicked on Deleted Items
+2025-11-21 19:25:39,384 - INFO - Recover items recently removed from this folder clicked
+2025-11-21 19:25:41,857 - INFO - Recover deleted items window is visible
+2025-11-21 19:25:43,347 - INFO - Clicked on first item
+2025-11-21 19:25:44,534 - INFO - Ok clicked

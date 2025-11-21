@@ -1,0 +1,12 @@
+2025-11-21 19:20:58,682 - INFO - New Email clicked
+2025-11-21 19:21:00,326 - INFO - Clicked on New mail and Send mail window opened
+2025-11-21 19:21:04,759 - INFO - To email id is set correctly
+2025-11-21 19:21:08,810 - INFO - Cc email id is set correctly
+2025-11-21 19:21:10,639 - INFO - Subject is set correctly
+2025-11-21 19:21:20,433 - INFO - Text in body is set correctly
+2025-11-21 19:21:25,925 - INFO - Clicked on Attach File...
+2025-11-21 19:21:27,404 - INFO - Recent items window is open
+2025-11-21 19:21:27,977 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-11-21 19:21:48,238 - ERROR - Failed to attach file: timed out
+2025-11-21 19:21:53,720 - INFO - Clicked on Send
+2025-11-21 19:21:58,183 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x00000207AD683ED0>' closed successfully.

@@ -1,11 +1,9 @@
-
 import time
 from pywinauto import Application
 from Logger import logs
 
 class Helper:
     def __init__(self,app: Application,title_re:str):                            #Helper constructor called when object is created.
-        #self.send_mail_window = None
         self.selected_mail = None
         self.app = app                                                          #Store the passed application object so methods can use
         self.logger = logs.logging                                              #Access the logger to record actions.
@@ -30,6 +28,24 @@ class Helper:
             raise Exception(f'control {control_title} not found: {e}')
         self.logger.info(f'{control_title} clicked')
 
+
+
+    """Click a child control under a given parent window."""
+    def click_inside_parent_win(self,parent,title=None,title_re=None,control_type=None,auto_id=None,timeout=10):
+
+        control=parent.child_window(title=title,title_re=title_re,control_type=control_type,auto_id=auto_id)
+        control.wait("visible",timeout=timeout)
+
+        try:
+            control.click_input()
+            self.logger.info(
+                f"Clicked child control: title={title or title_re}")
+            return control
+
+        except Exception as e:
+            self.logger.error(
+                f"Failed to click child control: title={title or title_re}")
+            raise e
 
 
     """This method tries to click on child window inside current active window."""
@@ -122,5 +138,52 @@ class Helper:
         except Exception as e:
             self.logger.error(f"Context menu not found: {e}")
             raise
+
+
+    """window-wait helper for top-level Outlook windows."""
+    def wait_for_window(self,title_re=None, control_type="Window",timeout=10):
+        try:
+            #Create window object
+            window = self.app.window(title_re=title_re,control_type=control_type)
+            window.wait("visible", timeout=timeout)
+            self.logger.info(f"Window appeared: {title_re}")
+            return window
+
+        except Exception as e:
+            self.logger.error(f"Window NOT found: {title_re}")
+            raise e
+
+
+    """Wait for a child window under a given parent."""
+    def wait_for_child_window(self, parent,title_re=None,control_type=None,timeout=10):
+
+        child = parent.child_window(title_re=title_re,control_type=control_type)
+
+        try:
+            child.wait("visible", timeout=timeout)
+            self.logger.info(f"Child window visible: title={title_re}")
+            return child
+
+        except Exception as e:
+            self.logger.error(
+                f"Child window NOT found under parent.\n"
+                f"title_re={title_re},control_type={control_type}"
+            )
+            raise e
+
+
+
+    """Wait for a control to appear after the view change."""
+    def wait_for_view_change(self, control_title, timeout=5):
+        try:
+            element = self.outlook.child_window(title=control_title, control_type="Button")
+            element.wait('visible', timeout=timeout)  # Wait for the element to become visible
+            return True
+        except Exception as e:
+            self.logger.error(f"Failed to detect view change: {e}")
+            return False
+
+
+
 
 

@@ -1,0 +1,20 @@
+2025-11-21 19:29:54,508 - INFO - New Email clicked
+2025-11-21 19:29:55,705 - INFO - Window appeared: .*- Message..*
+2025-11-21 19:30:01,136 - INFO - Clicked on Signature
+2025-11-21 19:30:01,752 - INFO - Signature menu is visible
+2025-11-21 19:30:02,167 - INFO - Clicked on Signature option
+2025-11-21 19:30:03,565 - INFO - Child window visible: title=.*Signatures and Stationery.*
+2025-11-21 19:30:05,970 - INFO - Clicked child control: title=New
+2025-11-21 19:30:07,417 - INFO - Child window visible: title=.*New Signature.*
+2025-11-21 19:30:09,270 - INFO - Typed sign name for this signature
+2025-11-21 19:30:10,852 - INFO - Ok clicked
+2025-11-21 19:30:20,727 - INFO - Expanded 'New messages' combo box
+2025-11-21 19:30:22,937 - INFO - Total items: 2
+2025-11-21 19:30:23,062 - INFO - Selected 'Swapnali K.' successfully
+2025-11-21 19:30:43,017 - INFO - Signature successfully typed in MSHTML editor
+2025-11-21 19:30:49,787 - INFO - Ok clicked
+2025-11-21 19:30:50,942 - INFO - Email body captured:
+2025-11-21 19:30:51,395 - INFO - Closed recent email dlg
+2025-11-21 19:30:52,364 - INFO - New Email clicked
+2025-11-21 19:30:52,364 - INFO - New Email clicked again
+2025-11-21 19:30:57,505 - ERROR - Window NOT found: .*- Message..*

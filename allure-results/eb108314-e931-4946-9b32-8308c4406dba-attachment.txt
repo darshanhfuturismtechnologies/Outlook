@@ -1,0 +1,3 @@
+2025-11-21 19:28:39,533 - INFO - File tab clicked
+2025-11-21 19:28:42,548 - INFO - Clicked on 'Manage Rules & Alerts successfully.
+2025-11-21 19:28:42,706 - ERROR - Failed to open Rules and Alert window: There are 2 elements that match the criteria {'title_re': '.*Outlook.*', 'backend': 'uia', 'enabled_only': False, 'visible_only': False, 'process': 33196}

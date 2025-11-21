@@ -1,0 +1,12 @@
+[32mINFO    [0m root:Msg_on_teams_thr_outlook.py:22 New Item menu has been clicked.
+[32mINFO    [0m root:Msg_on_teams_thr_outlook.py:35 Chat item has been clicked.
+[32mINFO    [0m root:Msg_on_teams_thr_outlook.py:48 Teams dialog captured successfully.
+[32mINFO    [0m root:Msg_on_teams_thr_outlook.py:59 Pane is visible
+[32mINFO    [0m root:Msg_on_teams_thr_outlook.py:64 To field combobox has been clicked.
+[32mINFO    [0m root:Msg_on_teams_thr_outlook.py:72 Name typed into 'To' field.
+[32mINFO    [0m root:Msg_on_teams_thr_outlook.py:77 Suggestions list is visible.
+[32mINFO    [0m root:Msg_on_teams_thr_outlook.py:82 First suggestion clicked.
+[32mINFO    [0m root:Msg_on_teams_thr_outlook.py:92 Swapnali K's window is visble
+[32mINFO    [0m root:Msg_on_teams_thr_outlook.py:96 Message typed into 'Edit' field.
+[32mINFO    [0m root:Msg_on_teams_thr_outlook.py:105 Send message has been clicked.
+[32mINFO    [0m root:Msg_on_teams_thr_outlook.py:112 Microsoft Teams app has been closed.

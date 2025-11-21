@@ -1,7 +1,0 @@
-[32mINFO    [0m root:helper.py:92 Successfully clicked on '.*Inbox.*' menu item.
-[32mINFO    [0m root:Move_email_to_folder.py:18 Successfully clicked on inbox.
-[32mINFO    [0m root:Move_email_to_folder.py:30 Found 8 mail items
-[32mINFO    [0m root:Move_email_to_folder.py:37 Selected email with subject: To Swapnali K, Subject FW: Demo subject, Sent Mon 4:39 PM, Size 10 KB, Start Date None, Due Date None, Flag Status Red Flag, Preview Hello, Swapnali K.    This is Forward Testcase..!    Best Regards, Swapnali K        From: Swapnali K  Sent: Thursday, October 16, 2025 1:32 PM  To: Swapnali K <swapnalik@futurismtechnologies.com>  Cc: Swapnali K <swapnalik@futurismtechnologies.com>  Subj, 
-[32mINFO    [0m root:helper.py:106 Right-clicked on the selected option.
-[32mINFO    [0m root:Move_email_to_folder.py:51 Clicked on Move
-[32mINFO    [0m root:Move_email_to_folder.py:60 Clicked on Archive

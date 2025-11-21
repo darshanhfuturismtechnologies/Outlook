@@ -1,5 +1,0 @@
-[32mINFO    [0m root:helper.py:31 New Email clicked
-[32mINFO    [0m root:Send_mail.py:24 Clicked on New mail and Send mail window opened
-[32mINFO    [0m root:Send_mail.py:35 To email id is set correctly
-[32mINFO    [0m root:Send_mail.py:46 Cc email id is set correctly
-[32mINFO    [0m root:Send_mail.py:57 Subject is set correctly

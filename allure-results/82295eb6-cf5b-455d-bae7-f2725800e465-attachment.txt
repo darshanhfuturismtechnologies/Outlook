@@ -1,0 +1,13 @@
+[32mINFO    [0m root:helper.py:29 View clicked
+[32mINFO    [0m root:Change_view.py:17 Clicked on Change View
+[32mINFO    [0m root:Change_view.py:21 View menu is visible
+[32mINFO    [0m root:Change_view.py:28 Clicked on compact view
+[32mINFO    [0m root:Change_view.py:17 Clicked on Change View
+[32mINFO    [0m root:Change_view.py:21 View menu is visible
+[32mINFO    [0m root:Change_view.py:38 Clicked on single view
+[32mINFO    [0m root:Change_view.py:17 Clicked on Change View
+[32mINFO    [0m root:Change_view.py:21 View menu is visible
+[32mINFO    [0m root:Change_view.py:49 Clicked on preview view
+[32mINFO    [0m root:Change_view.py:17 Clicked on Change View
+[32mINFO    [0m root:Change_view.py:21 View menu is visible
+[32mINFO    [0m root:Change_view.py:59 Clicked on default view

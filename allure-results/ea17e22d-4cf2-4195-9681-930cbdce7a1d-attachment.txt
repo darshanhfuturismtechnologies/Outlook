@@ -1,0 +1,20 @@
+[32mINFO    [0m root:helper.py:29 New Email clicked
+[32mINFO    [0m root:helper.py:149 Window appeared: .*- Message..*
+[32mINFO    [0m root:helper.py:59 Clicked on Signature
+[32mINFO    [0m root:Signature.py:24 Signature menu is visible
+[32mINFO    [0m root:Signature.py:28 Clicked on Signature option
+[32mINFO    [0m root:helper.py:164 Child window visible: title=.*Signatures and Stationery.*
+[32mINFO    [0m root:helper.py:41 Clicked child control: title=New
+[32mINFO    [0m root:helper.py:164 Child window visible: title=.*New Signature.*
+[32mINFO    [0m root:Signature.py:45 Typed sign name for this signature
+[32mINFO    [0m root:Signature.py:53 Ok clicked
+[32mINFO    [0m root:Signature.py:68 Expanded 'New messages' combo box
+[32mINFO    [0m root:Signature.py:72 Total items: 2
+[32mINFO    [0m root:Signature.py:78 Selected 'Swapnali K.' successfully
+[32mINFO    [0m root:Signature.py:103 Signature successfully typed in MSHTML editor
+[32mINFO    [0m root:Signature.py:115 Ok clicked
+[32mINFO    [0m root:Signature.py:135 Email body captured:
+[32mINFO    [0m root:Signature.py:145 Closed recent email dlg
+[32mINFO    [0m root:helper.py:29 New Email clicked
+[32mINFO    [0m root:Signature.py:149 New Email clicked again
+[31m[1mERROR   [0m root:helper.py:153 Window NOT found: .*- Message..*

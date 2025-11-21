@@ -1,0 +1,13 @@
+2025-11-21 19:31:10,676 - INFO - View clicked
+2025-11-21 19:31:11,282 - INFO - Clicked on Change View
+2025-11-21 19:31:12,517 - INFO - View menu is visible
+2025-11-21 19:31:13,017 - INFO - Clicked on compact view
+2025-11-21 19:31:18,487 - INFO - Clicked on Change View
+2025-11-21 19:31:19,585 - INFO - View menu is visible
+2025-11-21 19:31:20,058 - INFO - Clicked on single view
+2025-11-21 19:31:25,522 - INFO - Clicked on Change View
+2025-11-21 19:31:26,619 - INFO - View menu is visible
+2025-11-21 19:31:27,131 - INFO - Clicked on preview view
+2025-11-21 19:31:32,553 - INFO - Clicked on Change View
+2025-11-21 19:31:33,631 - INFO - View menu is visible
+2025-11-21 19:31:34,090 - INFO - Clicked on default view

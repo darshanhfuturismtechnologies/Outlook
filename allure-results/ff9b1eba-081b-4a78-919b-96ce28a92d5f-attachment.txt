@@ -1,0 +1,19 @@
+2025-11-21 19:27:07,954 - INFO - Successfully clicked on '.*Inbox:.*' menu item.
+2025-11-21 19:27:09,529 - INFO - Clicked email with subject: Demo subject
+2025-11-21 19:27:12,658 - INFO - Right-clicked on the selected option.
+2025-11-21 19:27:14,620 - INFO - Move clicked
+2025-11-21 19:27:16,216 - INFO - Other Folder clicked
+2025-11-21 19:27:17,721 - INFO - Task clicked
+2025-11-21 19:27:18,279 - INFO - Clicked on OK
+2025-11-21 19:27:20,396 - INFO - New Task window is opened
+2025-11-21 19:27:20,776 - INFO - Due date set to 12/12/2025
+2025-11-21 19:27:21,571 - INFO - Priority set to High
+2025-11-21 19:27:21,949 - INFO - Reminder checkbox is checked
+2025-11-21 19:27:22,319 - INFO - Reminder date set to 30/12/2025
+2025-11-21 19:27:23,205 - INFO - Time set to 02:30 PM
+2025-11-21 19:27:23,857 - INFO - Clicked on Save and Close
+2025-11-21 19:27:25,882 - INFO - Tasks clicked
+2025-11-21 19:27:26,644 - INFO - task_to_do_dlg is opened
+2025-11-21 19:27:26,953 - INFO - 4Task items found
+2025-11-21 19:27:27,267 - INFO - Most recent unread email clicked: uia_controls.ListItemWrapper - 'Task Subject Demo subject, Start Date None, Reminder Time Tue 12/30/2025 2:30 PM, Due Date Fri 12/12/2025, In Folder Tasks, Reminder Has Reminder, Flag Status Unflagged, ', DataItem
+2025-11-21 19:27:32,786 - INFO - Clicked on Delete

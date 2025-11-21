@@ -1,5 +1,0 @@
-2025-11-12 14:42:59,468 - INFO - New Email clicked
-2025-11-12 14:43:00,902 - INFO - Clicked on New mail and Send mail window opened
-2025-11-12 14:43:05,440 - INFO - To email id is set correctly
-2025-11-12 14:43:09,592 - INFO - Cc email id is set correctly
-2025-11-12 14:43:11,498 - INFO - Subject is set correctly

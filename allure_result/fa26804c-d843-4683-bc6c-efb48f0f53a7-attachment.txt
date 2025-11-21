@@ -1,5 +1,0 @@
-2025-11-12 14:44:32,181 - INFO - Click on Contact View from Search Bar
-2025-11-12 14:44:33,514 - INFO - Clicked on New Contact button
-2025-11-12 14:44:34,776 - INFO - New contact dialog opened
-2025-11-12 14:44:37,644 - INFO - All details are entered
-2025-11-12 14:44:38,317 - INFO - Clicked on Save and Close button

@@ -1,0 +1,13 @@
+[32mINFO    [0m root:helper.py:29 View clicked
+[32mINFO    [0m root:Reading_pane.py:18 Reading Pane clicked
+[32mINFO    [0m root:Reading_pane.py:22 Reading pane menu is visible
+[32mINFO    [0m root:Reading_pane.py:25 Found 4 menu items
+[32mINFO    [0m root:Reading_pane.py:36 Clicked on Bottom
+[32mINFO    [0m root:Reading_pane.py:18 Reading Pane clicked
+[32mINFO    [0m root:Reading_pane.py:22 Reading pane menu is visible
+[32mINFO    [0m root:Reading_pane.py:25 Found 4 menu items
+[32mINFO    [0m root:Reading_pane.py:54 Clicked on Off
+[32mINFO    [0m root:Reading_pane.py:18 Reading Pane clicked
+[32mINFO    [0m root:Reading_pane.py:22 Reading pane menu is visible
+[32mINFO    [0m root:Reading_pane.py:25 Found 4 menu items
+[32mINFO    [0m root:Reading_pane.py:72 Clicked on Right

@@ -1,0 +1,12 @@
+[32mINFO    [0m root:helper.py:29 New Email clicked
+[32mINFO    [0m root:Send_mail.py:24 Clicked on New mail and Send mail window opened
+[32mINFO    [0m root:Send_mail.py:35 To email id is set correctly
+[32mINFO    [0m root:Send_mail.py:46 Cc email id is set correctly
+[32mINFO    [0m root:Send_mail.py:57 Subject is set correctly
+[32mINFO    [0m root:Send_mail.py:73 Text in body is set correctly
+[32mINFO    [0m root:helper.py:59 Clicked on Attach File...
+[32mINFO    [0m root:Send_mail.py:83 Recent items window is open
+[32mINFO    [0m root:helper.py:76 Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+[31m[1mERROR   [0m root:Send_mail.py:100 Failed to attach file: timed out
+[32mINFO    [0m root:helper.py:59 Clicked on Send
+[32mINFO    [0m root:helper.py:91 Window '<pywinauto.application.WindowSpecification object at 0x00000207AD683ED0>' closed successfully.

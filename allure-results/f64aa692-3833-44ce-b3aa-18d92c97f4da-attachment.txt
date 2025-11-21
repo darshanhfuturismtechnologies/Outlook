@@ -1,0 +1,15 @@
+[32mINFO    [0m root:helper.py:108 Successfully clicked on '.*Inbox.*' menu item.
+[32mINFO    [0m root:Forward_email.py:21 Clicked on Inbox
+[32mINFO    [0m root:Forward_email.py:32 Categorized menu clicked
+[32mINFO    [0m root:Forward_email.py:41 Clicked on 'Blue Category'
+[32mINFO    [0m root:Forward_email.py:53 Total mails:7
+[32mINFO    [0m root:Forward_email.py:58 Most recent email: uia_controls.ListItemWrapper - 'To Swapnali K, Subject FW: Demo subject, Sent 10/16/2025, Size 13 KB, Categories Blue Category, Flag Status Unflagged, Preview Hello, Swapnali K.    This is Forward Testcase..!    Best Regards, Swapnali K        From: Swapnali K <swapnalik@futurismtechnologies.com>  Sent: Wednesday, October 15, 2025 3:22 PM  To: Swapnali K <swapnalik@futurismtechnologies.com>  Subject: RE: Demo s, ', DataItem
+[32mINFO    [0m root:helper.py:29 Forward clicked
+[32mINFO    [0m root:helper.py:29 Pop Out clicked
+[32mINFO    [0m root:Forward_email.py:69 Clicked on Pop Out
+[32mINFO    [0m root:Forward_email.py:75 Forward window is visible
+[32mINFO    [0m root:Forward_email.py:80 to_field typed successfully
+[32mINFO    [0m root:Forward_email.py:84 Cc typed successfully
+[32mINFO    [0m root:Forward_email.py:103 Clicked on Send
+[32mINFO    [0m root:helper.py:91 Window '<pywinauto.application.WindowSpecification object at 0x00000207AD80EAC0>' closed successfully.
+[32mINFO    [0m root:Forward_email.py:115 Search bar cleared.

@@ -1,0 +1,12 @@
+2025-11-21 19:28:56,395 - INFO - New Item menu has been clicked.
+2025-11-21 19:28:58,201 - INFO - Chat item has been clicked.
+2025-11-21 19:28:59,617 - INFO - Teams dialog captured successfully.
+2025-11-21 19:29:00,385 - INFO - Pane is visible
+2025-11-21 19:29:01,183 - INFO - To field combobox has been clicked.
+2025-11-21 19:29:04,293 - INFO - Name typed into 'To' field.
+2025-11-21 19:29:04,636 - INFO - Suggestions list is visible.
+2025-11-21 19:29:05,231 - INFO - First suggestion clicked.
+2025-11-21 19:29:06,659 - INFO - Swapnali K's window is visble
+2025-11-21 19:29:09,106 - INFO - Message typed into 'Edit' field.
+2025-11-21 19:29:09,808 - INFO - Send message has been clicked.
+2025-11-21 19:29:09,956 - INFO - Microsoft Teams app has been closed.

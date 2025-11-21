@@ -1,0 +1,19 @@
+[32mINFO    [0m root:helper.py:108 Successfully clicked on '.*Inbox:.*' menu item.
+[32mINFO    [0m root:Convert_mail_to_task.py:41 Clicked email with subject: Demo subject
+[32mINFO    [0m root:helper.py:122 Right-clicked on the selected option.
+[32mINFO    [0m root:Convert_mail_to_task.py:68 Move clicked
+[32mINFO    [0m root:Convert_mail_to_task.py:79 Other Folder clicked
+[32mINFO    [0m root:Convert_mail_to_task.py:117 Task clicked
+[32mINFO    [0m root:Convert_mail_to_task.py:129 Clicked on OK
+[32mINFO    [0m root:Convert_mail_to_task.py:150 New Task window is opened
+[32mINFO    [0m root:Convert_mail_to_task.py:154 Due date set to 12/12/2025
+[32mINFO    [0m root:Convert_mail_to_task.py:166 Priority set to High
+[32mINFO    [0m root:Convert_mail_to_task.py:176 Reminder checkbox is checked
+[32mINFO    [0m root:Convert_mail_to_task.py:186 Reminder date set to 30/12/2025
+[32mINFO    [0m root:Convert_mail_to_task.py:197 Time set to 02:30 PM
+[32mINFO    [0m root:Convert_mail_to_task.py:207 Clicked on Save and Close
+[32mINFO    [0m root:helper.py:29 Tasks clicked
+[32mINFO    [0m root:Convert_mail_to_task.py:219 task_to_do_dlg is opened
+[32mINFO    [0m root:Convert_mail_to_task.py:228 4Task items found
+[32mINFO    [0m root:Convert_mail_to_task.py:233 Most recent unread email clicked: uia_controls.ListItemWrapper - 'Task Subject Demo subject, Start Date None, Reminder Time Tue 12/30/2025 2:30 PM, Due Date Fri 12/12/2025, In Folder Tasks, Reminder Has Reminder, Flag Status Unflagged, ', DataItem
+[32mINFO    [0m root:helper.py:59 Clicked on Delete

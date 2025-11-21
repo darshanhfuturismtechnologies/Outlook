@@ -1,0 +1,26 @@
+[32mINFO    [0m root:Quick_step.py:15 Quick step pane is visible
+[32mINFO    [0m root:Quick_step.py:24 Clicked on Create New
+[32mINFO    [0m root:Quick_step.py:24 Clicked on Create New
+[32mINFO    [0m root:Quick_step.py:24 Clicked on Create New
+[32mINFO    [0m root:Quick_step.py:24 Clicked on Create New
+[32mINFO    [0m root:Quick_step.py:36 Quick Step dlg is visible
+[32mINFO    [0m root:Quick_step.py:44 Open clicked
+[32mINFO    [0m root:Quick_step.py:48 Action menu is visible
+[32mINFO    [0m root:Quick_step.py:52 Length of list_items: 7
+[32mINFO    [0m root:Quick_step.py:63 Mark complete selected
+[32mINFO    [0m root:Quick_step.py:75 Open shortcut key clicked
+[32mINFO    [0m root:Quick_step.py:80 Shortcut key ComboBox expanded
+[32mINFO    [0m root:Quick_step.py:84 Found 10 shortcut key items
+[32mINFO    [0m root:Quick_step.py:90 Shortcut key 'CTRL+SHIFT+1' selected
+[32mINFO    [0m root:Quick_step.py:104 Confirmation popup appeared
+[32mINFO    [0m root:Quick_step.py:111 Clicked Yes on popup
+[32mINFO    [0m root:Quick_step.py:137 Finish clicked
+[32mINFO    [0m root:helper.py:108 Successfully clicked on '.*Inbox:.*' menu item.
+[32mINFO    [0m root:Quick_step.py:159 Clicked email with subject: Demo subject
+[32mINFO    [0m root:Quick_step.py:175 Mark complete clicked
+[32mINFO    [0m root:Quick_step.py:183 Right clicked on Mark complete
+[32mINFO    [0m root:Quick_step.py:193 Context menu is visible
+[32mINFO    [0m root:Quick_step.py:197 Found Pane inside context menu
+[32mINFO    [0m root:Quick_step.py:201 Found GroupBox inside Pane
+[32mINFO    [0m root:Quick_step.py:205 Found 3 menu items in the GroupBox.
+[32mINFO    [0m root:Quick_step.py:217 Delete button clicked

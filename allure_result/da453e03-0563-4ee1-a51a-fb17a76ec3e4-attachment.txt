@@ -1,3 +1,0 @@
-[32mINFO    [0m root:helper.py:31 Unread clicked
-[32mINFO    [0m root:helper.py:106 Right-clicked on the selected option.
-[32mINFO    [0m root:Unread_mail.py:43 Email marked as read.

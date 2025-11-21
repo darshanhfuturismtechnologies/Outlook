@@ -1,0 +1,4 @@
+[32mINFO    [0m root:ReadMail.py:18 Found 7 mail items
+[32mINFO    [0m root:ReadMail.py:26 Most recent email: uia_controls.ListItemWrapper - 'To Swapnali K, Subject RE: Demo subject, Sent 7:16 PM, Size 18 KB, Flag Status Unflagged, Preview Hello, Swapnali K.         This is Reply Testcase..!         Best Regards, Swapnali K                   From: Swapnali K <swapnalik@futurismtechnologies.com>   Sent: Friday, November 21, 2025 7:15 PM  To: Swapnali K <swapnalik@futurismtechnologies.com>  C, ', DataItem
+[32mINFO    [0m root:helper.py:122 Right-clicked on the selected option.
+[32mINFO    [0m root:ReadMail.py:44 Email marked as read.

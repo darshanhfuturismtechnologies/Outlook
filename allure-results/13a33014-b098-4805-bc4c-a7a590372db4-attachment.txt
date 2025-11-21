@@ -1,0 +1,20 @@
+2025-11-21 19:26:14,955 - INFO - Clicked on contact
+2025-11-21 19:26:16,663 - INFO - New Contact Group clicked
+2025-11-21 19:26:17,383 - INFO - New contact grp dialog opened
+2025-11-21 19:26:17,927 - INFO - Entered contact group name
+2025-11-21 19:26:18,267 - INFO - Clicked on Add Members button
+2025-11-21 19:26:18,835 - INFO - Clicked on From Address Book button
+2025-11-21 19:26:18,835 - INFO - Select member dialog is opened
+2025-11-21 19:26:22,135 - INFO - Entered 'Aarti T' and pressed Enter
+2025-11-21 19:26:24,507 - INFO - Search bar is cleared
+2025-11-21 19:26:27,147 - INFO - Clicked on OK button
+2025-11-21 19:26:28,336 - INFO - Clicked on Save & Close button
+2025-11-21 19:26:30,643 - INFO - Clicked on New Item button
+2025-11-21 19:26:31,256 - INFO - Clicked on E-mail Message menu item
+2025-11-21 19:26:34,528 - INFO - Send mail window is opened
+2025-11-21 19:26:35,514 - INFO - Group name is entered
+2025-11-21 19:26:35,514 - INFO - To field is entered
+2025-11-21 19:26:37,176 - INFO - Subject is entered
+2025-11-21 19:26:47,535 - INFO - Page 1 content has been entered
+2025-11-21 19:26:52,953 - INFO - Clicked on Send
+2025-11-21 19:26:55,311 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x00000207AD80FF50>' closed successfully.

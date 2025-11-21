@@ -1,0 +1,4 @@
+2025-11-21 19:22:35,850 - INFO - Found 7 mail items
+2025-11-21 19:22:36,453 - INFO - Most recent email: uia_controls.ListItemWrapper - 'To Swapnali K, Subject RE: Demo subject, Sent 7:16 PM, Size 18 KB, Flag Status Unflagged, Preview Hello, Swapnali K.         This is Reply Testcase..!         Best Regards, Swapnali K                   From: Swapnali K <swapnalik@futurismtechnologies.com>   Sent: Friday, November 21, 2025 7:15 PM  To: Swapnali K <swapnalik@futurismtechnologies.com>  C, ', DataItem
+2025-11-21 19:22:39,598 - INFO - Right-clicked on the selected option.
+2025-11-21 19:22:41,485 - INFO - Email marked as read.

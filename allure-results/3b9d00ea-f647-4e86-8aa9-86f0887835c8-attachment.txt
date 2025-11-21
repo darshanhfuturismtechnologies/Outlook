@@ -1,0 +1,5 @@
+[32mINFO    [0m root:helper.py:108 Successfully clicked on '.*Inbox.*' menu item.
+[32mINFO    [0m root:Mark_flag_and_move_in_folder.py:28 Found 0 mail items
+[31m[1mERROR   [0m root:helper.py:125 No option selected after right-click.
+[31m[1mERROR   [0m root:helper.py:139 Context menu not found: timed out
+[31m[1mERROR   [0m root:Mark_flag_and_move_in_folder.py:49 Failed to click on 'Move' menu item: timed out

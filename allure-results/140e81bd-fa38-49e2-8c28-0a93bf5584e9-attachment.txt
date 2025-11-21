@@ -1,0 +1,7 @@
+2025-11-21 19:24:37,255 - INFO - Successfully clicked on '.*Inbox.*' menu item.
+2025-11-21 19:24:37,255 - INFO - Successfully clicked on inbox.
+2025-11-21 19:24:40,138 - INFO - Found 7 mail items
+2025-11-21 19:24:40,245 - INFO - Selected email with subject: To Swapnali K, Subject RE: Demo subject, Sent 7:23 PM, Size 8 KB, Flag Status Unflagged, Preview Hello, Swapnali K.    This is Reply Testcase..!    Best Regards, Swapnali K        From: Swapnali K <swapnalik@futurismtechnologies.com>  Sent: Friday, November 21, 2025 7:16 PM  To: Swapnali K <swapnalik@futurismtechnologies.com>  Subject: RE: Demo subje, 
+2025-11-21 19:24:43,867 - INFO - Right-clicked on the selected option.
+2025-11-21 19:24:45,246 - INFO - Clicked on Move
+2025-11-21 19:24:45,849 - INFO - Clicked on Archive

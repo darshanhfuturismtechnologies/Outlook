@@ -1,0 +1,13 @@
+2025-11-21 19:31:50,270 - INFO - View clicked
+2025-11-21 19:31:50,848 - INFO - Reading Pane clicked
+2025-11-21 19:31:51,945 - INFO - Reading pane menu is visible
+2025-11-21 19:31:52,303 - INFO - Found 4 menu items
+2025-11-21 19:31:57,420 - INFO - Clicked on Bottom
+2025-11-21 19:31:57,872 - INFO - Reading Pane clicked
+2025-11-21 19:31:58,914 - INFO - Reading pane menu is visible
+2025-11-21 19:31:59,263 - INFO - Found 4 menu items
+2025-11-21 19:32:04,394 - INFO - Clicked on Off
+2025-11-21 19:32:04,812 - INFO - Reading Pane clicked
+2025-11-21 19:32:05,879 - INFO - Reading pane menu is visible
+2025-11-21 19:32:06,252 - INFO - Found 4 menu items
+2025-11-21 19:32:11,379 - INFO - Clicked on Right
