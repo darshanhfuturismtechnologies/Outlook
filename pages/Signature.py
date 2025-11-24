@@ -91,7 +91,7 @@ class Signature(Helper):
             html = dlg.child_window(class_name="_WwG")
             html.wait("exists ready", timeout=10)
 
-            #Focus on it
+            #Focus on it..
             html.click_input()
             time.sleep(0.5)
 
