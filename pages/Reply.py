@@ -9,8 +9,9 @@ TC_04
 5.Click on send"""
 
 class ReplyMail(Helper):
-    def __init__(self, app):
+    def __init__(self, app,test_data):
         super().__init__(app, ".*Outlook.*")
+        self.test_data=test_data
 
     def navigate_towards_inbox(self):
         self.click_menu_item("Inbox")
@@ -42,15 +43,10 @@ class ReplyMail(Helper):
     def edit_mail_for_reply(self):
         try:
             msg_body = self.outlook.child_window(title="Page 1 content",auto_id="Body",control_type="Edit")
-            # List of content for mail
-            lines = [
-                "Hello, Swapnali K.",
-                "This is Reply Testcase..!",
-                "Best Regards, Swapnali K",
-            ]
+            lines = self.test_data["body"].split("\n")
             for line in lines:
-                # For loop iterate for each one and press enter twice,and add pause with spaces.
-                msg_body.type_keys(line + "{ENTER 2}", pause=0.1, with_spaces=True)
+                #For loop iterate for each one and press enter twice,and add pause with spaces.
+                msg_body.type_keys(line + "{ENTER}", pause=0.1, with_spaces=True)
             self.logger.info("Edited message in reply")
 
         except Exception as e:

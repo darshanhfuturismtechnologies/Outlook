@@ -1,8 +1,13 @@
+import pytest
+
+from Helper.helper import Helper
 from pages.Forward_email import ForwardE
 
 
-def test_forward_email(setup_outlook):
-    forward_email=ForwardE(setup_outlook)
+@pytest.mark.parametrize("test_case",[tc for tc in Helper.load_test_data() if tc["action"] == "Forward_Mail"])
+
+def test_forward_email(setup_outlook,test_case):
+    forward_email=ForwardE(setup_outlook,test_case)
     forward_email.click_on_inbox()
     forward_email.select_most_recent_mail_of_demo_sub()
     forward_email.click_on_categorized_menu_and_select_category()

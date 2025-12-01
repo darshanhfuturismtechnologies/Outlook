@@ -1,4 +1,7 @@
+import json
+import os
 import time
+from pathlib import Path
 from pywinauto import Application
 from Logger import logs
 
@@ -182,6 +185,29 @@ class Helper:
         except Exception as e:
             self.logger.error(f"Failed to detect view change: {e}")
             return False
+
+
+    """ Load test data from a JSON file"""
+    # Build the full file path:
+    # __file__ is the path of the current Python file (helper.py)
+    # Path(__file__).parent gives the folder containing this file
+    # .parent.parent goes two levels up to reach the project root
+    # Then we append the folder and filename to get the JSON file path
+    #It is static method so we can use it without creating instance of class
+    @staticmethod
+    def load_test_data(filename="test_data.json", folder="config"):
+         # Go 2 levels up to project root
+        file_path = Path(__file__).parent.parent / folder / filename
+         #Open the JSON file using UTF-8 encoding,Opens the file, reads it as JSON, and loads it into a Python dictionary.
+        with file_path.open(encoding="utf-8") as f:
+            data = json.load(f)
+            #Return the list of test cases under the "Data" key
+            #If Data key does not exist, return an empty list
+            return data.get("Data",[])
+
+
+
+
 
 
 

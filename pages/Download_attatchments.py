@@ -14,8 +14,9 @@ Tc_14
 """
 
 class Download_attachments(Helper):
-    def __init__(self,app):
+    def __init__(self,app,test_data):
         super().__init__(app,".*Outlook.*")
+        self.test_data = test_data
         self.filename = None
         self.save_attachment_dialog = None
 
@@ -23,7 +24,7 @@ class Download_attachments(Helper):
     def search_mail_of_demo_sub(self):
         try:
             search_box = self.outlook.child_window(auto_id="SearchBoxTextBoxAutomationId", control_type="Edit")
-            search_box.type_keys("Copy of QA intern", with_spaces=True)
+            search_box.type_keys(self.test_data["search_box_content"], with_spaces=True)
             time.sleep(1)
 
             table_view = self.outlook.child_window(title="Table View", control_type="Table")
@@ -69,7 +70,7 @@ class Download_attachments(Helper):
         # self.outlook.print_control_identifiers()
 
 
-    def save_attachment_at_folder(self, folder_name="pywin_practice"):
+    def save_attachment_at_folder(self,folder_name="pywin_practice"):
         self.save_attachment_dialog = self.outlook.child_window(title_re=".*Save Attachment.*", control_type="Window")
         self.save_attachment_dialog.wait('visible',timeout=5)
         self.logger.info("Save Attachment dialog is opened")
@@ -91,8 +92,8 @@ class Download_attachments(Helper):
 
 
     def save_file_with_unique_name(self):
-        file_location=r"C:\Users\swapnalik\Documents\pywin_practice"
-        base_name = "Doc"
+        file_location=self.test_data["file_loc"]
+        base_name = self.test_data["base_name"]
 
         for i in count(0):
             if i == 0:

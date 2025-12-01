@@ -9,15 +9,16 @@ from Helper.helper import Helper
 
 
 class ContactManagement(Helper):
-    def __init__(self, app):
+    def __init__(self, app,test_data):
         super().__init__(app, ".*Outlook.*")
         self.New_contact_dlg = None
+        self.test_data=test_data
 
     #Open contact view from search bar
     def open_contact_view_from_search_bar(self):
         try:
             tell_me_box = self.outlook.child_window(auto_id="TellMeTextBoxAutomationId",control_type="Edit").wait('visible', timeout=5)
-            tell_me_box.type_keys("Contacts")
+            tell_me_box.type_keys(self.test_data["contact"])
             self.outlook.child_window(title="Contacts",control_type="MenuItem").click_input()
             self.logger.info("Click on Contact View from Search Bar")
         except Exception as e:
@@ -46,17 +47,23 @@ class ContactManagement(Helper):
     def enter_contact_details(self):
         try:
             Full_name = self.New_contact_dlg.child_window(auto_id="4096", control_type="Edit")
-            Full_name.type_keys("Name1{ENTER}")
+            # Full_name.type_keys(self.test_data["Name"]"{ENTER}")
+            Full_name.type_keys(self.test_data["Name"])
+            Full_name.type_keys('{ENTER}')
+
             Company_name = self.New_contact_dlg.child_window(auto_id="4481", control_type="Edit")
-            Company_name.type_keys("Company1{ENTER}")
+            Company_name.type_keys(self.test_data["Company"])
+            Company_name.type_keys('{ENTER}')
             Job_title = self.New_contact_dlg.child_window(auto_id="4480", control_type="Edit")
             Job_title.type_keys("Job1{ENTER}")
 
             Internet_email = self.New_contact_dlg.child_window(auto_id="4120", control_type="Edit")
-            Internet_email.type_keys("InternetEmail11@gmail.com{ENTER}")
+            Internet_email.type_keys(self.test_data["Internet_mail"])
+            Internet_email.type_keys('{ENTER}')
 
             Im_address = self.New_contact_dlg.child_window(auto_id="4118", control_type="Edit")
-            Im_address.type_keys("ImAddress1{ENTER}")
+            Im_address.type_keys(self.test_data["IP_address"])
+            Im_address.type_keys('{ENTER}')
             self.logger.info("All details are entered")
         except Exception as e:
             self.logger.error(f"Failed to enter details:{e}")

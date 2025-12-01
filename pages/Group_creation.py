@@ -13,8 +13,9 @@ from Helper.helper import Helper
 8.Enter group name in to field,enter sub,enter msg body and click on send."""
 
 class GroupMail(Helper):
-    def __init__(self,app):
+    def __init__(self,app,test_data):
         super().__init__(app,".*Outlook.*")
+        self.test_data = test_data
         self.send_mail_window = None
         self.contact_window = None
         self.select_member_dlg = None
@@ -24,7 +25,7 @@ class GroupMail(Helper):
     def click_on_search_bar_and_enter_contact(self):
         try:
             tell_me_box = self.outlook.child_window(auto_id="TellMeTextBoxAutomationId", control_type="Edit").wait('visible', timeout=5)
-            tell_me_box.type_keys("Contacts")
+            tell_me_box.type_keys(self.test_data["contacts"])
             self.outlook.child_window(title="Contacts",control_type="MenuItem").click_input()
             self.logger.info("Clicked on contact")
         except Exception as e:
@@ -48,8 +49,8 @@ class GroupMail(Helper):
     def enter_grp_name(self):
         try:
             name_edit = self.new_contact_grp_dlg.child_window(auto_id="4096",control_type="Edit").wait('visible',timeout=5)
-            name_edit.set_edit_text("demo")
-            self.logger.info("Entered contact group name")
+            name_edit.set_edit_text(self.test_data["group_name"])
+            self.logger.info(f"Entered contact group name:{self.test_data["group_name"]}")
         except Exception as e:
             self.logger.error(f"Failed to enter contact group name:{e}")
 
@@ -76,8 +77,8 @@ class GroupMail(Helper):
             # Enter first name in search box and press enter
             search_box = self.select_member_dlg.child_window(auto_id="101", control_type="Edit").wait('visible',timeout=5)
             search_box.click_input()
-            search_box.type_keys("Aarti T", with_spaces=True, pause=0.1)
-            self.logger.info("Entered 'Aarti T' and pressed Enter")
+            search_box.type_keys(self.test_data["member1"], with_spaces=True, pause=0.1)
+            self.logger.info(f"Entered:{self.test_data["member1"]}and pressed Enter")
             time.sleep(1)  # small delay for searching name
             send_keys("{ENTER}")
             time.sleep(1)
@@ -87,7 +88,8 @@ class GroupMail(Helper):
             send_keys('^a{BACKSPACE}')
             self.logger.info("Search bar is cleared")
             # Enter second name in search box and press enter
-            search_box.type_keys("Swapnali K{ENTER}", with_spaces=True, pause=0.1)
+            search_box.type_keys(self.test_data["member2"]+"{ENTER}", with_spaces=True, pause=0.1)
+            self.logger.info(f"Entered:{self.test_data["member2"]} and pressed Enter")
             time.sleep(1)
         except Exception as e:
             self.logger.error(f"Failed to Add members:{e}")
@@ -160,9 +162,9 @@ class GroupMail(Helper):
 
             # Enter Group name in To field
             To_field = self.send_mail_window.child_window(auto_id="4117", control_type="Edit")
-            To_field.type_keys("demo", pause=0.1, with_spaces=True)
+            To_field.type_keys(self.test_data["group_name"], pause=0.1, with_spaces=True)
             To_field.type_keys('{ENTER}')
-            self.logger.info("Group name is entered")
+            self.logger.info(f"Group name:{self.test_data["group_name"]} is entered")
             self.logger.info("To field is entered")
         except Exception as e:
             self.logger.error(f"Failed to enter group name: {e}")
@@ -171,9 +173,9 @@ class GroupMail(Helper):
     def enter_subject(self):
         try:
             subject = self.send_mail_window.child_window(auto_id="4101", control_type="Edit")
-            subject.type_keys("Demo group", pause=0.1, with_spaces=True)
+            subject.type_keys(self.test_data["subject"], pause=0.1, with_spaces=True)
             subject.type_keys('{ENTER}')
-            self.logger.info("Subject is entered")
+            self.logger.info(f"Subject is:{self.test_data["subject"]} entered")
         except Exception as e:
             self.logger.error(f"Failed to enter subject: {e}")
 
@@ -181,14 +183,10 @@ class GroupMail(Helper):
     def enter_text_in_body(self):
         try:
             body = self.send_mail_window.child_window(title="Page 1 content", auto_id="Body", control_type="Edit")
-            body.type_keys("Hello, demo group.", pause=0.1, with_spaces=True)
-            body.type_keys('{ENTER 2}')
-            body.type_keys("This is dummy group for demo purpose...!", pause=0.1, with_spaces=True)
-            body.type_keys('{ENTER 2}')
-            body.type_keys("Best Regards,", pause=0.1, with_spaces=True)
-            body.type_keys('{ENTER}')
-            body.type_keys("Swapnali K.", pause=0.1, with_spaces=True)
-            self.logger.info("Page 1 content has been entered")
+            lines = self.test_data["body"].split("\n")
+            for line in lines:
+                body.type_keys(line, pause=0.1, with_spaces=True)
+                body.type_keys("{ENTER2}")
         except Exception as e:
             self.logger.error(f"Failed to enter text:{e}")
 

@@ -1,11 +1,10 @@
-import time
-
 from Helper.helper import Helper
 
 
 class Create_rule(Helper):
-    def __init__(self,app):
+    def __init__(self,app,test_data):
         super().__init__(app, ".*Outlook.*")
+        self.test_data = test_data
         self.rules_and_alert_dlg = None
         self.edit_list = None
         self.rules_wizard_dlg = None
@@ -145,7 +144,7 @@ class Create_rule(Helper):
         if search_text_dlg.wait("visible",timeout=10):
             self.logger.info("Search Text dlg is visible")
             text_box=search_text_dlg.child_window(title=" ", auto_id="6908", control_type="Edit")
-            text_box.type_keys("Demo Subject",with_spaces=True,pause=0.1)
+            text_box.type_keys(self.test_data["edit_rule2"],with_spaces=True,pause=0.1)
             self.logger.info("Text is entered in search box")
 
             #Click on Add subject
@@ -160,7 +159,7 @@ class Create_rule(Helper):
 
     def edit_rule_three(self):
         self.rules_wizard_dlg.set_focus()
-        self.edit_list = self.rules_wizard_dlg.child_window(title="Step 2: Edit the rule description (move with arrows and press SPACEBAR to edit parameters)",control_type="List", found_index=1)
+        self.edit_list =self.rules_wizard_dlg.child_window(title="Step 2: Edit the rule description (move with arrows and press SPACEBAR to edit parameters)",control_type="List", found_index=1)
         rule3 = self.edit_list.child_window(title="move it to the specified folder", control_type="ListItem")
 
         rule3.type_keys("{SPACE}")
@@ -212,7 +211,7 @@ class Create_rule(Helper):
                 self.logger.warning(f"process_rule not found:{e}")
 
             next_btn3 = self.rules_wizard_dlg.child_window(title="Next >", control_type="Button")
-            next_btn3.wait("ready", timeout=5)
+            next_btn3.wait("ready",timeout=5)
             next_btn3.click_input()
             self.logger.info("Clicked Next button 3")
 

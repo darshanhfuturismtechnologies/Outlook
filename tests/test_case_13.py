@@ -1,8 +1,12 @@
+import pytest
+
+from Helper.helper import Helper
 from pages.Mark_flag_and_move_in_folder import FlaggedMails
 
+@pytest.mark.parametrize("test_case",[tc for tc in Helper.load_test_data() if tc["action"] == "Mark_Flag"])
 
-def test_mark_as_flag_and_move_to_folder(setup_outlook):
-    flagged_mail=FlaggedMails(setup_outlook)
+def test_mark_as_flag_and_move_to_folder(setup_outlook,test_case):
+    flagged_mail=FlaggedMails(setup_outlook,test_case)
     flagged_mail.click_on_inbox()
     flagged_mail.search_mail_of_demo_sub()
     flagged_mail.right_click_on_mail()

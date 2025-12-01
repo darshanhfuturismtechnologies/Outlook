@@ -11,8 +11,9 @@ from Helper.helper import Helper
 """
 
 class FlaggedMails(Helper):
-    def __init__(self, app):
+    def __init__(self, app,test_data):
         super().__init__(app, ".*Outlook.*")
+        self.test_data = test_data
 
     def click_on_inbox(self):
         self.click_menu_item(".*Inbox.*")
@@ -20,7 +21,7 @@ class FlaggedMails(Helper):
     def search_mail_of_demo_sub(self):
         try:
             search_box = self.outlook.child_window(auto_id="SearchBoxTextBoxAutomationId", control_type="Edit")
-            search_box.type_keys("This is the body of  the page", with_spaces=True)
+            search_box.type_keys(self.test_data["search_box_text"], with_spaces=True)
             time.sleep(1)
 
             table_view = self.outlook.child_window(title="Table View", control_type="Table")
@@ -89,8 +90,8 @@ class FlaggedMails(Helper):
 
             edit_name = sent_items.child_window(auto_id="4097",control_type="Edit")
             edit_name.wait('ready',timeout=5)
-            edit_name.type_keys("Demo folder{ENTER}",with_spaces=True,pause=0.1)  #press Enter to create
-            self.logger.info("Demo folder is created")
+            edit_name.type_keys(self.test_data["folder_name"]+"{ENTER}",with_spaces=True,pause=0.1)  #press Enter to create
+            self.logger.info(f"{self.test_data["folder_name"]} is created")
         except Exception as e:
              self.logger.error(f"Failed to create folder:{e}")
 
@@ -153,12 +154,14 @@ class FlaggedMails(Helper):
             yes_button = dlt_pop_up.child_window(title="Yes", auto_id="6",control_type="Button")
             if yes_button.exists(timeout=2):
                 yes_button.click_input()
+                time.sleep(2)
                 self.logger.info("Clicked Yes to delete the folder.")
             else:
                 #Click No if Yes is not found
                 no_button = dlt_pop_up.child_window(title="No", auto_id="2",control_type="Button")
                 if no_button.exists(timeout=2):
                     no_button.click_input()
+                    time.sleep(2)
                     self.logger.info("Clicked No in delete popup.")
                 else:
                     self.logger.warning("Both Yes or No buttons were found in the popup.")

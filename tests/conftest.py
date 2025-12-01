@@ -71,71 +71,71 @@ def pytest_runtest_teardown(item):
 
 
 
-"""Auto trigger email configuration for sending reports after test execuion"""
+# """Auto trigger email configuration for sending reports after test execuion"""
 
 
 
-REPORT_DIR = r"C:\Users\swapnalik\PycharmProjects\Outlook\Html_reports"
-Email_receiver = "swapnalik@futurismtechnologies.com"
-Email_subject = "Automated Test Execution Report"
-Email_body=(
-    "Hello,<br><br>"
-    "Please find attached the detailed HTML report for the executed test cases.<br><br>"
-    "Best regards,<br>"
-    "Swapnali K,<br><br>"
-)
-
-# Ensure report directory exists
-os.makedirs(REPORT_DIR, exist_ok=True)
-
-def send_email_outlook(report_file,receiver):
-    """
-    Sends an email with the given report file attached via Outlook.
-    """
-    try:
-        outlook = win32.Dispatch('Outlook.Application')
-        mail = outlook.CreateItem(0)
-        mail.To = receiver
-        mail.Subject = Email_subject
-        mail.HTMLBody = Email_body
-
-        if os.path.exists(report_file):
-            mail.Attachments.Add(Source=report_file)
-            print(f"Attached report:{report_file}")
-        else:
-            print("Report file not found,cannot attach.")
-
-        mail.Send()
-        print(f"Email sent successfully to {receiver}.")
-
-    except Exception as e:
-        print(f"Failed to send email: {e}")
-
-
-def pytest_configure(config):
-    """
-    Set HTML report path and format before tests run.
-    """
-    global REPORT_FILE
-    REPORT_FILE = os.path.join(REPORT_DIR,f"report_{datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.html")
-    config.option.htmlpath = REPORT_FILE
-    config.option.self_contained_html = True
-    print(f"HTML report will be saved at: {REPORT_FILE}")
-
-
-def pytest_unconfigure(config):
-    """
-    Called after all tests and plugins are finished.
-    Ensures HTML report is complete before emailing.
-    """
-    if os.path.exists(REPORT_FILE):
-        if os.path.getsize(REPORT_FILE) > 100:
-            print(f"Final HTML report ready: {REPORT_FILE}")
-            send_email_outlook(report_file=REPORT_FILE, receiver=Email_receiver)
-        else:
-            print("Report file is empty. Email not sent.")
-    else:
-        print("Report file not generated. Email not sent.")
+# REPORT_DIR = r"C:\Users\swapnalik\PycharmProjects\Outlook\Html_reports"
+# Email_receiver = "swapnalik@futurismtechnologies.com"
+# Email_subject = "Automated Test Execution Report"
+# Email_body=(
+#     "Hello,<br><br>"
+#     "Please find attached the detailed HTML report for the executed test cases.<br><br>"
+#     "Best regards,<br>"
+#     "Swapnali K,<br><br>"
+# )
+#
+# # Ensure report directory exists
+# os.makedirs(REPORT_DIR, exist_ok=True)
+#
+# def send_email_outlook(report_file,receiver):
+#     """
+#     Sends an email with the given report file attached via Outlook.
+#     """
+#     try:
+#         outlook = win32.Dispatch('Outlook.Application')
+#         mail = outlook.CreateItem(0)
+#         mail.To = receiver
+#         mail.Subject = Email_subject
+#         mail.HTMLBody = Email_body
+#
+#         if os.path.exists(report_file):
+#             mail.Attachments.Add(Source=report_file)
+#             print(f"Attached report:{report_file}")
+#         else:
+#             print("Report file not found,cannot attach.")
+#
+#         mail.Send()
+#         print(f"Email sent successfully to {receiver}.")
+#
+#     except Exception as e:
+#         print(f"Failed to send email: {e}")
+#
+#
+# def pytest_configure(config):
+#     """
+#     Set HTML report path and format before tests run.
+#     """
+#     global REPORT_FILE
+#     REPORT_FILE = os.path.join(REPORT_DIR,f"report_{datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.html")
+#     config.option.htmlpath = REPORT_FILE
+#     config.option.self_contained_html = True
+#     print(f"HTML report will be saved at: {REPORT_FILE}")
+#
+#
+# def pytest_unconfigure(config):
+#     """
+#     Called after all tests and plugins are finished.
+#     Ensures HTML report is complete before emailing.
+#     """
+#     if os.path.exists(REPORT_FILE):
+#         if os.path.getsize(REPORT_FILE) > 100:
+#             print(f"Final HTML report ready: {REPORT_FILE}")
+#             send_email_outlook(report_file=REPORT_FILE, receiver=Email_receiver)
+#         else:
+#             print("Report file is empty. Email not sent.")
+#     else:
+#         print("Report file not generated. Email not sent.")
 
 
 

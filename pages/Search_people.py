@@ -29,8 +29,9 @@ import time
 from Helper.helper import Helper
 
 class SearchPeople(Helper):
-    def __init__(self, app):
+    def __init__(self, app,test_data):
         super().__init__(app, ".*Outlook.*")
+        self.test_data = test_data
 
     def click_on_search_people_and_enter_contact(self):
         find_group = self.outlook.child_window(title="Find", control_type="Group")
@@ -38,13 +39,13 @@ class SearchPeople(Helper):
         search_edit.wait("ready", timeout=10)
         search_edit.click_input()
 
-        search_edit.type_keys("aarti t" + "{ENTER}{ENTER}", with_spaces=True)
-        self.logger.info(f"Searched contact: {"aarti t"}")
+        search_edit.type_keys(self.test_data["name"] + "{ENTER}{ENTER}",pause=0.1, with_spaces=True)
+        self.logger.info(f"Searched contact: {self.test_data["name"]}")
         time.sleep(2)
 
-        self.logger.info(f"Searched contact: {"aarti t" }")
+        self.logger.info(f"Searched contact: {self.test_data["name"]}")
         time.sleep(2)
-        self.logger.info(f"Search contact: {"aarti t" }")
+        self.logger.info(f"Search contact: {self.test_data["name"]}")
         # self.outlook.print_control_identifiers()
 
 

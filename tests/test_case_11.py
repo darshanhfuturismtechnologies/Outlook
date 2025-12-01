@@ -1,8 +1,11 @@
+import pytest
+
+from Helper.helper import Helper
 from pages.Group_creation import GroupMail
 
-
-def test_create_group_and_send_send_mail(setup_outlook):
-    grp_mail=GroupMail(setup_outlook)
+@pytest.mark.parametrize("test_case",[tc for tc in Helper.load_test_data() if tc["action"] == "Create_Group"])
+def test_create_group_and_send_send_mail(setup_outlook,test_case):
+    grp_mail=GroupMail(setup_outlook,test_case)
     grp_mail.click_on_search_bar_and_enter_contact()
     grp_mail.click_on_new_group()
     grp_mail.enter_grp_name()

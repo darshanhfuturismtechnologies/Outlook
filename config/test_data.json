@@ -1,0 +1,86 @@
+{
+  "Data":[
+    {
+      "test_id": "TC_001",
+      "action": "send_email",
+      "to": "swapnalik@futurismtechnologies.com",
+      "cc": "swapnalik@futurismtechnologies.com",
+      "subject": "Demo subject",
+      "body": "Hello, Swapnali K.\n\nThis is the body of the page....!\n\nBest Regards,\nSwapnali K.",
+      "attachment": "Copy of QA_intern_training_desktop_automation (002).xlsx"
+    },
+   {
+      "test_id": "TC004",
+      "action": "Reply_mail",
+      "body": "Hello, Swapnali K.,\n\nThis is Reply Testcase..!\n\nBest Regards,\nSwapnali K."
+    },
+    {
+      "test_id":"TC006",
+      "action":"Contact_Management",
+      "contact": "Contacts",
+      "Name": "John",
+      "Company":"XYZ",
+      "Internet_mail":"InternetEmail11@gmail.com",
+      "IP_address":"ImAddress1"
+    },
+    {
+      "test_id":"TC008",
+      "action":"Forward_Mail",
+      "to":"swapnalik@futurismtechnologies.com",
+      "cc":"swapnalik@futurismtechnologies.com",
+      "body":"Hello, Swapnali K.,\nThis is Forward Testcase..!\nBest Regards,nSwapnali K."
+    },
+    {
+      "test_id":"TC0010",
+      "action": "Search_Contact",
+      "name": "aarti t"
+    },
+    {
+      "test_id":"TC0011",
+      "action":"Create_Group",
+      "contacts":"Contacts",
+      "group_name": "demo",
+      "member1":"Aarti T",
+      "member2":"Swapnali K",
+      "subject": "Demo group",
+      "body": "Hello, demo group.\nThis is dummy group for demo purpose...!\nBest Regards,\nSwapnali K."
+    },
+    {
+      "test_id": "TC0012",
+      "action": "Create_Task",
+      "due_date": "01/01/2026",
+      "reminder_date": "30/01/2026",
+      "reminder_time": "02:30 PM"
+    },
+    {
+      "test_id": "TC0013",
+      "action":"Mark_Flag",
+      "search_box_text":"This is the body of  the page",
+      "folder_name": "Demo folder"
+    },
+    {
+      "test_id":"TC0014",
+      "action":"Download_Attachments",
+      "search_box_content":"Copy of QA intern",
+      "file_loc":"r\"C:\\Users\\swapnalik\\Documents\\pywin_practice\"",
+      "base_name":"Doc"
+    },
+    {
+      "test_id":"TC0015",
+      "action":"Create_Rule",
+      "edit_rule2":"Demo Subject"
+    },
+    {
+      "test_id":"TC0016",
+      "action": "Message_on_teams",
+      "to":"Swapnali K",
+      "message":"Hellooo,How are you..!"
+    },
+    {
+      "test_id":"TC0018",
+      "action":"Signature_Setup",
+      "sign_name":"Swapnali K."
+    }
+  ]
+}
+

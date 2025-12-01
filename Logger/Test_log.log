@@ -14783,3 +14783,1297 @@ title_re=.*Signatures and Stationery.*,control_type=None
 2025-11-21 20:02:34,019 - INFO - Reading pane menu is visible
 2025-11-21 20:02:34,404 - INFO - Found 4 menu items
 2025-11-21 20:02:39,520 - INFO - Clicked on Right
+2025-11-24 15:37:10,510 - INFO - File tab clicked
+2025-11-24 15:40:52,174 - INFO - File tab clicked
+2025-11-24 15:42:23,184 - INFO - File Tab clicked
+2025-11-24 16:03:27,254 - INFO - File Tab clicked
+2025-11-24 16:03:27,812 - INFO - Clicked on options
+2025-11-24 16:09:32,643 - INFO - File Tab clicked
+2025-11-24 16:09:33,195 - INFO - Clicked on options
+2025-11-24 16:13:01,817 - INFO - File Tab clicked
+2025-11-24 16:13:02,353 - INFO - Clicked on options
+2025-11-24 16:16:18,864 - INFO - File Tab clicked
+2025-11-24 16:16:19,388 - INFO - Clicked on options
+2025-11-24 16:17:26,190 - INFO - File Tab clicked
+2025-11-24 16:17:26,705 - INFO - Clicked on options
+2025-11-24 16:17:28,690 - INFO - Option dlg is visible
+2025-11-24 16:20:02,790 - INFO - File Tab clicked
+2025-11-24 16:20:03,386 - INFO - Clicked on options
+2025-11-24 16:20:13,462 - ERROR - Window NOT found: .*Outlook Options.*
+2025-11-24 16:21:24,280 - INFO - File Tab clicked
+2025-11-24 16:21:24,887 - INFO - Clicked on options
+2025-11-24 16:21:35,009 - ERROR - Window NOT found: .*Outlook Options.*
+2025-11-24 16:23:17,456 - INFO - File Tab clicked
+2025-11-24 16:23:18,037 - INFO - Clicked on options
+2025-11-24 16:23:23,165 - ERROR - Window NOT found: .*Outlook Options.*
+2025-11-24 16:29:26,403 - INFO - File Tab clicked
+2025-11-24 16:29:26,938 - INFO - Clicked on options
+2025-11-24 16:30:55,244 - INFO - File Tab clicked
+2025-11-24 16:30:55,795 - INFO - Clicked on options
+2025-11-24 16:33:55,472 - INFO - File Tab clicked
+2025-11-24 16:33:56,021 - INFO - Clicked on options
+2025-11-24 16:33:57,683 - ERROR - Child window NOT found under parent.
+title_re=.*Outlook Options.*,control_type=None
+2025-11-24 16:34:34,405 - INFO - File Tab clicked
+2025-11-24 16:34:34,992 - INFO - Clicked on options
+2025-11-24 16:34:36,512 - ERROR - Child window NOT found under parent.
+title_re=.*Outlook Options.*,control_type=None
+2025-11-24 16:36:39,892 - INFO - File Tab clicked
+2025-11-24 16:36:40,462 - INFO - Clicked on options
+2025-11-24 16:36:45,649 - ERROR - Window NOT found: .*Outlook Options.*
+2025-11-24 16:37:09,187 - INFO - File Tab clicked
+2025-11-24 16:37:09,794 - INFO - Clicked on options
+2025-11-24 16:38:02,690 - INFO - File Tab clicked
+2025-11-24 16:38:03,230 - INFO - Clicked on options
+2025-11-24 16:39:27,873 - INFO - File Tab clicked
+2025-11-24 16:39:28,409 - INFO - Clicked on options
+2025-11-24 16:39:30,249 - INFO - Option dlg is visible
+2025-11-24 16:40:10,939 - INFO - File Tab clicked
+2025-11-24 16:40:11,509 - INFO - Clicked on options
+2025-11-24 16:40:13,358 - INFO - Option dlg is visible
+2025-11-24 16:40:48,270 - INFO - File Tab clicked
+2025-11-24 16:40:48,840 - INFO - Clicked on options
+2025-11-24 16:40:53,933 - ERROR - Window NOT found: .*Outlook Options.*
+2025-11-24 16:41:33,068 - INFO - File Tab clicked
+2025-11-24 16:41:33,625 - INFO - Clicked on options
+2025-11-24 16:41:35,122 - ERROR - Child window NOT found under parent.
+title_re=.*Outlook Options.*,control_type=None
+2025-11-24 16:44:00,935 - INFO - New Email clicked
+2025-11-24 16:44:02,670 - INFO - Window appeared: .*- Message..*
+2025-11-24 16:44:08,194 - INFO - Clicked on Signature
+2025-11-24 16:44:08,618 - ERROR - Failed to click on signature_option1:There are 2 elements that match the criteria {'title': 'Signature', 'control_type': 'Menu', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - 'Untitled - Message (HTML) ', rctrl_renwnd32, 43848170>, 'backend': 'uia'}
+2025-11-24 16:44:13,765 - ERROR - Child window NOT found under parent.
+title_re=.*Signatures and Stationery.*,control_type=Window
+2025-11-24 16:44:32,351 - INFO - New Email clicked
+2025-11-24 16:44:33,637 - INFO - Window appeared: .*- Message..*
+2025-11-24 16:44:39,206 - INFO - Clicked on Signature
+2025-11-24 16:44:39,523 - ERROR - Failed to click on signature_option1:There are 2 elements that match the criteria {'title': 'Signature', 'control_type': 'Menu', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - 'Untitled - Message (HTML) ', rctrl_renwnd32, 82447174>, 'backend': 'uia'}
+2025-11-24 16:44:44,639 - ERROR - Child window NOT found under parent.
+title_re=.*Signatures and Stationery.*,control_type=Window
+2025-11-24 16:45:20,638 - INFO - New Email clicked
+2025-11-24 16:45:21,909 - INFO - Window appeared: .*- Message..*
+2025-11-24 16:45:27,346 - INFO - Clicked on Signature
+2025-11-24 16:45:27,718 - ERROR - Failed to click on signature_option1:There are 2 elements that match the criteria {'title': 'Signature', 'control_type': 'Menu', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - 'Untitled - Message (HTML) ', rctrl_renwnd32, 82643782>, 'backend': 'uia'}
+2025-11-24 16:45:28,285 - ERROR - Child window NOT found under parent.
+title_re=.*Signatures and Stationery.*,control_type=None
+2025-11-24 16:46:07,421 - INFO - New Email clicked
+2025-11-24 16:46:08,639 - INFO - Window appeared: .*- Message..*
+2025-11-24 16:46:14,075 - INFO - Clicked on Signature
+2025-11-24 16:46:14,409 - ERROR - Failed to click on signature_option1:There are 2 elements that match the criteria {'title': 'Signature', 'control_type': 'Menu', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - 'Untitled - Message (HTML) ', rctrl_renwnd32, 221383318>, 'backend': 'uia'}
+2025-11-24 16:46:19,577 - ERROR - Child window NOT found under parent.
+title_re=.*Signatures and Stationery.*,control_type=None
+2025-11-24 16:48:51,425 - INFO - New Email clicked
+2025-11-24 16:48:52,883 - INFO - Window appeared: .*- Message..*
+2025-11-24 16:48:58,387 - INFO - Clicked on Signature
+2025-11-24 16:48:59,363 - INFO - Signature menu is visible
+2025-11-24 16:49:00,119 - INFO - Clicked on Signature option
+2025-11-24 16:49:02,118 - INFO - Child window visible: title=.*Signatures and Stationery.*
+2025-11-24 16:49:04,784 - INFO - Clicked child control: title=New
+2025-11-24 16:49:06,544 - INFO - Child window visible: title=.*New Signature.*
+2025-11-24 16:49:08,629 - INFO - Typed sign name for this signature
+2025-11-24 16:49:10,489 - INFO - Ok clicked
+2025-11-24 16:49:21,493 - INFO - Expanded 'New messages' combo box
+2025-11-24 16:49:23,966 - INFO - Total items: 2
+2025-11-24 16:49:24,095 - INFO - Selected 'Swapnali K.' successfully
+2025-11-24 16:49:45,720 - INFO - Signature successfully typed in MSHTML editor
+2025-11-24 16:49:53,088 - INFO - Ok clicked
+2025-11-24 16:49:54,459 - INFO - Email body captured:
+2025-11-24 16:49:54,993 - INFO - Closed recent email dlg
+2025-11-24 16:49:56,146 - INFO - New Email clicked
+2025-11-24 16:49:56,146 - INFO - New Email clicked again
+2025-11-24 16:50:01,257 - ERROR - Window NOT found: .*- Message..*
+2025-11-24 16:51:48,368 - INFO - New Email clicked
+2025-11-24 16:51:49,611 - INFO - Window appeared: .*- Message..*
+2025-11-24 16:51:55,029 - INFO - Clicked on Signature
+2025-11-24 16:51:55,619 - INFO - Signature menu is visible
+2025-11-24 16:51:56,111 - INFO - Clicked on Signature option
+2025-11-24 16:51:58,287 - INFO - Child window visible: title=.*Signatures and Stationery.*
+2025-11-24 16:52:00,505 - INFO - Clicked child control: title=New
+2025-11-24 16:52:02,075 - INFO - Child window visible: title=.*New Signature.*
+2025-11-24 16:52:03,970 - INFO - Typed sign name for this signature
+2025-11-24 16:52:05,612 - INFO - Ok clicked
+2025-11-24 16:52:14,224 - INFO - Expanded 'New messages' combo box
+2025-11-24 16:52:16,175 - INFO - Total items: 2
+2025-11-24 16:52:16,298 - INFO - Selected 'Swapnali K.' successfully
+2025-11-24 16:52:34,090 - INFO - Signature successfully typed in MSHTML editor
+2025-11-24 16:52:40,157 - INFO - Ok clicked
+2025-11-24 16:52:41,059 - INFO - Email body captured:
+2025-11-24 16:52:41,506 - INFO - Closed recent email dlg
+2025-11-24 16:52:42,773 - INFO - New Email clicked
+2025-11-24 16:52:42,773 - INFO - New Email clicked again
+2025-11-24 16:52:47,816 - ERROR - Window NOT found: .*- Message..*
+2025-11-24 16:54:12,409 - INFO - File Tab clicked
+2025-11-24 16:54:12,986 - INFO - Clicked on options
+2025-11-24 16:54:14,765 - ERROR - Child window NOT found under parent.
+title_re=.*Outlook Options.*,control_type=None
+2025-11-24 16:58:15,227 - INFO - File Tab clicked
+2025-11-24 16:58:15,795 - INFO - Clicked on options
+2025-11-24 16:58:17,406 - ERROR - Child window NOT found under parent.
+title_re=.*Outlook Options.*,control_type=None
+2025-11-24 16:58:44,392 - INFO - File Tab clicked
+2025-11-24 16:58:44,963 - INFO - Clicked on options
+2025-11-24 16:58:46,779 - INFO - Option dlg is visible
+2025-11-24 17:01:26,821 - INFO - File Tab clicked
+2025-11-24 17:01:27,399 - INFO - Clicked on options
+2025-11-24 17:01:29,186 - INFO - Option dlg is visible
+2025-11-24 17:06:09,957 - INFO - File Tab clicked
+2025-11-24 17:06:10,542 - INFO - Clicked on options
+2025-11-24 17:06:12,426 - INFO - Option dlg is visible
+2025-11-24 17:07:09,798 - INFO - File Tab clicked
+2025-11-24 17:07:10,316 - INFO - Clicked on options
+2025-11-24 17:07:12,190 - INFO - Option dlg is visible
+2025-11-24 17:10:28,354 - INFO - File Tab clicked
+2025-11-24 17:10:28,924 - INFO - Clicked on options
+2025-11-24 17:10:30,777 - INFO - Option dlg is visible
+2025-11-24 17:12:02,162 - INFO - File Tab clicked
+2025-11-24 17:12:02,767 - INFO - Clicked on options
+2025-11-24 17:12:04,539 - INFO - Option dlg is visible
+2025-11-24 17:12:48,341 - INFO - File Tab clicked
+2025-11-24 17:12:48,874 - INFO - Clicked on options
+2025-11-24 17:12:50,675 - INFO - Option dlg is visible
+2025-11-24 17:13:28,312 - INFO - File Tab clicked
+2025-11-24 17:13:28,856 - INFO - Clicked on options
+2025-11-24 17:13:30,698 - INFO - Option dlg is visible
+2025-11-24 17:15:14,402 - INFO - File Tab clicked
+2025-11-24 17:15:15,132 - INFO - Clicked on options
+2025-11-24 17:15:17,104 - INFO - Option dlg is visible
+2025-11-24 17:16:52,787 - INFO - File Tab clicked
+2025-11-24 17:16:53,397 - INFO - Clicked on options
+2025-11-24 17:16:55,162 - INFO - Option dlg is visible
+2025-11-24 17:53:26,923 - INFO - File Tab clicked
+2025-11-24 17:53:27,491 - INFO - Clicked on options
+2025-11-24 17:53:29,386 - INFO - Option dlg is visible
+2025-11-24 17:58:31,010 - INFO - File Tab clicked
+2025-11-24 17:58:31,610 - INFO - Clicked on options
+2025-11-24 17:58:33,468 - INFO - Option dlg is visible
+2025-11-24 17:58:57,433 - INFO - File Tab clicked
+2025-11-24 17:58:58,189 - INFO - Clicked on options
+2025-11-24 17:59:00,079 - INFO - Option dlg is visible
+2025-11-24 18:00:09,792 - INFO - File Tab clicked
+2025-11-24 18:00:10,372 - INFO - Clicked on options
+2025-11-24 18:00:12,247 - INFO - Option dlg is visible
+2025-11-24 18:00:45,090 - INFO - File Tab clicked
+2025-11-24 18:00:45,656 - INFO - Clicked on options
+2025-11-24 18:00:47,475 - INFO - Option dlg is visible
+2025-11-24 18:03:28,770 - INFO - File Tab clicked
+2025-11-24 18:03:29,340 - INFO - Clicked on options
+2025-11-24 18:03:31,260 - INFO - Option dlg is visible
+2025-11-24 18:04:30,401 - INFO - File Tab clicked
+2025-11-24 18:04:31,013 - INFO - Clicked on options
+2025-11-24 18:04:32,934 - INFO - Option dlg is visible
+2025-11-24 18:05:45,744 - INFO - File Tab clicked
+2025-11-24 18:05:46,296 - INFO - Clicked on options
+2025-11-24 18:05:48,228 - INFO - Option dlg is visible
+2025-11-24 18:06:38,720 - INFO - File Tab clicked
+2025-11-24 18:06:39,239 - INFO - Clicked on options
+2025-11-24 18:06:41,024 - INFO - Option dlg is visible
+2025-11-24 18:07:48,252 - INFO - File Tab clicked
+2025-11-24 18:07:48,837 - INFO - Clicked on options
+2025-11-24 18:07:50,668 - INFO - Option dlg is visible
+2025-11-24 18:10:50,836 - INFO - File Tab clicked
+2025-11-24 18:10:51,388 - INFO - Clicked on options
+2025-11-24 18:10:53,216 - INFO - Option dlg is visible
+2025-11-24 18:11:00,827 - INFO - Clicked on mail
+2025-11-24 18:18:52,054 - INFO - File Tab clicked
+2025-11-24 18:18:52,588 - INFO - Clicked on options
+2025-11-24 18:18:54,501 - INFO - Option dlg is visible
+2025-11-24 18:19:01,718 - INFO - Clicked on mail
+2025-11-24 18:19:04,245 - INFO - Clicked child control: title=Stationery and Fonts...
+2025-11-24 18:19:53,466 - INFO - File Tab clicked
+2025-11-24 18:19:54,038 - INFO - Clicked on options
+2025-11-24 18:19:55,831 - INFO - Option dlg is visible
+2025-11-24 18:19:56,376 - INFO - Clicked on mail
+2025-11-24 18:19:58,930 - INFO - Clicked child control: title=Stationery and Fonts...
+2025-11-24 18:23:36,340 - INFO - File Tab clicked
+2025-11-24 18:23:36,892 - INFO - Clicked on options
+2025-11-24 18:23:38,853 - INFO - Option dlg is visible
+2025-11-24 18:23:39,400 - INFO - Clicked on mail
+2025-11-24 18:23:42,009 - INFO - Clicked child control: title=Stationery and Fonts...
+2025-11-24 18:23:48,540 - INFO - Child window visible: title=.*Signatures and Stationery.*
+2025-11-24 18:36:41,665 - INFO - File Tab clicked
+2025-11-24 18:36:42,259 - INFO - Clicked on options
+2025-11-24 18:36:44,107 - INFO - Option dlg is visible
+2025-11-24 18:36:44,986 - INFO - Clicked on mail
+2025-11-24 18:37:13,324 - INFO - File Tab clicked
+2025-11-24 18:37:13,927 - INFO - Clicked on options
+2025-11-24 18:37:15,790 - INFO - Option dlg is visible
+2025-11-24 18:37:16,318 - INFO - Clicked on mail
+2025-11-24 18:37:18,909 - INFO - Clicked child control: title=Stationery and Fonts...
+2025-11-24 18:37:25,394 - INFO - Child window visible: title=.*Signatures and Stationery.*
+2025-11-24 18:44:53,634 - INFO - File Tab clicked
+2025-11-24 18:44:54,155 - INFO - Clicked on options
+2025-11-24 18:44:55,933 - INFO - Option dlg is visible
+2025-11-24 18:44:56,511 - INFO - Clicked on mail
+2025-11-24 18:44:59,053 - INFO - Clicked child control: title=Stationery and Fonts...
+2025-11-24 18:45:05,472 - INFO - Child window visible: title=.*Signatures and Stationery.*
+2025-11-24 18:45:51,441 - INFO - File Tab clicked
+2025-11-24 18:45:51,960 - INFO - Clicked on options
+2025-11-24 18:45:53,752 - INFO - Option dlg is visible
+2025-11-24 18:45:54,296 - INFO - Clicked on mail
+2025-11-24 18:45:56,808 - INFO - Clicked child control: title=Stationery and Fonts...
+2025-11-24 18:46:03,212 - INFO - Child window visible: title=.*Signatures and Stationery.*
+2025-11-24 18:46:42,526 - INFO - File Tab clicked
+2025-11-24 18:46:43,143 - INFO - Clicked on options
+2025-11-24 18:46:44,992 - INFO - Option dlg is visible
+2025-11-24 18:46:45,538 - INFO - Clicked on mail
+2025-11-24 18:46:48,088 - INFO - Clicked child control: title=Stationery and Fonts...
+2025-11-24 18:46:54,511 - INFO - Child window visible: title=.*Signatures and Stationery.*
+2025-11-24 18:47:43,259 - INFO - File Tab clicked
+2025-11-24 18:47:43,794 - INFO - Clicked on options
+2025-11-24 18:47:45,611 - INFO - Option dlg is visible
+2025-11-24 18:47:46,180 - INFO - Clicked on mail
+2025-11-24 18:47:48,743 - INFO - Clicked child control: title=Stationery and Fonts...
+2025-11-24 18:47:55,207 - INFO - Child window visible: title=.*Signatures and Stationery.*
+2025-11-24 18:47:56,041 - INFO - Aptos is selected
+2025-11-24 18:53:28,432 - INFO - File Tab clicked
+2025-11-24 18:53:28,984 - INFO - Clicked on options
+2025-11-24 18:53:30,846 - INFO - Option dlg is visible
+2025-11-24 18:53:31,420 - INFO - Clicked on mail
+2025-11-24 18:53:34,103 - INFO - Clicked child control: title=Stationery and Fonts...
+2025-11-24 18:53:40,559 - INFO - Child window visible: title=.*Signatures and Stationery.*
+2025-11-24 18:55:06,060 - INFO - File Tab clicked
+2025-11-24 18:55:06,601 - INFO - Clicked on options
+2025-11-24 18:55:08,551 - INFO - Option dlg is visible
+2025-11-24 18:55:09,124 - INFO - Clicked on mail
+2025-11-24 18:55:11,784 - INFO - Clicked child control: title=Stationery and Fonts...
+2025-11-24 18:55:18,250 - INFO - Child window visible: title=.*Signatures and Stationery.*
+2025-11-24 19:13:33,716 - INFO - File Tab clicked
+2025-11-24 19:13:34,284 - INFO - Clicked on options
+2025-11-24 19:13:36,121 - INFO - Option dlg is visible
+2025-11-24 19:13:36,693 - INFO - Clicked on mail
+2025-11-24 19:13:39,317 - INFO - Clicked child control: title=Stationery and Fonts...
+2025-11-24 19:13:45,871 - INFO - Child window visible: title=.*Signatures and Stationery.*
+2025-11-24 19:14:27,919 - INFO - File Tab clicked
+2025-11-24 19:14:28,487 - INFO - Clicked on options
+2025-11-24 19:14:30,401 - INFO - Option dlg is visible
+2025-11-24 19:14:30,974 - INFO - Clicked on mail
+2025-11-24 19:14:33,554 - INFO - Clicked child control: title=Stationery and Fonts...
+2025-11-24 19:14:39,943 - INFO - Child window visible: title=.*Signatures and Stationery.*
+2025-11-24 19:14:40,847 - INFO - Selected font btn
+2025-11-24 19:17:13,543 - INFO - File Tab clicked
+2025-11-24 19:17:14,096 - INFO - Clicked on options
+2025-11-24 19:17:15,918 - INFO - Option dlg is visible
+2025-11-24 19:17:16,452 - INFO - Clicked on mail
+2025-11-24 19:17:19,012 - INFO - Clicked child control: title=Stationery and Fonts...
+2025-11-24 19:17:25,409 - INFO - Child window visible: title=.*Signatures and Stationery.*
+2025-11-24 19:17:26,337 - INFO - Selected font btn
+2025-11-24 19:17:33,889 - ERROR - Child window NOT found under parent.
+title_re=.*Font.*,control_type=None
+2025-11-24 19:18:09,203 - INFO - File Tab clicked
+2025-11-24 19:18:09,789 - INFO - Clicked on options
+2025-11-24 19:18:11,673 - INFO - Option dlg is visible
+2025-11-24 19:18:12,241 - INFO - Clicked on mail
+2025-11-24 19:18:14,857 - INFO - Clicked child control: title=Stationery and Fonts...
+2025-11-24 19:18:21,273 - INFO - Child window visible: title=.*Signatures and Stationery.*
+2025-11-24 19:18:22,197 - INFO - Selected font btn
+2025-11-24 19:22:25,827 - INFO - File Tab clicked
+2025-11-24 19:22:26,411 - INFO - Clicked on options
+2025-11-24 19:22:28,967 - INFO - Option dlg is visible
+2025-11-24 19:22:29,920 - INFO - Clicked on mail
+2025-11-24 19:22:32,499 - INFO - Clicked child control: title=Stationery and Fonts...
+2025-11-24 19:22:38,927 - INFO - Child window visible: title=.*Signatures and Stationery.*
+2025-11-24 19:22:39,808 - INFO - Selected font btn
+2025-11-24 19:23:47,225 - INFO - File Tab clicked
+2025-11-24 19:23:47,848 - INFO - Clicked on options
+2025-11-24 19:23:49,698 - INFO - Option dlg is visible
+2025-11-24 19:23:50,249 - INFO - Clicked on mail
+2025-11-24 19:23:52,946 - INFO - Clicked child control: title=Stationery and Fonts...
+2025-11-24 19:23:59,395 - INFO - Child window visible: title=.*Signatures and Stationery.*
+2025-11-24 19:24:00,320 - INFO - Selected font btn
+2025-11-24 19:24:04,800 - INFO - Font dlg is visible
+2025-11-24 19:28:47,601 - INFO - File Tab clicked
+2025-11-24 19:28:48,140 - INFO - Clicked on options
+2025-11-24 19:28:50,165 - INFO - Option dlg is visible
+2025-11-24 19:28:51,047 - INFO - Clicked on mail
+2025-11-24 19:29:21,904 - INFO - File Tab clicked
+2025-11-24 19:29:22,504 - INFO - Clicked on options
+2025-11-24 19:29:24,256 - INFO - Option dlg is visible
+2025-11-24 19:29:24,830 - INFO - Clicked on mail
+2025-11-24 19:29:27,401 - INFO - Clicked child control: title=Stationery and Fonts...
+2025-11-24 19:29:33,846 - INFO - Child window visible: title=.*Signatures and Stationery.*
+2025-11-24 19:29:34,741 - INFO - Selected font btn
+2025-11-24 19:29:42,860 - INFO - Font dlg is visible
+2025-11-24 19:38:38,968 - INFO - File Tab clicked
+2025-11-24 19:38:39,557 - INFO - Clicked on options
+2025-11-24 19:38:41,352 - INFO - Option dlg is visible
+2025-11-24 19:38:41,878 - INFO - Clicked on mail
+2025-11-24 19:38:44,455 - INFO - Clicked child control: title=Stationery and Fonts...
+2025-11-24 19:38:51,333 - INFO - Child window visible: title=.*Signatures and Stationery.*
+2025-11-24 19:38:52,248 - INFO - Selected font btn
+2025-11-24 19:39:00,807 - INFO - Font dlg is visible
+2025-11-24 19:39:08,521 - INFO - Font style set to 'Aptos'
+2025-11-24 19:40:06,791 - INFO - File Tab clicked
+2025-11-24 19:40:07,401 - INFO - Clicked on options
+2025-11-24 19:40:09,292 - INFO - Option dlg is visible
+2025-11-24 19:40:09,857 - INFO - Clicked on mail
+2025-11-24 19:40:12,405 - INFO - Clicked child control: title=Stationery and Fonts...
+2025-11-24 19:40:18,880 - INFO - Child window visible: title=.*Signatures and Stationery.*
+2025-11-24 19:40:19,818 - INFO - Selected font btn
+2025-11-24 19:40:27,982 - INFO - Font dlg is visible
+2025-11-24 19:43:55,891 - INFO - File Tab clicked
+2025-11-24 19:43:56,465 - INFO - Clicked on options
+2025-11-24 19:43:58,310 - INFO - Option dlg is visible
+2025-11-24 19:43:58,857 - INFO - Clicked on mail
+2025-11-24 19:44:01,507 - INFO - Clicked child control: title=Stationery and Fonts...
+2025-11-24 19:44:08,009 - INFO - Child window visible: title=.*Signatures and Stationery.*
+2025-11-24 19:44:08,951 - INFO - Selected font btn
+2025-11-24 19:44:17,275 - INFO - Font dlg is visible
+2025-11-24 19:44:25,120 - INFO - Font style set to 'Aptos'
+2025-11-24 19:46:42,992 - INFO - File Tab clicked
+2025-11-24 19:46:43,592 - INFO - Clicked on options
+2025-11-24 19:46:45,493 - INFO - Option dlg is visible
+2025-11-24 19:46:46,047 - INFO - Clicked on mail
+2025-11-24 19:46:48,661 - INFO - Clicked child control: title=Stationery and Fonts...
+2025-11-24 19:46:55,110 - INFO - Child window visible: title=.*Signatures and Stationery.*
+2025-11-24 19:46:55,999 - INFO - Selected font btn
+2025-11-24 19:47:04,237 - INFO - Font dlg is visible
+2025-11-24 19:47:12,025 - INFO - Font style set to 'Aptos'
+2025-11-24 19:48:52,588 - INFO - File Tab clicked
+2025-11-24 19:48:53,189 - INFO - Clicked on options
+2025-11-24 19:48:55,000 - INFO - Option dlg is visible
+2025-11-24 19:48:55,541 - INFO - Clicked on mail
+2025-11-24 19:48:58,077 - INFO - Clicked child control: title=Stationery and Fonts...
+2025-11-24 19:49:04,496 - INFO - Child window visible: title=.*Signatures and Stationery.*
+2025-11-24 19:49:05,421 - INFO - Selected font btn
+2025-11-24 19:49:13,566 - INFO - Font dlg is visible
+2025-11-24 19:49:21,244 - INFO - Font style set to 'Aptos'
+2025-11-24 19:51:17,230 - INFO - File Tab clicked
+2025-11-24 19:51:17,833 - INFO - Clicked on options
+2025-11-24 19:51:19,758 - INFO - Option dlg is visible
+2025-11-24 19:51:20,307 - INFO - Clicked on mail
+2025-11-24 19:51:22,879 - INFO - Clicked child control: title=Stationery and Fonts...
+2025-11-24 19:51:29,310 - INFO - Child window visible: title=.*Signatures and Stationery.*
+2025-11-24 19:51:30,218 - INFO - Selected font btn
+2025-11-24 19:51:38,410 - INFO - Font dlg is visible
+2025-11-24 19:51:43,689 - INFO - Font style set to 'Aptos'
+2025-11-24 19:53:28,376 - INFO - File Tab clicked
+2025-11-24 19:53:28,979 - INFO - Clicked on options
+2025-11-24 19:53:30,947 - INFO - Option dlg is visible
+2025-11-24 19:53:31,489 - INFO - Clicked on mail
+2025-11-24 19:53:34,147 - INFO - Clicked child control: title=Stationery and Fonts...
+2025-11-24 19:53:40,722 - INFO - Child window visible: title=.*Signatures and Stationery.*
+2025-11-24 19:53:41,754 - INFO - Selected font btn
+2025-11-24 19:53:50,351 - INFO - Font dlg is visible
+2025-11-24 19:55:35,429 - INFO - File Tab clicked
+2025-11-24 19:55:36,054 - INFO - Clicked on options
+2025-11-24 19:55:37,883 - INFO - Option dlg is visible
+2025-11-24 19:55:38,423 - INFO - Clicked on mail
+2025-11-24 19:55:40,965 - INFO - Clicked child control: title=Stationery and Fonts...
+2025-11-24 19:55:47,388 - INFO - Child window visible: title=.*Signatures and Stationery.*
+2025-11-24 19:55:48,256 - INFO - Selected font btn
+2025-11-24 19:55:56,338 - INFO - Font dlg is visible
+2025-11-24 19:59:33,298 - INFO - File Tab clicked
+2025-11-24 19:59:33,868 - INFO - Clicked on options
+2025-11-24 19:59:35,771 - INFO - Option dlg is visible
+2025-11-24 19:59:36,339 - INFO - Clicked on mail
+2025-11-24 19:59:38,887 - INFO - Clicked child control: title=Stationery and Fonts...
+2025-11-24 19:59:45,340 - INFO - Child window visible: title=.*Signatures and Stationery.*
+2025-11-24 19:59:46,226 - INFO - Selected font btn
+2025-11-24 19:59:54,443 - INFO - Font dlg is visible
+2025-11-24 20:05:12,377 - INFO - File Tab clicked
+2025-11-24 20:05:12,891 - INFO - Clicked on options
+2025-11-24 20:05:14,802 - INFO - Option dlg is visible
+2025-11-24 20:05:15,348 - INFO - Clicked on mail
+2025-11-24 20:05:17,874 - INFO - Clicked child control: title=Stationery and Fonts...
+2025-11-24 20:05:24,333 - INFO - Child window visible: title=.*Signatures and Stationery.*
+2025-11-24 20:05:25,283 - INFO - Selected font btn
+2025-11-24 20:05:33,573 - INFO - Font dlg is visible
+2025-11-24 20:08:11,473 - INFO - Font is set to: Aptos
+2025-11-24 20:18:21,977 - INFO - File Tab clicked
+2025-11-24 20:18:22,545 - INFO - Clicked on options
+2025-11-24 20:18:24,442 - INFO - Option dlg is visible
+2025-11-24 20:18:24,989 - INFO - Clicked on mail
+2025-11-24 20:18:27,596 - INFO - Clicked child control: title=Stationery and Fonts...
+2025-11-24 20:18:34,011 - INFO - Child window visible: title=.*Signatures and Stationery.*
+2025-11-24 20:18:34,899 - INFO - Selected font btn
+2025-11-24 20:18:43,030 - INFO - Font dlg is visible
+2025-11-24 20:19:26,101 - ERROR - Failed to click on font btn:(-2147220991, 'An event was unable to invoke any of the subscribers', (None, None, None, 0, None))
+2025-11-24 20:19:28,600 - ERROR - Failed to edit font: timed out
+2025-11-24 20:24:29,128 - INFO - File Tab clicked
+2025-11-24 20:24:29,686 - INFO - Clicked on options
+2025-11-24 20:24:31,751 - INFO - Option dlg is visible
+2025-11-24 20:24:32,296 - INFO - Clicked on mail
+2025-11-24 20:24:34,870 - INFO - Clicked child control: title=Stationery and Fonts...
+2025-11-24 20:24:41,332 - INFO - Child window visible: title=.*Signatures and Stationery.*
+2025-11-24 20:24:42,278 - INFO - Selected font btn
+2025-11-24 20:24:50,795 - INFO - Font dlg is visible
+2025-11-24 20:27:23,392 - INFO - Font is set to: Aptos
+2025-11-24 20:29:54,172 - INFO - File Tab clicked
+2025-11-24 20:29:54,730 - INFO - Clicked on options
+2025-11-24 20:29:56,849 - INFO - Option dlg is visible
+2025-11-24 20:29:57,407 - INFO - Clicked on mail
+2025-11-24 20:29:59,977 - INFO - Clicked child control: title=Stationery and Fonts...
+2025-11-24 20:30:06,425 - INFO - Child window visible: title=.*Signatures and Stationery.*
+2025-11-24 20:30:07,374 - INFO - Selected font btn
+2025-11-24 20:30:15,871 - INFO - Font dlg is visible
+2025-11-24 20:32:30,762 - ERROR - Failed to click on font btn:(-2147220991, 'An event was unable to invoke any of the subscribers', (None, None, None, 0, None))
+2025-11-24 20:35:31,247 - INFO - File Tab clicked
+2025-11-24 20:35:31,834 - INFO - Clicked on options
+2025-11-24 20:35:33,807 - INFO - Option dlg is visible
+2025-11-24 20:35:34,342 - INFO - Clicked on mail
+2025-11-24 20:35:36,951 - INFO - Clicked child control: title=Stationery and Fonts...
+2025-11-24 20:35:43,478 - INFO - Child window visible: title=.*Signatures and Stationery.*
+2025-11-24 20:35:44,460 - INFO - Selected font btn
+2025-11-24 20:35:52,969 - INFO - Font dlg is visible
+2025-11-24 20:36:58,771 - ERROR - Failed to click on font btn:(-2147220991, 'An event was unable to invoke any of the subscribers', (None, None, None, 0, None))
+2025-11-24 20:40:13,754 - INFO - File Tab clicked
+2025-11-24 20:40:14,515 - INFO - Clicked on options
+2025-11-24 20:40:16,500 - INFO - Option dlg is visible
+2025-11-24 20:40:17,042 - INFO - Clicked on mail
+2025-11-24 20:40:19,630 - INFO - Clicked child control: title=Stationery and Fonts...
+2025-11-24 20:40:26,191 - INFO - Child window visible: title=.*Signatures and Stationery.*
+2025-11-24 20:40:27,125 - INFO - Selected font btn
+2025-11-24 20:40:36,272 - INFO - Font dlg is visible
+2025-11-24 21:23:25,550 - INFO - File Tab clicked
+2025-11-24 21:23:26,114 - INFO - Clicked on options
+2025-11-24 21:23:28,183 - INFO - Option dlg is visible
+2025-11-24 21:23:28,746 - INFO - Clicked on mail
+2025-11-24 21:23:31,501 - INFO - Clicked child control: title=Stationery and Fonts...
+2025-11-24 21:23:37,987 - INFO - Child window visible: title=.*Signatures and Stationery.*
+2025-11-24 21:23:38,958 - INFO - Selected font btn
+2025-11-24 21:23:48,237 - INFO - Font dlg is visible
+2025-11-24 21:26:57,284 - INFO - File Tab clicked
+2025-11-24 21:26:58,044 - INFO - Clicked on options
+2025-11-24 21:27:00,086 - INFO - Option dlg is visible
+2025-11-24 21:27:00,657 - INFO - Clicked on mail
+2025-11-24 21:27:03,234 - INFO - Clicked child control: title=Stationery and Fonts...
+2025-11-24 21:27:13,395 - ERROR - Child window NOT found under parent.
+title_re=.*Signatures and Stationery.*,control_type=None
+2025-11-24 21:27:31,403 - INFO - File Tab clicked
+2025-11-24 21:27:31,971 - INFO - Clicked on options
+2025-11-24 21:27:33,858 - INFO - Option dlg is visible
+2025-11-24 21:27:34,413 - INFO - Clicked on mail
+2025-11-24 21:27:36,971 - INFO - Clicked child control: title=Stationery and Fonts...
+2025-11-24 21:27:43,452 - INFO - Child window visible: title=.*Signatures and Stationery.*
+2025-11-24 21:27:44,414 - INFO - Selected font btn
+2025-11-24 21:27:53,056 - INFO - Font dlg is visible
+2025-11-24 21:28:26,728 - ERROR - Failed to click on font btn:(-2147220991, 'An event was unable to invoke any of the subscribers', (None, None, None, 0, None))
+2025-11-25 13:29:00,879 - INFO - File Tab clicked
+2025-11-25 13:29:01,418 - INFO - Clicked on options
+2025-11-25 13:29:03,411 - INFO - Option dlg is visible
+2025-11-25 13:29:03,961 - INFO - Clicked on mail
+2025-11-25 13:29:06,557 - INFO - Clicked child control: title=Stationery and Fonts...
+2025-11-25 13:29:13,317 - INFO - Child window visible: title=.*Signatures and Stationery.*
+2025-11-25 13:29:14,245 - INFO - Selected font btn
+2025-11-25 13:29:23,299 - INFO - Font dlg is visible
+2025-11-25 13:31:14,498 - INFO - File Tab clicked
+2025-11-25 13:31:15,635 - INFO - Clicked on options
+2025-11-25 13:31:17,620 - INFO - Option dlg is visible
+2025-11-25 13:31:18,160 - INFO - Clicked on mail
+2025-11-25 13:31:21,157 - INFO - Clicked child control: title=Stationery and Fonts...
+2025-11-25 13:31:27,618 - INFO - Child window visible: title=.*Signatures and Stationery.*
+2025-11-25 13:31:28,564 - INFO - Selected font btn
+2025-11-25 13:31:37,262 - INFO - Font dlg is visible
+2025-11-25 13:33:48,754 - ERROR - Failed to click on font btn:(-2147220991, 'An event was unable to invoke any of the subscribers', (None, None, None, 0, None))
+2025-11-25 13:33:54,496 - ERROR - Failed to select Aptos font: timed out
+2025-11-25 15:25:44,535 - INFO - File Tab clicked
+2025-11-25 15:25:45,132 - INFO - Clicked on options
+2025-11-25 15:25:47,113 - INFO - Option dlg is visible
+2025-11-25 15:25:47,653 - INFO - Clicked on mail
+2025-11-25 15:25:50,264 - INFO - Clicked child control: title=Stationery and Fonts...
+2025-11-25 15:25:56,744 - INFO - Child window visible: title=.*Signatures and Stationery.*
+2025-11-25 15:25:57,764 - INFO - Selected font btn
+2025-11-25 15:26:06,129 - INFO - Font dlg is visible
+2025-11-25 15:27:29,424 - ERROR - Failed to click on font btn:(-2147220991, 'An event was unable to invoke any of the subscribers', (None, None, None, 0, None))
+2025-11-25 15:29:33,650 - INFO - File Tab clicked
+2025-11-25 15:29:34,352 - INFO - Clicked on options
+2025-11-25 15:29:36,361 - INFO - Option dlg is visible
+2025-11-25 15:29:36,944 - INFO - Clicked on mail
+2025-11-25 15:29:39,990 - INFO - Clicked child control: title=Stationery and Fonts...
+2025-11-25 15:29:46,463 - INFO - Child window visible: title=.*Signatures and Stationery.*
+2025-11-25 15:29:47,363 - INFO - Selected font btn
+2025-11-25 15:29:55,925 - INFO - Font dlg is visible
+2025-11-25 15:32:24,185 - INFO - Clicked on Aptos
+2025-11-25 16:50:29,235 - INFO - New Email clicked
+2025-11-25 16:50:30,788 - INFO - Clicked on New mail and Send mail window opened
+2025-11-25 16:50:31,119 - ERROR - Failed to enter to mail id:'NoneType' object is not subscriptable
+2025-11-25 16:51:40,470 - INFO - New Email clicked
+2025-11-25 16:51:41,937 - INFO - Clicked on New mail and Send mail window opened
+2025-11-25 16:51:46,033 - INFO - To email id swapnalik@futurismtechnologies.com is set correctly
+2025-11-25 16:51:50,159 - INFO - Cc email id swapnalik@futurismtechnologies.com is set correctly
+2025-11-25 16:51:52,000 - INFO - Subject Demo subject is set correctly
+2025-11-25 16:52:05,779 - INFO - Clicked on Attach File...
+2025-11-25 16:52:07,255 - INFO - Recent items window is open
+2025-11-25 16:52:07,894 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-11-25 16:52:27,905 - ERROR - Failed to attach file: timed out
+2025-11-25 16:52:33,405 - INFO - Clicked on Send
+2025-11-25 16:52:36,606 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x000001528B4F0410>' closed successfully.
+2025-11-25 16:58:28,985 - INFO - New Email clicked
+2025-11-25 16:58:30,654 - INFO - Clicked on New mail and Send mail window opened
+2025-11-25 16:58:34,792 - INFO - To email id swapnalik@futurismtechnologies.com is set correctly
+2025-11-25 16:58:38,887 - INFO - Cc email id swapnalik@futurismtechnologies.com is set correctly
+2025-11-25 16:58:40,727 - INFO - Subject Demo subject is set correctly
+2025-11-25 16:58:53,956 - ERROR - Failed to enter body text:{'title_re': '.*- Message..*', 'backend': 'uia', 'process': 30460}
+2025-11-25 17:02:05,501 - INFO - New Email clicked
+2025-11-25 17:02:06,898 - INFO - Clicked on New mail and Send mail window opened
+2025-11-25 17:02:10,956 - INFO - To email id swapnalik@futurismtechnologies.com is set correctly
+2025-11-25 17:02:15,054 - INFO - Cc email id swapnalik@futurismtechnologies.com is set correctly
+2025-11-25 17:02:16,962 - INFO - Subject Demo subject is set correctly
+2025-11-25 17:02:28,171 - INFO - Text in body is set correctly
+2025-11-25 17:02:33,611 - INFO - Clicked on Attach File...
+2025-11-25 17:02:34,763 - INFO - Recent items window is open
+2025-11-25 17:02:35,302 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-11-25 17:02:55,369 - ERROR - Failed to attach file: timed out
+2025-11-25 17:03:00,871 - INFO - Clicked on Send
+2025-11-25 17:03:03,686 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x000001D5226D0410>' closed successfully.
+2025-11-25 17:07:42,310 - INFO - File Tab clicked
+2025-11-25 17:07:42,868 - INFO - Clicked on options
+2025-11-25 17:07:47,947 - INFO - Option dlg is visible
+2025-11-25 17:07:49,066 - INFO - Clicked on mail
+2025-11-25 17:07:51,747 - INFO - Clicked child control: title=Stationery and Fonts...
+2025-11-25 17:08:14,007 - INFO - New Email clicked
+2025-11-25 17:08:15,455 - INFO - Clicked on New mail and Send mail window opened
+2025-11-25 17:08:19,553 - INFO - To email id swapnalik@futurismtechnologies.com is set correctly
+2025-11-25 17:08:23,639 - INFO - Cc email id swapnalik@futurismtechnologies.com is set correctly
+2025-11-25 17:08:25,518 - INFO - Subject Demo subject is set correctly
+2025-11-25 17:08:37,302 - INFO - Text in body is set correctly
+2025-11-25 17:08:42,757 - INFO - Clicked on Attach File...
+2025-11-25 17:08:44,192 - INFO - Recent items window is open
+2025-11-25 17:08:44,728 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-11-25 17:09:04,767 - ERROR - Failed to attach file: timed out
+2025-11-25 17:09:10,295 - INFO - Clicked on Send
+2025-11-25 17:09:13,135 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x0000027DCF3C0410>' closed successfully.
+2025-11-25 18:05:23,052 - INFO - New Email clicked
+2025-11-25 18:05:24,523 - INFO - Clicked on New mail and Send mail window opened
+2025-11-25 18:05:28,654 - INFO - To email id swapnalik@futurismtechnologies.com is set correctly
+2025-11-25 18:05:32,741 - INFO - Cc email id swapnalik@futurismtechnologies.com is set correctly
+2025-11-25 18:05:34,576 - INFO - Subject Demo subject is set correctly
+2025-11-25 18:05:46,574 - INFO - Text in body is set correctly
+2025-11-25 18:05:51,957 - ERROR - Failed to click on Attach File...: No Windows of that application are active
+2025-11-25 18:14:21,617 - INFO - Successfully clicked on 'Inbox' menu item.
+2025-11-25 18:14:34,104 - INFO - Successfully clicked on 'Inbox' menu item.
+2025-11-25 18:18:24,361 - INFO - Successfully clicked on 'Inbox' menu item.
+2025-11-25 18:18:25,896 - INFO - Clicked email with subject: Demo subject
+2025-11-25 18:18:39,909 - INFO - Edited message in reply
+2025-11-25 18:19:16,389 - INFO - Successfully clicked on 'Inbox' menu item.
+2025-11-25 18:19:17,934 - INFO - Clicked email with subject: Demo subject
+2025-11-25 18:19:52,431 - INFO - Successfully clicked on 'Inbox' menu item.
+2025-11-25 18:19:53,950 - INFO - Clicked email with subject: Demo subject
+2025-11-25 18:20:08,449 - INFO - Edited message in reply
+2025-11-25 18:20:18,814 - ERROR - Failed to click on Send: {'title': 'Send', 'control_type': 'Button', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - 'Inbox - swapnalik@futurismtechnologies.com - Outlook', rctrl_renwnd32, 20910892>, 'backend': 'uia'}
+2025-11-25 18:20:48,423 - INFO - Successfully clicked on 'Inbox' menu item.
+2025-11-25 18:20:49,941 - INFO - Clicked email with subject: Demo subject
+2025-11-25 18:21:03,056 - INFO - Edited message in reply
+2025-11-25 18:21:08,861 - INFO - Clicked on Send
+2025-11-25 18:21:38,546 - INFO - Successfully clicked on 'Inbox' menu item.
+2025-11-25 18:21:40,100 - INFO - Clicked email with subject: Demo subject
+2025-11-25 18:21:55,247 - ERROR - Failed to edit message: {'title_re': '.*Outlook.*', 'backend': 'uia', 'enabled_only': False, 'visible_only': False, 'process': 7736}
+2025-11-25 18:22:23,455 - INFO - Successfully clicked on 'Inbox' menu item.
+2025-11-25 18:22:24,987 - INFO - Clicked email with subject: Demo subject
+2025-11-25 18:23:05,923 - INFO - Successfully clicked on 'Inbox' menu item.
+2025-11-25 18:23:07,468 - INFO - Clicked email with subject: Demo subject
+2025-11-25 18:23:20,603 - INFO - Edited message in reply
+2025-11-25 18:23:26,267 - INFO - Clicked on Send
+2025-11-25 18:23:57,476 - INFO - Successfully clicked on 'Inbox' menu item.
+2025-11-25 18:23:59,017 - INFO - Clicked email with subject: Demo subject
+2025-11-25 18:24:10,639 - INFO - Edited message in reply
+2025-11-25 18:24:16,274 - INFO - Clicked on Send
+2025-11-25 18:46:03,810 - INFO - Successfully clicked on 'Inbox' menu item.
+2025-11-25 18:46:05,382 - INFO - Clicked email with subject: Demo subject
+2025-11-25 18:46:16,812 - INFO - Edited message in reply
+2025-11-25 18:46:22,429 - INFO - Clicked on Send
+2025-11-25 18:47:34,026 - INFO - New Email clicked
+2025-11-25 18:47:35,453 - INFO - Clicked on New mail and Send mail window opened
+2025-11-25 18:47:39,517 - INFO - To email id swapnalik@futurismtechnologies.com is set correctly
+2025-11-25 18:47:43,613 - INFO - Cc email id swapnalik@futurismtechnologies.com is set correctly
+2025-11-25 18:47:45,469 - INFO - Subject Demo subject is set correctly
+2025-11-25 18:47:56,725 - INFO - Text in body is set correctly
+2025-11-25 18:48:02,159 - INFO - Clicked on Attach File...
+2025-11-25 18:48:03,514 - INFO - Recent items window is open
+2025-11-25 18:48:04,132 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-11-25 18:48:24,328 - ERROR - Failed to attach file: timed out
+2025-11-25 18:48:29,820 - INFO - Clicked on Send
+2025-11-25 18:48:32,783 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x000001F71A4E0690>' closed successfully.
+2025-11-25 18:53:27,925 - INFO - New Email clicked
+2025-11-25 18:53:31,369 - INFO - Clicked on New mail and Send mail window opened
+2025-11-25 18:53:36,172 - INFO - To email id swapnalik@futurismtechnologies.com is set correctly
+2025-11-25 18:53:40,303 - INFO - Cc email id swapnalik@futurismtechnologies.com is set correctly
+2025-11-25 18:53:42,132 - INFO - Subject Demo subject is set correctly
+2025-11-25 18:53:54,042 - INFO - Text in body is set correctly
+2025-11-25 18:53:59,465 - INFO - Clicked on Attach File...
+2025-11-25 18:54:00,962 - INFO - Recent items window is open
+2025-11-25 18:54:01,553 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-11-25 18:54:21,849 - ERROR - Failed to attach file: timed out
+2025-11-25 18:54:27,358 - INFO - Clicked on Send
+2025-11-25 18:54:29,729 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x00000209B1EF87D0>' closed successfully.
+2025-11-25 18:57:58,957 - INFO - File Tab clicked
+2025-11-25 18:57:59,478 - INFO - Clicked on options
+2025-11-25 18:58:04,358 - INFO - Option dlg is visible
+2025-11-25 18:58:05,036 - INFO - Clicked on mail
+2025-11-25 18:58:08,192 - INFO - Clicked child control: title=Stationery and Fonts...
+2025-11-25 19:07:28,443 - INFO - Successfully clicked on 'Inbox' menu item.
+2025-11-25 19:07:29,977 - INFO - Clicked email with subject: Demo subject
+2025-11-25 19:07:36,317 - ERROR - Failed to edit message: {'title_re': '.*Outlook.*', 'backend': 'uia', 'enabled_only': False, 'visible_only': False, 'process': 17940}
+2025-11-25 19:07:58,889 - INFO - Successfully clicked on 'Inbox' menu item.
+2025-11-25 19:08:00,517 - INFO - Clicked email with subject: Demo subject
+2025-11-25 19:08:11,758 - INFO - Edited message in reply
+2025-11-25 19:08:17,392 - INFO - Clicked on Send
+2025-11-25 19:11:12,627 - INFO - New Email clicked
+2025-11-25 19:11:14,247 - INFO - Clicked on New mail and Send mail window opened
+2025-11-25 19:11:18,273 - INFO - To email id swapnalik@futurismtechnologies.com is set correctly
+2025-11-25 19:11:22,388 - INFO - Cc email id swapnalik@futurismtechnologies.com is set correctly
+2025-11-25 19:11:24,238 - INFO - Subject Demo subject is set correctly
+2025-11-25 19:11:35,706 - INFO - Text in body is set correctly
+2025-11-25 19:11:41,217 - INFO - Clicked on Attach File...
+2025-11-25 19:11:42,598 - INFO - Recent items window is open
+2025-11-25 19:11:43,148 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-11-25 19:12:03,322 - ERROR - Failed to attach file: timed out
+2025-11-25 19:12:08,851 - INFO - Clicked on Send
+2025-11-25 19:12:11,383 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x0000023DAD250690>' closed successfully.
+2025-11-25 19:15:49,610 - INFO - New Email clicked
+2025-11-25 19:15:51,054 - INFO - Clicked on New mail and Send mail window opened
+2025-11-25 19:15:55,295 - INFO - To email id swapnalik@futurismtechnologies.com is set correctly
+2025-11-25 19:15:59,480 - INFO - Cc email id swapnalik@futurismtechnologies.com is set correctly
+2025-11-25 19:16:01,352 - INFO - Subject Demo subject is set correctly
+2025-11-25 19:16:12,797 - INFO - Text in body is set correctly
+2025-11-25 19:16:18,237 - INFO - Clicked on Attach File...
+2025-11-25 19:16:19,575 - INFO - Recent items window is open
+2025-11-25 19:16:20,115 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-11-25 19:16:40,467 - ERROR - Failed to attach file: timed out
+2025-11-25 19:16:45,966 - INFO - Clicked on Send
+2025-11-25 19:16:48,633 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x000001A4E3D587D0>' closed successfully.
+2025-11-25 19:17:49,924 - INFO - New Email clicked
+2025-11-25 19:17:51,441 - INFO - Clicked on New mail and Send mail window opened
+2025-11-25 19:17:55,550 - INFO - To email id swapnalik@futurismtechnologies.com is set correctly
+2025-11-25 19:17:59,647 - INFO - Cc email id swapnalik@futurismtechnologies.com is set correctly
+2025-11-25 19:18:01,549 - INFO - Subject Demo subject is set correctly
+2025-11-25 19:18:13,169 - INFO - Text in body is set correctly
+2025-11-25 19:18:18,609 - INFO - Clicked on Attach File...
+2025-11-25 19:18:19,996 - INFO - Recent items window is open
+2025-11-25 19:18:20,546 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-11-25 19:18:40,701 - ERROR - Failed to attach file: timed out
+2025-11-25 19:18:46,229 - INFO - Clicked on Send
+2025-11-25 19:18:48,894 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x00000227C3DD0910>' closed successfully.
+2025-11-25 19:18:58,078 - INFO - New Email clicked
+2025-11-25 19:18:59,474 - INFO - Clicked on New mail and Send mail window opened
+2025-11-25 19:18:59,772 - ERROR - Failed to enter to mail id:'to'
+2025-11-25 19:19:37,546 - INFO - New Email clicked
+2025-11-25 19:19:38,910 - INFO - Clicked on New mail and Send mail window opened
+2025-11-25 19:19:42,958 - INFO - To email id swapnalik@futurismtechnologies.com is set correctly
+2025-11-25 19:19:47,046 - INFO - Cc email id swapnalik@futurismtechnologies.com is set correctly
+2025-11-25 19:19:48,863 - INFO - Subject Demo subject is set correctly
+2025-11-25 19:20:00,034 - INFO - Text in body is set correctly
+2025-11-25 19:20:05,524 - INFO - Clicked on Attach File...
+2025-11-25 19:20:08,276 - INFO - Recent items window is open
+2025-11-25 19:20:09,173 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-11-25 19:20:29,482 - ERROR - Failed to attach file: timed out
+2025-11-25 19:20:35,012 - INFO - Clicked on Send
+2025-11-25 19:20:37,448 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x000001C098B1C7D0>' closed successfully.
+2025-11-25 19:20:46,733 - INFO - New Email clicked
+2025-11-25 19:20:48,026 - INFO - Clicked on New mail and Send mail window opened
+2025-11-25 19:20:48,343 - ERROR - Failed to enter to mail id:'to'
+2025-11-25 19:28:48,345 - INFO - New Email clicked
+2025-11-25 19:28:49,714 - INFO - Clicked on New mail and Send mail window opened
+2025-11-25 19:28:53,771 - INFO - To email id swapnalik@futurismtechnologies.com is set correctly
+2025-11-25 19:28:57,909 - INFO - Cc email id swapnalik@futurismtechnologies.com is set correctly
+2025-11-25 19:28:59,744 - INFO - Subject Demo subject is set correctly
+2025-11-25 19:29:10,947 - INFO - Text in body is set correctly
+2025-11-25 19:29:16,395 - INFO - Clicked on Attach File...
+2025-11-25 19:29:18,810 - INFO - Recent items window is open
+2025-11-25 19:29:19,353 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-11-25 19:29:39,672 - ERROR - Failed to attach file: timed out
+2025-11-25 19:29:45,171 - INFO - Clicked on Send
+2025-11-25 19:29:47,420 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x0000020300100910>' closed successfully.
+2025-11-25 19:29:57,201 - INFO - New Email clicked
+2025-11-25 19:29:58,605 - INFO - Clicked on New mail and Send mail window opened
+2025-11-25 19:29:58,928 - ERROR - Failed to enter to mail id:'to'
+2025-11-25 19:31:59,256 - INFO - New Email clicked
+2025-11-25 19:32:00,765 - INFO - Clicked on New mail and Send mail window opened
+2025-11-25 19:32:04,848 - INFO - To email id swapnalik@futurismtechnologies.com is set correctly
+2025-11-25 19:32:08,916 - INFO - Cc email id swapnalik@futurismtechnologies.com is set correctly
+2025-11-25 19:32:10,725 - INFO - Subject Demo subject is set correctly
+2025-11-25 19:32:22,063 - INFO - Text in body is set correctly
+2025-11-25 19:32:27,506 - INFO - Clicked on Attach File...
+2025-11-25 19:32:30,838 - INFO - Recent items window is open
+2025-11-25 19:32:31,371 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-11-25 19:32:51,585 - ERROR - Failed to attach file: timed out
+2025-11-25 19:32:57,038 - INFO - Clicked on Send
+2025-11-25 19:32:59,367 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x000002712E830550>' closed successfully.
+2025-11-25 19:40:26,497 - INFO - New Email clicked
+2025-11-25 19:40:29,270 - INFO - Clicked on New mail and Send mail window opened
+2025-11-25 19:40:33,307 - INFO - To email id swapnalik@futurismtechnologies.com is set correctly
+2025-11-25 19:40:37,417 - INFO - Cc email id swapnalik@futurismtechnologies.com is set correctly
+2025-11-25 19:40:39,276 - INFO - Subject Demo subject is set correctly
+2025-11-25 19:40:50,526 - INFO - Text in body is set correctly
+2025-11-25 19:40:55,945 - INFO - Clicked on Attach File...
+2025-11-25 19:40:57,331 - INFO - Recent items window is open
+2025-11-25 19:40:57,882 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-11-25 19:41:18,010 - ERROR - Failed to attach file: timed out
+2025-11-25 19:41:23,521 - INFO - Clicked on Send
+2025-11-25 19:41:26,474 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x000002157F6CC7D0>' closed successfully.
+2025-11-25 19:44:00,890 - INFO - New Email clicked
+2025-11-25 19:44:02,215 - INFO - Clicked on New mail and Send mail window opened
+2025-11-25 19:44:06,237 - INFO - To email id swapnalik@futurismtechnologies.com is set correctly
+2025-11-25 19:44:10,285 - INFO - Cc email id swapnalik@futurismtechnologies.com is set correctly
+2025-11-25 19:44:12,142 - INFO - Subject Demo subject is set correctly
+2025-11-25 19:44:23,289 - INFO - Text in body is set correctly
+2025-11-25 19:44:28,769 - INFO - Clicked on Attach File...
+2025-11-25 19:44:31,069 - INFO - Recent items window is open
+2025-11-25 19:44:31,594 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-11-25 19:44:51,737 - ERROR - Failed to attach file: timed out
+2025-11-25 19:44:57,299 - INFO - Clicked on Send
+2025-11-25 19:44:59,549 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x000001C8E88A0690>' closed successfully.
+2025-11-25 19:47:21,215 - INFO - Successfully clicked on 'Inbox' menu item.
+2025-11-25 19:47:22,820 - INFO - Clicked email with subject: Demo subject
+2025-11-25 19:47:35,574 - INFO - Edited message in reply
+2025-11-25 19:47:41,234 - INFO - Clicked on Send
+2025-11-25 19:49:25,194 - INFO - Successfully clicked on 'Inbox' menu item.
+2025-11-25 19:49:26,749 - INFO - Clicked email with subject: Demo subject
+2025-11-25 19:49:40,589 - INFO - Edited message in reply
+2025-11-25 19:49:46,268 - INFO - Clicked on Send
+2025-11-25 20:14:09,911 - ERROR - Failed to click on send mail:control New Email not found: New Email not found
+2025-11-25 20:14:26,765 - INFO - New Email clicked
+2025-11-25 20:14:28,141 - INFO - Clicked on New mail and Send mail window opened
+2025-11-25 20:14:32,203 - INFO - To email id swapnalik@futurismtechnologies.com is set correctly
+2025-11-25 20:14:36,286 - INFO - Cc email id swapnalik@futurismtechnologies.com is set correctly
+2025-11-25 20:14:38,125 - INFO - Subject Demo subject is set correctly
+2025-11-25 20:14:49,354 - INFO - Text in body is set correctly
+2025-11-25 20:14:54,761 - INFO - Clicked on Attach File...
+2025-11-25 20:14:55,848 - INFO - Recent items window is open
+2025-11-25 20:14:56,350 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-11-25 20:15:16,533 - ERROR - Failed to attach file: timed out
+2025-11-25 20:15:22,076 - INFO - Clicked on Send
+2025-11-25 20:15:24,889 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x000002201076C550>' closed successfully.
+2025-11-25 20:17:21,884 - INFO - Successfully clicked on 'Inbox' menu item.
+2025-11-25 20:17:23,415 - INFO - Clicked email with subject: Demo subject
+2025-11-25 20:17:35,864 - INFO - Edited message in reply
+2025-11-25 20:17:41,518 - INFO - Clicked on Send
+2025-11-25 20:19:06,846 - INFO - New Email clicked
+2025-11-25 20:19:08,251 - INFO - Clicked on New mail and Send mail window opened
+2025-11-25 20:19:12,369 - INFO - To email id swapnalik@futurismtechnologies.com is set correctly
+2025-11-25 20:19:16,439 - INFO - Cc email id swapnalik@futurismtechnologies.com is set correctly
+2025-11-25 20:19:18,318 - INFO - Subject Demo subject is set correctly
+2025-11-25 20:19:29,636 - INFO - Text in body is set correctly
+2025-11-25 20:19:35,044 - INFO - Clicked on Attach File...
+2025-11-25 20:19:36,338 - INFO - Recent items window is open
+2025-11-25 20:19:36,866 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-11-25 20:19:57,166 - ERROR - Failed to attach file: timed out
+2025-11-25 20:20:02,655 - INFO - Clicked on Send
+2025-11-25 20:20:05,439 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x000001B1BAE6C550>' closed successfully.
+2025-11-25 20:20:34,709 - INFO - Successfully clicked on 'Inbox' menu item.
+2025-11-25 20:20:36,247 - INFO - Clicked email with subject: Demo subject
+2025-11-25 20:20:49,963 - INFO - Edited message in reply
+2025-11-25 20:20:55,717 - INFO - Clicked on Send
+2025-11-25 20:22:53,724 - INFO - New Email clicked
+2025-11-25 20:22:55,093 - INFO - Clicked on New mail and Send mail window opened
+2025-11-25 20:22:59,112 - INFO - To email id swapnalik@futurismtechnologies.com is set correctly
+2025-11-25 20:23:03,168 - INFO - Cc email id swapnalik@futurismtechnologies.com is set correctly
+2025-11-25 20:23:05,023 - INFO - Subject Demo subject is set correctly
+2025-11-25 20:23:16,317 - INFO - Text in body is set correctly
+2025-11-25 20:23:21,763 - INFO - Clicked on Attach File...
+2025-11-25 20:23:22,887 - INFO - Recent items window is open
+2025-11-25 20:23:23,381 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-11-25 20:23:43,612 - ERROR - Failed to attach file: timed out
+2025-11-25 20:23:49,288 - INFO - Clicked on Send
+2025-11-25 20:23:51,946 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x00000284CE270550>' closed successfully.
+2025-11-25 20:27:25,720 - INFO - New Email clicked
+2025-11-25 20:27:29,831 - INFO - Clicked on New mail and Send mail window opened
+2025-11-25 20:27:30,321 - ERROR - Failed to enter to mail id:'SendMail' object has no attribute 'test_data'
+2025-11-25 20:39:46,478 - ERROR - Failed to click on 'Contacts' menu item: 'Contact'
+2025-11-25 20:40:40,047 - INFO - Click on Contact View from Search Bar
+2025-11-25 20:40:41,502 - INFO - Clicked on New Contact button
+2025-11-25 20:40:42,848 - INFO - New contact dialog opened
+2025-11-25 20:40:48,430 - INFO - All details are entered
+2025-11-25 20:40:49,081 - INFO - Clicked on Save and Close button
+2025-11-25 21:15:06,484 - INFO - Successfully clicked on '.*Inbox.*' menu item.
+2025-11-25 21:15:06,485 - INFO - Clicked on Inbox
+2025-11-25 21:15:07,737 - INFO - Categorized menu clicked
+2025-11-25 21:15:09,657 - INFO - Clicked on 'Blue Category'
+2025-11-25 21:15:09,992 - INFO - Total mails:0
+2025-11-25 21:15:09,993 - ERROR - Failed to click on recent mail:No emails found in the inbox
+2025-11-25 21:15:29,863 - INFO - Successfully clicked on '.*Inbox.*' menu item.
+2025-11-25 21:15:29,864 - INFO - Clicked on Inbox
+2025-11-25 21:15:31,035 - INFO - Categorized menu clicked
+2025-11-25 21:15:32,972 - INFO - Clicked on 'Blue Category'
+2025-11-25 21:15:33,316 - INFO - Total mails:7
+2025-11-25 21:15:33,914 - INFO - Most recent email: uia_controls.ListItemWrapper - 'To Swapnali K, Subject FW: Demo subject, Sent 10/16/2025, Size 13 KB, Categories Blue Category, Flag Status Unflagged, Preview Hello, Swapnali K.    This is Forward Testcase..!    Best Regards, Swapnali K        From: Swapnali K <swapnalik@futurismtechnologies.com>  Sent: Wednesday, October 15, 2025 3:22 PM  To: Swapnali K <swapnalik@futurismtechnologies.com>  Subject: RE: Demo s, ', DataItem
+2025-11-25 21:15:35,383 - INFO - Forward clicked
+2025-11-25 21:15:38,058 - INFO - Pop Out clicked
+2025-11-25 21:15:38,058 - INFO - Clicked on Pop Out
+2025-11-25 21:15:39,489 - INFO - Forward window is visible
+2025-11-25 21:15:40,802 - ERROR - Failed to enter details:`}` not found
+2025-11-25 21:15:41,405 - INFO - Clicked on Send
+2025-11-25 21:15:43,957 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x000001D3B5B1F450>' closed successfully.
+2025-11-25 21:15:47,070 - INFO - Search bar cleared.
+2025-11-25 21:18:33,262 - INFO - Successfully clicked on '.*Inbox.*' menu item.
+2025-11-25 21:18:33,263 - INFO - Clicked on Inbox
+2025-11-25 21:18:34,565 - INFO - Categorized menu clicked
+2025-11-25 21:18:36,540 - INFO - Clicked on 'Blue Category'
+2025-11-25 21:18:36,938 - INFO - Total mails:7
+2025-11-25 21:18:37,526 - INFO - Most recent email: uia_controls.ListItemWrapper - 'To Swapnali K, Subject FW: Demo subject, Sent 10/16/2025, Size 13 KB, Categories Blue Category, Flag Status Unflagged, Preview Hello, Swapnali K.    This is Forward Testcase..!    Best Regards, Swapnali K        From: Swapnali K <swapnalik@futurismtechnologies.com>  Sent: Wednesday, October 15, 2025 3:22 PM  To: Swapnali K <swapnalik@futurismtechnologies.com>  Subject: RE: Demo s, ', DataItem
+2025-11-25 21:18:39,150 - INFO - Forward clicked
+2025-11-25 21:18:42,092 - INFO - Pop Out clicked
+2025-11-25 21:18:42,092 - INFO - Clicked on Pop Out
+2025-11-25 21:18:43,570 - INFO - Forward window is visible
+2025-11-25 21:18:47,979 - ERROR - Failed to enter details:`}` not found
+2025-11-25 21:18:48,498 - INFO - Clicked on Send
+2025-11-25 21:18:51,008 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x000001DC9E06F450>' closed successfully.
+2025-11-25 21:18:54,877 - INFO - Search bar cleared.
+2025-11-25 21:20:17,034 - INFO - Successfully clicked on '.*Inbox.*' menu item.
+2025-11-25 21:20:17,035 - INFO - Clicked on Inbox
+2025-11-25 21:20:18,305 - INFO - Categorized menu clicked
+2025-11-25 21:20:20,326 - INFO - Clicked on 'Blue Category'
+2025-11-25 21:20:20,768 - INFO - Total mails:7
+2025-11-25 21:20:21,381 - INFO - Most recent email: uia_controls.ListItemWrapper - 'To Swapnali K, Subject FW: Demo subject, Sent 10/16/2025, Size 13 KB, Categories Blue Category, Flag Status Unflagged, Preview Hello, Swapnali K.    This is Forward Testcase..!    Best Regards, Swapnali K        From: Swapnali K <swapnalik@futurismtechnologies.com>  Sent: Wednesday, October 15, 2025 3:22 PM  To: Swapnali K <swapnalik@futurismtechnologies.com>  Subject: RE: Demo s, ', DataItem
+2025-11-25 21:20:22,841 - INFO - Forward clicked
+2025-11-25 21:20:25,647 - INFO - Pop Out clicked
+2025-11-25 21:20:25,648 - INFO - Clicked on Pop Out
+2025-11-25 21:20:29,271 - INFO - Forward window is visible
+2025-11-25 21:20:33,734 - INFO - to_field typed successfully
+2025-11-25 21:20:38,126 - INFO - Cc typed successfully
+2025-11-25 21:20:48,793 - INFO - Clicked on Send
+2025-11-25 21:20:51,746 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x00000252E768F450>' closed successfully.
+2025-11-25 21:20:55,040 - INFO - Search bar cleared.
+2025-11-25 21:21:27,175 - INFO - Successfully clicked on '.*Inbox.*' menu item.
+2025-11-25 21:21:27,176 - INFO - Clicked on Inbox
+2025-11-25 21:21:28,548 - INFO - Categorized menu clicked
+2025-11-25 21:21:30,453 - INFO - Clicked on 'Blue Category'
+2025-11-25 21:21:30,811 - INFO - Total mails:7
+2025-11-25 21:21:31,370 - INFO - Most recent email: uia_controls.ListItemWrapper - 'To Swapnali K, Subject FW: Demo subject, Sent 10/16/2025, Size 13 KB, Categories Blue Category, Flag Status Unflagged, Preview Hello, Swapnali K.    This is Forward Testcase..!    Best Regards, Swapnali K        From: Swapnali K <swapnalik@futurismtechnologies.com>  Sent: Wednesday, October 15, 2025 3:22 PM  To: Swapnali K <swapnalik@futurismtechnologies.com>  Subject: RE: Demo s, ', DataItem
+2025-11-25 21:21:32,846 - INFO - Forward clicked
+2025-11-25 21:21:35,271 - INFO - Pop Out clicked
+2025-11-25 21:21:35,272 - INFO - Clicked on Pop Out
+2025-11-25 21:21:37,169 - INFO - Forward window is visible
+2025-11-25 21:21:41,579 - INFO - to_field typed successfully
+2025-11-25 21:21:45,885 - INFO - Cc typed successfully
+2025-11-25 21:21:55,492 - INFO - Clicked on Send
+2025-11-25 21:21:58,149 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x000001DEC2A8F450>' closed successfully.
+2025-11-25 21:22:01,977 - INFO - Search bar cleared.
+2025-12-01 15:38:22,792 - INFO - Searched contact: aarti t
+2025-12-01 15:38:24,794 - INFO - Searched contact: aarti t
+2025-12-01 15:38:26,795 - INFO - Search contact: aarti t
+2025-12-01 15:39:16,236 - INFO - Searched contact: aarti t
+2025-12-01 15:39:18,237 - INFO - Searched contact: aarti t
+2025-12-01 15:39:20,239 - INFO - Search contact: aarti t
+2025-12-01 15:54:29,141 - INFO - Clicked on contact
+2025-12-01 15:54:30,979 - INFO - New Contact Group clicked
+2025-12-01 15:54:31,667 - INFO - New contact grp dialog opened
+2025-12-01 15:54:32,073 - INFO - Entered contact group name
+2025-12-01 15:54:32,385 - INFO - Clicked on Add Members button
+2025-12-01 15:54:32,970 - INFO - Clicked on From Address Book button
+2025-12-01 15:54:32,971 - INFO - Select member dialog is opened
+2025-12-01 15:54:35,999 - INFO - Entered 'Aarti T' and pressed Enter
+2025-12-01 15:54:38,377 - INFO - Search bar is cleared
+2025-12-01 15:54:41,015 - INFO - Clicked on OK button
+2025-12-01 15:54:42,068 - INFO - Clicked on Save & Close button
+2025-12-01 15:54:44,393 - INFO - Clicked on New Item button
+2025-12-01 15:54:44,997 - INFO - Clicked on E-mail Message menu item
+2025-12-01 15:54:48,319 - INFO - Send mail window is opened
+2025-12-01 15:54:49,318 - INFO - Group name is entered
+2025-12-01 15:54:49,319 - INFO - To field is entered
+2025-12-01 15:54:50,936 - INFO - Subject is entered
+2025-12-01 15:55:07,122 - INFO - Clicked on Send
+2025-12-01 15:55:09,353 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x00000225DF7B9F30>' closed successfully.
+2025-12-01 16:13:32,914 - INFO - Successfully clicked on '.*Inbox:.*' menu item.
+2025-12-01 16:13:33,290 - ERROR - Error while selecting Demo Sub Mail:No email found with subject: Demo subject
+2025-12-01 16:13:33,290 - ERROR - No option selected after right-click.
+2025-12-01 16:13:43,460 - ERROR - Failed to click 'Move->Other Folder':timed out
+2025-12-01 16:14:10,592 - INFO - Successfully clicked on '.*Inbox:.*' menu item.
+2025-12-01 16:14:10,982 - ERROR - Error while selecting Demo Sub Mail:No email found with subject: Demo subject
+2025-12-01 16:14:10,982 - ERROR - No option selected after right-click.
+2025-12-01 16:14:21,155 - ERROR - Failed to click 'Move->Other Folder':timed out
+2025-12-01 16:14:54,094 - INFO - New Email clicked
+2025-12-01 16:14:55,580 - INFO - Clicked on New mail and Send mail window opened
+2025-12-01 16:14:59,622 - INFO - To email id swapnalik@futurismtechnologies.com is set correctly
+2025-12-01 16:15:03,694 - INFO - Cc email id swapnalik@futurismtechnologies.com is set correctly
+2025-12-01 16:15:05,514 - INFO - Subject Demo subject is set correctly
+2025-12-01 16:15:16,615 - INFO - Text in body is set correctly
+2025-12-01 16:15:22,026 - INFO - Clicked on Attach File...
+2025-12-01 16:15:23,137 - INFO - Recent items window is open
+2025-12-01 16:15:23,679 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-12-01 16:15:43,917 - ERROR - Failed to attach file: timed out
+2025-12-01 16:15:49,402 - INFO - Clicked on Send
+2025-12-01 16:15:52,140 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x0000015546540410>' closed successfully.
+2025-12-01 16:16:26,130 - INFO - Successfully clicked on '.*Inbox:.*' menu item.
+2025-12-01 16:16:26,501 - ERROR - Error while selecting Demo Sub Mail:No email found with subject: Demo subject
+2025-12-01 16:16:26,502 - ERROR - No option selected after right-click.
+2025-12-01 16:16:36,656 - ERROR - Failed to click 'Move->Other Folder':timed out
+2025-12-01 16:17:10,600 - INFO - Successfully clicked on '.*Inbox:.*' menu item.
+2025-12-01 16:17:10,978 - ERROR - Error while selecting Demo Sub Mail:No email found with subject: Demo subject
+2025-12-01 16:17:10,978 - ERROR - No option selected after right-click.
+2025-12-01 16:17:21,065 - ERROR - Failed to click 'Move->Other Folder':timed out
+2025-12-01 16:19:10,328 - INFO - Found 7 mail items
+2025-12-01 16:19:10,452 - INFO - Selected email is open
+2025-12-01 16:19:12,461 - INFO - Attachment options clicked
+2025-12-01 16:19:18,979 - INFO - Clicked on 'Save As' successfully.
+2025-12-01 16:19:56,645 - INFO - Successfully clicked on '.*Inbox:.*' menu item.
+2025-12-01 16:19:58,180 - INFO - Clicked email with subject: Demo subject
+2025-12-01 16:20:01,300 - INFO - Right-clicked on the selected option.
+2025-12-01 16:20:03,317 - INFO - Move clicked
+2025-12-01 16:20:05,592 - INFO - Other Folder clicked
+2025-12-01 16:20:07,181 - INFO - Task clicked
+2025-12-01 16:20:07,722 - INFO - Clicked on OK
+2025-12-01 16:20:12,974 - INFO - New Task window is opened
+2025-12-01 16:20:13,401 - INFO - Due date set to 25/12/2025
+2025-12-01 16:20:14,307 - INFO - Priority set to High
+2025-12-01 16:20:14,650 - INFO - Reminder checkbox is checked
+2025-12-01 16:20:15,026 - INFO - Reminder date set to 30/12/2025
+2025-12-01 16:20:15,925 - INFO - Time set to:02:30 PM
+2025-12-01 16:20:16,579 - INFO - Clicked on Save and Close
+2025-12-01 16:20:18,153 - INFO - Tasks clicked
+2025-12-01 16:20:19,186 - INFO - task_to_do_dlg is opened
+2025-12-01 16:20:24,483 - ERROR - Failed to click 'Tasks' button: {'title': 'Group By: Expanded: Flag: Due Date: Next Month', 'control_type': 'Group', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - 'Tasks - swapnalik@futurismtechnologies.com - Outlook', rctrl_renwnd32, 1575732>, 'backend': 'uia'}
+2025-12-01 16:22:41,365 - INFO - Successfully clicked on '.*Inbox:.*' menu item.
+2025-12-01 16:22:41,741 - ERROR - Error while selecting Demo Sub Mail:No email found with subject: Demo subject
+2025-12-01 16:22:41,741 - ERROR - No option selected after right-click.
+2025-12-01 16:22:51,876 - ERROR - Failed to click 'Move->Other Folder':timed out
+2025-12-01 16:23:54,553 - INFO - New Email clicked
+2025-12-01 16:23:56,043 - INFO - Clicked on New mail and Send mail window opened
+2025-12-01 16:24:00,126 - INFO - To email id swapnalik@futurismtechnologies.com is set correctly
+2025-12-01 16:24:04,319 - INFO - Cc email id swapnalik@futurismtechnologies.com is set correctly
+2025-12-01 16:24:06,179 - INFO - Subject Demo subject is set correctly
+2025-12-01 16:24:17,530 - INFO - Text in body is set correctly
+2025-12-01 16:24:22,936 - INFO - Clicked on Attach File...
+2025-12-01 16:24:24,310 - INFO - Recent items window is open
+2025-12-01 16:24:24,874 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-12-01 16:24:45,186 - ERROR - Failed to attach file: timed out
+2025-12-01 16:24:50,732 - INFO - Clicked on Send
+2025-12-01 16:24:53,555 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x000001CA8900C410>' closed successfully.
+2025-12-01 16:26:12,314 - INFO - Successfully clicked on '.*Inbox:.*' menu item.
+2025-12-01 16:26:13,894 - INFO - Clicked email with subject: Demo subject
+2025-12-01 16:26:17,021 - INFO - Right-clicked on the selected option.
+2025-12-01 16:26:19,150 - INFO - Move clicked
+2025-12-01 16:26:21,296 - INFO - Other Folder clicked
+2025-12-01 16:26:23,197 - INFO - Task clicked
+2025-12-01 16:26:23,770 - INFO - Clicked on OK
+2025-12-01 16:26:28,602 - INFO - New Task window is opened
+2025-12-01 16:26:29,269 - INFO - Due date set to 01/01/2026
+2025-12-01 16:26:29,892 - INFO - Priority set to High
+2025-12-01 16:26:30,238 - INFO - Reminder checkbox is checked
+2025-12-01 16:26:30,642 - INFO - Reminder date set to 30/01/2026
+2025-12-01 16:26:31,572 - INFO - Time set to:02:30 PM
+2025-12-01 16:26:32,301 - INFO - Clicked on Save and Close
+2025-12-01 16:26:33,518 - INFO - Tasks clicked
+2025-12-01 16:26:43,667 - ERROR - Failed to click 'Tasks' button: timed out
+2025-12-01 16:27:55,139 - INFO - New Email clicked
+2025-12-01 16:27:56,675 - INFO - Clicked on New mail and Send mail window opened
+2025-12-01 16:28:00,786 - INFO - To email id swapnalik@futurismtechnologies.com is set correctly
+2025-12-01 16:28:04,851 - INFO - Cc email id swapnalik@futurismtechnologies.com is set correctly
+2025-12-01 16:28:06,675 - INFO - Subject Demo subject is set correctly
+2025-12-01 16:28:17,838 - INFO - Text in body is set correctly
+2025-12-01 16:28:23,281 - INFO - Clicked on Attach File...
+2025-12-01 16:28:24,766 - INFO - Recent items window is open
+2025-12-01 16:28:25,326 - INFO - Clicked on item: Copy of QA_intern_training_desktop_automation (002).xlsx
+2025-12-01 16:28:45,533 - ERROR - Failed to attach file: timed out
+2025-12-01 16:28:51,046 - INFO - Clicked on Send
+2025-12-01 16:28:54,207 - INFO - Window '<pywinauto.application.WindowSpecification object at 0x000001BD560BC410>' closed successfully.
+2025-12-01 16:30:32,634 - INFO - Successfully clicked on '.*Inbox:.*' menu item.
+2025-12-01 16:30:33,005 - ERROR - Error while selecting Demo Sub Mail:No email found with subject: Demo subject
+2025-12-01 16:30:33,006 - ERROR - No option selected after right-click.
+2025-12-01 16:30:43,375 - ERROR - Failed to click 'Move->Other Folder':timed out
+2025-12-01 16:31:10,835 - INFO - Successfully clicked on '.*Inbox:.*' menu item.
+2025-12-01 16:31:12,412 - INFO - Clicked email with subject: Demo subject
+2025-12-01 16:31:15,523 - INFO - Right-clicked on the selected option.
+2025-12-01 16:31:17,556 - INFO - Move clicked
+2025-12-01 16:31:19,698 - INFO - Other Folder clicked
+2025-12-01 16:31:21,338 - INFO - Task clicked
+2025-12-01 16:31:21,903 - INFO - Clicked on OK
+2025-12-01 16:31:26,849 - INFO - New Task window is opened
+2025-12-01 16:31:27,258 - INFO - Due date set to 01/01/2026
+2025-12-01 16:31:28,146 - INFO - Priority set to High
+2025-12-01 16:31:28,494 - INFO - Reminder checkbox is checked
+2025-12-01 16:31:28,868 - INFO - Reminder date set to 30/01/2026
+2025-12-01 16:31:29,809 - INFO - Time set to:02:30 PM
+2025-12-01 16:31:30,499 - INFO - Clicked on Save and Close
+2025-12-01 16:31:32,156 - INFO - Tasks clicked
+2025-12-01 16:31:32,837 - INFO - task_to_do_dlg is opened
+2025-12-01 16:31:33,181 - INFO - 1Task items found
+2025-12-01 16:31:33,182 - ERROR - Failed to click 'Tasks' button: list index out of range
+2025-12-01 16:35:40,186 - INFO - Successfully clicked on '.*Inbox:.*' menu item.
+2025-12-01 16:35:41,690 - INFO - Clicked email with subject: Demo subject
+2025-12-01 16:35:44,808 - INFO - Right-clicked on the selected option.
+2025-12-01 16:35:46,840 - INFO - Move clicked
+2025-12-01 16:35:48,897 - INFO - Other Folder clicked
+2025-12-01 16:35:50,651 - INFO - Task clicked
+2025-12-01 16:35:51,191 - INFO - Clicked on OK
+2025-12-01 16:35:55,774 - INFO - New Task window is opened
+2025-12-01 16:35:56,178 - INFO - Due date set to 01/01/2026
+2025-12-01 16:35:57,048 - INFO - Priority set to High
+2025-12-01 16:35:57,394 - INFO - Reminder checkbox is checked
+2025-12-01 16:35:57,768 - INFO - Reminder date set to 30/01/2026
+2025-12-01 16:35:58,665 - INFO - Time set to:02:30 PM
+2025-12-01 16:35:59,304 - INFO - Clicked on Save and Close
+2025-12-01 16:36:01,377 - INFO - Tasks clicked
+2025-12-01 16:36:02,401 - INFO - task_to_do_dlg is opened
+2025-12-01 16:36:02,862 - INFO - 2Task items found
+2025-12-01 16:36:03,226 - INFO - Most recent unread email clicked: uia_controls.ListItemWrapper - 'Task Subject Demo subject, Start Date None, Reminder Time Fri 1/30/2026 2:30 PM, Due Date Thu 1/1/2026, In Folder Tasks, Reminder Has Reminder, Flag Status Unflagged, ', DataItem
+2025-12-01 16:36:08,785 - INFO - Clicked on Delete
+2025-12-01 16:45:59,084 - INFO - Successfully clicked on '.*Inbox.*' menu item.
+2025-12-01 16:46:01,232 - INFO - Found 7 mail items
+2025-12-01 16:46:01,342 - INFO - Selected email with subject:Importance High, With Attachments, Subject Demo subject, Sent 4:32 PM, Size 45 KB, Start Date None, Due Date None, Flag Status Unflagged, 
+2025-12-01 16:46:05,011 - INFO - Right-clicked on the selected option.
+2025-12-01 16:46:06,828 - INFO - Clicked on Follow Up
+2025-12-01 16:46:07,462 - INFO - Found 11 sub menu items
+2025-12-01 16:46:07,646 - INFO - Clicked on No Date flag:
+2025-12-01 16:46:09,798 - INFO - Clicked on inbox menu
+2025-12-01 16:46:10,306 - INFO - Right-clicked on inbox menu
+2025-12-01 16:46:11,697 - INFO - Clicked on Create New Folder menu item
+2025-12-01 16:46:12,918 - INFO - Create New Folder window is visible
+2025-12-01 16:46:16,590 - INFO - Demo folder is created
+2025-12-01 16:46:18,165 - INFO - Right clicked on selected mail
+2025-12-01 16:46:23,587 - ERROR - Failed to move email to Demo folder via Move menu: {'title': 'Move', 'control_type': 'MenuItem', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - 'Inbox - swapnalik@futurismtechnologies.com - Outlook', rctrl_renwnd32, 2492292>, 'backend': 'uia'}
+2025-12-01 16:49:00,798 - INFO - Successfully clicked on '.*Inbox.*' menu item.
+2025-12-01 16:49:03,197 - INFO - Found 7 mail items
+2025-12-01 16:49:03,307 - INFO - Selected email with subject:Importance High, With Attachments, Subject Demo subject, Sent 4:32 PM, Size 45 KB, Start Date None, Due Date None, Flag Status Unflagged, 
+2025-12-01 16:49:07,114 - INFO - Right-clicked on the selected option.
+2025-12-01 16:49:09,528 - INFO - Clicked on Follow Up
+2025-12-01 16:49:10,320 - INFO - Found 11 sub menu items
+2025-12-01 16:49:10,499 - INFO - Clicked on No Date flag:
+2025-12-01 16:49:12,146 - INFO - Clicked on inbox menu
+2025-12-01 16:49:12,740 - INFO - Right-clicked on inbox menu
+2025-12-01 16:49:14,374 - INFO - Clicked on Create New Folder menu item
+2025-12-01 16:49:15,831 - INFO - Create New Folder window is visible
+2025-12-01 16:49:19,967 - INFO - Demo folder is created
+2025-12-01 16:49:21,469 - INFO - Right clicked on selected mail
+2025-12-01 16:49:22,106 - INFO - Opened Move menu
+2025-12-01 16:49:24,687 - INFO - Located Move submenu
+2025-12-01 16:49:25,803 - INFO - Found GroupBox inside Move submenu
+2025-12-01 16:49:28,411 - INFO - Successfully moved email to Demo folder
+2025-12-01 16:49:32,259 - INFO - Deleted folder successfully
+2025-12-01 16:49:33,231 - INFO - Delete pop-up appeared.
+2025-12-01 16:49:34,349 - INFO - Clicked Yes to delete the folder.
+2025-12-01 17:00:27,585 - INFO - File tab clicked
+2025-12-01 17:00:30,058 - INFO - Clicked on 'Manage Rules & Alerts successfully.
+2025-12-01 17:00:31,539 - INFO - Rule and Alert window is visible
+2025-12-01 17:00:32,544 - INFO - New Rule... clicked
+2025-12-01 17:00:33,733 - INFO - Rules Wizard window is visible
+2025-12-01 17:00:36,615 - INFO - Next > in Wizard window clicked
+2025-12-01 17:00:38,381 - INFO - Condition1:Unchecked from people or public group
+2025-12-01 17:00:40,203 - INFO - Condition2:Checked with specific words in the subject)
+2025-12-01 17:00:41,942 - INFO - Condition3:Checked through the specified account
+2025-12-01 17:00:43,581 - INFO - Condition4: Checked sent only to me
+2025-12-01 17:00:44,390 - INFO - Clicked via keystrokes
+2025-12-01 17:00:46,268 - INFO - Dialog for through the specified account appeared.
+2025-12-01 17:00:47,385 - INFO - Clicked OK button in Account dialog
+2025-12-01 17:00:48,815 - INFO - Clicked 'with specific words in the subject' via keystrokes
+2025-12-01 17:01:31,022 - INFO - Found 7 mail items
+2025-12-01 17:01:31,138 - INFO - Selected email is open
+2025-12-01 17:01:33,062 - INFO - Attachment options clicked
+2025-12-01 17:01:39,581 - INFO - Clicked on 'Save As' successfully.
+2025-12-01 17:01:41,234 - INFO - Save Attachment dialog is opened
+2025-12-01 17:01:42,930 - INFO - Selected folder:pywin_practice
+2025-12-01 17:01:42,931 - INFO - File to be saved as: Doc.txt
+2025-12-01 17:01:44,319 - INFO - Edited file name: Doc.txt
+2025-12-01 17:01:45,754 - INFO - Save button is clicked
+2025-12-01 17:03:55,883 - INFO - File tab clicked
+2025-12-01 17:03:58,136 - INFO - Clicked on 'Manage Rules & Alerts successfully.
+2025-12-01 17:03:59,306 - INFO - Rule and Alert window is visible
+2025-12-01 17:04:00,047 - INFO - New Rule... clicked
+2025-12-01 17:04:01,080 - INFO - Rules Wizard window is visible
+2025-12-01 17:04:03,844 - INFO - Next > in Wizard window clicked
+2025-12-01 17:04:06,558 - INFO - Condition1:Unchecked from people or public group
+2025-12-01 17:04:08,464 - INFO - Condition2:Checked with specific words in the subject)
+2025-12-01 17:04:10,304 - INFO - Condition3:Checked through the specified account
+2025-12-01 17:04:12,038 - INFO - Condition4: Checked sent only to me
+2025-12-01 17:04:12,881 - INFO - Clicked via keystrokes
+2025-12-01 17:04:14,636 - INFO - Dialog for through the specified account appeared.
+2025-12-01 17:04:15,615 - INFO - Clicked OK button in Account dialog
+2025-12-01 17:04:16,994 - INFO - Clicked 'with specific words in the subject' via keystrokes
+2025-12-01 17:04:18,754 - INFO - Search Text dlg is visible
+2025-12-01 17:04:21,217 - INFO - Text is entered in search box
+2025-12-01 17:04:22,238 - INFO - Clicked on Add button
+2025-12-01 17:04:23,273 - INFO - Clicked on OK button
+2025-12-01 17:18:20,384 - INFO - File tab clicked
+2025-12-01 17:18:22,748 - INFO - Clicked on 'Manage Rules & Alerts successfully.
+2025-12-01 17:18:27,818 - ERROR - Failed to open Rules and Alert window: timed out
+2025-12-01 17:18:46,559 - INFO - File tab clicked
+2025-12-01 17:18:48,872 - INFO - Clicked on 'Manage Rules & Alerts successfully.
+2025-12-01 17:18:50,029 - INFO - Rule and Alert window is visible
+2025-12-01 17:18:50,760 - INFO - New Rule... clicked
+2025-12-01 17:18:51,754 - INFO - Rules Wizard window is visible
+2025-12-01 17:18:54,573 - INFO - Next > in Wizard window clicked
+2025-12-01 17:18:56,919 - INFO - Condition1:Unchecked from people or public group
+2025-12-01 17:18:58,533 - INFO - Condition2:Checked with specific words in the subject)
+2025-12-01 17:19:00,173 - INFO - Condition3:Checked through the specified account
+2025-12-01 17:19:01,882 - INFO - Condition4: Checked sent only to me
+2025-12-01 17:19:02,738 - INFO - Clicked via keystrokes
+2025-12-01 17:19:04,470 - INFO - Dialog for through the specified account appeared.
+2025-12-01 17:19:05,444 - INFO - Clicked OK button in Account dialog
+2025-12-01 17:19:06,807 - INFO - Clicked 'with specific words in the subject' via keystrokes
+2025-12-01 17:19:08,605 - INFO - Search Text dlg is visible
+2025-12-01 17:19:10,714 - INFO - Text is entered in search box
+2025-12-01 17:19:11,748 - INFO - Clicked on Add button
+2025-12-01 17:19:12,836 - INFO - Clicked on OK button
+2025-12-01 17:19:14,237 - INFO - Clicked 'with specific words in the subject' via keystrokes
+2025-12-01 17:19:16,086 - INFO - Rules and Alerts dlg is visible
+2025-12-01 17:19:17,143 - INFO - Clicked on Inbox folder
+2025-12-01 17:19:18,122 - INFO - Clicked OK button
+2025-12-01 17:19:21,433 - INFO - Clicked Next button 2
+2025-12-01 17:19:23,011 - INFO - process_rule:Unchecked from people or public group
+2025-12-01 17:19:26,250 - INFO - Clicked Next button 3
+2025-12-01 17:19:29,477 - INFO - Clicked Next button 4
+2025-12-01 17:19:30,096 - INFO - Clicked Finish button
+2025-12-01 17:19:31,902 - INFO - Clicked OK button
+2025-12-01 17:19:32,506 - INFO - Clicked Apply button
+2025-12-01 17:19:35,498 - INFO - Clicked OK button
+2025-12-01 18:34:11,786 - INFO - New Item menu has been clicked.
+2025-12-01 18:34:13,644 - INFO - Chat item has been clicked.
+2025-12-01 18:34:15,132 - INFO - Teams dialog captured successfully.
+2025-12-01 18:34:16,419 - INFO - Pane is visible
+2025-12-01 18:34:17,205 - INFO - To field combobox has been clicked.
+2025-12-01 18:34:20,037 - INFO - Swapnali K is typed in to field
+2025-12-01 18:34:20,374 - INFO - Suggestions list is visible.
+2025-12-01 18:34:21,300 - INFO - First suggestion clicked.
+2025-12-01 18:34:22,731 - INFO - Swapnali K's window is visble
+2025-12-01 18:34:22,907 - ERROR - Failed to edit message: 'Message'
+2025-12-01 18:34:23,612 - INFO - Send message has been clicked.
+2025-12-01 18:34:23,747 - INFO - Microsoft Teams app has been closed.
+2025-12-01 18:35:08,266 - INFO - New Item menu has been clicked.
+2025-12-01 18:35:10,123 - INFO - Chat item has been clicked.
+2025-12-01 18:35:11,405 - INFO - Teams dialog captured successfully.
+2025-12-01 18:35:12,213 - INFO - Pane is visible
+2025-12-01 18:35:12,889 - INFO - To field combobox has been clicked.
+2025-12-01 18:35:15,736 - INFO - Swapnali K is typed in to field
+2025-12-01 18:35:16,400 - INFO - Suggestions list is visible.
+2025-12-01 18:35:16,816 - INFO - First suggestion clicked.
+2025-12-01 18:35:18,306 - INFO - Swapnali K's window is visble
+2025-12-01 18:35:20,738 - INFO - Message typed into 'Edit' field.
+2025-12-01 18:35:21,407 - INFO - Send message has been clicked.
+2025-12-01 18:35:21,504 - INFO - Microsoft Teams app has been closed.
+2025-12-01 18:44:13,024 - INFO - New Email clicked
+2025-12-01 18:44:14,437 - INFO - Window appeared: .*- Message..*
+2025-12-01 18:44:19,881 - INFO - Clicked on Signature
+2025-12-01 18:44:20,201 - ERROR - Failed to click on signature_option1:There are 2 elements that match the criteria {'title': 'Signature', 'control_type': 'Menu', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - 'Untitled - Message (HTML) ', rctrl_renwnd32, 3606340>, 'backend': 'uia'}
+2025-12-01 18:44:25,204 - ERROR - Child window NOT found under parent.
+title_re=.*Signatures and Stationery.*,control_type=None
+2025-12-01 18:45:11,912 - INFO - New Email clicked
+2025-12-01 18:45:13,294 - INFO - Window appeared: .*- Message..*
+2025-12-01 18:45:18,724 - INFO - Clicked on Signature
+2025-12-01 18:45:19,321 - INFO - Signature menu is visible
+2025-12-01 18:45:19,739 - INFO - Clicked on Signature option
+2025-12-01 18:45:21,612 - INFO - Child window visible: title=.*Signatures and Stationery.*
+2025-12-01 18:45:24,104 - INFO - Clicked child control: title=New
+2025-12-01 18:45:25,796 - INFO - Child window visible: title=.*New Signature.*
+2025-12-01 18:45:27,719 - INFO - Typed sign name:Swapnali K.
+2025-12-01 18:45:29,433 - INFO - Ok clicked
+2025-12-01 18:45:41,290 - INFO - Expanded 'New messages' combo box
+2025-12-01 18:45:44,156 - INFO - Total items: 2
+2025-12-01 18:45:44,283 - INFO - Selected 'Swapnali K.' successfully
+2025-12-01 18:46:07,690 - INFO - Signature successfully typed in MSHTML editor
+2025-12-01 18:46:16,913 - ERROR - Failed to click on ok/cancel:{'title_re': '.*Signatures and Stationery.*', 'control_type': None, 'top_level_only': False, 'enabled_only': False, 'visible_only': False, 'parent': <uia_element_info.UIAElementInfo - 'Untitled - Message (HTML) ', rctrl_renwnd32, 2229992>, 'backend': 'uia'}
+2025-12-01 18:46:17,196 - INFO - Email body captured:
+2025-12-01 18:46:17,692 - INFO - Closed recent email dlg
+2025-12-01 18:46:18,959 - INFO - New Email clicked
+2025-12-01 18:46:18,960 - INFO - New Email clicked again
+2025-12-01 18:46:19,226 - INFO - Window appeared: .*- Message..*
+2025-12-01 18:46:19,568 - INFO - Email body captured:
+2025-12-01 18:47:27,782 - INFO - New Email clicked
+2025-12-01 18:47:29,146 - INFO - Window appeared: .*- Message..*
+2025-12-01 18:47:34,558 - INFO - Clicked on Signature
+2025-12-01 18:47:35,126 - INFO - Signature menu is visible
+2025-12-01 18:47:35,543 - INFO - Clicked on Signature option
+2025-12-01 18:47:37,526 - INFO - Child window visible: title=.*Signatures and Stationery.*
+2025-12-01 18:47:40,292 - INFO - Clicked child control: title=New
+2025-12-01 18:47:41,889 - INFO - Child window visible: title=.*New Signature.*
+2025-12-01 18:47:43,800 - INFO - Typed sign name:Swapnali K.
+2025-12-01 18:47:45,639 - INFO - Ok clicked
+2025-12-01 18:47:57,418 - INFO - Expanded 'New messages' combo box
+2025-12-01 18:48:00,193 - INFO - Total items: 2
+2025-12-01 18:48:00,321 - INFO - Selected 'Swapnali K.' successfully
+2025-12-01 18:48:23,844 - INFO - Signature successfully typed in MSHTML editor
+2025-12-01 18:48:31,719 - INFO - Ok clicked
+2025-12-01 18:48:32,692 - INFO - Email body captured:
+2025-12-01 18:48:33,212 - INFO - Closed recent email dlg
+2025-12-01 18:48:34,162 - INFO - New Email clicked
+2025-12-01 18:48:34,163 - INFO - New Email clicked again
+2025-12-01 18:48:39,248 - ERROR - Window NOT found: .*- Message..*
+2025-12-01 18:50:04,175 - INFO - New Email clicked
+2025-12-01 18:50:05,650 - INFO - Window appeared: .*- Message..*
+2025-12-01 18:50:11,132 - INFO - Clicked on Signature
+2025-12-01 18:50:11,706 - INFO - Signature menu is visible
+2025-12-01 18:50:12,236 - INFO - Clicked on Signature option
+2025-12-01 18:50:14,532 - INFO - Child window visible: title=.*Signatures and Stationery.*
+2025-12-01 18:50:17,303 - INFO - Clicked child control: title=New
+2025-12-01 18:50:18,943 - INFO - Child window visible: title=.*New Signature.*
+2025-12-01 18:50:20,897 - INFO - Typed sign name:Swapnali K.
+2025-12-01 18:50:22,639 - INFO - Ok clicked
+2025-12-01 18:50:34,356 - INFO - Expanded 'New messages' combo box
+2025-12-01 18:50:37,088 - INFO - Total items: 2
+2025-12-01 18:50:37,219 - INFO - Selected 'Swapnali K.' successfully
+2025-12-01 18:51:02,210 - INFO - Signature successfully typed in MSHTML editor
+2025-12-01 18:51:10,316 - INFO - Ok clicked
+2025-12-01 18:51:11,290 - INFO - Email body captured:
+2025-12-01 18:51:11,761 - INFO - Closed recent email dlg
+2025-12-01 18:51:12,762 - INFO - New Email clicked
+2025-12-01 18:51:12,762 - INFO - New Email clicked again
+2025-12-01 18:51:17,826 - ERROR - Window NOT found: .*- Message..*
+2025-12-01 18:52:02,848 - INFO - New Email clicked
+2025-12-01 18:52:04,203 - INFO - Window appeared: .*- Message..*
+2025-12-01 18:52:09,654 - INFO - Clicked on Signature
+2025-12-01 18:52:10,238 - INFO - Signature menu is visible
+2025-12-01 18:52:10,647 - INFO - Clicked on Signature option
+2025-12-01 18:52:12,798 - INFO - Child window visible: title=.*Signatures and Stationery.*
+2025-12-01 18:52:15,563 - INFO - Clicked child control: title=New
+2025-12-01 18:52:17,178 - INFO - Child window visible: title=.*New Signature.*
+2025-12-01 18:52:19,099 - INFO - Typed sign name:Swapnali K.
+2025-12-01 18:52:20,849 - INFO - Ok clicked
+2025-12-01 18:52:32,580 - INFO - Expanded 'New messages' combo box
+2025-12-01 18:52:35,315 - INFO - Total items: 2
+2025-12-01 18:52:35,449 - INFO - Selected 'Swapnali K.' successfully
+2025-12-01 18:52:58,735 - INFO - Signature successfully typed in MSHTML editor
+2025-12-01 18:53:06,736 - INFO - Ok clicked
+2025-12-01 18:53:07,673 - INFO - Email body captured:
+2025-12-01 18:53:08,176 - INFO - Closed recent email dlg
+2025-12-01 18:53:09,117 - INFO - New Email clicked
+2025-12-01 18:53:09,117 - INFO - New Email clicked again
+2025-12-01 18:53:14,186 - ERROR - Window NOT found: .*- Message..*
+2025-12-01 18:54:08,505 - INFO - New Email clicked
+2025-12-01 18:54:09,831 - INFO - Window appeared: .*- Message..*
+2025-12-01 18:54:15,230 - INFO - Clicked on Signature
+2025-12-01 18:54:15,814 - INFO - Signature menu is visible
+2025-12-01 18:54:16,251 - INFO - Clicked on Signature option
+2025-12-01 18:54:18,581 - INFO - Child window visible: title=.*Signatures and Stationery.*
+2025-12-01 18:54:21,367 - INFO - Clicked child control: title=New
+2025-12-01 18:54:23,019 - INFO - Child window visible: title=.*New Signature.*
+2025-12-01 18:54:24,926 - INFO - Typed sign name:Swapnali K.
+2025-12-01 18:54:26,653 - INFO - Ok clicked
+2025-12-01 18:54:38,605 - INFO - Expanded 'New messages' combo box
+2025-12-01 18:54:41,304 - INFO - Total items: 2
+2025-12-01 18:54:41,454 - INFO - Selected 'Swapnali K.' successfully
+2025-12-01 18:55:05,368 - INFO - Signature successfully typed in MSHTML editor
+2025-12-01 18:55:13,336 - INFO - Ok clicked
+2025-12-01 18:55:14,289 - INFO - Email body captured:
+2025-12-01 18:55:14,851 - INFO - Closed recent email dlg
+2025-12-01 18:55:15,806 - INFO - New Email clicked
+2025-12-01 18:55:15,807 - INFO - New Email clicked again
+2025-12-01 18:55:20,908 - ERROR - Window NOT found: .*- Message..*
+2025-12-01 18:56:39,480 - INFO - New Email clicked
+2025-12-01 18:56:40,891 - INFO - Window appeared: .*- Message..*
+2025-12-01 18:56:46,322 - INFO - Clicked on Signature
+2025-12-01 18:56:47,204 - INFO - Signature menu is visible
+2025-12-01 18:56:47,861 - INFO - Clicked on Signature option
+2025-12-01 18:56:49,748 - INFO - Child window visible: title=.*Signatures and Stationery.*
+2025-12-01 18:56:52,620 - INFO - Clicked child control: title=New
+2025-12-01 18:56:54,346 - INFO - Child window visible: title=.*New Signature.*
+2025-12-01 18:56:56,270 - INFO - Typed sign name:Swapnali K.
+2025-12-01 18:56:57,977 - INFO - Ok clicked
+2025-12-01 18:57:09,890 - INFO - Expanded 'New messages' combo box
+2025-12-01 18:57:12,574 - INFO - Total items: 2
+2025-12-01 18:57:12,700 - INFO - Selected 'Swapnali K.' successfully
+2025-12-01 18:57:36,251 - INFO - Signature successfully typed in MSHTML editor
+2025-12-01 18:57:44,288 - INFO - Ok clicked
+2025-12-01 18:57:45,251 - INFO - Email body captured:
+2025-12-01 18:57:45,708 - INFO - Closed recent email dlg
+2025-12-01 18:57:46,681 - INFO - New Email clicked
+2025-12-01 18:57:46,681 - INFO - New Email clicked again
+2025-12-01 18:57:51,730 - ERROR - Window NOT found: .*- Message..*
+2025-12-01 18:59:14,669 - INFO - New Email clicked
+2025-12-01 18:59:16,435 - INFO - Window appeared: .*- Message..*
+2025-12-01 18:59:22,030 - INFO - Clicked on Signature
+2025-12-01 18:59:23,103 - INFO - Signature menu is visible
+2025-12-01 18:59:23,647 - INFO - Clicked on Signature option
+2025-12-01 18:59:25,372 - INFO - Child window visible: title=.*Signatures and Stationery.*
+2025-12-01 18:59:27,859 - INFO - Clicked child control: title=New
+2025-12-01 18:59:29,476 - INFO - Child window visible: title=.*New Signature.*
+2025-12-01 18:59:31,406 - INFO - Typed sign name:Swapnali K.
+2025-12-01 18:59:33,150 - INFO - Ok clicked
+2025-12-01 18:59:45,078 - INFO - Expanded 'New messages' combo box
+2025-12-01 18:59:47,867 - INFO - Total items: 2
+2025-12-01 18:59:47,998 - INFO - Selected 'Swapnali K.' successfully
+2025-12-01 19:00:11,728 - INFO - Signature successfully typed in MSHTML editor
+2025-12-01 19:00:20,041 - INFO - Ok clicked
+2025-12-01 19:00:21,044 - INFO - Email body captured:
+2025-12-01 19:00:21,550 - INFO - Closed recent email dlg
+2025-12-01 19:00:22,503 - INFO - New Email clicked
+2025-12-01 19:00:22,503 - INFO - New Email clicked again
+2025-12-01 19:00:27,620 - ERROR - Window NOT found: .*- Message..*

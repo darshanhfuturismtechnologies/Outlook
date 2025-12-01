@@ -3,8 +3,9 @@ from Helper.helper import Helper
 
 
 class Signature(Helper):
-    def __init__(self, app):
+    def __init__(self, app,test_data):
         super().__init__(app,".*Outlook.*")
+        self.test_data = test_data
         self.new_sign_dlg = None
         self.sign_and_stationery_dlg = None
         self.New_email_dlg = None
@@ -41,8 +42,8 @@ class Signature(Helper):
 
     def type_name_for_this_signature(self):
         sign_name=self.new_sign_dlg.child_window(auto_id="17", control_type="Edit")
-        sign_name.type_keys("Swapnali K.",with_spaces=True,pause=0.1)
-        self.logger.info("Typed sign name for this signature")
+        sign_name.type_keys(self.test_data["sign_name"],with_spaces=True,pause=0.1)
+        self.logger.info(F"Typed sign name:{self.test_data["sign_name"]}")
 
         ok=self.new_sign_dlg.child_window(title="OK", control_type="Button")
         cancel=self.new_sign_dlg.child_window(title="Cancel",control_type="Button")

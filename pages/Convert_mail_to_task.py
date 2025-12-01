@@ -13,8 +13,9 @@ from Helper.helper import Helper
 """
 
 class TaskConverter(Helper):
-    def __init__(self,app):
+    def __init__(self,app,test_data):
         super().__init__(app,".*Outlook.*")
+        self.test_data = test_data
         self.task_window = None
         self.outlook.set_focus()    #Take main Outlook window to front
         self.selected_mail = None
@@ -143,15 +144,15 @@ class TaskConverter(Helper):
                     self.logger.exception(f"Failed to click 'Close' button:{e}")
 
     #Set due date
-    def set_due_date(self,due_date="12/12/2025"):
+    def set_due_date(self):
         try:
             self.task_window = self.app.window(title_re=".* - Task.*",found_index=0)
             self.task_window.wait('visible', timeout=10)
             self.logger.info("New Task window is opened")
 
             edit_due_date = self.task_window.child_window(auto_id="4101", control_type="Edit")
-            edit_due_date.set_text(due_date)
-            self.logger.info(f"Due date set to {due_date}")
+            edit_due_date.set_text(self.test_data["due_date"])
+            self.logger.info(f"Due date set to {self.test_data["due_date"]}")
         except Exception as e:
             self.logger.error(f"Failed to set due date: {e}")
             #Re-raise/throws the error
@@ -179,11 +180,11 @@ class TaskConverter(Helper):
             raise
 
     #Set reminder date
-    def set_reminder_date(self,reminder_date="30/12/2025"):
+    def set_reminder_date(self):
         try:
             reminder_due_date=self.task_window.child_window(auto_id="4102", control_type="Edit")
-            reminder_due_date.set_text(reminder_date)
-            self.logger.info(f"Reminder date set to {reminder_date}")
+            reminder_due_date.set_text(self.test_data["reminder_date"])
+            self.logger.info(f"Reminder date set to {self.test_data["reminder_date"]}")
         except Exception as e:
             self.logger.error(f"Failed to set reminder date:{e}")
             raise
@@ -193,8 +194,8 @@ class TaskConverter(Helper):
         try:
             set_time=self.task_window.child_window(title="8:00 AM",auto_id="4108", control_type="Edit")
             set_time.click_input()
-            set_time.type_keys("02:30 PM", with_spaces=True)
-            self.logger.info("Time set to 02:30 PM")
+            set_time.type_keys(self.test_data[ "reminder_time"], with_spaces=True)
+            self.logger.info(f"Time set to:{self.test_data["reminder_time"]}")
         except Exception as e:
             self.logger.error(f"Failed to click on time button: {e}")
             raise
@@ -210,6 +211,7 @@ class TaskConverter(Helper):
             raise
 
     #Click on Task menu on main window
+
     def click_on_task_menu_to_do_list(self):
         try:
 
@@ -228,7 +230,7 @@ class TaskConverter(Helper):
             self.logger.info(f"{len(task_items)}Task items found")
 
             if task_items:
-                recent_task = task_items[1]
+                recent_task = task_items[0]
                 recent_task.click_input()
                 self.logger.info(f"Most recent unread email clicked: {recent_task}")
             else:

@@ -12,9 +12,10 @@ from Helper.helper import Helper
 8.Clear search bar."""
 
 class ForwardE(Helper):
-    def __init__(self, app):
+    def __init__(self, app,test_data):
         super().__init__(app, ".*Outlook.*")
         self.FW_window = None
+        self.test_data = test_data
 
     def click_on_inbox(self):
         self.click_menu_item(".*Inbox.*")
@@ -76,19 +77,17 @@ class ForwardE(Helper):
             self.FW_window.set_focus()
 
             to_field = self.FW_window.child_window(auto_id="4117", control_type="Edit").wait('ready', timeout=5)
-            to_field.type_keys("swapnalik@futurismtechnologies.com{ENTER}")
+            to_field.type_keys(self.test_data["to"],pause=0.1, with_spaces=True)
+            to_field.type_keys("{ENTER}")
             self.logger.info("to_field typed successfully")
 
             Cc = self.FW_window.child_window(auto_id="4126", control_type="Edit").wait('ready', timeout=5)
-            Cc.type_keys("swapnalik@futurismtechnologies.com{ENTER}")
+            Cc.type_keys(self.test_data["cc"],pause=0.1, with_spaces=True)
+            Cc.type_keys("{ENTER}")
             self.logger.info("Cc typed successfully")
 
             msg_body = self.FW_window.child_window(title="Page 1 content", auto_id="Body", control_type="Edit")
-            lines = [
-                "Hello, Swapnali K.",
-                "This is Forward Testcase..!",
-                "Best Regards, Swapnali K",
-            ]
+            lines = self.test_data["body"].split("\n")
             for line in lines:
                 # For loop iterate for each one and press enter twice,and add pause with spaces.
                 msg_body.type_keys(line + "{ENTER 2}", pause=0.1, with_spaces=True)

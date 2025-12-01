@@ -1,9 +1,12 @@
+import pytest
 
-
+from Helper.helper import Helper
 from pages.Convert_mail_to_task import TaskConverter
 
-def test_convert_mail_into_task(setup_outlook):
-    task=TaskConverter(setup_outlook)
+@pytest.mark.parametrize("test_case",[tc for tc in Helper.load_test_data() if tc["action"] == "Create_Task"])
+
+def test_convert_mail_into_task(setup_outlook,test_case):
+    task=TaskConverter(setup_outlook,test_case)
     task.click_on_deleted_items()
     task.click_on_demo_sub_mail()
     task.right_click_on_mail()

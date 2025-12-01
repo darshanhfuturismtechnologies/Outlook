@@ -1,6 +1,6 @@
 import time
 from Helper.helper import Helper
-from Logger import logs
+
 
 """TC_03:-
 1.Click on inbox,
@@ -11,8 +11,9 @@ from Logger import logs
 
 
 class SendMail(Helper):
-    def __init__(self,app):
+    def __init__(self,app,test_data):
         super().__init__(app, ".*Outlook.*")
+        self.test_data = test_data
         self.send_mail_window = None
 
 
@@ -30,9 +31,9 @@ class SendMail(Helper):
     def enter_to_mail_id(self):
         try:
             To_field = self.send_mail_window.child_window(auto_id="4117",control_type="Edit")
-            To_field.type_keys("swapnalik@futurismtechnologies.com",pause=0.1,with_spaces=True)
+            To_field.type_keys(self.test_data["to"], pause=0.1, with_spaces=True)
             To_field.type_keys('{ENTER}')
-            self.logger.info("To email id is set correctly")
+            self.logger.info(f"To email id {self.test_data['to']} is set correctly")
         except Exception as e:
             self.logger.error(f"Failed to enter to mail id:{e}")
             raise
@@ -41,9 +42,9 @@ class SendMail(Helper):
     def enter_cc_mail_id(self):
         try:
             CC_field = self.send_mail_window.child_window(auto_id="4126", control_type="Edit")
-            CC_field.type_keys("swapnalik@futurismtechnologies.com",pause=0.1,with_spaces=True)
+            CC_field.type_keys(self.test_data["cc"], pause=0.1, with_spaces=True)
             CC_field.type_keys('{ENTER}')
-            self.logger.info("Cc email id is set correctly")
+            self.logger.info(f"Cc email id {self.test_data['cc']} is set correctly")
         except Exception as e:
             self.logger.error(f"Failed to enter to cc mail id:{e}")
             raise
@@ -52,29 +53,25 @@ class SendMail(Helper):
     def enter_subject(self):
         try:
             subject = self.send_mail_window.child_window(auto_id="4101", control_type="Edit")
-            subject.type_keys("Demo subject", pause=0.1, with_spaces=True)
+            subject.type_keys(self.test_data["subject"], pause=0.1, with_spaces=True)
             subject.type_keys('{ENTER}')
-            self.logger.info("Subject is set correctly")
+            self.logger.info(f"Subject {self.test_data['subject']} is set correctly")
         except Exception as e:
             self.logger.error(f"Failed to enter subject:{e}")
             raise
 
-
     def enter_text_in_body(self):
         try:
             body = self.send_mail_window.child_window(title="Page 1 content", auto_id="Body", control_type="Edit")
-            body.type_keys("Hello, Swapnali K.", pause=0.1, with_spaces=True)
-            body.type_keys('{ENTER 2}')
-            body.type_keys("This is the body of the page....!", pause=0.1, with_spaces=True)
-            body.type_keys('{ENTER 2}')
-            body.type_keys("Best Regards,", pause=0.1, with_spaces=True)
-            body.type_keys('{ENTER}')
-            body.type_keys("Swapnali K.", pause=0.1, with_spaces=True)
+            #splits this string into a list of lines wherever a newline character \n occurs.
+            lines = self.test_data["body"].split("\n")
+            for line in lines:
+                body.type_keys(line, pause=0.1, with_spaces=True)
+                body.type_keys('{ENTER}')  # Move to next line
             self.logger.info("Text in body is set correctly")
         except Exception as e:
-            self.logger.error(f"Failed to enter body text:{e}")
+            self.logger.error(f"Failed to enter body text: {e}")
             raise
-
 
     def attach_file_to_mail(self):
         self.click_child_window(control_title="Attach File...",control_type="MenuItem")
@@ -83,7 +80,7 @@ class SendMail(Helper):
         self.logger.info("Recent items window is open")
 
         #file name that you want to attach
-        target_file_path = "Copy of QA_intern_training_desktop_automation (002).xlsx"
+        target_file_path = self.test_data["attachment"]
         #This calls a helper method to find and click the list item that matches the file name.
         self.click_list_item_by_text(recent_items,target_file_path)
 

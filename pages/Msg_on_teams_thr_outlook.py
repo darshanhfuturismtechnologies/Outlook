@@ -10,8 +10,12 @@ from Helper.helper import Helper
 4.Edit the message and send it."""
 
 class MsgTeams(Helper):
-    def __init__(self,app):
+    def __init__(self,app,test_data):
         super().__init__(app, ".*Outlook.*")
+        self.New_item_menu = None
+        self.teams_dlg = None
+        self.teams_app = None
+        self.test_data = test_data
 
     def click_on_new_item_menu(self):
         try:
@@ -68,8 +72,8 @@ class MsgTeams(Helper):
             edit_to_field.click_input()
 
             # Type the recipient slowly
-            edit_to_field.type_keys("Swapnali K", with_spaces=True, pause=0.2)
-            self.logger.info("Name typed into 'To' field.")
+            edit_to_field.type_keys(self.test_data["to"], with_spaces=True, pause=0.2)
+            self.logger.info(f"{self.test_data["to"]} is typed in to field")
 
             #Wait for the suggestion list to appear
             suggestions_list = self.teams_dlg.child_window(control_type="List")
@@ -92,7 +96,7 @@ class MsgTeams(Helper):
             self.logger.info("Swapnali K's window is visble")
 
             edit_msg = self.teams_dlg.child_window(title="Type a message\n", control_type="Edit")
-            edit_msg.type_keys("Hellooo,How are you..!", with_spaces=True, pause=0.1)
+            edit_msg.type_keys(self.test_data["message"], with_spaces=True, pause=0.1)
             self.logger.info("Message typed into 'Edit' field.")
         except Exception as e:
             self.logger.error(f"Failed to edit message: {str(e)}")

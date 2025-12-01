@@ -1,8 +1,12 @@
+import pytest
+
+from Helper.helper import Helper
 from pages.Signature import Signature
 
 
-def test_signature(setup_outlook):
-    sign=Signature(setup_outlook)
+@pytest.mark.parametrize("test_case",[tc for tc in Helper.load_test_data() if tc["action"] == "Signature_Setup"])
+def test_signature(setup_outlook,test_case):
+    sign=Signature(setup_outlook,test_case)
     sign.click_on_new_mail()
     sign.click_signature_menu_select_signature_option()
     sign.capture_signatures_and_stationery_window()
