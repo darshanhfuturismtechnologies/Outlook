@@ -80,6 +80,14 @@
       "test_id":"TC0018",
       "action":"Signature_Setup",
       "sign_name":"Swapnali K."
+    },
+    {
+      "test_id":"TC0022",
+      "action":"Draft_Mail",
+      "to":"swapnalik@futurismtechnologies.com",
+      "cc": "swapnalik@futurismtechnologies.com",
+      "subject":"Draft Mail",
+      "body":"Hello,\nThis is Draft mail.\n"
     }
   ]
 }

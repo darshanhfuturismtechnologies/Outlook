@@ -47,7 +47,6 @@ class ContactManagement(Helper):
     def enter_contact_details(self):
         try:
             Full_name = self.New_contact_dlg.child_window(auto_id="4096", control_type="Edit")
-            # Full_name.type_keys(self.test_data["Name"]"{ENTER}")
             Full_name.type_keys(self.test_data["Name"])
             Full_name.type_keys('{ENTER}')
 

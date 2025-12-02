@@ -34,7 +34,7 @@ class Create_rule(Helper):
             self.logger.info("Clicked on 'Manage Rules & Alerts successfully.")
 
         except Exception as e:
-            self.logger.error(f" Failed to click 'Manage Rules & Alerts': {e}")
+            self.logger.error(f" Failed to click 'Manage Rules & Alerts':{e}")
             raise
 
     def rule_and_alert_window(self):

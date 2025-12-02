@@ -16077,3 +16077,290 @@ title_re=.*Signatures and Stationery.*,control_type=None
 2025-12-01 19:00:22,503 - INFO - New Email clicked
 2025-12-01 19:00:22,503 - INFO - New Email clicked again
 2025-12-01 19:00:27,620 - ERROR - Window NOT found: .*- Message..*
+2025-12-02 13:16:16,647 - INFO - New Email clicked
+2025-12-02 13:20:15,341 - INFO - New Email clicked
+2025-12-02 13:20:25,443 - ERROR - Window NOT found: .* -Message(HTML).*
+2025-12-02 13:21:32,534 - INFO - New Email clicked
+2025-12-02 13:21:33,901 - INFO - Window appeared: .*- Message..*
+2025-12-02 13:26:13,827 - INFO - New Email clicked
+2025-12-02 13:26:15,214 - INFO - Window appeared: .*- Message..*
+2025-12-02 13:29:40,014 - INFO - New Email clicked
+2025-12-02 13:35:55,879 - INFO - New Email clicked
+2025-12-02 13:36:59,649 - INFO - New Email clicked
+2025-12-02 13:37:01,001 - INFO - New Email has been captured
+2025-12-02 13:37:01,759 - INFO - Recipient has been entered
+2025-12-02 13:37:23,915 - INFO - New Email clicked
+2025-12-02 13:37:25,402 - INFO - New Email has been captured
+2025-12-02 13:37:26,155 - INFO - Recipient has been entered
+2025-12-02 13:38:10,518 - INFO - New Email clicked
+2025-12-02 13:38:11,899 - INFO - New Email has been captured
+2025-12-02 13:38:12,642 - INFO - Recipient has been entered
+2025-12-02 13:39:32,463 - INFO - New Email clicked
+2025-12-02 13:39:33,900 - INFO - New Email has been captured
+2025-12-02 13:39:34,634 - INFO - Recipient has been entered
+2025-12-02 13:41:15,804 - INFO - New Email clicked
+2025-12-02 13:41:17,192 - INFO - New Email has been captured
+2025-12-02 13:41:18,145 - INFO - Recipient has been entered
+2025-12-02 13:42:27,251 - INFO - New Email clicked
+2025-12-02 13:42:28,675 - INFO - Window appeared: .*- Message..*
+2025-12-02 13:42:32,836 - INFO - Recipient has been entered
+2025-12-02 13:52:45,176 - INFO - New Email clicked
+2025-12-02 13:52:46,594 - INFO - Window appeared: .*- Message..*
+2025-12-02 13:52:50,631 - INFO - Recipient name swapnalik@futurismtechnologies.com has been entered
+2025-12-02 13:52:54,775 - INFO - CC swapnalik@futurismtechnologies.com has been entered
+2025-12-02 13:58:44,472 - INFO - New Email clicked
+2025-12-02 13:58:45,840 - INFO - Window appeared: .*- Message..*
+2025-12-02 13:58:49,700 - INFO - Recipient name swapnalik@futurismtechnologies.com has been entered
+2025-12-02 13:58:53,548 - INFO - CC swapnalik@futurismtechnologies.com has been entered
+2025-12-02 13:58:55,014 - INFO - Subject Draft Mail has been entered
+2025-12-02 14:08:52,102 - INFO - New Email clicked
+2025-12-02 14:08:53,531 - INFO - Window appeared: .*- Message..*
+2025-12-02 14:08:57,432 - INFO - Recipient name swapnalik@futurismtechnologies.com has been entered
+2025-12-02 14:09:01,311 - INFO - CC swapnalik@futurismtechnologies.com has been entered
+2025-12-02 14:09:02,797 - INFO - Subject Draft Mail has been entered
+2025-12-02 14:09:07,289 - INFO - Text in body is set correctly
+2025-12-02 14:10:06,638 - INFO - New Email clicked
+2025-12-02 14:10:08,072 - INFO - Window appeared: .*- Message..*
+2025-12-02 14:10:11,924 - INFO - Recipient name swapnalik@futurismtechnologies.com has been entered
+2025-12-02 14:10:15,876 - INFO - CC swapnalik@futurismtechnologies.com has been entered
+2025-12-02 14:10:17,411 - INFO - Subject Draft Mail has been entered
+2025-12-02 14:10:21,783 - ERROR - Failed to enter body: can only concatenate str (not "set") to str
+2025-12-02 14:11:17,394 - INFO - New Email clicked
+2025-12-02 14:11:18,736 - INFO - Window appeared: .*- Message..*
+2025-12-02 14:11:22,615 - INFO - Recipient name swapnalik@futurismtechnologies.com has been entered
+2025-12-02 14:11:26,493 - INFO - CC swapnalik@futurismtechnologies.com has been entered
+2025-12-02 14:11:28,033 - INFO - Subject Draft Mail has been entered
+2025-12-02 14:11:29,292 - ERROR - Failed to enter body: Unknown code: ENTER2
+2025-12-02 14:12:12,698 - INFO - New Email clicked
+2025-12-02 14:12:14,001 - INFO - Window appeared: .*- Message..*
+2025-12-02 14:12:17,854 - INFO - Recipient name swapnalik@futurismtechnologies.com has been entered
+2025-12-02 14:12:21,719 - INFO - CC swapnalik@futurismtechnologies.com has been entered
+2025-12-02 14:12:23,193 - INFO - Subject Draft Mail has been entered
+2025-12-02 14:12:24,331 - ERROR - Failed to enter body: Unknown code: ENTER2
+2025-12-02 14:13:26,322 - INFO - New Email clicked
+2025-12-02 14:13:28,774 - INFO - Window appeared: .*- Message..*
+2025-12-02 14:13:32,942 - INFO - Recipient name swapnalik@futurismtechnologies.com has been entered
+2025-12-02 14:13:36,903 - INFO - CC swapnalik@futurismtechnologies.com has been entered
+2025-12-02 14:13:38,390 - INFO - Subject Draft Mail has been entered
+2025-12-02 14:13:42,734 - INFO - Text in body is set correctly
+2025-12-02 14:16:19,943 - INFO - New Email clicked
+2025-12-02 14:16:21,208 - INFO - Window appeared: .*- Message..*
+2025-12-02 14:16:25,132 - INFO - Recipient name swapnalik@futurismtechnologies.com has been entered
+2025-12-02 14:16:29,089 - INFO - CC swapnalik@futurismtechnologies.com has been entered
+2025-12-02 14:16:30,649 - INFO - Subject Draft Mail has been entered
+2025-12-02 14:16:34,968 - INFO - Text in body is set correctly
+2025-12-02 14:25:05,102 - INFO - New Email clicked
+2025-12-02 14:25:06,658 - INFO - Window appeared: .*- Message..*
+2025-12-02 14:25:10,745 - INFO - Recipient name swapnalik@futurismtechnologies.com has been entered
+2025-12-02 14:25:14,783 - INFO - CC swapnalik@futurismtechnologies.com has been entered
+2025-12-02 14:25:16,187 - INFO - Subject Draft Mail has been entered
+2025-12-02 14:25:20,421 - INFO - Text in body is set correctly
+2025-12-02 14:26:07,928 - INFO - New Email clicked
+2025-12-02 14:26:09,420 - INFO - Window appeared: .*- Message..*
+2025-12-02 14:26:13,310 - INFO - Recipient name swapnalik@futurismtechnologies.com has been entered
+2025-12-02 14:26:17,242 - INFO - CC swapnalik@futurismtechnologies.com has been entered
+2025-12-02 14:26:18,680 - INFO - Subject Draft Mail has been entered
+2025-12-02 14:26:22,909 - INFO - Text in body is set correctly
+2025-12-02 14:41:56,241 - INFO - New Email clicked
+2025-12-02 14:41:57,519 - INFO - Window appeared: .*- Message..*
+2025-12-02 14:42:01,363 - INFO - Recipient name swapnalik@futurismtechnologies.com has been entered
+2025-12-02 14:42:05,217 - INFO - CC swapnalik@futurismtechnologies.com has been entered
+2025-12-02 14:42:06,764 - INFO - Subject Draft Mail has been entered
+2025-12-02 14:42:11,083 - INFO - Text in body is set correctly
+2025-12-02 14:43:05,890 - INFO - New Email clicked
+2025-12-02 14:43:07,199 - INFO - Window appeared: .*- Message..*
+2025-12-02 14:43:11,068 - INFO - Recipient name swapnalik@futurismtechnologies.com has been entered
+2025-12-02 14:43:14,955 - INFO - CC swapnalik@futurismtechnologies.com has been entered
+2025-12-02 14:43:16,466 - INFO - Subject Draft Mail has been entered
+2025-12-02 14:43:20,807 - INFO - Text in body is set correctly
+2025-12-02 14:55:27,762 - INFO - New Email clicked
+2025-12-02 14:55:29,080 - INFO - Window appeared: .*- Message..*
+2025-12-02 14:55:32,903 - INFO - Recipient name swapnalik@futurismtechnologies.com has been entered
+2025-12-02 14:55:36,762 - INFO - CC swapnalik@futurismtechnologies.com has been entered
+2025-12-02 14:55:38,433 - INFO - Subject Draft Mail has been entered
+2025-12-02 14:55:42,773 - INFO - Text in body is set correctly
+2025-12-02 14:55:43,982 - INFO - Microsoft popup has been appeared
+2025-12-02 14:55:44,652 - INFO - Yes clicked
+2025-12-02 14:57:09,174 - INFO - New Email clicked
+2025-12-02 14:57:10,473 - INFO - Window appeared: .*- Message..*
+2025-12-02 14:57:14,286 - INFO - Recipient name swapnalik@futurismtechnologies.com has been entered
+2025-12-02 14:57:18,132 - INFO - CC swapnalik@futurismtechnologies.com has been entered
+2025-12-02 14:57:19,682 - INFO - Subject Draft Mail has been entered
+2025-12-02 14:57:23,984 - INFO - Text in body is set correctly
+2025-12-02 14:57:29,693 - ERROR - Failed to handle popup: timed out
+2025-12-02 14:58:18,234 - INFO - New Email clicked
+2025-12-02 14:58:19,571 - INFO - Window appeared: .*- Message..*
+2025-12-02 14:58:23,413 - INFO - Recipient name swapnalik@futurismtechnologies.com has been entered
+2025-12-02 14:58:27,475 - INFO - CC swapnalik@futurismtechnologies.com has been entered
+2025-12-02 14:58:28,892 - INFO - Subject Draft Mail has been entered
+2025-12-02 14:58:33,150 - INFO - Text in body is set correctly
+2025-12-02 14:58:34,286 - INFO - Microsoft popup has been appeared
+2025-12-02 14:58:34,973 - INFO - Yes clicked
+2025-12-02 15:03:57,570 - INFO - New Email clicked
+2025-12-02 15:03:58,802 - INFO - Window appeared: .*- Message..*
+2025-12-02 15:04:02,648 - INFO - Recipient name swapnalik@futurismtechnologies.com has been entered
+2025-12-02 15:04:06,610 - INFO - CC swapnalik@futurismtechnologies.com has been entered
+2025-12-02 15:04:08,162 - INFO - Subject Draft Mail has been entered
+2025-12-02 15:04:12,568 - INFO - Text in body is set correctly
+2025-12-02 15:04:13,748 - INFO - Microsoft popup has been appeared
+2025-12-02 15:04:14,411 - INFO - Yes clicked
+2025-12-02 15:04:16,619 - INFO - Successfully clicked on '.*Draft.*' menu item.
+2025-12-02 15:05:02,860 - INFO - New Email clicked
+2025-12-02 15:05:04,467 - INFO - Window appeared: .*- Message..*
+2025-12-02 15:05:08,414 - INFO - Recipient name swapnalik@futurismtechnologies.com has been entered
+2025-12-02 15:05:12,451 - INFO - CC swapnalik@futurismtechnologies.com has been entered
+2025-12-02 15:05:19,284 - INFO - Subject Draft Mail has been entered
+2025-12-02 15:05:23,586 - INFO - Text in body is set correctly
+2025-12-02 15:05:24,746 - INFO - Microsoft popup has been appeared
+2025-12-02 15:05:25,405 - INFO - Yes clicked
+2025-12-02 15:05:27,817 - INFO - Successfully clicked on '.*Draft.*' menu item.
+2025-12-02 15:07:48,684 - INFO - New Email clicked
+2025-12-02 15:07:49,967 - INFO - Window appeared: .*- Message..*
+2025-12-02 15:07:53,839 - INFO - Recipient name swapnalik@futurismtechnologies.com has been entered
+2025-12-02 15:07:57,813 - INFO - CC swapnalik@futurismtechnologies.com has been entered
+2025-12-02 15:07:59,257 - INFO - Subject Draft Mail has been entered
+2025-12-02 15:08:03,664 - INFO - Text in body is set correctly
+2025-12-02 15:08:04,900 - INFO - Microsoft popup has been appeared
+2025-12-02 15:08:05,576 - INFO - Yes clicked
+2025-12-02 15:08:07,893 - INFO - Successfully clicked on '.*Draft.*' menu item.
+2025-12-02 15:18:56,604 - INFO - New Email clicked
+2025-12-02 15:18:57,860 - INFO - Window appeared: .*- Message..*
+2025-12-02 15:19:01,729 - INFO - Recipient name swapnalik@futurismtechnologies.com has been entered
+2025-12-02 15:19:05,618 - INFO - CC swapnalik@futurismtechnologies.com has been entered
+2025-12-02 15:19:07,050 - INFO - Subject Draft Mail has been entered
+2025-12-02 15:19:11,256 - INFO - Text in body is set correctly
+2025-12-02 15:19:12,476 - INFO - Microsoft popup has been appeared
+2025-12-02 15:19:13,143 - INFO - Yes clicked
+2025-12-02 15:19:15,368 - INFO - Successfully clicked on '.*Draft.*' menu item.
+2025-12-02 15:19:16,043 - INFO - Found 6 mail items
+2025-12-02 15:19:16,401 - INFO - Most recent email: uia_controls.ListItemWrapper - 'To Swapnali K, Subject Draft Mail, Sent None, Size 44 KB, Preview Hello,     This is Draft mail., ', DataItem
+2025-12-02 15:23:27,915 - INFO - New Email clicked
+2025-12-02 15:23:29,175 - INFO - Window appeared: .*- Message..*
+2025-12-02 15:23:32,984 - INFO - Recipient name swapnalik@futurismtechnologies.com has been entered
+2025-12-02 15:23:36,825 - INFO - CC swapnalik@futurismtechnologies.com has been entered
+2025-12-02 15:23:38,311 - INFO - Subject Draft Mail has been entered
+2025-12-02 15:23:42,582 - INFO - Text in body is set correctly
+2025-12-02 15:23:43,738 - INFO - Microsoft popup has been appeared
+2025-12-02 15:23:44,433 - INFO - Yes clicked
+2025-12-02 15:23:46,607 - INFO - Successfully clicked on '.*Draft.*' menu item.
+2025-12-02 15:23:47,322 - INFO - Found 7 mail items
+2025-12-02 15:23:47,605 - INFO - Most recent email: uia_controls.ListItemWrapper - 'To Swapnali K, Subject Draft Mail, Sent None, Size 44 KB, Preview Hello,     This is Draft mail., ', DataItem
+2025-12-02 15:24:28,157 - INFO - New Email clicked
+2025-12-02 15:24:29,409 - INFO - Window appeared: .*- Message..*
+2025-12-02 15:24:33,257 - INFO - Recipient name swapnalik@futurismtechnologies.com has been entered
+2025-12-02 15:24:37,579 - INFO - CC swapnalik@futurismtechnologies.com has been entered
+2025-12-02 15:24:39,031 - INFO - Subject Draft Mail has been entered
+2025-12-02 15:24:43,444 - INFO - Text in body is set correctly
+2025-12-02 15:24:44,592 - INFO - Microsoft popup has been appeared
+2025-12-02 15:24:45,258 - INFO - Yes clicked
+2025-12-02 15:24:47,406 - INFO - Successfully clicked on '.*Draft.*' menu item.
+2025-12-02 15:24:48,074 - INFO - Found 7 mail items
+2025-12-02 15:24:48,462 - INFO - Most recent email: uia_controls.ListItemWrapper - 'To Swapnali K, Subject Draft Mail, Sent None, Size 44 KB, Preview Hello,     This is Draft mail., ', DataItem
+2025-12-02 15:27:40,869 - INFO - New Email clicked
+2025-12-02 15:27:42,071 - INFO - Window appeared: .*- Message..*
+2025-12-02 15:27:45,898 - INFO - Recipient name swapnalik@futurismtechnologies.com has been entered
+2025-12-02 15:27:49,882 - INFO - CC swapnalik@futurismtechnologies.com has been entered
+2025-12-02 15:27:51,344 - INFO - Subject Draft Mail has been entered
+2025-12-02 15:27:55,596 - INFO - Text in body is set correctly
+2025-12-02 15:27:56,750 - INFO - Microsoft popup has been appeared
+2025-12-02 15:27:57,396 - INFO - Yes clicked
+2025-12-02 15:27:59,499 - INFO - Successfully clicked on '.*Draft.*' menu item.
+2025-12-02 15:28:00,198 - INFO - Found 7 mail items
+2025-12-02 15:28:00,544 - INFO - Most recent email: uia_controls.ListItemWrapper - 'To Swapnali K, Subject Draft Mail, Sent None, Size 44 KB, Preview Hello,     This is Draft mail., ', DataItem
+2025-12-02 15:28:00,550 - INFO - Correct draft mail is present in Draft folder ✅
+2025-12-02 15:37:05,963 - INFO - New Email clicked
+2025-12-02 15:37:07,094 - INFO - Window appeared: .*- Message..*
+2025-12-02 15:37:11,037 - INFO - Recipient name swapnalik@futurismtechnologies.com has been entered
+2025-12-02 15:37:14,921 - INFO - CC swapnalik@futurismtechnologies.com has been entered
+2025-12-02 15:37:16,335 - INFO - Subject Draft Mail has been entered
+2025-12-02 15:37:20,559 - INFO - Text in body is set correctly
+2025-12-02 15:37:21,751 - INFO - Microsoft popup has been appeared
+2025-12-02 15:37:22,419 - INFO - Yes clicked
+2025-12-02 15:37:24,617 - INFO - Successfully clicked on '.*Draft.*' menu item.
+2025-12-02 15:37:25,510 - INFO - Found 7 mail items
+2025-12-02 15:37:25,858 - INFO - Most recent email: uia_controls.ListItemWrapper - 'To Swapnali K, Subject Draft Mail, Sent None, Size 44 KB, Preview Hello,     This is Draft mail., ', DataItem
+2025-12-02 15:37:25,861 - INFO - Draft mail found with subject: Draft Mail
+2025-12-02 15:40:38,494 - INFO - New Email clicked
+2025-12-02 15:40:39,767 - INFO - Window appeared: .*- Message..*
+2025-12-02 15:40:43,646 - INFO - Recipient name swapnalik@futurismtechnologies.com has been entered
+2025-12-02 15:40:47,494 - INFO - CC swapnalik@futurismtechnologies.com has been entered
+2025-12-02 15:40:48,949 - INFO - Subject Draft Mail has been entered
+2025-12-02 15:40:53,202 - INFO - Text in body is set correctly
+2025-12-02 15:40:54,386 - INFO - Microsoft popup has been appeared
+2025-12-02 15:40:55,051 - INFO - Yes clicked
+2025-12-02 15:40:57,159 - INFO - Successfully clicked on '.*Draft.*' menu item.
+2025-12-02 15:40:57,911 - INFO - Found 7 mail items
+2025-12-02 15:40:58,270 - INFO - Most recent email: uia_controls.ListItemWrapper - 'To Swapnali K, Subject Draft Mail, Sent None, Size 44 KB, Preview Hello,     This is Draft mail., ', DataItem
+2025-12-02 15:40:58,273 - INFO - Draft mail found with subject: Draft Mail
+2025-12-02 15:43:01,758 - INFO - New Email clicked
+2025-12-02 15:43:03,078 - INFO - Window appeared: .*- Message..*
+2025-12-02 15:43:06,946 - INFO - Recipient name swapnalik@futurismtechnologies.com has been entered
+2025-12-02 15:43:10,852 - INFO - CC swapnalik@futurismtechnologies.com has been entered
+2025-12-02 15:43:12,413 - INFO - Subject Draft Mail has been entered
+2025-12-02 15:43:16,727 - INFO - Text in body is set correctly
+2025-12-02 15:43:17,917 - INFO - Microsoft popup has been appeared
+2025-12-02 15:43:18,597 - INFO - Yes clicked
+2025-12-02 15:43:20,734 - INFO - Successfully clicked on '.*Draft.*' menu item.
+2025-12-02 15:43:21,528 - INFO - Found 7 mail items
+2025-12-02 15:43:21,951 - INFO - Most recent email: uia_controls.ListItemWrapper - 'To Swapnali K, Subject Draft Mail, Sent None, Size 44 KB, Preview Hello,     This is Draft mail., ', DataItem
+2025-12-02 15:43:21,955 - INFO - Draft mail found with subject: Draft Mail
+2025-12-02 15:45:43,683 - INFO - New Email clicked
+2025-12-02 15:45:45,031 - INFO - Window appeared: .*- Message..*
+2025-12-02 15:45:48,908 - INFO - Recipient name swapnalik@futurismtechnologies.com has been entered
+2025-12-02 15:45:52,837 - INFO - CC swapnalik@futurismtechnologies.com has been entered
+2025-12-02 15:45:54,363 - INFO - Subject Draft Mail has been entered
+2025-12-02 15:45:58,669 - INFO - Text in body is set correctly
+2025-12-02 15:45:59,878 - INFO - Microsoft popup has been appeared
+2025-12-02 15:46:00,557 - INFO - Yes clicked
+2025-12-02 15:46:02,703 - INFO - Successfully clicked on '.*Draft.*' menu item.
+2025-12-02 15:46:03,352 - INFO - Found 7 mail items
+2025-12-02 15:46:03,794 - INFO - Most recent email: uia_controls.ListItemWrapper - 'To Swapnali K, Subject Draft Mail, Sent None, Size 44 KB, Preview Hello,     This is Draft mail., ', DataItem
+2025-12-02 15:46:03,797 - INFO - Draft mail found with subject: Draft Mail
+2025-12-02 15:49:35,843 - INFO - New Email clicked
+2025-12-02 15:49:37,160 - INFO - Window appeared: .*- Message..*
+2025-12-02 15:49:41,011 - INFO - Recipient name swapnalik@futurismtechnologies.com has been entered
+2025-12-02 15:49:45,093 - INFO - CC swapnalik@futurismtechnologies.com has been entered
+2025-12-02 15:49:46,541 - INFO - Subject Draft Mail has been entered
+2025-12-02 15:49:50,918 - INFO - Text in body is set correctly
+2025-12-02 15:49:52,126 - INFO - Microsoft popup has been appeared
+2025-12-02 15:49:52,806 - INFO - Yes clicked
+2025-12-02 15:49:54,962 - INFO - Successfully clicked on '.*Draft.*' menu item.
+2025-12-02 15:49:55,827 - INFO - Found 7 mail items
+2025-12-02 15:49:55,999 - INFO - Most recent email: uia_controls.ListItemWrapper - 'To Swapnali K, Subject Draft Mail, Sent None, Size 44 KB, Preview Hello,     This is Draft mail., ', DataItem
+2025-12-02 15:49:56,001 - INFO - Draft mail found with subject: Draft Mail
+2025-12-02 15:56:08,625 - INFO - New Email clicked
+2025-12-02 15:56:10,027 - INFO - Window appeared: .*- Message..*
+2025-12-02 15:56:13,882 - INFO - Recipient name swapnalik@futurismtechnologies.com has been entered
+2025-12-02 15:56:17,843 - INFO - CC swapnalik@futurismtechnologies.com has been entered
+2025-12-02 15:56:19,317 - INFO - Subject Draft Mail has been entered
+2025-12-02 15:56:23,671 - INFO - Text in body is set correctly
+2025-12-02 15:56:24,884 - INFO - Microsoft popup has been appeared
+2025-12-02 15:56:25,564 - INFO - Yes clicked
+2025-12-02 15:56:27,758 - INFO - Successfully clicked on '.*Draft.*' menu item.
+2025-12-02 15:56:28,412 - INFO - Found 7 mail items
+2025-12-02 15:56:28,787 - INFO - Most recent email: uia_controls.ListItemWrapper - 'To Swapnali K, Subject Draft Mail, Sent None, Size 44 KB, Preview Hello,     This is Draft mail., ', DataItem
+2025-12-02 15:56:28,789 - INFO - Draft mail found with subject: Draft Mail
+2025-12-02 15:57:31,007 - INFO - New Email clicked
+2025-12-02 15:57:32,419 - INFO - Window appeared: .*- Message..*
+2025-12-02 15:57:36,329 - INFO - Recipient name swapnalik@futurismtechnologies.com has been entered
+2025-12-02 15:57:40,372 - INFO - CC swapnalik@futurismtechnologies.com has been entered
+2025-12-02 15:57:41,839 - INFO - Subject Draft Mail has been entered
+2025-12-02 15:57:46,231 - INFO - Text in body is set correctly
+2025-12-02 15:57:47,390 - INFO - Microsoft popup has been appeared
+2025-12-02 15:57:48,067 - INFO - Yes clicked
+2025-12-02 15:57:50,142 - INFO - Successfully clicked on '.*Draft.*' menu item.
+2025-12-02 15:57:50,737 - INFO - Found 2 mail items
+2025-12-02 15:57:51,076 - INFO - Most recent email: uia_controls.ListItemWrapper - 'To Swapnali K, Subject Draft Mail, Sent None, Size 44 KB, Preview Hello,     This is Draft mail., ', DataItem
+2025-12-02 15:57:51,077 - INFO - Draft mail found with subject: Draft Mail
+2025-12-02 20:07:16,671 - INFO - New Email clicked
+2025-12-02 20:07:18,051 - INFO - Window appeared: .*- Message..*
+2025-12-02 20:07:22,027 - INFO - Recipient name swapnalik@futurismtechnologies.com has been entered
+2025-12-02 20:07:25,911 - INFO - CC swapnalik@futurismtechnologies.com has been entered
+2025-12-02 20:07:27,374 - INFO - Subject Draft Mail has been entered
+2025-12-02 20:07:31,949 - INFO - Text in body is set correctly
+2025-12-02 20:07:33,180 - INFO - Microsoft popup has been appeared
+2025-12-02 20:07:33,913 - INFO - Yes clicked
+2025-12-02 20:07:36,040 - INFO - Successfully clicked on '.*Draft.*' menu item.
+2025-12-02 20:07:36,678 - INFO - Found 3 mail items
+2025-12-02 20:07:37,095 - INFO - Most recent email: uia_controls.ListItemWrapper - 'To Swapnali K, Subject Draft Mail, Sent None, Size 44 KB, Preview Hello,     This is Draft mail., ', DataItem
+2025-12-02 20:07:37,098 - INFO - Draft mail found with subject: Draft Mail
