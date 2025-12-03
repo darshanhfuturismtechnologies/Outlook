@@ -1,5 +1,3 @@
-
-
 import pytest
 from Helper.helper import Helper
 from pages.Send_mail import SendMail

@@ -1,4 +1,3 @@
-
 from Helper.helper import Helper
 
 class RecoverMail(Helper):

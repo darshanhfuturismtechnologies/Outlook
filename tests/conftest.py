@@ -39,8 +39,8 @@ def pytest_runtest_setup(item):
     _test_recorders[item.nodeid] = recording
     yield  # let test run
 
-#Capture test result (pass/fail).
-#It Runs after the test function executes.
+# Capture test result (pass/fail).
+# It Runs after the test function executes.
 #result.when == "call" ensures we only check the actual test execution not setup/teardown
 #Stores whether the test failed or passed in item._test_failed.
 
@@ -55,7 +55,7 @@ def pytest_runtest_makereport(item):
 # Runs after the test and all teardown steps.
 # Retrieves the recorder for this test from _test_recorders.
 # Checks if the test failed (_test_failed).
-# Calls recorder.stop
+# Calls recorder.stop.
 # If test failed:-video is saved.
 # If test passed :-video is discarded.
 
@@ -63,7 +63,7 @@ def pytest_runtest_makereport(item):
 def pytest_runtest_teardown(item):
     """Stop recording and save only if test failed."""
     yield
-    recorder = _test_recorders.pop(item.nodeid, None)
+    recorder = _test_recorders.pop(item.nodeid,None)
     if recorder:
         save_video = getattr(item, "_test_failed", False)
         recorder.stop(save=save_video)
